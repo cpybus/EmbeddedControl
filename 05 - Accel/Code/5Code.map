@@ -1,0 +1,3550 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_BIT_BANK                      
+C:   00000000  l_CABS                          
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_PSEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_XABS                          
+C:   00000001  s_PSEG                          
+C:   00000001  s_XSEG                          
+C:   00000002  l_BSEG_BYTES                    
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000006  l_ISEG                          
+C:   00000006  l_OSEG                          
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  s_REG_BANK_1                    
+C:   0000000A  l_BSEG                          
+C:   0000000A  l_GSINIT2                       
+C:   00000010  s_REG_BANK_2                    
+C:   00000014  s_OSEG                          
+C:   00000018  s_BIT_BANK                      
+C:   00000018  s_REG_BANK_3                    
+C:   0000001A  s_ISEG                          
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000022  l_GSINIT3                       
+C:   0000002A  l_GSINIT4                       
+C:   00000046  l_GSINIT                        
+C:   00000050  l_XSEG                          
+C:   00000051  l_HOME                          
+C:   00000051  s_GSINIT0                       
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000051  s_XISEG                         
+C:   00000054  s_GSINIT1                       
+C:   00000054  s_GSINIT2                       
+C:   0000005E  s_GSINIT3                       
+C:   00000078  s_SSEG                          
+C:   00000080  l_DSEG                          
+C:   00000080  s_GSINIT4                       
+C:   00000088  l_SSEG                          
+C:   000000AA  s_GSINIT                        
+C:   000000AA  s_GSINIT5                       
+C:   000000F0  s_GSFINAL                       
+C:   000000F3  s_CSEG                          
+C:   00000100  l_IRAM                          
+C:   000001D0  l_CONST                         
+C:   000015C7  l_CSEG                          
+C:   000016BA  s_CONST                         
+C:   0000188A  s_XINIT                         
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+     00000080  G$P0$0$0                           5Code
+     00000080  G$P0_0$0$0                         5Code
+     00000080  _P0                                5Code
+     00000080  _P0_0                              5Code
+     00000081  G$P0_1$0$0                         5Code
+     00000081  G$SP$0$0                           5Code
+     00000081  _P0_1                              5Code
+     00000081  _SP                                5Code
+     00000082  G$DPL$0$0                          5Code
+     00000082  G$P0_2$0$0                         5Code
+     00000082  _DPL                               5Code
+     00000082  _P0_2                              5Code
+     00000083  G$BUS_SCL$0$0                      5Code
+     00000083  G$DPH$0$0                          5Code
+     00000083  G$P0_3$0$0                         5Code
+     00000083  _BUS_SCL                           5Code
+     00000083  _DPH                               5Code
+     00000083  _P0_3                              5Code
+     00000084  G$P0_4$0$0                         5Code
+     00000084  G$P4$0$0                           5Code
+     00000084  _P0_4                              5Code
+     00000084  _P4                                5Code
+     00000085  G$P0_5$0$0                         5Code
+     00000085  G$P5$0$0                           5Code
+     00000085  _P0_5                              5Code
+     00000085  _P5                                5Code
+     00000086  G$P0_6$0$0                         5Code
+     00000086  G$P6$0$0                           5Code
+     00000086  _P0_6                              5Code
+     00000086  _P6                                5Code
+     00000087  G$P0_7$0$0                         5Code
+     00000087  G$PCON$0$0                         5Code
+     00000087  _P0_7                              5Code
+     00000087  _PCON                              5Code
+     00000088  G$IT0$0$0                          5Code
+     00000088  G$TCON$0$0                         5Code
+     00000088  _IT0                               5Code
+     00000088  _TCON                              5Code
+     00000089  G$IE0$0$0                          5Code
+     00000089  G$TMOD$0$0                         5Code
+     00000089  _IE0                               5Code
+     00000089  _TMOD                              5Code
+     0000008A  G$IT1$0$0                          5Code
+     0000008A  G$TL0$0$0                          5Code
+     0000008A  _IT1                               5Code
+     0000008A  _TL0                               5Code
+     0000008B  G$IE1$0$0                          5Code
+     0000008B  G$TL1$0$0                          5Code
+     0000008B  _IE1                               5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000008B  _TL1                               5Code
+     0000008C  G$TH0$0$0                          5Code
+     0000008C  G$TR0$0$0                          5Code
+     0000008C  _TH0                               5Code
+     0000008C  _TR0                               5Code
+     0000008D  G$TF0$0$0                          5Code
+     0000008D  G$TH1$0$0                          5Code
+     0000008D  _TF0                               5Code
+     0000008D  _TH1                               5Code
+     0000008E  G$CKCON$0$0                        5Code
+     0000008E  G$TR1$0$0                          5Code
+     0000008E  _CKCON                             5Code
+     0000008E  _TR1                               5Code
+     0000008F  G$PSCTL$0$0                        5Code
+     0000008F  G$TF1$0$0                          5Code
+     0000008F  _PSCTL                             5Code
+     0000008F  _TF1                               5Code
+     00000090  G$P1$0$0                           5Code
+     00000090  G$P1_0$0$0                         5Code
+     00000090  _P1                                5Code
+     00000090  _P1_0                              5Code
+     00000091  G$P1_1$0$0                         5Code
+     00000091  G$TMR3CN$0$0                       5Code
+     00000091  _P1_1                              5Code
+     00000091  _TMR3CN                            5Code
+     00000092  G$P1_2$0$0                         5Code
+     00000092  G$TMR3RLL$0$0                      5Code
+     00000092  _P1_2                              5Code
+     00000092  _TMR3RLL                           5Code
+     00000093  G$P1_3$0$0                         5Code
+     00000093  G$TMR3RLH$0$0                      5Code
+     00000093  _P1_3                              5Code
+     00000093  _TMR3RLH                           5Code
+     00000094  G$P1_4$0$0                         5Code
+     00000094  G$TMR3L$0$0                        5Code
+     00000094  _P1_4                              5Code
+     00000094  _TMR3L                             5Code
+     00000095  G$P1_5$0$0                         5Code
+     00000095  G$TMR3H$0$0                        5Code
+     00000095  _P1_5                              5Code
+     00000095  _TMR3H                             5Code
+     00000096  G$P1_6$0$0                         5Code
+     00000096  G$P7$0$0                           5Code
+     00000096  _P1_6                              5Code
+     00000096  _P7                                5Code
+     00000097  G$P1_7$0$0                         5Code
+     00000097  _P1_7                              5Code
+     00000098  G$RI$0$0                           5Code
+     00000098  G$RI0$0$0                          5Code
+     00000098  G$SCON$0$0                         5Code
+     00000098  G$SCON0$0$0                        5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000098  _RI                                5Code
+     00000098  _RI0                               5Code
+     00000098  _SCON                              5Code
+     00000098  _SCON0                             5Code
+     00000099  G$SBUF$0$0                         5Code
+     00000099  G$SBUF0$0$0                        5Code
+     00000099  G$TI$0$0                           5Code
+     00000099  G$TI0$0$0                          5Code
+     00000099  _SBUF                              5Code
+     00000099  _SBUF0                             5Code
+     00000099  _TI                                5Code
+     00000099  _TI0                               5Code
+     0000009A  G$RB8$0$0                          5Code
+     0000009A  G$RB80$0$0                         5Code
+     0000009A  G$SPI0CFG$0$0                      5Code
+     0000009A  _RB8                               5Code
+     0000009A  _RB80                              5Code
+     0000009A  _SPI0CFG                           5Code
+     0000009B  G$SPI0DAT$0$0                      5Code
+     0000009B  G$TB8$0$0                          5Code
+     0000009B  G$TB80$0$0                         5Code
+     0000009B  _SPI0DAT                           5Code
+     0000009B  _TB8                               5Code
+     0000009B  _TB80                              5Code
+     0000009C  G$ADC1$0$0                         5Code
+     0000009C  G$REN$0$0                          5Code
+     0000009C  G$REN0$0$0                         5Code
+     0000009C  _ADC1                              5Code
+     0000009C  _REN                               5Code
+     0000009C  _REN0                              5Code
+     0000009D  G$MCE0$0$0                         5Code
+     0000009D  G$SM2$0$0                          5Code
+     0000009D  G$SM20$0$0                         5Code
+     0000009D  G$SPI0CKR$0$0                      5Code
+     0000009D  _MCE0                              5Code
+     0000009D  _SM2                               5Code
+     0000009D  _SM20                              5Code
+     0000009D  _SPI0CKR                           5Code
+     0000009E  G$CPT0CN$0$0                       5Code
+     0000009E  G$SM1$0$0                          5Code
+     0000009E  G$SM10$0$0                         5Code
+     0000009E  _CPT0CN                            5Code
+     0000009E  _SM1                               5Code
+     0000009E  _SM10                              5Code
+     0000009F  G$CPT1CN$0$0                       5Code
+     0000009F  G$S0MODE$0$0                       5Code
+     0000009F  G$SM0$0$0                          5Code
+     0000009F  G$SM00$0$0                         5Code
+     0000009F  _CPT1CN                            5Code
+     0000009F  _S0MODE                            5Code
+     0000009F  _SM0                               5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000009F  _SM00                              5Code
+     000000A0  G$P2$0$0                           5Code
+     000000A0  G$P2_0$0$0                         5Code
+     000000A0  _P2                                5Code
+     000000A0  _P2_0                              5Code
+     000000A1  G$EMI0TC$0$0                       5Code
+     000000A1  G$P2_1$0$0                         5Code
+     000000A1  _EMI0TC                            5Code
+     000000A1  _P2_1                              5Code
+     000000A2  G$P2_2$0$0                         5Code
+     000000A2  _P2_2                              5Code
+     000000A3  G$EMI0CF$0$0                       5Code
+     000000A3  G$P2_3$0$0                         5Code
+     000000A3  _EMI0CF                            5Code
+     000000A3  _P2_3                              5Code
+     000000A4  G$P0MDOUT$0$0                      5Code
+     000000A4  G$P2_4$0$0                         5Code
+     000000A4  G$PRT0CF$0$0                       5Code
+     000000A4  _P0MDOUT                           5Code
+     000000A4  _P2_4                              5Code
+     000000A4  _PRT0CF                            5Code
+     000000A5  G$P1MDOUT$0$0                      5Code
+     000000A5  G$P2_5$0$0                         5Code
+     000000A5  G$PRT1CF$0$0                       5Code
+     000000A5  _P1MDOUT                           5Code
+     000000A5  _P2_5                              5Code
+     000000A5  _PRT1CF                            5Code
+     000000A6  G$P2MDOUT$0$0                      5Code
+     000000A6  G$P2_6$0$0                         5Code
+     000000A6  G$PRT2CF$0$0                       5Code
+     000000A6  _P2MDOUT                           5Code
+     000000A6  _P2_6                              5Code
+     000000A6  _PRT2CF                            5Code
+     000000A7  G$P2_7$0$0                         5Code
+     000000A7  G$P3MDOUT$0$0                      5Code
+     000000A7  G$PRT3CF$0$0                       5Code
+     000000A7  _P2_7                              5Code
+     000000A7  _P3MDOUT                           5Code
+     000000A7  _PRT3CF                            5Code
+     000000A8  G$EX0$0$0                          5Code
+     000000A8  G$IE$0$0                           5Code
+     000000A8  _EX0                               5Code
+     000000A8  _IE                                5Code
+     000000A9  G$ET0$0$0                          5Code
+     000000A9  G$SADDR0$0$0                       5Code
+     000000A9  _ET0                               5Code
+     000000A9  _SADDR0                            5Code
+     000000AA  G$ADC1CN$0$0                       5Code
+     000000AA  G$EX1$0$0                          5Code
+     000000AA  _ADC1CN                            5Code
+     000000AA  _EX1                               5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000AB  G$ADC1CF$0$0                       5Code
+     000000AB  G$ET1$0$0                          5Code
+     000000AB  _ADC1CF                            5Code
+     000000AB  _ET1                               5Code
+     000000AC  G$AMX1SL$0$0                       5Code
+     000000AC  G$ES$0$0                           5Code
+     000000AC  G$ES0$0$0                          5Code
+     000000AC  _AMX1SL                            5Code
+     000000AC  _ES                                5Code
+     000000AC  _ES0                               5Code
+     000000AD  G$ET2$0$0                          5Code
+     000000AD  G$P3IF$0$0                         5Code
+     000000AD  _ET2                               5Code
+     000000AD  _P3IF                              5Code
+     000000AE  G$SADEN1$0$0                       5Code
+     000000AE  _SADEN1                            5Code
+     000000AF  G$EA$0$0                           5Code
+     000000AF  G$EMI0CN$0$0                       5Code
+     000000AF  G$_XPAGE$0$0                       5Code
+     000000AF  _EA                                5Code
+     000000AF  _EMI0CN                            5Code
+     000000AF  __XPAGE                            5Code
+     000000B0  G$P3$0$0                           5Code
+     000000B0  G$P3_0$0$0                         5Code
+     000000B0  _P3                                5Code
+     000000B0  _P3_0                              5Code
+     000000B1  G$OSCXCN$0$0                       5Code
+     000000B1  G$P3_1$0$0                         5Code
+     000000B1  _OSCXCN                            5Code
+     000000B1  _P3_1                              5Code
+     000000B2  G$OSCICN$0$0                       5Code
+     000000B2  G$P3_2$0$0                         5Code
+     000000B2  _OSCICN                            5Code
+     000000B2  _P3_2                              5Code
+     000000B3  G$P3_3$0$0                         5Code
+     000000B3  _P3_3                              5Code
+     000000B4  G$P3_4$0$0                         5Code
+     000000B4  _P3_4                              5Code
+     000000B5  G$P3_5$0$0                         5Code
+     000000B5  G$P74OUT$0$0                       5Code
+     000000B5  _P3_5                              5Code
+     000000B5  _P74OUT                            5Code
+     000000B6  G$FLSCL$0$0                        5Code
+     000000B6  G$P3_6$0$0                         5Code
+     000000B6  _FLSCL                             5Code
+     000000B6  _P3_6                              5Code
+     000000B7  G$FLACL$0$0                        5Code
+     000000B7  G$P3_7$0$0                         5Code
+     000000B7  _FLACL                             5Code
+     000000B7  _P3_7                              5Code
+     000000B8  G$IP$0$0                           5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B8  G$PX0$0$0                          5Code
+     000000B8  _IP                                5Code
+     000000B8  _PX0                               5Code
+     000000B9  G$PT0$0$0                          5Code
+     000000B9  G$SADEN0$0$0                       5Code
+     000000B9  _PT0                               5Code
+     000000B9  _SADEN0                            5Code
+     000000BA  G$AMX0CF$0$0                       5Code
+     000000BA  G$PX1$0$0                          5Code
+     000000BA  _AMX0CF                            5Code
+     000000BA  _PX1                               5Code
+     000000BB  G$AMX0SL$0$0                       5Code
+     000000BB  G$PT1$0$0                          5Code
+     000000BB  _AMX0SL                            5Code
+     000000BB  _PT1                               5Code
+     000000BC  G$ADC0CF$0$0                       5Code
+     000000BC  G$PS$0$0                           5Code
+     000000BC  G$PS0$0$0                          5Code
+     000000BC  _ADC0CF                            5Code
+     000000BC  _PS                                5Code
+     000000BC  _PS0                               5Code
+     000000BD  G$P1MDIN$0$0                       5Code
+     000000BD  G$PT2$0$0                          5Code
+     000000BD  _P1MDIN                            5Code
+     000000BD  _PT2                               5Code
+     000000BE  G$ADC0L$0$0                        5Code
+     000000BE  _ADC0L                             5Code
+     000000BF  G$ADC0H$0$0                        5Code
+     000000BF  _ADC0H                             5Code
+     000000C0  G$BUS_TOE$0$0                      5Code
+     000000C0  G$SMB0CN$0$0                       5Code
+     000000C0  G$SMBTOE$0$0                       5Code
+     000000C0  _BUS_TOE                           5Code
+     000000C0  _SMB0CN                            5Code
+     000000C0  _SMBTOE                            5Code
+     000000C1  G$BUS_FTE$0$0                      5Code
+     000000C1  G$SMB0STA$0$0                      5Code
+     000000C1  G$SMBFTE$0$0                       5Code
+     000000C1  _BUS_FTE                           5Code
+     000000C1  _SMB0STA                           5Code
+     000000C1  _SMBFTE                            5Code
+     000000C2  G$AA$0$0                           5Code
+     000000C2  G$BUS_AA$0$0                       5Code
+     000000C2  G$SMB0DAT$0$0                      5Code
+     000000C2  _AA                                5Code
+     000000C2  _BUS_AA                            5Code
+     000000C2  _SMB0DAT                           5Code
+     000000C3  G$BUS_INT$0$0                      5Code
+     000000C3  G$SI$0$0                           5Code
+     000000C3  G$SMB0ADR$0$0                      5Code
+     000000C3  _BUS_INT                           5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000C3  _SI                                5Code
+     000000C3  _SMB0ADR                           5Code
+     000000C4  G$ADC0GTL$0$0                      5Code
+     000000C4  G$BUS_STOP$0$0                     5Code
+     000000C4  G$STO$0$0                          5Code
+     000000C4  _ADC0GTL                           5Code
+     000000C4  _BUS_STOP                          5Code
+     000000C4  _STO                               5Code
+     000000C5  G$ADC0GTH$0$0                      5Code
+     000000C5  G$BUS_START$0$0                    5Code
+     000000C5  G$STA$0$0                          5Code
+     000000C5  _ADC0GTH                           5Code
+     000000C5  _BUS_START                         5Code
+     000000C5  _STA                               5Code
+     000000C6  G$ADC0LTL$0$0                      5Code
+     000000C6  G$BUS_EN$0$0                       5Code
+     000000C6  G$ENSMB$0$0                        5Code
+     000000C6  _ADC0LTL                           5Code
+     000000C6  _BUS_EN                            5Code
+     000000C6  _ENSMB                             5Code
+     000000C7  G$ADC0LTH$0$0                      5Code
+     000000C7  G$BUSY$0$0                         5Code
+     000000C7  G$BUS_BUSY$0$0                     5Code
+     000000C7  _ADC0LTH                           5Code
+     000000C7  _BUSY                              5Code
+     000000C7  _BUS_BUSY                          5Code
+     000000C8  G$CPRL2$0$0                        5Code
+     000000C8  G$T2CON$0$0                        5Code
+     000000C8  _CPRL2                             5Code
+     000000C8  _T2CON                             5Code
+     000000C9  G$CT2$0$0                          5Code
+     000000C9  G$T4CON$0$0                        5Code
+     000000C9  _CT2                               5Code
+     000000C9  _T4CON                             5Code
+     000000CA  G$RCAP2L$0$0                       5Code
+     000000CA  G$TR2$0$0                          5Code
+     000000CA  _RCAP2L                            5Code
+     000000CA  _TR2                               5Code
+     000000CB  G$EXEN2$0$0                        5Code
+     000000CB  G$RCAP2H$0$0                       5Code
+     000000CB  _EXEN2                             5Code
+     000000CB  _RCAP2H                            5Code
+     000000CC  G$TCLK$0$0                         5Code
+     000000CC  G$TL2$0$0                          5Code
+     000000CC  _TCLK                              5Code
+     000000CC  _TL2                               5Code
+     000000CD  G$RCLK$0$0                         5Code
+     000000CD  G$TH2$0$0                          5Code
+     000000CD  _RCLK                              5Code
+     000000CD  _TH2                               5Code
+     000000CE  G$EXF2$0$0                         5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000CE  _EXF2                              5Code
+     000000CF  G$SMB0CR$0$0                       5Code
+     000000CF  G$TF2$0$0                          5Code
+     000000CF  _SMB0CR                            5Code
+     000000CF  _TF2                               5Code
+     000000D0  G$P$0$0                            5Code
+     000000D0  G$PSW$0$0                          5Code
+     000000D0  _P                                 5Code
+     000000D0  _PSW                               5Code
+     000000D1  G$F1$0$0                           5Code
+     000000D1  G$REF0CN$0$0                       5Code
+     000000D1  _F1                                5Code
+     000000D1  _REF0CN                            5Code
+     000000D2  G$DAC0L$0$0                        5Code
+     000000D2  G$OV$0$0                           5Code
+     000000D2  _DAC0L                             5Code
+     000000D2  _OV                                5Code
+     000000D3  G$DAC0H$0$0                        5Code
+     000000D3  G$RS0$0$0                          5Code
+     000000D3  _DAC0H                             5Code
+     000000D3  _RS0                               5Code
+     000000D4  G$DAC0CN$0$0                       5Code
+     000000D4  G$RS1$0$0                          5Code
+     000000D4  _DAC0CN                            5Code
+     000000D4  _RS1                               5Code
+     000000D5  G$DAC1L$0$0                        5Code
+     000000D5  G$F0$0$0                           5Code
+     000000D5  _DAC1L                             5Code
+     000000D5  _F0                                5Code
+     000000D6  G$AC$0$0                           5Code
+     000000D6  G$DAC1H$0$0                        5Code
+     000000D6  _AC                                5Code
+     000000D6  _DAC1H                             5Code
+     000000D7  G$CY$0$0                           5Code
+     000000D7  G$DAC1CN$0$0                       5Code
+     000000D7  _CY                                5Code
+     000000D7  _DAC1CN                            5Code
+     000000D8  G$CCF0$0$0                         5Code
+     000000D8  G$PCA0CN$0$0                       5Code
+     000000D8  _CCF0                              5Code
+     000000D8  _PCA0CN                            5Code
+     000000D9  G$CCF1$0$0                         5Code
+     000000D9  G$PCA0MD$0$0                       5Code
+     000000D9  _CCF1                              5Code
+     000000D9  _PCA0MD                            5Code
+     000000DA  G$CCF2$0$0                         5Code
+     000000DA  G$PCA0CPM0$0$0                     5Code
+     000000DA  _CCF2                              5Code
+     000000DA  _PCA0CPM0                          5Code
+     000000DB  G$CCF3$0$0                         5Code
+     000000DB  G$PCA0CPM1$0$0                     5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000DB  _CCF3                              5Code
+     000000DB  _PCA0CPM1                          5Code
+     000000DC  G$CCF4$0$0                         5Code
+     000000DC  G$PCA0CPM2$0$0                     5Code
+     000000DC  _CCF4                              5Code
+     000000DC  _PCA0CPM2                          5Code
+     000000DD  G$PCA0CPM3$0$0                     5Code
+     000000DD  _PCA0CPM3                          5Code
+     000000DE  G$CR$0$0                           5Code
+     000000DE  G$PCA0CPM4$0$0                     5Code
+     000000DE  _CR                                5Code
+     000000DE  _PCA0CPM4                          5Code
+     000000DF  G$CF$0$0                           5Code
+     000000DF  _CF                                5Code
+     000000E0  G$ACC$0$0                          5Code
+     000000E0  _ACC                               5Code
+     000000E1  G$XBR0$0$0                         5Code
+     000000E1  _XBR0                              5Code
+     000000E2  G$XBR1$0$0                         5Code
+     000000E2  _XBR1                              5Code
+     000000E3  G$XBR2$0$0                         5Code
+     000000E3  _XBR2                              5Code
+     000000E4  G$RCAP4L$0$0                       5Code
+     000000E4  _RCAP4L                            5Code
+     000000E5  G$RCAP4H$0$0                       5Code
+     000000E5  _RCAP4H                            5Code
+     000000E6  G$EIE1$0$0                         5Code
+     000000E6  _EIE1                              5Code
+     000000E7  G$EIE2$0$0                         5Code
+     000000E7  _EIE2                              5Code
+     000000E8  G$AD0LJST$0$0                      5Code
+     000000E8  G$ADC0CN$0$0                       5Code
+     000000E8  G$ADLJST$0$0                       5Code
+     000000E8  _AD0LJST                           5Code
+     000000E8  _ADC0CN                            5Code
+     000000E8  _ADLJST                            5Code
+     000000E9  G$AD0WINT$0$0                      5Code
+     000000E9  G$ADWINT$0$0                       5Code
+     000000E9  G$PCA0L$0$0                        5Code
+     000000E9  _AD0WINT                           5Code
+     000000E9  _ADWINT                            5Code
+     000000E9  _PCA0L                             5Code
+     000000EA  G$AD0CM0$0$0                       5Code
+     000000EA  G$ADSTM0$0$0                       5Code
+     000000EA  G$PCA0CPL0$0$0                     5Code
+     000000EA  _AD0CM0                            5Code
+     000000EA  _ADSTM0                            5Code
+     000000EA  _PCA0CPL0                          5Code
+     000000EB  G$AD0CM1$0$0                       5Code
+     000000EB  G$ADSTM1$0$0                       5Code
+     000000EB  G$PCA0CPL1$0$0                     5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000EB  _AD0CM1                            5Code
+     000000EB  _ADSTM1                            5Code
+     000000EB  _PCA0CPL1                          5Code
+     000000EC  G$AD0BUSY$0$0                      5Code
+     000000EC  G$ADBUSY$0$0                       5Code
+     000000EC  G$PCA0CPL2$0$0                     5Code
+     000000EC  _AD0BUSY                           5Code
+     000000EC  _ADBUSY                            5Code
+     000000EC  _PCA0CPL2                          5Code
+     000000ED  G$AD0INT$0$0                       5Code
+     000000ED  G$ADCINT$0$0                       5Code
+     000000ED  G$PCA0CPL3$0$0                     5Code
+     000000ED  _AD0INT                            5Code
+     000000ED  _ADCINT                            5Code
+     000000ED  _PCA0CPL3                          5Code
+     000000EE  G$AD0TM$0$0                        5Code
+     000000EE  G$ADCTM$0$0                        5Code
+     000000EE  G$PCA0CPL4$0$0                     5Code
+     000000EE  _AD0TM                             5Code
+     000000EE  _ADCTM                             5Code
+     000000EE  _PCA0CPL4                          5Code
+     000000EF  G$AD0EN$0$0                        5Code
+     000000EF  G$ADCEN$0$0                        5Code
+     000000EF  G$RSTSRC$0$0                       5Code
+     000000EF  _AD0EN                             5Code
+     000000EF  _ADCEN                             5Code
+     000000EF  _RSTSRC                            5Code
+     000000F0  G$B$0$0                            5Code
+     000000F0  _B                                 5Code
+     000000F1  G$SCON1$0$0                        5Code
+     000000F1  _SCON1                             5Code
+     000000F2  G$SBUF1$0$0                        5Code
+     000000F2  _SBUF1                             5Code
+     000000F3  G$SADDR1$0$0                       5Code
+     000000F3  _SADDR1                            5Code
+     000000F4  G$TL4$0$0                          5Code
+     000000F4  _TL4                               5Code
+     000000F5  G$TH4$0$0                          5Code
+     000000F5  _B_5                               _gptrget
+     000000F5  _TH4                               5Code
+     000000F6  G$EIP1$0$0                         5Code
+     000000F6  _B_6                               _gptrget
+     000000F6  _EIP1                              5Code
+     000000F7  G$EIP2$0$0                         5Code
+     000000F7  _B_7                               _gptrget
+     000000F7  _EIP2                              5Code
+     000000F8  G$SPI0CN$0$0                       5Code
+     000000F8  G$SPIEN$0$0                        5Code
+     000000F8  _SPI0CN                            5Code
+     000000F8  _SPIEN                             5Code
+     000000F9  G$MSTEN$0$0                        5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000F9  G$PCA0H$0$0                        5Code
+     000000F9  _MSTEN                             5Code
+     000000F9  _PCA0H                             5Code
+     000000FA  G$PCA0CPH0$0$0                     5Code
+     000000FA  G$SLVSEL$0$0                       5Code
+     000000FA  _PCA0CPH0                          5Code
+     000000FA  _SLVSEL                            5Code
+     000000FB  G$PCA0CPH1$0$0                     5Code
+     000000FB  G$TXBSY$0$0                        5Code
+     000000FB  _PCA0CPH1                          5Code
+     000000FB  _TXBSY                             5Code
+     000000FC  G$PCA0CPH2$0$0                     5Code
+     000000FC  G$RXOVRN$0$0                       5Code
+     000000FC  _PCA0CPH2                          5Code
+     000000FC  _RXOVRN                            5Code
+     000000FD  G$MODF$0$0                         5Code
+     000000FD  G$PCA0CPH3$0$0                     5Code
+     000000FD  _MODF                              5Code
+     000000FD  _PCA0CPH3                          5Code
+     000000FE  G$PCA0CPH4$0$0                     5Code
+     000000FE  G$WCOL$0$0                         5Code
+     000000FE  _PCA0CPH4                          5Code
+     000000FE  _WCOL                              5Code
+     000000FF  G$SPIF$0$0                         5Code
+     000000FF  G$WDTCN$0$0                        5Code
+     000000FF  _SPIF                              5Code
+     000000FF  _WDTCN                             5Code
+     00008C8A  G$TMR0$0$0                         5Code
+     00008C8A  _TMR0                              5Code
+     00008D8B  G$TMR1$0$0                         5Code
+     00008D8B  _TMR1                              5Code
+     00009392  G$TMR3RL$0$0                       5Code
+     00009392  _TMR3RL                            5Code
+     00009594  G$TMR3$0$0                         5Code
+     00009594  _TMR3                              5Code
+     0000BFBE  G$ADC0$0$0                         5Code
+     0000BFBE  _ADC0                              5Code
+     0000C5C4  G$ADC0GT$0$0                       5Code
+     0000C5C4  _ADC0GT                            5Code
+     0000C7C6  G$ADC0LT$0$0                       5Code
+     0000C7C6  _ADC0LT                            5Code
+     0000CBCA  G$RCAP2$0$0                        5Code
+     0000CBCA  _RCAP2                             5Code
+     0000CDCC  G$TMR2$0$0                         5Code
+     0000CDCC  _TMR2                              5Code
+     0000D3D2  G$DAC0$0$0                         5Code
+     0000D3D2  _DAC0                              5Code
+     0000D6D5  G$DAC1$0$0                         5Code
+     0000D6D5  _DAC1                              5Code
+     0000E5E4  G$RCAP4$0$0                        5Code
+     0000E5E4  _RCAP4                             5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000F5F4  G$TMR4$0$0                         5Code
+     0000F5F4  _TMR4                              5Code
+     0000F9E9  G$PCA0$0$0                         5Code
+     0000F9E9  _PCA0                              5Code
+     0000FAEA  G$PCA0CP0$0$0                      5Code
+     0000FAEA  _PCA0CP0                           5Code
+     0000FBEB  G$PCA0CP1$0$0                      5Code
+     0000FBEB  _PCA0CP1                           5Code
+     0000FCEC  G$PCA0CP2$0$0                      5Code
+     0000FCEC  _PCA0CP2                           5Code
+     0000FDED  G$PCA0CP3$0$0                      5Code
+     0000FDED  _PCA0CP3                           5Code
+     0000FEEE  G$PCA0CP4$0$0                      5Code
+     0000FEEE  _PCA0CP4                           5Code
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BSEG_BYTES                          00000020    00000002 =           2. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    00000080 =         128. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000000B  _vsprintf_PARM_2                   sprintf
+     0000000E  _vsprintf_PARM_3                   sprintf
+     00000012  _bp                                _bp
+     00000013  _vprintf_PARM_2                    vprintf
+     00000022  L5Code.lcd_clear$NumBytes$1$77     5Code
+     00000023  L5Code.lcd_clear$Cmd$1$77          5Code
+     00000025  L5Code.read_keypad$Data$1$78       5Code
+     00000027  L5Code.i2c_write_data$start_reg$   5Code
+     00000027  _i2c_write_data_PARM_2             5Code
+     00000028  L5Code.i2c_write_data$buffer$1$9   5Code
+     00000028  _i2c_write_data_PARM_3             5Code
+     0000002B  L5Code.i2c_write_data$num_bytes$   5Code
+     0000002B  _i2c_write_data_PARM_4             5Code
+     0000002C  L5Code.i2c_read_data$start_reg$1   5Code
+     0000002C  _i2c_read_data_PARM_2              5Code
+     0000002D  L5Code.i2c_read_data$buffer$1$99   5Code
+     0000002D  _i2c_read_data_PARM_3              5Code
+     00000030  L5Code.i2c_read_data$num_bytes$1   5Code
+     00000030  _i2c_read_data_PARM_4              5Code
+     00000031  L5Code.Accel_Init$Data2$1$103      5Code
+     00000032  G$PW_NEUT$0$0                      5Code
+     00000032  _PW_NEUT                           5Code
+     00000034  G$PW_MIN$0$0                       5Code
+     00000034  _PW_MIN                            5Code
+     00000036  G$PW_MAX$0$0                       5Code
+     00000036  _PW_MAX                            5Code
+     00000038  G$gx$0$0                           5Code
+     00000038  _gx                                5Code
+     0000003A  G$gy$0$0                           5Code
+     0000003A  _gy                                5Code
+     0000003C  G$x0$0$0                           5Code
+     0000003C  _x0                                5Code
+     0000003E  G$y0$0$0                           5Code
+     0000003E  _y0                                5Code
+     00000040  G$counts$0$0                       5Code
+     00000040  _counts                            5Code
+     00000042  G$counts_accel$0$0                 5Code
+     00000042  _counts_accel                      5Code
+     00000044  G$counts_lcd$0$0                   5Code
+     00000044  _counts_lcd                        5Code
+     00000046  G$MOTOR_PW$0$0                     5Code
+     00000046  _MOTOR_PW                          5Code
+     00000048  G$STEERING_PW$0$0                  5Code
+     00000048  _STEERING_PW                       5Code
+     0000004A  G$ks$0$0                           5Code
+     0000004A  _ks                                5Code
+     0000004C  G$kd_x$0$0                         5Code
+     0000004C  _kd_x                              5Code
+     0000004E  G$kd_y$0$0                         5Code
+     0000004E  _kd_y                              5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    00000080 =         128. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000050  G$error_sum$0$0                    5Code
+     00000050  _error_sum                         5Code
+     00000052  L5Code.main$counter$1$116          5Code
+     00000054  L5Code.ReadAccel$Data$1$127        5Code
+     00000059  L5Code.ReadAccel$avg_gy$1$127      5Code
+     0000005B  L5Code.getNumberFromKeypad$data2   5Code
+     0000006A  __print_format_PARM_2              printf_large
+     0000006D  __print_format_PARM_3              printf_large
+     00000070  __print_format_PARM_4              printf_large
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+OSEG                                00000014    00000006 =           6. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000014  __divsint_PARM_2                   _divuint
+     00000014  __divuint_PARM_2                   _divuint
+     00000014  __gptrput_PARM_2                   _gptrput
+     00000014  __modsint_PARM_2                   _moduint
+     00000014  __moduint_PARM_2                   _moduint
+     00000014  __mulint_PARM_2                    _mulint
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+ISEG                                0000001A    00000006 =           6. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000078    00000088 =         136. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000078  __start__stack                     5Code
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XSEG                                00000001    00000050 =          80. bytes (REL,CON,XDATA)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+D:   00000001  L5Code.lcd_print$text$1$73         5Code
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    00000051 =          81. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  A$5Code$1101                       5Code
+C:   00000003  A$5Code$1102                       5Code
+C:   0000000B  A$5Code$1104                       5Code
+C:   00000013  A$5Code$1106                       5Code
+C:   0000001B  A$5Code$1108                       5Code
+C:   00000023  A$5Code$1110                       5Code
+C:   0000002B  A$5Code$1112                       5Code
+C:   00000033  A$5Code$1114                       5Code
+C:   0000003B  A$5Code$1116                       5Code
+C:   00000043  A$5Code$1118                       5Code
+C:   0000004B  A$5Code$1120                       5Code
+C:   0000004E  A$5Code$1206                       5Code
+C:   0000004E  __sdcc_program_startup             5Code
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00000051    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000051  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             00000054    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             0000005E    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000005E  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             00000080    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000080  __mcs51_genRAMCLEAR                
+C:   00000086  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              000000AA    00000046 =          70. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000AA  A$5Code$1136                       5Code
+C:   000000AA  C$5Code.c$33$1$161                 5Code
+C:   000000AD  A$5Code$1137                       5Code
+C:   000000B0  A$5Code$1140                       5Code
+C:   000000B0  C$5Code.c$34$1$161                 5Code
+C:   000000B3  A$5Code$1141                       5Code
+C:   000000B6  A$5Code$1144                       5Code
+C:   000000B6  C$5Code.c$35$1$161                 5Code
+C:   000000B9  A$5Code$1145                       5Code
+C:   000000BC  A$5Code$1148                       5Code
+C:   000000BC  C$5Code.c$37$1$161                 5Code
+C:   000000BD  A$5Code$1149                       5Code
+C:   000000BF  A$5Code$1150                       5Code
+C:   000000C1  A$5Code$1153                       5Code
+C:   000000C1  C$5Code.c$38$1$161                 5Code
+C:   000000C3  A$5Code$1154                       5Code
+C:   000000C5  A$5Code$1157                       5Code
+C:   000000C5  C$5Code.c$39$1$161                 5Code
+C:   000000C7  A$5Code$1158                       5Code
+C:   000000C9  A$5Code$1161                       5Code
+C:   000000C9  C$5Code.c$40$1$161                 5Code
+C:   000000CB  A$5Code$1162                       5Code
+C:   000000CD  A$5Code$1165                       5Code
+C:   000000CD  C$5Code.c$42$1$161                 5Code
+C:   000000CF  A$5Code$1166                       5Code
+C:   000000D1  A$5Code$1169                       5Code
+C:   000000D1  C$5Code.c$43$1$161                 5Code
+C:   000000D3  A$5Code$1170                       5Code
+C:   000000D5  A$5Code$1173                       5Code
+C:   000000D5  C$5Code.c$44$1$161                 5Code
+C:   000000D7  A$5Code$1174                       5Code
+C:   000000D9  A$5Code$1177                       5Code
+C:   000000D9  C$5Code.c$46$1$161                 5Code
+C:   000000DB  A$5Code$1178                       5Code
+C:   000000DD  A$5Code$1181                       5Code
+C:   000000DD  C$5Code.c$47$1$161                 5Code
+C:   000000DF  A$5Code$1182                       5Code
+C:   000000E1  A$5Code$1185                       5Code
+C:   000000E1  C$5Code.c$49$1$161                 5Code
+C:   000000E4  A$5Code$1187                       5Code
+C:   000000E6  A$5Code$1190                       5Code
+C:   000000E6  C$5Code.c$50$1$161                 5Code
+C:   000000E9  A$5Code$1192                       5Code
+C:   000000EB  A$5Code$1195                       5Code
+C:   000000EB  C$5Code.c$51$1$161                 5Code
+C:   000000EE  A$5Code$1197                       5Code
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             000000F0    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000F0  A$5Code$1199                       5Code
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000F3  A$5Code$1234                       5Code
+C:   000000F3  C$c8051_SDCC.h$42$0$0              5Code
+C:   000000F3  C$c8051_SDCC.h$46$1$31             5Code
+C:   000000F3  G$SYSCLK_Init$0$0                  5Code
+C:   000000F3  _SYSCLK_Init                       5Code
+C:   000000F6  A$5Code$1237                       5Code
+C:   000000F6  C$c8051_SDCC.h$49$1$31             5Code
+C:   000000F8  A$5Code$1238                       5Code
+C:   000000FA  A$5Code$1240                       5Code
+C:   000000FB  A$5Code$1241                       5Code
+C:   000000FE  A$5Code$1242                       5Code
+C:   000000FF  A$5Code$1244                       5Code
+C:   00000100  A$5Code$1245                       5Code
+C:   00000101  A$5Code$1246                       5Code
+C:   00000103  A$5Code$1250                       5Code
+C:   00000103  C$c8051_SDCC.h$51$1$31             5Code
+C:   00000105  A$5Code$1251                       5Code
+C:   00000108  A$5Code$1254                       5Code
+C:   00000108  C$c8051_SDCC.h$53$1$31             5Code
+C:   0000010B  A$5Code$1257                       5Code
+C:   0000010B  C$c8051_SDCC.h$56$1$31             5Code
+C:   0000010B  XG$SYSCLK_Init$0$0                 5Code
+C:   0000010C  A$5Code$1270                       5Code
+C:   0000010C  C$c8051_SDCC.h$64$1$31             5Code
+C:   0000010C  C$c8051_SDCC.h$66$1$33             5Code
+C:   0000010C  G$UART0_Init$0$0                   5Code
+C:   0000010C  _UART0_Init                        5Code
+C:   0000010F  A$5Code$1273                       5Code
+C:   0000010F  C$c8051_SDCC.h$67$1$33             5Code
+C:   00000112  A$5Code$1276                       5Code
+C:   00000112  C$c8051_SDCC.h$68$1$33             5Code
+C:   00000115  A$5Code$1279                       5Code
+C:   00000115  C$c8051_SDCC.h$69$1$33             5Code
+C:   00000117  A$5Code$1282                       5Code
+C:   00000117  C$c8051_SDCC.h$70$1$33             5Code
+C:   0000011A  A$5Code$1285                       5Code
+C:   0000011A  C$c8051_SDCC.h$71$1$33             5Code
+C:   0000011D  A$5Code$1288                       5Code
+C:   0000011D  C$c8051_SDCC.h$73$1$33             5Code
+C:   0000011F  A$5Code$1291                       5Code
+C:   0000011F  C$c8051_SDCC.h$74$1$33             5Code
+C:   00000122  A$5Code$1294                       5Code
+C:   00000122  C$c8051_SDCC.h$75$1$33             5Code
+C:   00000122  XG$UART0_Init$0$0                  5Code
+C:   00000123  A$5Code$1307                       5Code
+C:   00000123  C$c8051_SDCC.h$83$1$33             5Code
+C:   00000123  C$c8051_SDCC.h$85$1$35             5Code
+C:   00000123  G$Sys_Init$0$0                     5Code
+C:   00000123  _Sys_Init                          5Code
+C:   00000126  A$5Code$1310                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000126  C$c8051_SDCC.h$86$1$35             5Code
+C:   00000129  A$5Code$1313                       5Code
+C:   00000129  C$c8051_SDCC.h$88$1$35             5Code
+C:   0000012C  A$5Code$1316                       5Code
+C:   0000012C  C$c8051_SDCC.h$89$1$35             5Code
+C:   0000012F  A$5Code$1319                       5Code
+C:   0000012F  C$c8051_SDCC.h$91$1$35             5Code
+C:   00000132  A$5Code$1322                       5Code
+C:   00000132  C$c8051_SDCC.h$92$1$35             5Code
+C:   00000135  A$5Code$1325                       5Code
+C:   00000135  C$c8051_SDCC.h$93$1$35             5Code
+C:   00000135  XG$Sys_Init$0$0                    5Code
+C:   00000136  A$5Code$1338                       5Code
+C:   00000136  C$c8051_SDCC.h$98$1$35             5Code
+C:   00000136  G$putchar$0$0                      5Code
+C:   00000136  _putchar                           5Code
+C:   00000138  A$5Code$1344                       5Code
+C:   00000138  C$c8051_SDCC.h$100$1$37            5Code
+C:   00000138  C$c8051_SDCC.h$101$1$37            5Code
+C:   0000013B  A$5Code$1345                       5Code
+C:   0000013D  A$5Code$1349                       5Code
+C:   0000013D  C$c8051_SDCC.h$102$1$37            5Code
+C:   0000013F  A$5Code$1352                       5Code
+C:   0000013F  C$c8051_SDCC.h$103$1$37            5Code
+C:   0000013F  XG$putchar$0$0                     5Code
+C:   00000140  A$5Code$1370                       5Code
+C:   00000140  C$c8051_SDCC.h$108$1$37            5Code
+C:   00000140  C$c8051_SDCC.h$111$1$39            5Code
+C:   00000140  C$c8051_SDCC.h$112$1$39            5Code
+C:   00000140  G$getchar$0$0                      5Code
+C:   00000140  _getchar                           5Code
+C:   00000143  A$5Code$1371                       5Code
+C:   00000145  A$5Code$1375                       5Code
+C:   00000145  C$c8051_SDCC.h$113$1$39            5Code
+C:   00000148  A$5Code$1378                       5Code
+C:   00000148  C$c8051_SDCC.h$114$1$39            5Code
+C:   0000014B  A$5Code$1381                       5Code
+C:   0000014B  C$c8051_SDCC.h$115$1$39            5Code
+C:   0000014E  A$5Code$1384                       5Code
+C:   0000014E  C$c8051_SDCC.h$116$1$39            5Code
+C:   0000014E  XG$getchar$0$0                     5Code
+C:   0000014F  A$5Code$1401                       5Code
+C:   0000014F  C$i2c.h$81$1$39                    5Code
+C:   0000014F  G$lcd_print$0$0                    5Code
+C:   0000014F  _lcd_print                         5Code
+C:   00000151  A$5Code$1402                       5Code
+C:   00000154  A$5Code$1405                       5Code
+C:   00000154  C$i2c.h$87$1$73                    5Code
+C:   00000156  A$5Code$1406                       5Code
+C:   00000158  A$5Code$1407                       5Code
+C:   00000159  A$5Code$1408                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000015B  A$5Code$1409                       5Code
+C:   0000015C  A$5Code$1410                       5Code
+C:   0000015E  A$5Code$1411                       5Code
+C:   0000015F  A$5Code$1412                       5Code
+C:   00000161  A$5Code$1413                       5Code
+C:   00000164  A$5Code$1414                       5Code
+C:   00000166  A$5Code$1415                       5Code
+C:   00000169  A$5Code$1416                       5Code
+C:   0000016B  A$5Code$1417                       5Code
+C:   0000016D  A$5Code$1418                       5Code
+C:   0000016F  A$5Code$1422                       5Code
+C:   0000016F  C$i2c.h$89$2$74                    5Code
+C:   00000171  A$5Code$1423                       5Code
+C:   00000173  A$5Code$1424                       5Code
+C:   00000174  A$5Code$1425                       5Code
+C:   00000176  A$5Code$1428                       5Code
+C:   00000176  C$i2c.h$90$1$73                    5Code
+C:   00000178  A$5Code$1429                       5Code
+C:   0000017A  A$5Code$1430                       5Code
+C:   0000017B  A$5Code$1431                       5Code
+C:   0000017D  A$5Code$1432                       5Code
+C:   0000017E  A$5Code$1433                       5Code
+C:   00000180  A$5Code$1434                       5Code
+C:   00000181  A$5Code$1435                       5Code
+C:   00000183  A$5Code$1436                       5Code
+C:   00000186  A$5Code$1437                       5Code
+C:   00000189  A$5Code$1438                       5Code
+C:   0000018C  A$5Code$1441                       5Code
+C:   0000018C  C$i2c.h$93$1$73                    5Code
+C:   0000018F  A$5Code$1442                       5Code
+C:   00000192  A$5Code$1443                       5Code
+C:   00000195  A$5Code$1444                       5Code
+C:   00000197  A$5Code$1447                       5Code
+C:   00000199  A$5Code$1449                       5Code
+C:   0000019A  A$5Code$1450                       5Code
+C:   0000019B  A$5Code$1451                       5Code
+C:   0000019C  A$5Code$1452                       5Code
+C:   0000019E  A$5Code$1455                       5Code
+C:   0000019E  C$i2c.h$96$2$76                    5Code
+C:   0000019F  A$5Code$1456                       5Code
+C:   000001A1  A$5Code$1457                       5Code
+C:   000001A3  A$5Code$1458                       5Code
+C:   000001A4  A$5Code$1459                       5Code
+C:   000001A6  A$5Code$1460                       5Code
+C:   000001A8  A$5Code$1461                       5Code
+C:   000001A9  A$5Code$1462                       5Code
+C:   000001AA  A$5Code$1463                       5Code
+C:   000001AD  A$5Code$1464                       5Code
+C:   000001AE  A$5Code$1465                       5Code
+C:   000001B0  A$5Code$1466                       5Code
+C:   000001B2  A$5Code$1467                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000001B3  A$5Code$1468                       5Code
+C:   000001B5  A$5Code$1469                       5Code
+C:   000001B7  A$5Code$1470                       5Code
+C:   000001B9  A$5Code$1471                       5Code
+C:   000001BA  A$5Code$1475                       5Code
+C:   000001BA  C$i2c.h$94$1$73                    5Code
+C:   000001BB  A$5Code$1476                       5Code
+C:   000001BD  A$5Code$1480                       5Code
+C:   000001BD  C$i2c.h$99$1$73                    5Code
+C:   000001C0  A$5Code$1481                       5Code
+C:   000001C3  A$5Code$1482                       5Code
+C:   000001C6  A$5Code$1483                       5Code
+C:   000001C9  A$5Code$1484                       5Code
+C:   000001CB  A$5Code$1485                       5Code
+C:   000001CE  A$5Code$1486                       5Code
+C:   000001D1  A$5Code$1488                       5Code
+C:   000001D3  A$5Code$1491                       5Code
+C:   000001D3  C$i2c.h$100$1$73                   5Code
+C:   000001D3  XG$lcd_print$0$0                   5Code
+C:   000001D4  A$5Code$1507                       5Code
+C:   000001D4  C$i2c.h$103$1$73                   5Code
+C:   000001D4  C$i2c.h$105$1$73                   5Code
+C:   000001D4  G$lcd_clear$0$0                    5Code
+C:   000001D4  _lcd_clear                         5Code
+C:   000001D7  A$5Code$1511                       5Code
+C:   000001D7  C$i2c.h$107$1$77                   5Code
+C:   000001D9  A$5Code$1512                       5Code
+C:   000001DB  A$5Code$1513                       5Code
+C:   000001DD  A$5Code$1514                       5Code
+C:   000001E0  A$5Code$1515                       5Code
+C:   000001E3  A$5Code$1516                       5Code
+C:   000001E6  A$5Code$1517                       5Code
+C:   000001E9  A$5Code$1518                       5Code
+C:   000001EC  A$5Code$1519                       5Code
+C:   000001EF  A$5Code$1520                       5Code
+C:   000001F2  A$5Code$1521                       5Code
+C:   000001F4  A$5Code$1525                       5Code
+C:   000001F4  C$i2c.h$109$1$77                   5Code
+C:   000001F7  A$5Code$1528                       5Code
+C:   000001F7  C$i2c.h$110$1$77                   5Code
+C:   000001FA  A$5Code$1529                       5Code
+C:   000001FD  A$5Code$1530                       5Code
+C:   00000200  A$5Code$1531                       5Code
+C:   00000203  A$5Code$1532                       5Code
+C:   00000206  A$5Code$1533                       5Code
+C:   00000209  A$5Code$1534                       5Code
+C:   0000020C  A$5Code$1537                       5Code
+C:   0000020C  C$i2c.h$111$1$77                   5Code
+C:   0000020C  XG$lcd_clear$0$0                   5Code
+C:   0000020D  A$5Code$1553                       5Code
+C:   0000020D  C$i2c.h$114$1$77                   5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000020D  C$i2c.h$118$1$78                   5Code
+C:   0000020D  G$read_keypad$0$0                  5Code
+C:   0000020D  _read_keypad                       5Code
+C:   00000210  A$5Code$1554                       5Code
+C:   00000213  A$5Code$1555                       5Code
+C:   00000216  A$5Code$1556                       5Code
+C:   00000219  A$5Code$1557                       5Code
+C:   0000021C  A$5Code$1558                       5Code
+C:   0000021F  A$5Code$1559                       5Code
+C:   00000222  A$5Code$1562                       5Code
+C:   00000222  C$i2c.h$119$1$78                   5Code
+C:   00000224  A$5Code$1563                       5Code
+C:   00000227  A$5Code$1564                       5Code
+C:   0000022A  A$5Code$1565                       5Code
+C:   0000022C  A$5Code$1569                       5Code
+C:   0000022E  A$5Code$1570                       5Code
+C:   00000230  A$5Code$1574                       5Code
+C:   00000230  C$i2c.h$123$2$79                   5Code
+C:   00000232  A$5Code$1575                       5Code
+C:   00000234  A$5Code$1576                       5Code
+C:   00000236  A$5Code$1577                       5Code
+C:   00000238  A$5Code$1578                       5Code
+C:   0000023A  A$5Code$1580                       5Code
+C:   0000023B  A$5Code$1581                       5Code
+C:   0000023C  A$5Code$1582                       5Code
+C:   0000023D  A$5Code$1583                       5Code
+C:   0000023E  A$5Code$1584                       5Code
+C:   0000023F  A$5Code$1585                       5Code
+C:   00000240  A$5Code$1587                       5Code
+C:   00000243  A$5Code$1588                       5Code
+C:   00000245  A$5Code$1589                       5Code
+C:   00000247  A$5Code$1590                       5Code
+C:   00000248  A$5Code$1591                       5Code
+C:   0000024A  A$5Code$1592                       5Code
+C:   0000024B  A$5Code$1593                       5Code
+C:   0000024D  A$5Code$1594                       5Code
+C:   0000024E  A$5Code$1595                       5Code
+C:   0000024F  A$5Code$1596                       5Code
+C:   00000251  A$5Code$1599                       5Code
+C:   00000251  C$i2c.h$124$2$79                   5Code
+C:   00000253  A$5Code$1600                       5Code
+C:   00000254  A$5Code$1601                       5Code
+C:   00000256  A$5Code$1602                       5Code
+C:   00000258  A$5Code$1606                       5Code
+C:   00000258  C$i2c.h$121$1$78                   5Code
+C:   00000259  A$5Code$1607                       5Code
+C:   0000025B  A$5Code$1608                       5Code
+C:   0000025E  A$5Code$1610                       5Code
+C:   00000260  A$5Code$1613                       5Code
+C:   00000260  C$i2c.h$127$1$78                   5Code
+C:   00000262  A$5Code$1614                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000265  A$5Code$1615                       5Code
+C:   00000268  A$5Code$1616                       5Code
+C:   0000026A  A$5Code$1620                       5Code
+C:   0000026A  C$i2c.h$129$1$78                   5Code
+C:   0000026C  A$5Code$1621                       5Code
+C:   0000026F  A$5Code$1622                       5Code
+C:   00000272  A$5Code$1623                       5Code
+C:   00000274  A$5Code$1627                       5Code
+C:   00000274  C$i2c.h$131$1$78                   5Code
+C:   00000276  A$5Code$1628                       5Code
+C:   00000279  A$5Code$1629                       5Code
+C:   0000027C  A$5Code$1630                       5Code
+C:   0000027E  A$5Code$1634                       5Code
+C:   0000027E  C$i2c.h$133$1$78                   5Code
+C:   00000280  A$5Code$1635                       5Code
+C:   00000283  A$5Code$1636                       5Code
+C:   00000286  A$5Code$1637                       5Code
+C:   00000288  A$5Code$1641                       5Code
+C:   00000288  C$i2c.h$135$1$78                   5Code
+C:   0000028B  A$5Code$1645                       5Code
+C:   0000028B  C$i2c.h$136$1$78                   5Code
+C:   0000028B  XG$read_keypad$0$0                 5Code
+C:   0000028C  A$5Code$1661                       5Code
+C:   0000028C  C$i2c.h$148$1$78                   5Code
+C:   0000028C  G$kpd_input$0$0                    5Code
+C:   0000028C  _kpd_input                         5Code
+C:   0000028E  A$5Code$1666                       5Code
+C:   0000028E  C$i2c.h$153$1$81                   5Code
+C:   0000028E  C$i2c.h$156$1$81                   5Code
+C:   0000028F  A$5Code$1667                       5Code
+C:   00000290  A$5Code$1668                       5Code
+C:   00000291  A$5Code$1669                       5Code
+C:   00000292  A$5Code$1670                       5Code
+C:   00000294  A$5Code$1671                       5Code
+C:   00000296  A$5Code$1672                       5Code
+C:   00000298  A$5Code$1673                       5Code
+C:   0000029A  A$5Code$1674                       5Code
+C:   0000029C  A$5Code$1675                       5Code
+C:   0000029E  A$5Code$1676                       5Code
+C:   000002A0  A$5Code$1677                       5Code
+C:   000002A2  A$5Code$1678                       5Code
+C:   000002A4  A$5Code$1679                       5Code
+C:   000002A7  A$5Code$1680                       5Code
+C:   000002A9  A$5Code$1681                       5Code
+C:   000002AB  A$5Code$1682                       5Code
+C:   000002AD  A$5Code$1683                       5Code
+C:   000002AF  A$5Code$1684                       5Code
+C:   000002B1  A$5Code$1688                       5Code
+C:   000002B1  C$i2c.h$158$1$81                   5Code
+C:   000002B3  A$5Code$1689                       5Code
+C:   000002B5  A$5Code$1690                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 36.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000002B7  A$5Code$1691                       5Code
+C:   000002B9  A$5Code$1692                       5Code
+C:   000002BA  A$5Code$1693                       5Code
+C:   000002BC  A$5Code$1694                       5Code
+C:   000002BE  A$5Code$1695                       5Code
+C:   000002C0  A$5Code$1696                       5Code
+C:   000002C1  A$5Code$1697                       5Code
+C:   000002C3  A$5Code$1698                       5Code
+C:   000002C5  A$5Code$1699                       5Code
+C:   000002C7  A$5Code$1700                       5Code
+C:   000002C8  A$5Code$1701                       5Code
+C:   000002CA  A$5Code$1702                       5Code
+C:   000002CC  A$5Code$1703                       5Code
+C:   000002CE  A$5Code$1704                       5Code
+C:   000002CF  A$5Code$1705                       5Code
+C:   000002D1  A$5Code$1706                       5Code
+C:   000002D3  A$5Code$1707                       5Code
+C:   000002D5  A$5Code$1708                       5Code
+C:   000002D6  A$5Code$1709                       5Code
+C:   000002D8  A$5Code$1710                       5Code
+C:   000002DA  A$5Code$1711                       5Code
+C:   000002DC  A$5Code$1712                       5Code
+C:   000002DE  A$5Code$1713                       5Code
+C:   000002E0  A$5Code$1714                       5Code
+C:   000002E2  A$5Code$1715                       5Code
+C:   000002E4  A$5Code$1716                       5Code
+C:   000002E7  A$5Code$1717                       5Code
+C:   000002E9  A$5Code$1718                       5Code
+C:   000002EB  A$5Code$1719                       5Code
+C:   000002ED  A$5Code$1722                       5Code
+C:   000002ED  C$i2c.h$160$1$81                   5Code
+C:   000002F0  A$5Code$1723                       5Code
+C:   000002F3  A$5Code$1724                       5Code
+C:   000002F4  A$5Code$1725                       5Code
+C:   000002F7  A$5Code$1726                       5Code
+C:   000002F9  A$5Code$1727                       5Code
+C:   000002FB  A$5Code$1730                       5Code
+C:   000002FD  A$5Code$1734                       5Code
+C:   000002FD  C$i2c.h$166$3$84                   5Code
+C:   000002FF  A$5Code$1735                       5Code
+C:   00000301  A$5Code$1736                       5Code
+C:   00000303  A$5Code$1737                       5Code
+C:   00000306  A$5Code$1738                       5Code
+C:   00000308  A$5Code$1739                       5Code
+C:   0000030A  A$5Code$1740                       5Code
+C:   0000030C  A$5Code$1741                       5Code
+C:   0000030E  A$5Code$1742                       5Code
+C:   00000310  A$5Code$1743                       5Code
+C:   00000313  A$5Code$1744                       5Code
+C:   00000315  A$5Code$1746                       5Code
+C:   00000318  A$5Code$1748                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 37.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000031B  A$5Code$1749                       5Code
+C:   0000031C  A$5Code$1750                       5Code
+C:   0000031E  A$5Code$1751                       5Code
+C:   00000320  A$5Code$1752                       5Code
+C:   00000322  A$5Code$1753                       5Code
+C:   00000324  A$5Code$1754                       5Code
+C:   00000327  A$5Code$1755                       5Code
+C:   00000329  A$5Code$1756                       5Code
+C:   0000032B  A$5Code$1757                       5Code
+C:   0000032D  A$5Code$1758                       5Code
+C:   0000032F  A$5Code$1762                       5Code
+C:   0000032F  C$i2c.h$167$2$82                   5Code
+C:   00000332  A$5Code$1766                       5Code
+C:   00000332  C$i2c.h$169$3$83                   5Code
+C:   00000334  A$5Code$1767                       5Code
+C:   00000336  A$5Code$1768                       5Code
+C:   00000339  A$5Code$1769                       5Code
+C:   0000033B  A$5Code$1770                       5Code
+C:   0000033D  A$5Code$1771                       5Code
+C:   0000033F  A$5Code$1772                       5Code
+C:   00000342  A$5Code$1773                       5Code
+C:   00000345  A$5Code$1774                       5Code
+C:   00000346  A$5Code$1775                       5Code
+C:   00000348  A$5Code$1776                       5Code
+C:   0000034A  A$5Code$1777                       5Code
+C:   0000034C  A$5Code$1778                       5Code
+C:   0000034F  A$5Code$1779                       5Code
+C:   00000351  A$5Code$1780                       5Code
+C:   00000353  A$5Code$1781                       5Code
+C:   00000355  A$5Code$1785                       5Code
+C:   00000355  C$i2c.h$170$3$83                   5Code
+C:   00000357  A$5Code$1786                       5Code
+C:   00000359  A$5Code$1787                       5Code
+C:   0000035C  A$5Code$1791                       5Code
+C:   0000035C  C$i2c.h$174$3$84                   5Code
+C:   0000035D  A$5Code$1792                       5Code
+C:   0000035E  A$5Code$1793                       5Code
+C:   0000035F  A$5Code$1794                       5Code
+C:   00000361  A$5Code$1795                       5Code
+C:   00000362  A$5Code$1796                       5Code
+C:   00000364  A$5Code$1797                       5Code
+C:   00000366  A$5Code$1798                       5Code
+C:   00000368  A$5Code$1799                       5Code
+C:   0000036A  A$5Code$1800                       5Code
+C:   0000036C  A$5Code$1801                       5Code
+C:   0000036E  A$5Code$1802                       5Code
+C:   00000370  A$5Code$1803                       5Code
+C:   00000372  A$5Code$1804                       5Code
+C:   00000374  A$5Code$1805                       5Code
+C:   00000376  A$5Code$1806                       5Code
+C:   00000378  A$5Code$1807                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 38.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000037A  A$5Code$1808                       5Code
+C:   0000037C  A$5Code$1809                       5Code
+C:   0000037E  A$5Code$1810                       5Code
+C:   00000381  A$5Code$1811                       5Code
+C:   00000383  A$5Code$1812                       5Code
+C:   00000385  A$5Code$1813                       5Code
+C:   00000387  A$5Code$1814                       5Code
+C:   00000389  A$5Code$1815                       5Code
+C:   0000038B  A$5Code$1816                       5Code
+C:   0000038D  A$5Code$1817                       5Code
+C:   0000038F  A$5Code$1818                       5Code
+C:   00000391  A$5Code$1821                       5Code
+C:   00000391  C$i2c.h$175$1$81                   5Code
+C:   00000393  A$5Code$1822                       5Code
+C:   00000395  A$5Code$1823                       5Code
+C:   00000398  A$5Code$1824                       5Code
+C:   0000039A  A$5Code$1825                       5Code
+C:   0000039C  A$5Code$1826                       5Code
+C:   0000039E  A$5Code$1827                       5Code
+C:   000003A1  A$5Code$1828                       5Code
+C:   000003A3  A$5Code$1829                       5Code
+C:   000003A5  A$5Code$1830                       5Code
+C:   000003A7  A$5Code$1831                       5Code
+C:   000003A9  A$5Code$1832                       5Code
+C:   000003AB  A$5Code$1833                       5Code
+C:   000003AD  A$5Code$1834                       5Code
+C:   000003AE  A$5Code$1835                       5Code
+C:   000003AF  A$5Code$1836                       5Code
+C:   000003B0  A$5Code$1837                       5Code
+C:   000003B1  A$5Code$1838                       5Code
+C:   000003B2  A$5Code$1839                       5Code
+C:   000003B3  A$5Code$1840                       5Code
+C:   000003B4  A$5Code$1841                       5Code
+C:   000003B6  A$5Code$1842                       5Code
+C:   000003B7  A$5Code$1843                       5Code
+C:   000003B8  A$5Code$1844                       5Code
+C:   000003BA  A$5Code$1845                       5Code
+C:   000003BB  A$5Code$1849                       5Code
+C:   000003BB  C$i2c.h$176$3$84                   5Code
+C:   000003BD  A$5Code$1850                       5Code
+C:   000003BF  A$5Code$1851                       5Code
+C:   000003C1  A$5Code$1852                       5Code
+C:   000003C3  A$5Code$1853                       5Code
+C:   000003C6  A$5Code$1854                       5Code
+C:   000003C8  A$5Code$1855                       5Code
+C:   000003CA  A$5Code$1856                       5Code
+C:   000003CC  A$5Code$1857                       5Code
+C:   000003CE  A$5Code$1858                       5Code
+C:   000003D0  A$5Code$1859                       5Code
+C:   000003D1  A$5Code$1860                       5Code
+C:   000003D4  A$5Code$1861                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 39.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000003D7  A$5Code$1862                       5Code
+C:   000003D8  A$5Code$1863                       5Code
+C:   000003DA  A$5Code$1864                       5Code
+C:   000003DC  A$5Code$1865                       5Code
+C:   000003DE  A$5Code$1866                       5Code
+C:   000003E0  A$5Code$1867                       5Code
+C:   000003E2  A$5Code$1868                       5Code
+C:   000003E5  A$5Code$1869                       5Code
+C:   000003E7  A$5Code$1870                       5Code
+C:   000003E9  A$5Code$1871                       5Code
+C:   000003EB  A$5Code$1872                       5Code
+C:   000003ED  A$5Code$1873                       5Code
+C:   000003EF  A$5Code$1877                       5Code
+C:   000003EF  C$i2c.h$164$1$81                   5Code
+C:   000003F0  A$5Code$1878                       5Code
+C:   000003F1  A$5Code$1879                       5Code
+C:   000003F2  A$5Code$1880                       5Code
+C:   000003F4  A$5Code$1881                       5Code
+C:   000003F6  A$5Code$1882                       5Code
+C:   000003F8  A$5Code$1883                       5Code
+C:   000003FB  A$5Code$1887                       5Code
+C:   000003FB  C$i2c.h$179$1$81                   5Code
+C:   000003FD  A$5Code$1888                       5Code
+C:   000003FF  A$5Code$1892                       5Code
+C:   000003FF  C$i2c.h$180$1$81                   5Code
+C:   000003FF  XG$kpd_input$0$0                   5Code
+C:   00000400  A$5Code$1906                       5Code
+C:   00000400  C$i2c.h$189$1$81                   5Code
+C:   00000400  G$delay_time$0$0                   5Code
+C:   00000400  _delay_time                        5Code
+C:   00000402  A$5Code$1907                       5Code
+C:   00000404  A$5Code$1908                       5Code
+C:   00000406  A$5Code$1909                       5Code
+C:   00000407  A$5Code$1912                       5Code
+C:   00000407  C$i2c.h$192$1$86                   5Code
+C:   00000409  A$5Code$1913                       5Code
+C:   0000040B  A$5Code$1914                       5Code
+C:   0000040D  A$5Code$1915                       5Code
+C:   0000040F  A$5Code$1917                       5Code
+C:   00000410  A$5Code$1918                       5Code
+C:   00000411  A$5Code$1919                       5Code
+C:   00000412  A$5Code$1920                       5Code
+C:   00000413  A$5Code$1921                       5Code
+C:   00000414  A$5Code$1922                       5Code
+C:   00000415  A$5Code$1923                       5Code
+C:   00000416  A$5Code$1924                       5Code
+C:   00000417  A$5Code$1925                       5Code
+C:   00000418  A$5Code$1926                       5Code
+C:   0000041A  A$5Code$1927                       5Code
+C:   0000041B  A$5Code$1928                       5Code
+C:   0000041E  A$5Code$1929                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 40.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000041F  A$5Code$1930                       5Code
+C:   00000422  A$5Code$1931                       5Code
+C:   00000423  A$5Code$1932                       5Code
+C:   00000426  A$5Code$1933                       5Code
+C:   00000427  A$5Code$1935                       5Code
+C:   00000429  A$5Code$1939                       5Code
+C:   00000429  C$i2c.h$193$1$86                   5Code
+C:   00000429  XG$delay_time$0$0                  5Code
+C:   0000042A  A$5Code$1953                       5Code
+C:   0000042A  C$i2c.h$196$1$86                   5Code
+C:   0000042A  C$i2c.h$198$1$88                   5Code
+C:   0000042A  G$i2c_start$0$0                    5Code
+C:   0000042A  _i2c_start                         5Code
+C:   0000042D  A$5Code$1956                       5Code
+C:   0000042D  C$i2c.h$199$1$88                   5Code
+C:   0000042F  A$5Code$1960                       5Code
+C:   0000042F  C$i2c.h$200$1$88                   5Code
+C:   00000432  A$5Code$1963                       5Code
+C:   00000432  C$i2c.h$201$1$88                   5Code
+C:   00000434  A$5Code$1966                       5Code
+C:   00000434  C$i2c.h$202$1$88                   5Code
+C:   00000436  A$5Code$1969                       5Code
+C:   00000436  C$i2c.h$203$1$88                   5Code
+C:   00000436  XG$i2c_start$0$0                   5Code
+C:   00000437  A$5Code$1982                       5Code
+C:   00000437  C$i2c.h$206$1$88                   5Code
+C:   00000437  G$i2c_write$0$0                    5Code
+C:   00000437  _i2c_write                         5Code
+C:   0000043A  A$5Code$1988                       5Code
+C:   0000043A  C$i2c.h$209$1$90                   5Code
+C:   0000043A  C$i2c.h$210$1$90                   5Code
+C:   0000043D  A$5Code$1989                       5Code
+C:   0000043F  A$5Code$1993                       5Code
+C:   0000043F  C$i2c.h$211$1$90                   5Code
+C:   0000043F  XG$i2c_write$0$0                   5Code
+C:   00000440  A$5Code$2006                       5Code
+C:   00000440  C$i2c.h$214$1$90                   5Code
+C:   00000440  G$i2c_write_and_stop$0$0           5Code
+C:   00000440  _i2c_write_and_stop                5Code
+C:   00000443  A$5Code$2009                       5Code
+C:   00000443  C$i2c.h$217$1$92                   5Code
+C:   00000445  A$5Code$2015                       5Code
+C:   00000445  C$i2c.h$218$1$92                   5Code
+C:   00000445  C$i2c.h$219$1$92                   5Code
+C:   00000448  A$5Code$2016                       5Code
+C:   0000044A  A$5Code$2020                       5Code
+C:   0000044A  C$i2c.h$220$1$92                   5Code
+C:   0000044A  XG$i2c_write_and_stop$0$0          5Code
+C:   0000044B  A$5Code$2036                       5Code
+C:   0000044B  C$i2c.h$223$1$92                   5Code
+C:   0000044B  C$i2c.h$226$1$94                   5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 41.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000044B  G$i2c_read$0$0                     5Code
+C:   0000044B  _i2c_read                          5Code
+C:   0000044E  A$5Code$2039                       5Code
+C:   0000044E  C$i2c.h$227$1$94                   5Code
+C:   00000451  A$5Code$2042                       5Code
+C:   00000451  C$i2c.h$228$1$94                   5Code
+C:   00000453  A$5Code$2047                       5Code
+C:   00000453  C$i2c.h$229$1$94                   5Code
+C:   00000453  C$i2c.h$230$1$94                   5Code
+C:   00000453  XG$i2c_read$0$0                    5Code
+C:   00000454  A$5Code$2063                       5Code
+C:   00000454  C$i2c.h$233$1$94                   5Code
+C:   00000454  C$i2c.h$236$1$96                   5Code
+C:   00000454  G$i2c_read_and_stop$0$0            5Code
+C:   00000454  _i2c_read_and_stop                 5Code
+C:   00000457  A$5Code$2066                       5Code
+C:   00000457  C$i2c.h$237$1$96                   5Code
+C:   00000459  A$5Code$2069                       5Code
+C:   00000459  C$i2c.h$238$1$96                   5Code
+C:   0000045B  A$5Code$2072                       5Code
+C:   0000045B  C$i2c.h$239$1$96                   5Code
+C:   0000045D  A$5Code$2078                       5Code
+C:   0000045D  C$i2c.h$240$1$96                   5Code
+C:   0000045D  C$i2c.h$241$1$96                   5Code
+C:   00000460  A$5Code$2079                       5Code
+C:   00000462  A$5Code$2083                       5Code
+C:   00000462  C$i2c.h$242$1$96                   5Code
+C:   00000464  A$5Code$2086                       5Code
+C:   00000464  C$i2c.h$243$1$96                   5Code
+C:   00000464  XG$i2c_read_and_stop$0$0           5Code
+C:   00000465  A$5Code$2103                       5Code
+C:   00000465  C$i2c.h$246$1$96                   5Code
+C:   00000465  G$i2c_write_data$0$0               5Code
+C:   00000465  _i2c_write_data                    5Code
+C:   00000467  A$5Code$2106                       5Code
+C:   00000467  C$i2c.h$250$1$98                   5Code
+C:   00000469  A$5Code$2107                       5Code
+C:   0000046C  A$5Code$2108                       5Code
+C:   0000046E  A$5Code$2111                       5Code
+C:   0000046E  C$i2c.h$251$1$98                   5Code
+C:   00000470  A$5Code$2112                       5Code
+C:   00000471  A$5Code$2113                       5Code
+C:   00000473  A$5Code$2114                       5Code
+C:   00000476  A$5Code$2117                       5Code
+C:   00000476  C$i2c.h$252$1$98                   5Code
+C:   00000479  A$5Code$2118                       5Code
+C:   0000047C  A$5Code$2121                       5Code
+C:   0000047E  A$5Code$2123                       5Code
+C:   00000480  A$5Code$2124                       5Code
+C:   00000482  A$5Code$2125                       5Code
+C:   00000483  A$5Code$2126                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 42.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000486  A$5Code$2127                       5Code
+C:   00000487  A$5Code$2129                       5Code
+C:   00000489  A$5Code$2130                       5Code
+C:   0000048B  A$5Code$2131                       5Code
+C:   0000048C  A$5Code$2132                       5Code
+C:   0000048D  A$5Code$2133                       5Code
+C:   0000048E  A$5Code$2134                       5Code
+C:   0000048F  A$5Code$2135                       5Code
+C:   00000491  A$5Code$2136                       5Code
+C:   00000493  A$5Code$2137                       5Code
+C:   00000496  A$5Code$2138                       5Code
+C:   00000498  A$5Code$2139                       5Code
+C:   0000049A  A$5Code$2142                       5Code
+C:   0000049A  C$i2c.h$254$1$98                   5Code
+C:   0000049B  A$5Code$2143                       5Code
+C:   0000049D  A$5Code$2144                       5Code
+C:   0000049E  A$5Code$2145                       5Code
+C:   0000049F  A$5Code$2146                       5Code
+C:   000004A1  A$5Code$2147                       5Code
+C:   000004A2  A$5Code$2148                       5Code
+C:   000004A4  A$5Code$2149                       5Code
+C:   000004A6  A$5Code$2150                       5Code
+C:   000004A8  A$5Code$2151                       5Code
+C:   000004AA  A$5Code$2152                       5Code
+C:   000004AD  A$5Code$2153                       5Code
+C:   000004AF  A$5Code$2154                       5Code
+C:   000004B1  A$5Code$2155                       5Code
+C:   000004B4  A$5Code$2156                       5Code
+C:   000004B6  A$5Code$2159                       5Code
+C:   000004B6  C$i2c.h$253$1$98                   5Code
+C:   000004B7  A$5Code$2160                       5Code
+C:   000004B9  A$5Code$2164                       5Code
+C:   000004B9  C$i2c.h$255$1$98                   5Code
+C:   000004BB  A$5Code$2165                       5Code
+C:   000004BD  A$5Code$2166                       5Code
+C:   000004BE  A$5Code$2167                       5Code
+C:   000004C1  A$5Code$2168                       5Code
+C:   000004C2  A$5Code$2170                       5Code
+C:   000004C3  A$5Code$2171                       5Code
+C:   000004C5  A$5Code$2172                       5Code
+C:   000004C6  A$5Code$2173                       5Code
+C:   000004C7  A$5Code$2174                       5Code
+C:   000004C9  A$5Code$2175                       5Code
+C:   000004CA  A$5Code$2176                       5Code
+C:   000004CC  A$5Code$2177                       5Code
+C:   000004CE  A$5Code$2178                       5Code
+C:   000004D0  A$5Code$2179                       5Code
+C:   000004D2  A$5Code$2180                       5Code
+C:   000004D5  A$5Code$2181                       5Code
+C:   000004D7  A$5Code$2182                       5Code
+C:   000004DA  A$5Code$2185                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 43.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000004DA  C$i2c.h$256$1$98                   5Code
+C:   000004DA  XG$i2c_write_data$0$0              5Code
+C:   000004DB  A$5Code$2202                       5Code
+C:   000004DB  C$i2c.h$259$1$98                   5Code
+C:   000004DB  G$i2c_read_data$0$0                5Code
+C:   000004DB  _i2c_read_data                     5Code
+C:   000004DD  A$5Code$2205                       5Code
+C:   000004DD  C$i2c.h$262$1$100                  5Code
+C:   000004DF  A$5Code$2206                       5Code
+C:   000004E2  A$5Code$2207                       5Code
+C:   000004E4  A$5Code$2210                       5Code
+C:   000004E4  C$i2c.h$263$1$100                  5Code
+C:   000004E6  A$5Code$2211                       5Code
+C:   000004E8  A$5Code$2212                       5Code
+C:   000004E9  A$5Code$2213                       5Code
+C:   000004EB  A$5Code$2214                       5Code
+C:   000004ED  A$5Code$2215                       5Code
+C:   000004F0  A$5Code$2218                       5Code
+C:   000004F0  C$i2c.h$264$1$100                  5Code
+C:   000004F3  A$5Code$2219                       5Code
+C:   000004F6  A$5Code$2222                       5Code
+C:   000004F6  C$i2c.h$265$1$100                  5Code
+C:   000004F9  A$5Code$2223                       5Code
+C:   000004FB  A$5Code$2226                       5Code
+C:   000004FB  C$i2c.h$266$1$100                  5Code
+C:   000004FD  A$5Code$2227                       5Code
+C:   000004FE  A$5Code$2228                       5Code
+C:   00000500  A$5Code$2229                       5Code
+C:   00000503  A$5Code$2232                       5Code
+C:   00000505  A$5Code$2234                       5Code
+C:   00000507  A$5Code$2235                       5Code
+C:   00000509  A$5Code$2236                       5Code
+C:   0000050A  A$5Code$2237                       5Code
+C:   0000050D  A$5Code$2238                       5Code
+C:   0000050E  A$5Code$2240                       5Code
+C:   00000510  A$5Code$2241                       5Code
+C:   00000512  A$5Code$2242                       5Code
+C:   00000513  A$5Code$2243                       5Code
+C:   00000514  A$5Code$2244                       5Code
+C:   00000515  A$5Code$2245                       5Code
+C:   00000516  A$5Code$2246                       5Code
+C:   00000518  A$5Code$2247                       5Code
+C:   0000051A  A$5Code$2248                       5Code
+C:   0000051D  A$5Code$2249                       5Code
+C:   0000051F  A$5Code$2250                       5Code
+C:   00000521  A$5Code$2253                       5Code
+C:   00000521  C$i2c.h$269$2$101                  5Code
+C:   00000523  A$5Code$2256                       5Code
+C:   00000523  C$i2c.h$270$2$101                  5Code
+C:   00000524  A$5Code$2257                       5Code
+C:   00000526  A$5Code$2258                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 44.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000527  A$5Code$2259                       5Code
+C:   00000528  A$5Code$2260                       5Code
+C:   0000052A  A$5Code$2261                       5Code
+C:   0000052B  A$5Code$2262                       5Code
+C:   0000052D  A$5Code$2263                       5Code
+C:   0000052F  A$5Code$2264                       5Code
+C:   00000531  A$5Code$2265                       5Code
+C:   00000533  A$5Code$2266                       5Code
+C:   00000535  A$5Code$2267                       5Code
+C:   00000538  A$5Code$2268                       5Code
+C:   0000053A  A$5Code$2269                       5Code
+C:   0000053C  A$5Code$2270                       5Code
+C:   0000053E  A$5Code$2271                       5Code
+C:   00000540  A$5Code$2272                       5Code
+C:   00000542  A$5Code$2273                       5Code
+C:   00000544  A$5Code$2274                       5Code
+C:   00000546  A$5Code$2275                       5Code
+C:   00000548  A$5Code$2276                       5Code
+C:   00000549  A$5Code$2277                       5Code
+C:   0000054C  A$5Code$2280                       5Code
+C:   0000054C  C$i2c.h$267$1$100                  5Code
+C:   0000054D  A$5Code$2281                       5Code
+C:   0000054F  A$5Code$2285                       5Code
+C:   0000054F  C$i2c.h$272$1$100                  5Code
+C:   00000551  A$5Code$2288                       5Code
+C:   00000551  C$i2c.h$273$1$100                  5Code
+C:   00000553  A$5Code$2289                       5Code
+C:   00000555  A$5Code$2290                       5Code
+C:   00000556  A$5Code$2291                       5Code
+C:   00000559  A$5Code$2292                       5Code
+C:   0000055A  A$5Code$2294                       5Code
+C:   0000055B  A$5Code$2295                       5Code
+C:   0000055D  A$5Code$2296                       5Code
+C:   0000055E  A$5Code$2297                       5Code
+C:   0000055F  A$5Code$2298                       5Code
+C:   00000561  A$5Code$2299                       5Code
+C:   00000562  A$5Code$2300                       5Code
+C:   00000564  A$5Code$2301                       5Code
+C:   00000566  A$5Code$2302                       5Code
+C:   00000568  A$5Code$2303                       5Code
+C:   0000056A  A$5Code$2304                       5Code
+C:   0000056D  A$5Code$2305                       5Code
+C:   0000056F  A$5Code$2306                       5Code
+C:   00000571  A$5Code$2307                       5Code
+C:   00000573  A$5Code$2308                       5Code
+C:   00000575  A$5Code$2309                       5Code
+C:   00000577  A$5Code$2310                       5Code
+C:   00000579  A$5Code$2311                       5Code
+C:   0000057B  A$5Code$2312                       5Code
+C:   0000057C  A$5Code$2313                       5Code
+C:   0000057F  A$5Code$2316                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 45.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000057F  C$i2c.h$274$1$100                  5Code
+C:   0000057F  XG$i2c_read_data$0$0               5Code
+C:   00000580  A$5Code$2331                       5Code
+C:   00000580  C$i2c.h$283$1$100                  5Code
+C:   00000580  C$i2c.h$287$1$103                  5Code
+C:   00000580  G$Accel_Init$0$0                   5Code
+C:   00000580  _Accel_Init                        5Code
+C:   00000583  A$5Code$2334                       5Code
+C:   00000583  C$i2c.h$289$1$103                  5Code
+C:   00000586  A$5Code$2335                       5Code
+C:   00000589  A$5Code$2336                       5Code
+C:   0000058C  A$5Code$2337                       5Code
+C:   0000058F  A$5Code$2338                       5Code
+C:   00000592  A$5Code$2339                       5Code
+C:   00000595  A$5Code$2340                       5Code
+C:   00000598  A$5Code$2343                       5Code
+C:   00000598  C$i2c.h$290$1$103                  5Code
+C:   0000059B  A$5Code$2346                       5Code
+C:   0000059B  C$i2c.h$292$1$103                  5Code
+C:   0000059E  A$5Code$2347                       5Code
+C:   000005A1  A$5Code$2348                       5Code
+C:   000005A4  A$5Code$2349                       5Code
+C:   000005A7  A$5Code$2350                       5Code
+C:   000005AA  A$5Code$2351                       5Code
+C:   000005AD  A$5Code$2352                       5Code
+C:   000005B0  A$5Code$2355                       5Code
+C:   000005B0  C$i2c.h$293$1$103                  5Code
+C:   000005B3  A$5Code$2358                       5Code
+C:   000005B3  C$i2c.h$294$1$103                  5Code
+C:   000005B6  A$5Code$2359                       5Code
+C:   000005B9  A$5Code$2360                       5Code
+C:   000005BC  A$5Code$2361                       5Code
+C:   000005BF  A$5Code$2362                       5Code
+C:   000005C2  A$5Code$2363                       5Code
+C:   000005C5  A$5Code$2364                       5Code
+C:   000005C8  A$5Code$2367                       5Code
+C:   000005C8  C$i2c.h$298$1$103                  5Code
+C:   000005C8  XG$Accel_Init$0$0                  5Code
+C:   000005C9  A$5Code$2390                       5Code
+C:   000005C9  C$5Code.c$58$1$103                 5Code
+C:   000005C9  C$5Code.c$65$1$103                 5Code
+C:   000005C9  G$main$0$0                         5Code
+C:   000005C9  _main                              5Code
+C:   000005CB  A$5Code$2397                       5Code
+C:   000005CB  C$5Code.c$67$1$103                 5Code
+C:   000005CB  C$5Code.c$68$1$103                 5Code
+C:   000005CB  C$5Code.c$69$1$103                 5Code
+C:   000005CC  A$5Code$2398                       5Code
+C:   000005CD  A$5Code$2399                       5Code
+C:   000005CE  A$5Code$2400                       5Code
+C:   000005CF  A$5Code$2401                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 46.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000005D0  A$5Code$2402                       5Code
+C:   000005D1  A$5Code$2403                       5Code
+C:   000005D3  A$5Code$2404                       5Code
+C:   000005D5  A$5Code$2407                       5Code
+C:   000005D5  C$5Code.c$71$1$116                 5Code
+C:   000005D7  A$5Code$2408                       5Code
+C:   000005D9  A$5Code$2409                       5Code
+C:   000005DB  A$5Code$2410                       5Code
+C:   000005DD  A$5Code$2411                       5Code
+C:   000005DF  A$5Code$2412                       5Code
+C:   000005E1  A$5Code$2413                       5Code
+C:   000005E4  A$5Code$2416                       5Code
+C:   000005E4  C$5Code.c$72$1$116                 5Code
+C:   000005E7  A$5Code$2417                       5Code
+C:   000005EA  A$5Code$2420                       5Code
+C:   000005EA  C$5Code.c$73$1$116                 5Code
+C:   000005ED  A$5Code$2423                       5Code
+C:   000005ED  C$5Code.c$74$1$116                 5Code
+C:   000005F0  A$5Code$2426                       5Code
+C:   000005F0  C$5Code.c$75$1$116                 5Code
+C:   000005F3  A$5Code$2429                       5Code
+C:   000005F3  C$5Code.c$76$1$116                 5Code
+C:   000005F6  A$5Code$2432                       5Code
+C:   000005F6  C$5Code.c$77$1$116                 5Code
+C:   000005F9  A$5Code$2435                       5Code
+C:   000005F9  C$5Code.c$78$1$116                 5Code
+C:   000005FC  A$5Code$2438                       5Code
+C:   000005FC  C$5Code.c$81$1$116                 5Code
+C:   000005FF  A$5Code$2439                       5Code
+C:   00000602  A$5Code$2440                       5Code
+C:   00000605  A$5Code$2443                       5Code
+C:   00000605  C$5Code.c$82$1$116                 5Code
+C:   00000608  A$5Code$2444                       5Code
+C:   0000060B  A$5Code$2445                       5Code
+C:   0000060E  A$5Code$2448                       5Code
+C:   0000060E  C$5Code.c$83$1$116                 5Code
+C:   00000611  A$5Code$2449                       5Code
+C:   00000614  A$5Code$2450                       5Code
+C:   00000617  A$5Code$2453                       5Code
+C:   00000617  C$5Code.c$86$1$116                 5Code
+C:   0000061A  A$5Code$2456                       5Code
+C:   0000061A  C$5Code.c$87$1$116                 5Code
+C:   0000061C  A$5Code$2457                       5Code
+C:   0000061E  A$5Code$2458                       5Code
+C:   00000620  A$5Code$2459                       5Code
+C:   00000622  A$5Code$2460                       5Code
+C:   00000624  A$5Code$2461                       5Code
+C:   00000626  A$5Code$2462                       5Code
+C:   00000629  A$5Code$2463                       5Code
+C:   0000062B  A$5Code$2464                       5Code
+C:   0000062D  A$5Code$2465                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 47.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000062F  A$5Code$2468                       5Code
+C:   0000062F  C$5Code.c$88$1$116                 5Code
+C:   00000631  A$5Code$2469                       5Code
+C:   00000633  A$5Code$2470                       5Code
+C:   00000635  A$5Code$2471                       5Code
+C:   00000637  A$5Code$2472                       5Code
+C:   00000639  A$5Code$2473                       5Code
+C:   0000063B  A$5Code$2474                       5Code
+C:   0000063E  A$5Code$2475                       5Code
+C:   00000640  A$5Code$2476                       5Code
+C:   00000642  A$5Code$2477                       5Code
+C:   00000644  A$5Code$2480                       5Code
+C:   00000644  C$5Code.c$89$1$116                 5Code
+C:   00000646  A$5Code$2481                       5Code
+C:   00000648  A$5Code$2482                       5Code
+C:   0000064A  A$5Code$2483                       5Code
+C:   0000064C  A$5Code$2484                       5Code
+C:   0000064E  A$5Code$2485                       5Code
+C:   00000650  A$5Code$2486                       5Code
+C:   00000653  A$5Code$2487                       5Code
+C:   00000655  A$5Code$2488                       5Code
+C:   00000657  A$5Code$2489                       5Code
+C:   00000659  A$5Code$2490                       5Code
+C:   0000065B  A$5Code$2491                       5Code
+C:   0000065D  A$5Code$2492                       5Code
+C:   0000065F  A$5Code$2493                       5Code
+C:   00000661  A$5Code$2494                       5Code
+C:   00000663  A$5Code$2495                       5Code
+C:   00000665  A$5Code$2499                       5Code
+C:   00000665  C$5Code.c$91$1$116                 5Code
+C:   00000667  A$5Code$2500                       5Code
+C:   00000669  A$5Code$2501                       5Code
+C:   0000066B  A$5Code$2502                       5Code
+C:   0000066D  A$5Code$2503                       5Code
+C:   0000066F  A$5Code$2504                       5Code
+C:   00000671  A$5Code$2505                       5Code
+C:   00000674  A$5Code$2506                       5Code
+C:   00000676  A$5Code$2507                       5Code
+C:   00000678  A$5Code$2508                       5Code
+C:   0000067A  A$5Code$2509                       5Code
+C:   0000067C  A$5Code$2510                       5Code
+C:   0000067E  A$5Code$2511                       5Code
+C:   00000680  A$5Code$2512                       5Code
+C:   00000682  A$5Code$2513                       5Code
+C:   00000685  A$5Code$2516                       5Code
+C:   00000685  C$5Code.c$93$3$118                 5Code
+C:   00000687  A$5Code$2517                       5Code
+C:   00000689  A$5Code$2519                       5Code
+C:   0000068A  A$5Code$2520                       5Code
+C:   0000068C  A$5Code$2521                       5Code
+C:   0000068E  A$5Code$2522                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 48.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000690  A$5Code$2523                       5Code
+C:   00000692  A$5Code$2524                       5Code
+C:   00000694  A$5Code$2525                       5Code
+C:   00000697  A$5Code$2529                       5Code
+C:   00000697  C$5Code.c$95$1$116                 5Code
+C:   0000069A  A$5Code$2530                       5Code
+C:   0000069D  A$5Code$2531                       5Code
+C:   000006A0  A$5Code$2532                       5Code
+C:   000006A3  A$5Code$2533                       5Code
+C:   000006A5  A$5Code$2534                       5Code
+C:   000006A7  A$5Code$2535                       5Code
+C:   000006A9  A$5Code$2536                       5Code
+C:   000006AB  A$5Code$2537                       5Code
+C:   000006AD  A$5Code$2538                       5Code
+C:   000006AF  A$5Code$2539                       5Code
+C:   000006B1  A$5Code$2540                       5Code
+C:   000006B3  A$5Code$2541                       5Code
+C:   000006B6  A$5Code$2542                       5Code
+C:   000006B8  A$5Code$2543                       5Code
+C:   000006BB  A$5Code$2544                       5Code
+C:   000006BD  A$5Code$2545                       5Code
+C:   000006BF  A$5Code$2546                       5Code
+C:   000006C1  A$5Code$2547                       5Code
+C:   000006C3  A$5Code$2548                       5Code
+C:   000006C5  A$5Code$2549                       5Code
+C:   000006C7  A$5Code$2550                       5Code
+C:   000006C9  A$5Code$2551                       5Code
+C:   000006CB  A$5Code$2552                       5Code
+C:   000006CD  A$5Code$2553                       5Code
+C:   000006CF  A$5Code$2556                       5Code
+C:   000006CF  C$5Code.c$97$3$118                 5Code
+C:   000006D1  A$5Code$2557                       5Code
+C:   000006D3  A$5Code$2558                       5Code
+C:   000006D5  A$5Code$2559                       5Code
+C:   000006D7  A$5Code$2560                       5Code
+C:   000006D9  A$5Code$2561                       5Code
+C:   000006DB  A$5Code$2562                       5Code
+C:   000006DD  A$5Code$2563                       5Code
+C:   000006DF  A$5Code$2564                       5Code
+C:   000006E2  A$5Code$2567                       5Code
+C:   000006E2  C$5Code.c$98$3$118                 5Code
+C:   000006E4  A$5Code$2568                       5Code
+C:   000006E6  A$5Code$2569                       5Code
+C:   000006E8  A$5Code$2570                       5Code
+C:   000006EA  A$5Code$2571                       5Code
+C:   000006EC  A$5Code$2572                       5Code
+C:   000006EE  A$5Code$2573                       5Code
+C:   000006F1  A$5Code$2574                       5Code
+C:   000006F3  A$5Code$2575                       5Code
+C:   000006F5  A$5Code$2576                       5Code
+C:   000006F7  A$5Code$2577                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 49.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000006F9  A$5Code$2578                       5Code
+C:   000006FB  A$5Code$2579                       5Code
+C:   000006FD  A$5Code$2580                       5Code
+C:   000006FF  A$5Code$2581                       5Code
+C:   00000701  A$5Code$2582                       5Code
+C:   00000703  A$5Code$2583                       5Code
+C:   00000705  A$5Code$2584                       5Code
+C:   00000707  A$5Code$2587                       5Code
+C:   00000707  C$5Code.c$100$3$118                5Code
+C:   0000070A  A$5Code$2588                       5Code
+C:   0000070D  A$5Code$2591                       5Code
+C:   0000070D  C$5Code.c$102$4$119                5Code
+C:   0000070F  A$5Code$2592                       5Code
+C:   00000711  A$5Code$2593                       5Code
+C:   00000713  A$5Code$2594                       5Code
+C:   00000715  A$5Code$2595                       5Code
+C:   00000717  A$5Code$2596                       5Code
+C:   00000719  A$5Code$2597                       5Code
+C:   0000071B  A$5Code$2598                       5Code
+C:   0000071D  A$5Code$2599                       5Code
+C:   0000071F  A$5Code$2600                       5Code
+C:   00000721  A$5Code$2601                       5Code
+C:   00000723  A$5Code$2602                       5Code
+C:   00000725  A$5Code$2603                       5Code
+C:   00000728  A$5Code$2604                       5Code
+C:   0000072A  A$5Code$2605                       5Code
+C:   0000072C  A$5Code$2606                       5Code
+C:   0000072E  A$5Code$2607                       5Code
+C:   00000730  A$5Code$2608                       5Code
+C:   00000732  A$5Code$2609                       5Code
+C:   00000734  A$5Code$2610                       5Code
+C:   00000736  A$5Code$2611                       5Code
+C:   00000738  A$5Code$2612                       5Code
+C:   0000073A  A$5Code$2615                       5Code
+C:   0000073A  C$5Code.c$103$4$119                5Code
+C:   0000073C  A$5Code$2616                       5Code
+C:   0000073E  A$5Code$2617                       5Code
+C:   00000741  A$5Code$2621                       5Code
+C:   00000741  C$5Code.c$105$3$118                5Code
+C:   00000744  A$5Code$2622                       5Code
+C:   00000747  A$5Code$2625                       5Code
+C:   00000747  C$5Code.c$107$4$120                5Code
+C:   00000749  A$5Code$2626                       5Code
+C:   0000074B  A$5Code$2627                       5Code
+C:   0000074D  A$5Code$2628                       5Code
+C:   0000074F  A$5Code$2629                       5Code
+C:   00000751  A$5Code$2630                       5Code
+C:   00000753  A$5Code$2631                       5Code
+C:   00000755  A$5Code$2632                       5Code
+C:   00000757  A$5Code$2633                       5Code
+C:   00000759  A$5Code$2634                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 50.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000075B  A$5Code$2635                       5Code
+C:   0000075D  A$5Code$2636                       5Code
+C:   0000075F  A$5Code$2637                       5Code
+C:   00000762  A$5Code$2638                       5Code
+C:   00000764  A$5Code$2639                       5Code
+C:   00000766  A$5Code$2640                       5Code
+C:   00000768  A$5Code$2641                       5Code
+C:   0000076A  A$5Code$2642                       5Code
+C:   0000076C  A$5Code$2643                       5Code
+C:   0000076E  A$5Code$2644                       5Code
+C:   00000770  A$5Code$2645                       5Code
+C:   00000772  A$5Code$2646                       5Code
+C:   00000774  A$5Code$2649                       5Code
+C:   00000774  C$5Code.c$108$4$120                5Code
+C:   00000776  A$5Code$2650                       5Code
+C:   00000778  A$5Code$2651                       5Code
+C:   0000077A  A$5Code$2655                       5Code
+C:   0000077A  C$5Code.c$110$3$118                5Code
+C:   0000077D  A$5Code$2656                       5Code
+C:   00000780  A$5Code$2659                       5Code
+C:   00000780  C$5Code.c$112$4$121                5Code
+C:   00000782  A$5Code$2660                       5Code
+C:   00000784  A$5Code$2661                       5Code
+C:   00000786  A$5Code$2662                       5Code
+C:   00000788  A$5Code$2663                       5Code
+C:   0000078A  A$5Code$2664                       5Code
+C:   0000078C  A$5Code$2665                       5Code
+C:   0000078E  A$5Code$2666                       5Code
+C:   00000790  A$5Code$2667                       5Code
+C:   00000792  A$5Code$2668                       5Code
+C:   00000794  A$5Code$2669                       5Code
+C:   00000796  A$5Code$2670                       5Code
+C:   00000798  A$5Code$2671                       5Code
+C:   0000079B  A$5Code$2672                       5Code
+C:   0000079D  A$5Code$2673                       5Code
+C:   0000079F  A$5Code$2674                       5Code
+C:   000007A1  A$5Code$2675                       5Code
+C:   000007A3  A$5Code$2676                       5Code
+C:   000007A5  A$5Code$2677                       5Code
+C:   000007A7  A$5Code$2678                       5Code
+C:   000007A9  A$5Code$2679                       5Code
+C:   000007AB  A$5Code$2680                       5Code
+C:   000007AD  A$5Code$2683                       5Code
+C:   000007AD  C$5Code.c$113$4$121                5Code
+C:   000007AF  A$5Code$2684                       5Code
+C:   000007B1  A$5Code$2685                       5Code
+C:   000007B3  A$5Code$2689                       5Code
+C:   000007B3  C$5Code.c$117$4$122                5Code
+C:   000007B5  A$5Code$2690                       5Code
+C:   000007B7  A$5Code$2691                       5Code
+C:   000007B9  A$5Code$2692                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 51.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000007BB  A$5Code$2693                       5Code
+C:   000007BD  A$5Code$2694                       5Code
+C:   000007BF  A$5Code$2695                       5Code
+C:   000007C1  A$5Code$2696                       5Code
+C:   000007C3  A$5Code$2697                       5Code
+C:   000007C5  A$5Code$2698                       5Code
+C:   000007C7  A$5Code$2699                       5Code
+C:   000007C9  A$5Code$2700                       5Code
+C:   000007CB  A$5Code$2701                       5Code
+C:   000007CE  A$5Code$2702                       5Code
+C:   000007D0  A$5Code$2703                       5Code
+C:   000007D2  A$5Code$2704                       5Code
+C:   000007D4  A$5Code$2705                       5Code
+C:   000007D6  A$5Code$2706                       5Code
+C:   000007D8  A$5Code$2707                       5Code
+C:   000007DA  A$5Code$2708                       5Code
+C:   000007DC  A$5Code$2709                       5Code
+C:   000007DE  A$5Code$2710                       5Code
+C:   000007E0  A$5Code$2713                       5Code
+C:   000007E0  C$5Code.c$118$4$122                5Code
+C:   000007E2  A$5Code$2714                       5Code
+C:   000007E4  A$5Code$2718                       5Code
+C:   000007E4  C$5Code.c$121$3$118                5Code
+C:   000007E6  A$5Code$2719                       5Code
+C:   000007E8  A$5Code$2720                       5Code
+C:   000007EA  A$5Code$2721                       5Code
+C:   000007EC  A$5Code$2722                       5Code
+C:   000007EE  A$5Code$2723                       5Code
+C:   000007F0  A$5Code$2724                       5Code
+C:   000007F2  A$5Code$2725                       5Code
+C:   000007F4  A$5Code$2726                       5Code
+C:   000007F7  A$5Code$2727                       5Code
+C:   000007F9  A$5Code$2728                       5Code
+C:   000007FB  A$5Code$2729                       5Code
+C:   000007FD  A$5Code$2730                       5Code
+C:   000007FF  A$5Code$2731                       5Code
+C:   00000801  A$5Code$2732                       5Code
+C:   00000803  A$5Code$2733                       5Code
+C:   00000805  A$5Code$2734                       5Code
+C:   00000807  A$5Code$2737                       5Code
+C:   00000807  C$5Code.c$122$3$118                5Code
+C:   00000809  A$5Code$2738                       5Code
+C:   0000080A  A$5Code$2739                       5Code
+C:   0000080B  A$5Code$2740                       5Code
+C:   0000080D  A$5Code$2741                       5Code
+C:   0000080E  A$5Code$2742                       5Code
+C:   0000080F  A$5Code$2745                       5Code
+C:   0000080F  C$5Code.c$123$3$118                5Code
+C:   00000811  A$5Code$2746                       5Code
+C:   00000812  A$5Code$2747                       5Code
+C:   00000813  A$5Code$2748                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 52.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000815  A$5Code$2749                       5Code
+C:   00000816  A$5Code$2750                       5Code
+C:   00000817  A$5Code$2753                       5Code
+C:   00000817  C$5Code.c$124$3$118                5Code
+C:   00000818  A$5Code$2754                       5Code
+C:   0000081B  A$5Code$2755                       5Code
+C:   0000081C  A$5Code$2757                       5Code
+C:   0000081F  A$5Code$2759                       5Code
+C:   00000821  A$5Code$2760                       5Code
+C:   00000823  A$5Code$2763                       5Code
+C:   00000823  C$5Code.c$128$1$116                5Code
+C:   00000825  A$5Code$2764                       5Code
+C:   00000827  A$5Code$2765                       5Code
+C:   0000082A  A$5Code$2766                       5Code
+C:   0000082D  A$5Code$2767                       5Code
+C:   0000082F  A$5Code$2768                       5Code
+C:   00000831  A$5Code$2769                       5Code
+C:   00000834  A$5Code$2770                       5Code
+C:   00000837  A$5Code$2771                       5Code
+C:   0000083A  A$5Code$2772                       5Code
+C:   0000083C  A$5Code$2773                       5Code
+C:   0000083E  A$5Code$2776                       5Code
+C:   0000083E  C$5Code.c$129$1$116                5Code
+C:   00000840  A$5Code$2777                       5Code
+C:   00000842  A$5Code$2778                       5Code
+C:   00000845  A$5Code$2779                       5Code
+C:   00000848  A$5Code$2780                       5Code
+C:   0000084B  A$5Code$2781                       5Code
+C:   0000084E  A$5Code$2782                       5Code
+C:   00000851  A$5Code$2785                       5Code
+C:   00000851  C$5Code.c$131$1$116                5Code
+C:   00000853  A$5Code$2786                       5Code
+C:   00000855  A$5Code$2787                       5Code
+C:   00000857  A$5Code$2788                       5Code
+C:   00000859  A$5Code$2789                       5Code
+C:   0000085B  A$5Code$2790                       5Code
+C:   0000085D  A$5Code$2791                       5Code
+C:   0000085F  A$5Code$2792                       5Code
+C:   00000861  A$5Code$2793                       5Code
+C:   00000864  A$5Code$2794                       5Code
+C:   00000866  A$5Code$2795                       5Code
+C:   00000868  A$5Code$2796                       5Code
+C:   0000086A  A$5Code$2799                       5Code
+C:   0000086A  C$5Code.c$132$1$116                5Code
+C:   0000086C  A$5Code$2800                       5Code
+C:   0000086E  A$5Code$2801                       5Code
+C:   00000870  A$5Code$2802                       5Code
+C:   00000872  A$5Code$2803                       5Code
+C:   00000874  A$5Code$2804                       5Code
+C:   00000876  A$5Code$2805                       5Code
+C:   00000878  A$5Code$2806                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 53.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000087A  A$5Code$2807                       5Code
+C:   0000087D  A$5Code$2808                       5Code
+C:   0000087F  A$5Code$2809                       5Code
+C:   00000881  A$5Code$2810                       5Code
+C:   00000883  A$5Code$2813                       5Code
+C:   00000883  C$5Code.c$134$1$116                5Code
+C:   00000884  A$5Code$2814                       5Code
+C:   00000886  A$5Code$2815                       5Code
+C:   00000888  A$5Code$2818                       5Code
+C:   00000888  C$5Code.c$135$1$116                5Code
+C:   00000889  A$5Code$2819                       5Code
+C:   0000088A  A$5Code$2820                       5Code
+C:   0000088C  A$5Code$2821                       5Code
+C:   0000088E  A$5Code$2822                       5Code
+C:   00000890  A$5Code$2823                       5Code
+C:   00000892  A$5Code$2824                       5Code
+C:   00000894  A$5Code$2828                       5Code
+C:   00000894  C$5Code.c$136$1$116                5Code
+C:   00000895  A$5Code$2829                       5Code
+C:   00000897  A$5Code$2830                       5Code
+C:   00000899  A$5Code$2831                       5Code
+C:   0000089B  A$5Code$2832                       5Code
+C:   0000089D  A$5Code$2833                       5Code
+C:   0000089F  A$5Code$2836                       5Code
+C:   0000089F  C$5Code.c$138$1$116                5Code
+C:   000008A1  A$5Code$2837                       5Code
+C:   000008A3  A$5Code$2838                       5Code
+C:   000008A5  A$5Code$2839                       5Code
+C:   000008A7  A$5Code$2840                       5Code
+C:   000008A9  A$5Code$2841                       5Code
+C:   000008AB  A$5Code$2842                       5Code
+C:   000008AD  A$5Code$2843                       5Code
+C:   000008AF  A$5Code$2844                       5Code
+C:   000008B2  A$5Code$2845                       5Code
+C:   000008B4  A$5Code$2846                       5Code
+C:   000008B6  A$5Code$2847                       5Code
+C:   000008B8  A$5Code$2850                       5Code
+C:   000008B8  C$5Code.c$139$1$116                5Code
+C:   000008BA  A$5Code$2851                       5Code
+C:   000008BC  A$5Code$2852                       5Code
+C:   000008BE  A$5Code$2853                       5Code
+C:   000008C0  A$5Code$2854                       5Code
+C:   000008C2  A$5Code$2855                       5Code
+C:   000008C4  A$5Code$2856                       5Code
+C:   000008C6  A$5Code$2857                       5Code
+C:   000008C8  A$5Code$2858                       5Code
+C:   000008CB  A$5Code$2859                       5Code
+C:   000008CD  A$5Code$2860                       5Code
+C:   000008CF  A$5Code$2861                       5Code
+C:   000008D1  A$5Code$2867                       5Code
+C:   000008D1  C$5Code.c$141$1$116                5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 54.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000008D1  C$5Code.c$143$2$123                5Code
+C:   000008D2  A$5Code$2868                       5Code
+C:   000008D4  A$5Code$2869                       5Code
+C:   000008D6  A$5Code$2873                       5Code
+C:   000008D6  C$5Code.c$144$2$123                5Code
+C:   000008D7  A$5Code$2874                       5Code
+C:   000008D9  A$5Code$2875                       5Code
+C:   000008DB  A$5Code$2876                       5Code
+C:   000008DD  A$5Code$2877                       5Code
+C:   000008DF  A$5Code$2878                       5Code
+C:   000008E1  A$5Code$2881                       5Code
+C:   000008E1  C$5Code.c$146$2$123                5Code
+C:   000008E4  A$5Code$2884                       5Code
+C:   000008E4  C$5Code.c$147$2$123                5Code
+C:   000008E7  A$5Code$2887                       5Code
+C:   000008E7  C$5Code.c$148$2$123                5Code
+C:   000008EA  A$5Code$2890                       5Code
+C:   000008EA  C$5Code.c$158$2$123                5Code
+C:   000008EC  A$5Code$2891                       5Code
+C:   000008ED  A$5Code$2892                       5Code
+C:   000008EF  A$5Code$2893                       5Code
+C:   000008F0  A$5Code$2894                       5Code
+C:   000008F2  A$5Code$2895                       5Code
+C:   000008F4  A$5Code$2896                       5Code
+C:   000008F5  A$5Code$2897                       5Code
+C:   000008F7  A$5Code$2898                       5Code
+C:   000008F8  A$5Code$2899                       5Code
+C:   000008FA  A$5Code$2900                       5Code
+C:   000008FB  A$5Code$2901                       5Code
+C:   000008FD  A$5Code$2902                       5Code
+C:   000008FF  A$5Code$2903                       5Code
+C:   00000900  A$5Code$2904                       5Code
+C:   00000902  A$5Code$2905                       5Code
+C:   00000904  A$5Code$2906                       5Code
+C:   00000906  A$5Code$2907                       5Code
+C:   00000908  A$5Code$2908                       5Code
+C:   0000090A  A$5Code$2909                       5Code
+C:   0000090C  A$5Code$2910                       5Code
+C:   0000090E  A$5Code$2911                       5Code
+C:   00000910  A$5Code$2912                       5Code
+C:   00000912  A$5Code$2913                       5Code
+C:   00000914  A$5Code$2914                       5Code
+C:   00000916  A$5Code$2915                       5Code
+C:   00000918  A$5Code$2916                       5Code
+C:   0000091A  A$5Code$2917                       5Code
+C:   0000091C  A$5Code$2918                       5Code
+C:   0000091E  A$5Code$2919                       5Code
+C:   00000920  A$5Code$2920                       5Code
+C:   00000922  A$5Code$2921                       5Code
+C:   00000924  A$5Code$2922                       5Code
+C:   00000927  A$5Code$2923                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 55.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000929  A$5Code$2924                       5Code
+C:   0000092B  A$5Code$2925                       5Code
+C:   0000092D  A$5Code$2926                       5Code
+C:   0000092F  A$5Code$2929                       5Code
+C:   0000092F  C$5Code.c$211$1$116                5Code
+C:   0000092F  XG$main$0$0                        5Code
+C:   00000930  A$5Code$2942                       5Code
+C:   00000930  C$5Code.c$213$1$116                5Code
+C:   00000930  C$5Code.c$215$1$125                5Code
+C:   00000930  G$ReadBattery$0$0                  5Code
+C:   00000930  _ReadBattery                       5Code
+C:   00000932  A$5Code$2943                       5Code
+C:   00000934  A$5Code$2944                       5Code
+C:   00000935  A$5Code$2945                       5Code
+C:   00000937  A$5Code$2948                       5Code
+C:   00000937  C$5Code.c$216$1$125                5Code
+C:   0000093A  A$5Code$2952                       5Code
+C:   0000093A  C$5Code.c$217$1$125                5Code
+C:   0000093C  A$5Code$2953                       5Code
+C:   0000093F  A$5Code$2956                       5Code
+C:   0000093F  C$5Code.c$218$1$125                5Code
+C:   00000942  A$5Code$2959                       5Code
+C:   00000942  C$5Code.c$219$1$125                5Code
+C:   00000942  XG$ReadBattery$0$0                 5Code
+C:   00000943  A$5Code$2981                       5Code
+C:   00000943  C$5Code.c$222$1$125                5Code
+C:   00000943  C$5Code.c$226$1$125                5Code
+C:   00000943  C$5Code.c$227$1$125                5Code
+C:   00000943  G$ReadAccel$0$0                    5Code
+C:   00000943  _ReadAccel                         5Code
+C:   00000944  A$5Code$2982                       5Code
+C:   00000945  A$5Code$2983                       5Code
+C:   00000946  A$5Code$2984                       5Code
+C:   00000948  A$5Code$2985                       5Code
+C:   0000094A  A$5Code$2986                       5Code
+C:   0000094B  A$5Code$2987                       5Code
+C:   0000094C  A$5Code$2991                       5Code
+C:   0000094C  C$5Code.c$230$2$128                5Code
+C:   0000094F  A$5Code$2992                       5Code
+C:   00000952  A$5Code$2993                       5Code
+C:   00000955  A$5Code$2994                       5Code
+C:   00000958  A$5Code$2995                       5Code
+C:   0000095B  A$5Code$2996                       5Code
+C:   0000095E  A$5Code$2997                       5Code
+C:   00000960  A$5Code$2998                       5Code
+C:   00000962  A$5Code$2999                       5Code
+C:   00000964  A$5Code$3000                       5Code
+C:   00000966  A$5Code$3001                       5Code
+C:   00000969  A$5Code$3002                       5Code
+C:   0000096B  A$5Code$3003                       5Code
+C:   0000096D  A$5Code$3004                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 56.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000096F  A$5Code$3005                       5Code
+C:   00000971  A$5Code$3008                       5Code
+C:   00000971  C$5Code.c$232$2$128                5Code
+C:   00000972  A$5Code$3009                       5Code
+C:   00000974  A$5Code$3010                       5Code
+C:   00000976  A$5Code$3014                       5Code
+C:   00000976  C$5Code.c$233$2$128                5Code
+C:   00000977  A$5Code$3015                       5Code
+C:   00000979  A$5Code$3016                       5Code
+C:   0000097B  A$5Code$3017                       5Code
+C:   0000097D  A$5Code$3018                       5Code
+C:   0000097F  A$5Code$3019                       5Code
+C:   00000981  A$5Code$3023                       5Code
+C:   00000981  C$5Code.c$235$2$128                5Code
+C:   00000983  A$5Code$3024                       5Code
+C:   00000985  A$5Code$3025                       5Code
+C:   00000986  A$5Code$3026                       5Code
+C:   00000989  A$5Code$3027                       5Code
+C:   0000098B  A$5Code$3031                       5Code
+C:   0000098B  C$5Code.c$237$3$129                5Code
+C:   0000098E  A$5Code$3032                       5Code
+C:   00000991  A$5Code$3033                       5Code
+C:   00000994  A$5Code$3034                       5Code
+C:   00000997  A$5Code$3035                       5Code
+C:   0000099A  A$5Code$3036                       5Code
+C:   0000099D  A$5Code$3037                       5Code
+C:   0000099F  A$5Code$3038                       5Code
+C:   000009A1  A$5Code$3039                       5Code
+C:   000009A3  A$5Code$3040                       5Code
+C:   000009A5  A$5Code$3041                       5Code
+C:   000009A8  A$5Code$3042                       5Code
+C:   000009AA  A$5Code$3043                       5Code
+C:   000009AC  A$5Code$3044                       5Code
+C:   000009AE  A$5Code$3045                       5Code
+C:   000009B0  A$5Code$3048                       5Code
+C:   000009B0  C$5Code.c$238$3$129                5Code
+C:   000009B1  A$5Code$3049                       5Code
+C:   000009B3  A$5Code$3050                       5Code
+C:   000009B5  A$5Code$3054                       5Code
+C:   000009B5  C$5Code.c$239$3$129                5Code
+C:   000009B6  A$5Code$3055                       5Code
+C:   000009B8  A$5Code$3056                       5Code
+C:   000009BA  A$5Code$3057                       5Code
+C:   000009BC  A$5Code$3058                       5Code
+C:   000009BE  A$5Code$3059                       5Code
+C:   000009C0  A$5Code$3060                       5Code
+C:   000009C2  A$5Code$3064                       5Code
+C:   000009C2  C$5Code.c$242$2$128                5Code
+C:   000009C5  A$5Code$3065                       5Code
+C:   000009C8  A$5Code$3066                       5Code
+C:   000009CB  A$5Code$3067                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 57.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000009CE  A$5Code$3068                       5Code
+C:   000009D1  A$5Code$3069                       5Code
+C:   000009D4  A$5Code$3070                       5Code
+C:   000009D6  A$5Code$3071                       5Code
+C:   000009D8  A$5Code$3072                       5Code
+C:   000009DA  A$5Code$3073                       5Code
+C:   000009DC  A$5Code$3074                       5Code
+C:   000009DF  A$5Code$3075                       5Code
+C:   000009E1  A$5Code$3076                       5Code
+C:   000009E3  A$5Code$3077                       5Code
+C:   000009E5  A$5Code$3078                       5Code
+C:   000009E7  A$5Code$3081                       5Code
+C:   000009E7  C$5Code.c$244$2$128                5Code
+C:   000009E9  A$5Code$3082                       5Code
+C:   000009EB  A$5Code$3083                       5Code
+C:   000009EC  A$5Code$3084                       5Code
+C:   000009ED  A$5Code$3085                       5Code
+C:   000009EE  A$5Code$3086                       5Code
+C:   000009EF  A$5Code$3087                       5Code
+C:   000009F1  A$5Code$3088                       5Code
+C:   000009F2  A$5Code$3089                       5Code
+C:   000009F3  A$5Code$3090                       5Code
+C:   000009F5  A$5Code$3091                       5Code
+C:   000009F6  A$5Code$3092                       5Code
+C:   000009F7  A$5Code$3093                       5Code
+C:   000009F8  A$5Code$3094                       5Code
+C:   000009FB  A$5Code$3095                       5Code
+C:   000009FD  A$5Code$3097                       5Code
+C:   000009FE  A$5Code$3098                       5Code
+C:   000009FF  A$5Code$3099                       5Code
+C:   00000A00  A$5Code$3100                       5Code
+C:   00000A01  A$5Code$3101                       5Code
+C:   00000A02  A$5Code$3102                       5Code
+C:   00000A03  A$5Code$3103                       5Code
+C:   00000A04  A$5Code$3106                       5Code
+C:   00000A04  C$5Code.c$245$2$128                5Code
+C:   00000A06  A$5Code$3107                       5Code
+C:   00000A08  A$5Code$3108                       5Code
+C:   00000A09  A$5Code$3109                       5Code
+C:   00000A0A  A$5Code$3110                       5Code
+C:   00000A0B  A$5Code$3111                       5Code
+C:   00000A0C  A$5Code$3112                       5Code
+C:   00000A0E  A$5Code$3113                       5Code
+C:   00000A0F  A$5Code$3114                       5Code
+C:   00000A10  A$5Code$3115                       5Code
+C:   00000A12  A$5Code$3116                       5Code
+C:   00000A13  A$5Code$3117                       5Code
+C:   00000A14  A$5Code$3118                       5Code
+C:   00000A15  A$5Code$3119                       5Code
+C:   00000A18  A$5Code$3120                       5Code
+C:   00000A1A  A$5Code$3122                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 58.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000A1B  A$5Code$3123                       5Code
+C:   00000A1C  A$5Code$3124                       5Code
+C:   00000A1E  A$5Code$3125                       5Code
+C:   00000A20  A$5Code$3126                       5Code
+C:   00000A21  A$5Code$3127                       5Code
+C:   00000A23  A$5Code$3128                       5Code
+C:   00000A25  A$5Code$3131                       5Code
+C:   00000A25  C$5Code.c$228$1$127                5Code
+C:   00000A26  A$5Code$3132                       5Code
+C:   00000A29  A$5Code$3133                       5Code
+C:   00000A2A  A$5Code$3135                       5Code
+C:   00000A2B  A$5Code$3136                       5Code
+C:   00000A2C  A$5Code$3137                       5Code
+C:   00000A2E  A$5Code$3138                       5Code
+C:   00000A2F  A$5Code$3139                       5Code
+C:   00000A31  A$5Code$3140                       5Code
+C:   00000A33  A$5Code$3141                       5Code
+C:   00000A35  A$5Code$3142                       5Code
+C:   00000A38  A$5Code$3146                       5Code
+C:   00000A38  C$5Code.c$248$1$127                5Code
+C:   00000A3B  A$5Code$3147                       5Code
+C:   00000A3E  A$5Code$3148                       5Code
+C:   00000A40  A$5Code$3149                       5Code
+C:   00000A42  A$5Code$3150                       5Code
+C:   00000A45  A$5Code$3151                       5Code
+C:   00000A47  A$5Code$3152                       5Code
+C:   00000A49  A$5Code$3155                       5Code
+C:   00000A49  C$5Code.c$249$1$127                5Code
+C:   00000A4C  A$5Code$3156                       5Code
+C:   00000A4F  A$5Code$3157                       5Code
+C:   00000A52  A$5Code$3158                       5Code
+C:   00000A55  A$5Code$3159                       5Code
+C:   00000A57  A$5Code$3160                       5Code
+C:   00000A59  A$5Code$3161                       5Code
+C:   00000A5C  A$5Code$3162                       5Code
+C:   00000A5F  A$5Code$3163                       5Code
+C:   00000A62  A$5Code$3164                       5Code
+C:   00000A64  A$5Code$3165                       5Code
+C:   00000A66  A$5Code$3168                       5Code
+C:   00000A66  C$5Code.c$252$1$127                5Code
+C:   00000A67  A$5Code$3169                       5Code
+C:   00000A68  A$5Code$3170                       5Code
+C:   00000A6A  A$5Code$3171                       5Code
+C:   00000A6C  A$5Code$3172                       5Code
+C:   00000A6D  A$5Code$3173                       5Code
+C:   00000A6F  A$5Code$3174                       5Code
+C:   00000A71  A$5Code$3177                       5Code
+C:   00000A71  C$5Code.c$253$1$127                5Code
+C:   00000A73  A$5Code$3178                       5Code
+C:   00000A75  A$5Code$3179                       5Code
+C:   00000A77  A$5Code$3180                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 59.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000A79  A$5Code$3181                       5Code
+C:   00000A7B  A$5Code$3182                       5Code
+C:   00000A7D  A$5Code$3185                       5Code
+C:   00000A7D  C$5Code.c$254$1$127                5Code
+C:   00000A7D  XG$ReadAccel$0$0                   5Code
+C:   00000A7E  A$5Code$3198                       5Code
+C:   00000A7E  C$5Code.c$265$1$127                5Code
+C:   00000A7E  C$5Code.c$267$1$130                5Code
+C:   00000A7E  G$SteeringServo$0$0                5Code
+C:   00000A7E  _SteeringServo                     5Code
+C:   00000A80  A$5Code$3199                       5Code
+C:   00000A81  A$5Code$3200                       5Code
+C:   00000A83  A$5Code$3201                       5Code
+C:   00000A85  A$5Code$3202                       5Code
+C:   00000A87  A$5Code$3203                       5Code
+C:   00000A89  A$5Code$3204                       5Code
+C:   00000A8B  A$5Code$3205                       5Code
+C:   00000A8E  A$5Code$3206                       5Code
+C:   00000A91  A$5Code$3207                       5Code
+C:   00000A94  A$5Code$3208                       5Code
+C:   00000A96  A$5Code$3209                       5Code
+C:   00000A98  A$5Code$3210                       5Code
+C:   00000A9A  A$5Code$3211                       5Code
+C:   00000A9B  A$5Code$3212                       5Code
+C:   00000A9C  A$5Code$3213                       5Code
+C:   00000A9E  A$5Code$3214                       5Code
+C:   00000AA0  A$5Code$3215                       5Code
+C:   00000AA1  A$5Code$3216                       5Code
+C:   00000AA3  A$5Code$3219                       5Code
+C:   00000AA3  C$5Code.c$269$1$130                5Code
+C:   00000AA4  A$5Code$3220                       5Code
+C:   00000AA6  A$5Code$3221                       5Code
+C:   00000AA8  A$5Code$3222                       5Code
+C:   00000AAA  A$5Code$3223                       5Code
+C:   00000AAC  A$5Code$3224                       5Code
+C:   00000AAE  A$5Code$3227                       5Code
+C:   00000AAE  C$5Code.c$271$2$131                5Code
+C:   00000AB1  A$5Code$3228                       5Code
+C:   00000AB4  A$5Code$3232                       5Code
+C:   00000AB4  C$5Code.c$274$1$130                5Code
+C:   00000AB5  A$5Code$3233                       5Code
+C:   00000AB7  A$5Code$3234                       5Code
+C:   00000AB9  A$5Code$3235                       5Code
+C:   00000ABB  A$5Code$3236                       5Code
+C:   00000ABD  A$5Code$3237                       5Code
+C:   00000ABF  A$5Code$3240                       5Code
+C:   00000ABF  C$5Code.c$276$2$132                5Code
+C:   00000AC2  A$5Code$3241                       5Code
+C:   00000AC5  A$5Code$3245                       5Code
+C:   00000AC5  C$5Code.c$280$1$130                5Code
+C:   00000AC7  A$5Code$3246                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 60.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000AC8  A$5Code$3247                       5Code
+C:   00000ACA  A$5Code$3248                       5Code
+C:   00000ACC  A$5Code$3249                       5Code
+C:   00000ACE  A$5Code$3250                       5Code
+C:   00000AD0  A$5Code$3251                       5Code
+C:   00000AD2  A$5Code$3254                       5Code
+C:   00000AD2  C$5Code.c$281$1$130                5Code
+C:   00000AD2  XG$SteeringServo$0$0               5Code
+C:   00000AD3  A$5Code$3270                       5Code
+C:   00000AD3  C$5Code.c$287$1$130                5Code
+C:   00000AD3  C$5Code.c$302$1$133                5Code
+C:   00000AD3  G$MotorServo$0$0                   5Code
+C:   00000AD3  _MotorServo                        5Code
+C:   00000AD5  A$5Code$3271                       5Code
+C:   00000AD6  A$5Code$3272                       5Code
+C:   00000AD8  A$5Code$3273                       5Code
+C:   00000ADA  A$5Code$3274                       5Code
+C:   00000ADC  A$5Code$3275                       5Code
+C:   00000ADE  A$5Code$3276                       5Code
+C:   00000AE0  A$5Code$3277                       5Code
+C:   00000AE3  A$5Code$3278                       5Code
+C:   00000AE6  A$5Code$3279                       5Code
+C:   00000AE9  A$5Code$3280                       5Code
+C:   00000AEC  A$5Code$3281                       5Code
+C:   00000AEE  A$5Code$3282                       5Code
+C:   00000AF0  A$5Code$3285                       5Code
+C:   00000AF0  C$5Code.c$303$1$133                5Code
+C:   00000AF2  A$5Code$3286                       5Code
+C:   00000AF3  A$5Code$3287                       5Code
+C:   00000AF5  A$5Code$3288                       5Code
+C:   00000AF7  A$5Code$3289                       5Code
+C:   00000AF9  A$5Code$3290                       5Code
+C:   00000AFB  A$5Code$3291                       5Code
+C:   00000AFD  A$5Code$3292                       5Code
+C:   00000B00  A$5Code$3293                       5Code
+C:   00000B03  A$5Code$3294                       5Code
+C:   00000B05  A$5Code$3295                       5Code
+C:   00000B07  A$5Code$3296                       5Code
+C:   00000B0A  A$5Code$3297                       5Code
+C:   00000B0D  A$5Code$3298                       5Code
+C:   00000B0F  A$5Code$3299                       5Code
+C:   00000B11  A$5Code$3300                       5Code
+C:   00000B13  A$5Code$3301                       5Code
+C:   00000B15  A$5Code$3304                       5Code
+C:   00000B15  C$5Code.c$305$1$133                5Code
+C:   00000B16  A$5Code$3305                       5Code
+C:   00000B17  A$5Code$3306                       5Code
+C:   00000B18  A$5Code$3307                       5Code
+C:   00000B19  A$5Code$3308                       5Code
+C:   00000B1A  A$5Code$3309                       5Code
+C:   00000B1C  A$5Code$3312                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 61.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000B1C  C$5Code.c$307$2$134                5Code
+C:   00000B1E  A$5Code$3313                       5Code
+C:   00000B1F  A$5Code$3314                       5Code
+C:   00000B20  A$5Code$3315                       5Code
+C:   00000B22  A$5Code$3316                       5Code
+C:   00000B24  A$5Code$3317                       5Code
+C:   00000B25  A$5Code$3318                       5Code
+C:   00000B27  A$5Code$3319                       5Code
+C:   00000B29  A$5Code$3323                       5Code
+C:   00000B29  C$5Code.c$311$2$135                5Code
+C:   00000B2B  A$5Code$3324                       5Code
+C:   00000B2C  A$5Code$3325                       5Code
+C:   00000B2D  A$5Code$3326                       5Code
+C:   00000B2F  A$5Code$3327                       5Code
+C:   00000B31  A$5Code$3328                       5Code
+C:   00000B32  A$5Code$3329                       5Code
+C:   00000B34  A$5Code$3333                       5Code
+C:   00000B34  C$5Code.c$315$1$133                5Code
+C:   00000B35  A$5Code$3334                       5Code
+C:   00000B37  A$5Code$3335                       5Code
+C:   00000B39  A$5Code$3336                       5Code
+C:   00000B3B  A$5Code$3337                       5Code
+C:   00000B3D  A$5Code$3338                       5Code
+C:   00000B3F  A$5Code$3341                       5Code
+C:   00000B3F  C$5Code.c$316$1$133                5Code
+C:   00000B42  A$5Code$3342                       5Code
+C:   00000B45  A$5Code$3346                       5Code
+C:   00000B45  C$5Code.c$318$1$133                5Code
+C:   00000B46  A$5Code$3347                       5Code
+C:   00000B48  A$5Code$3348                       5Code
+C:   00000B4A  A$5Code$3349                       5Code
+C:   00000B4C  A$5Code$3350                       5Code
+C:   00000B4E  A$5Code$3351                       5Code
+C:   00000B50  A$5Code$3354                       5Code
+C:   00000B50  C$5Code.c$319$1$133                5Code
+C:   00000B53  A$5Code$3355                       5Code
+C:   00000B56  A$5Code$3359                       5Code
+C:   00000B56  C$5Code.c$322$1$133                5Code
+C:   00000B58  A$5Code$3360                       5Code
+C:   00000B59  A$5Code$3361                       5Code
+C:   00000B5B  A$5Code$3362                       5Code
+C:   00000B5D  A$5Code$3363                       5Code
+C:   00000B5F  A$5Code$3364                       5Code
+C:   00000B61  A$5Code$3365                       5Code
+C:   00000B63  A$5Code$3368                       5Code
+C:   00000B63  C$5Code.c$325$1$133                5Code
+C:   00000B63  XG$MotorServo$0$0                  5Code
+C:   00000B64  A$5Code$3384                       5Code
+C:   00000B64  C$5Code.c$334$1$133                5Code
+C:   00000B64  C$5Code.c$337$1$137                5Code
+C:   00000B64  G$getIndividualPress$0$0           5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 62.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000B64  _getIndividualPress                5Code
+C:   00000B67  A$5Code$3385                       5Code
+C:   00000B69  A$5Code$3388                       5Code
+C:   00000B69  C$5Code.c$339$1$137                5Code
+C:   00000B6A  A$5Code$3389                       5Code
+C:   00000B6C  A$5Code$3390                       5Code
+C:   00000B6E  A$5Code$3394                       5Code
+C:   00000B6E  C$5Code.c$340$1$137                5Code
+C:   00000B6F  A$5Code$3395                       5Code
+C:   00000B71  A$5Code$3396                       5Code
+C:   00000B73  A$5Code$3397                       5Code
+C:   00000B75  A$5Code$3398                       5Code
+C:   00000B77  A$5Code$3399                       5Code
+C:   00000B79  A$5Code$3403                       5Code
+C:   00000B79  C$5Code.c$342$1$137                5Code
+C:   00000B7C  A$5Code$3406                       5Code
+C:   00000B7C  C$5Code.c$344$2$138                5Code
+C:   00000B7F  A$5Code$3407                       5Code
+C:   00000B81  A$5Code$3410                       5Code
+C:   00000B81  C$5Code.c$345$2$138                5Code
+C:   00000B82  A$5Code$3411                       5Code
+C:   00000B84  A$5Code$3412                       5Code
+C:   00000B86  A$5Code$3416                       5Code
+C:   00000B86  C$5Code.c$346$2$138                5Code
+C:   00000B87  A$5Code$3417                       5Code
+C:   00000B89  A$5Code$3418                       5Code
+C:   00000B8B  A$5Code$3419                       5Code
+C:   00000B8D  A$5Code$3420                       5Code
+C:   00000B8F  A$5Code$3421                       5Code
+C:   00000B91  A$5Code$3422                       5Code
+C:   00000B93  A$5Code$3426                       5Code
+C:   00000B93  C$5Code.c$349$1$137                5Code
+C:   00000B95  A$5Code$3430                       5Code
+C:   00000B95  C$5Code.c$351$1$137                5Code
+C:   00000B98  A$5Code$3431                       5Code
+C:   00000B9A  A$5Code$3435                       5Code
+C:   00000B9A  C$5Code.c$353$2$139                5Code
+C:   00000B9C  A$5Code$3436                       5Code
+C:   00000B9F  A$5Code$3437                       5Code
+C:   00000BA1  A$5Code$3438                       5Code
+C:   00000BA3  A$5Code$3441                       5Code
+C:   00000BA3  C$5Code.c$354$2$139                5Code
+C:   00000BA4  A$5Code$3442                       5Code
+C:   00000BA6  A$5Code$3443                       5Code
+C:   00000BA8  A$5Code$3447                       5Code
+C:   00000BA8  C$5Code.c$355$2$139                5Code
+C:   00000BA9  A$5Code$3448                       5Code
+C:   00000BAB  A$5Code$3449                       5Code
+C:   00000BAD  A$5Code$3450                       5Code
+C:   00000BAF  A$5Code$3451                       5Code
+C:   00000BB1  A$5Code$3452                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 63.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000BB3  A$5Code$3453                       5Code
+C:   00000BB5  A$5Code$3457                       5Code
+C:   00000BB5  C$5Code.c$358$1$137                5Code
+C:   00000BB7  A$5Code$3460                       5Code
+C:   00000BB7  C$5Code.c$359$1$137                5Code
+C:   00000BB7  XG$getIndividualPress$0$0          5Code
+C:   00000BB8  A$5Code$3478                       5Code
+C:   00000BB8  C$5Code.c$362$1$137                5Code
+C:   00000BB8  C$5Code.c$369$1$141                5Code
+C:   00000BB8  G$getNumberFromKeypad$0$0          5Code
+C:   00000BB8  _getNumberFromKeypad               5Code
+C:   00000BBB  A$5Code$3481                       5Code
+C:   00000BBB  C$5Code.c$370$1$141                5Code
+C:   00000BBE  A$5Code$3484                       5Code
+C:   00000BBE  C$5Code.c$371$1$141                5Code
+C:   00000BC1  A$5Code$3487                       5Code
+C:   00000BC3  A$5Code$3491                       5Code
+C:   00000BC3  C$5Code.c$375$2$142                5Code
+C:   00000BC5  A$5Code$3492                       5Code
+C:   00000BC8  A$5Code$3493                       5Code
+C:   00000BCA  A$5Code$3494                       5Code
+C:   00000BCC  A$5Code$3497                       5Code
+C:   00000BCC  C$5Code.c$377$2$142                5Code
+C:   00000BCF  A$5Code$3498                       5Code
+C:   00000BD1  A$5Code$3500                       5Code
+C:   00000BD4  A$5Code$3501                       5Code
+C:   00000BD6  A$5Code$3505                       5Code
+C:   00000BD6  C$5Code.c$379$3$143                5Code
+C:   00000BD7  A$5Code$3506                       5Code
+C:   00000BD9  A$5Code$3507                       5Code
+C:   00000BDA  A$5Code$3508                       5Code
+C:   00000BDC  A$5Code$3509                       5Code
+C:   00000BDE  A$5Code$3513                       5Code
+C:   00000BDE  C$5Code.c$381$2$142                5Code
+C:   00000BE1  A$5Code$3514                       5Code
+C:   00000BE3  A$5Code$3518                       5Code
+C:   00000BE3  C$5Code.c$385$2$142                5Code
+C:   00000BE6  A$5Code$3521                       5Code
+C:   00000BE6  C$5Code.c$387$3$145                5Code
+C:   00000BE7  A$5Code$3522                       5Code
+C:   00000BE9  A$5Code$3523                       5Code
+C:   00000BEA  A$5Code$3524                       5Code
+C:   00000BEC  A$5Code$3528                       5Code
+C:   00000BEC  C$5Code.c$389$2$142                5Code
+C:   00000BED  A$5Code$3529                       5Code
+C:   00000BEF  A$5Code$3530                       5Code
+C:   00000BF0  A$5Code$3531                       5Code
+C:   00000BF2  A$5Code$3532                       5Code
+C:   00000BF4  A$5Code$3533                       5Code
+C:   00000BF6  A$5Code$3534                       5Code
+C:   00000BF8  A$5Code$3535                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 64.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000BFA  A$5Code$3536                       5Code
+C:   00000BFC  A$5Code$3537                       5Code
+C:   00000BFE  A$5Code$3538                       5Code
+C:   00000C00  A$5Code$3539                       5Code
+C:   00000C02  A$5Code$3540                       5Code
+C:   00000C04  A$5Code$3541                       5Code
+C:   00000C06  A$5Code$3542                       5Code
+C:   00000C09  A$5Code$3543                       5Code
+C:   00000C0B  A$5Code$3544                       5Code
+C:   00000C0D  A$5Code$3545                       5Code
+C:   00000C0F  A$5Code$3546                       5Code
+C:   00000C11  A$5Code$3549                       5Code
+C:   00000C11  C$5Code.c$373$1$141                5Code
+C:   00000C12  A$5Code$3550                       5Code
+C:   00000C15  A$5Code$3552                       5Code
+C:   00000C17  A$5Code$3556                       5Code
+C:   00000C17  C$5Code.c$392$1$141                5Code
+C:   00000C1A  A$5Code$3557                       5Code
+C:   00000C1D  A$5Code$3558                       5Code
+C:   00000C20  A$5Code$3563                       5Code
+C:   00000C20  C$5Code.c$394$1$141                5Code
+C:   00000C20  C$5Code.c$395$1$141                5Code
+C:   00000C20  XG$getNumberFromKeypad$0$0         5Code
+C:   00000C21  A$5Code$3578                       5Code
+C:   00000C21  C$5Code.c$404$1$141                5Code
+C:   00000C21  C$5Code.c$408$1$147                5Code
+C:   00000C21  G$getDesiredGainSteering$0$0       5Code
+C:   00000C21  _getDesiredGainSteering            5Code
+C:   00000C24  A$5Code$3581                       5Code
+C:   00000C24  C$5Code.c$409$1$147                5Code
+C:   00000C26  A$5Code$3582                       5Code
+C:   00000C28  A$5Code$3583                       5Code
+C:   00000C2A  A$5Code$3584                       5Code
+C:   00000C2C  A$5Code$3585                       5Code
+C:   00000C2E  A$5Code$3586                       5Code
+C:   00000C30  A$5Code$3587                       5Code
+C:   00000C33  A$5Code$3588                       5Code
+C:   00000C35  A$5Code$3589                       5Code
+C:   00000C37  A$5Code$3590                       5Code
+C:   00000C39  A$5Code$3593                       5Code
+C:   00000C39  C$5Code.c$410$1$147                5Code
+C:   00000C3B  A$5Code$3594                       5Code
+C:   00000C3D  A$5Code$3595                       5Code
+C:   00000C3F  A$5Code$3596                       5Code
+C:   00000C41  A$5Code$3597                       5Code
+C:   00000C43  A$5Code$3598                       5Code
+C:   00000C45  A$5Code$3599                       5Code
+C:   00000C48  A$5Code$3600                       5Code
+C:   00000C4A  A$5Code$3601                       5Code
+C:   00000C4C  A$5Code$3602                       5Code
+C:   00000C4E  A$5Code$3605                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 65.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000C4E  C$5Code.c$412$1$147                5Code
+C:   00000C51  A$5Code$3606                       5Code
+C:   00000C53  A$5Code$3607                       5Code
+C:   00000C55  A$5Code$3610                       5Code
+C:   00000C55  C$5Code.c$413$1$147                5Code
+C:   00000C57  A$5Code$3611                       5Code
+C:   00000C59  A$5Code$3612                       5Code
+C:   00000C5B  A$5Code$3613                       5Code
+C:   00000C5D  A$5Code$3614                       5Code
+C:   00000C5F  A$5Code$3615                       5Code
+C:   00000C61  A$5Code$3616                       5Code
+C:   00000C63  A$5Code$3617                       5Code
+C:   00000C65  A$5Code$3618                       5Code
+C:   00000C67  A$5Code$3619                       5Code
+C:   00000C69  A$5Code$3620                       5Code
+C:   00000C6C  A$5Code$3621                       5Code
+C:   00000C6E  A$5Code$3622                       5Code
+C:   00000C70  A$5Code$3623                       5Code
+C:   00000C72  A$5Code$3624                       5Code
+C:   00000C74  A$5Code$3625                       5Code
+C:   00000C76  A$5Code$3628                       5Code
+C:   00000C76  C$5Code.c$414$1$147                5Code
+C:   00000C78  A$5Code$3629                       5Code
+C:   00000C7A  A$5Code$3632                       5Code
+C:   00000C7A  C$5Code.c$415$1$147                5Code
+C:   00000C7A  XG$getDesiredGainSteering$0$0      5Code
+C:   00000C7B  A$5Code$3647                       5Code
+C:   00000C7B  C$5Code.c$422$1$147                5Code
+C:   00000C7B  C$5Code.c$426$1$149                5Code
+C:   00000C7B  G$getDesiredGainDriveMotorX$0$0    5Code
+C:   00000C7B  _getDesiredGainDriveMotorX         5Code
+C:   00000C7E  A$5Code$3650                       5Code
+C:   00000C7E  C$5Code.c$427$1$149                5Code
+C:   00000C80  A$5Code$3651                       5Code
+C:   00000C82  A$5Code$3652                       5Code
+C:   00000C84  A$5Code$3653                       5Code
+C:   00000C86  A$5Code$3654                       5Code
+C:   00000C88  A$5Code$3655                       5Code
+C:   00000C8A  A$5Code$3656                       5Code
+C:   00000C8D  A$5Code$3657                       5Code
+C:   00000C8F  A$5Code$3658                       5Code
+C:   00000C91  A$5Code$3659                       5Code
+C:   00000C93  A$5Code$3662                       5Code
+C:   00000C93  C$5Code.c$428$1$149                5Code
+C:   00000C95  A$5Code$3663                       5Code
+C:   00000C97  A$5Code$3664                       5Code
+C:   00000C99  A$5Code$3665                       5Code
+C:   00000C9B  A$5Code$3666                       5Code
+C:   00000C9D  A$5Code$3667                       5Code
+C:   00000C9F  A$5Code$3668                       5Code
+C:   00000CA2  A$5Code$3669                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 66.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000CA4  A$5Code$3670                       5Code
+C:   00000CA6  A$5Code$3671                       5Code
+C:   00000CA8  A$5Code$3674                       5Code
+C:   00000CA8  C$5Code.c$430$1$149                5Code
+C:   00000CAB  A$5Code$3675                       5Code
+C:   00000CAD  A$5Code$3676                       5Code
+C:   00000CAF  A$5Code$3679                       5Code
+C:   00000CAF  C$5Code.c$431$1$149                5Code
+C:   00000CB1  A$5Code$3680                       5Code
+C:   00000CB3  A$5Code$3681                       5Code
+C:   00000CB5  A$5Code$3682                       5Code
+C:   00000CB7  A$5Code$3683                       5Code
+C:   00000CB9  A$5Code$3684                       5Code
+C:   00000CBB  A$5Code$3685                       5Code
+C:   00000CBD  A$5Code$3686                       5Code
+C:   00000CBF  A$5Code$3687                       5Code
+C:   00000CC1  A$5Code$3688                       5Code
+C:   00000CC3  A$5Code$3689                       5Code
+C:   00000CC6  A$5Code$3690                       5Code
+C:   00000CC8  A$5Code$3691                       5Code
+C:   00000CCA  A$5Code$3692                       5Code
+C:   00000CCC  A$5Code$3693                       5Code
+C:   00000CCE  A$5Code$3694                       5Code
+C:   00000CD0  A$5Code$3697                       5Code
+C:   00000CD0  C$5Code.c$432$1$149                5Code
+C:   00000CD2  A$5Code$3698                       5Code
+C:   00000CD4  A$5Code$3701                       5Code
+C:   00000CD4  C$5Code.c$433$1$149                5Code
+C:   00000CD4  XG$getDesiredGainDriveMotorX$0$0   5Code
+C:   00000CD5  A$5Code$3716                       5Code
+C:   00000CD5  C$5Code.c$435$1$149                5Code
+C:   00000CD5  C$5Code.c$439$1$151                5Code
+C:   00000CD5  G$getDesiredGainDriveMotorY$0$0    5Code
+C:   00000CD5  _getDesiredGainDriveMotorY         5Code
+C:   00000CD8  A$5Code$3719                       5Code
+C:   00000CD8  C$5Code.c$440$1$151                5Code
+C:   00000CDA  A$5Code$3720                       5Code
+C:   00000CDC  A$5Code$3721                       5Code
+C:   00000CDE  A$5Code$3722                       5Code
+C:   00000CE0  A$5Code$3723                       5Code
+C:   00000CE2  A$5Code$3724                       5Code
+C:   00000CE4  A$5Code$3725                       5Code
+C:   00000CE7  A$5Code$3726                       5Code
+C:   00000CE9  A$5Code$3727                       5Code
+C:   00000CEB  A$5Code$3728                       5Code
+C:   00000CED  A$5Code$3731                       5Code
+C:   00000CED  C$5Code.c$441$1$151                5Code
+C:   00000CEF  A$5Code$3732                       5Code
+C:   00000CF1  A$5Code$3733                       5Code
+C:   00000CF3  A$5Code$3734                       5Code
+C:   00000CF5  A$5Code$3735                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 67.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000CF7  A$5Code$3736                       5Code
+C:   00000CF9  A$5Code$3737                       5Code
+C:   00000CFC  A$5Code$3738                       5Code
+C:   00000CFE  A$5Code$3739                       5Code
+C:   00000D00  A$5Code$3740                       5Code
+C:   00000D02  A$5Code$3743                       5Code
+C:   00000D02  C$5Code.c$443$1$151                5Code
+C:   00000D05  A$5Code$3744                       5Code
+C:   00000D07  A$5Code$3745                       5Code
+C:   00000D09  A$5Code$3748                       5Code
+C:   00000D09  C$5Code.c$444$1$151                5Code
+C:   00000D0B  A$5Code$3749                       5Code
+C:   00000D0D  A$5Code$3750                       5Code
+C:   00000D0F  A$5Code$3751                       5Code
+C:   00000D11  A$5Code$3752                       5Code
+C:   00000D13  A$5Code$3753                       5Code
+C:   00000D15  A$5Code$3754                       5Code
+C:   00000D17  A$5Code$3755                       5Code
+C:   00000D19  A$5Code$3756                       5Code
+C:   00000D1B  A$5Code$3757                       5Code
+C:   00000D1D  A$5Code$3758                       5Code
+C:   00000D20  A$5Code$3759                       5Code
+C:   00000D22  A$5Code$3760                       5Code
+C:   00000D24  A$5Code$3761                       5Code
+C:   00000D26  A$5Code$3762                       5Code
+C:   00000D28  A$5Code$3763                       5Code
+C:   00000D2A  A$5Code$3766                       5Code
+C:   00000D2A  C$5Code.c$445$1$151                5Code
+C:   00000D2C  A$5Code$3767                       5Code
+C:   00000D2E  A$5Code$3770                       5Code
+C:   00000D2E  C$5Code.c$446$1$151                5Code
+C:   00000D2E  XG$getDesiredGainDriveMotorY$0$0   5Code
+C:   00000D2F  A$5Code$3783                       5Code
+C:   00000D2F  C$5Code.c$453$1$151                5Code
+C:   00000D2F  C$5Code.c$456$1$152                5Code
+C:   00000D2F  G$Port_Init$0$0                    5Code
+C:   00000D2F  _Port_Init                         5Code
+C:   00000D32  A$5Code$3786                       5Code
+C:   00000D32  C$5Code.c$457$1$152                5Code
+C:   00000D35  A$5Code$3789                       5Code
+C:   00000D35  C$5Code.c$458$1$152                5Code
+C:   00000D38  A$5Code$3792                       5Code
+C:   00000D38  C$5Code.c$459$1$152                5Code
+C:   00000D3A  A$5Code$3793                       5Code
+C:   00000D3C  A$5Code$3794                       5Code
+C:   00000D3D  A$5Code$3795                       5Code
+C:   00000D3F  A$5Code$3798                       5Code
+C:   00000D3F  C$5Code.c$461$1$152                5Code
+C:   00000D42  A$5Code$3801                       5Code
+C:   00000D42  C$5Code.c$462$1$152                5Code
+C:   00000D44  A$5Code$3802                       5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 68.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000D46  A$5Code$3803                       5Code
+C:   00000D47  A$5Code$3804                       5Code
+C:   00000D49  A$5Code$3807                       5Code
+C:   00000D49  C$5Code.c$463$1$152                5Code
+C:   00000D4C  A$5Code$3810                       5Code
+C:   00000D4C  C$5Code.c$464$1$152                5Code
+C:   00000D4C  XG$Port_Init$0$0                   5Code
+C:   00000D4D  A$5Code$3823                       5Code
+C:   00000D4D  C$5Code.c$469$1$152                5Code
+C:   00000D4D  C$5Code.c$471$1$154                5Code
+C:   00000D4D  G$ADC_Init$0$0                     5Code
+C:   00000D4D  _ADC_Init                          5Code
+C:   00000D50  A$5Code$3826                       5Code
+C:   00000D50  C$5Code.c$472$1$154                5Code
+C:   00000D53  A$5Code$3829                       5Code
+C:   00000D53  C$5Code.c$473$1$154                5Code
+C:   00000D56  A$5Code$3832                       5Code
+C:   00000D56  C$5Code.c$475$1$154                5Code
+C:   00000D59  A$5Code$3835                       5Code
+C:   00000D59  C$5Code.c$477$1$154                5Code
+C:   00000D59  XG$ADC_Init$0$0                    5Code
+C:   00000D5A  A$5Code$3848                       5Code
+C:   00000D5A  C$5Code.c$482$1$154                5Code
+C:   00000D5A  C$5Code.c$484$1$155                5Code
+C:   00000D5A  G$XBR0_Init$0$0                    5Code
+C:   00000D5A  _XBR0_Init                         5Code
+C:   00000D5D  A$5Code$3851                       5Code
+C:   00000D5D  C$5Code.c$486$1$155                5Code
+C:   00000D5D  XG$XBR0_Init$0$0                   5Code
+C:   00000D5E  A$5Code$3864                       5Code
+C:   00000D5E  C$5Code.c$491$1$155                5Code
+C:   00000D5E  C$5Code.c$493$1$157                5Code
+C:   00000D5E  G$PCA_Init$0$0                     5Code
+C:   00000D5E  _PCA_Init                          5Code
+C:   00000D61  A$5Code$3867                       5Code
+C:   00000D61  C$5Code.c$494$1$157                5Code
+C:   00000D64  A$5Code$3870                       5Code
+C:   00000D64  C$5Code.c$496$1$157                5Code
+C:   00000D67  A$5Code$3873                       5Code
+C:   00000D67  C$5Code.c$498$1$157                5Code
+C:   00000D6A  A$5Code$3876                       5Code
+C:   00000D6A  C$5Code.c$499$1$157                5Code
+C:   00000D6D  A$5Code$3879                       5Code
+C:   00000D6D  C$5Code.c$501$1$157                5Code
+C:   00000D70  A$5Code$3882                       5Code
+C:   00000D70  C$5Code.c$502$1$157                5Code
+C:   00000D72  A$5Code$3885                       5Code
+C:   00000D72  C$5Code.c$503$1$157                5Code
+C:   00000D72  XG$PCA_Init$0$0                    5Code
+C:   00000D73  A$5Code$3896                       5Code
+C:   00000D73  C$5Code.c$508$1$157                5Code
+ASxxxx Linker V03.00 + NoICE + sdld,  page 69.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000D73  G$PCA_ISR$0$0                      5Code
+C:   00000D73  _PCA_ISR                           5Code
+C:   00000D75  A$5Code$3897                       5Code
+C:   00000D77  A$5Code$3900                       5Code
+C:   00000D77  C$5Code.c$510$1$159                5Code
+C:   00000D7A  A$5Code$3903                       5Code
+C:   00000D7A  C$5Code.c$512$2$160                5Code
+C:   00000D7C  A$5Code$3904                       5Code
+C:   00000D7D  A$5Code$3905                       5Code
+C:   00000D80  A$5Code$3906                       5Code
+C:   00000D82  A$5Code$3910                       5Code
+C:   00000D82  C$5Code.c$513$2$160                5Code
+C:   00000D84  A$5Code$3911                       5Code
+C:   00000D85  A$5Code$3912                       5Code
+C:   00000D88  A$5Code$3913                       5Code
+C:   00000D8A  A$5Code$3917                       5Code
+C:   00000D8A  C$5Code.c$514$2$160                5Code
+C:   00000D8C  A$5Code$3918                       5Code
+C:   00000D8D  A$5Code$3919                       5Code
+C:   00000D90  A$5Code$3920                       5Code
+C:   00000D92  A$5Code$3924                       5Code
+C:   00000D92  C$5Code.c$515$2$160                5Code
+C:   00000D94  A$5Code$3927                       5Code
+C:   00000D94  C$5Code.c$516$2$160                5Code
+C:   00000D97  A$5Code$3928                       5Code
+C:   00000D9A  A$5Code$3932                       5Code
+C:   00000D9A  C$5Code.c$519$1$159                5Code
+C:   00000D9D  A$5Code$3933                       5Code
+C:   00000D9F  A$5Code$3934                       5Code
+C:   00000DA1  A$5Code$3937                       5Code
+C:   00000DA1  C$5Code.c$520$1$159                5Code
+C:   00000DA1  XG$PCA_ISR$0$0                     5Code
+C:   00000DA2  A$5Code$3954                       5Code
+C:   00000DA2  C$5Code.c$525$1$159                5Code
+C:   00000DA2  C$5Code.c$527$1$161                5Code
+C:   00000DA2  G$SMB0_Init$0$0                    5Code
+C:   00000DA2  _SMB0_Init                         5Code
+C:   00000DA5  A$5Code$3957                       5Code
+C:   00000DA5  C$5Code.c$528$1$161                5Code
+C:   00000DA7  A$5Code$3960                       5Code
+C:   00000DA7  C$5Code.c$529$1$161                5Code
+C:   00000DA7  XG$SMB0_Init$0$0                   5Code
+C:   00000DA8  __divuint                          _divuint
+C:   00000DD1  _atoi                              _atoi
+C:   00000EBD  __gptrput                          _gptrput
+C:   00000ED8  _abs                               abs
+C:   00000EE5  __mulint                           _mulint
+C:   00000EE5  __mulint_dummy                     _mulint
+C:   00000F72  _vsprintf                          sprintf
+C:   00000FAF  _sprintf                           sprintf
+C:   00000FFD  __moduint                          _moduint
+ASxxxx Linker V03.00 + NoICE + sdld,  page 70.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F3    000015C7 =        5575. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00001055  _vprintf                           vprintf
+C:   0000106E  _printf                            vprintf
+C:   00001140  __print_format                     printf_large
+C:   0000164A  _strlen                            _strlen
+C:   00001662  __gptrget                          _gptrget
+C:   0000167E  __divsint                          _divsint
+C:   000016B6  __sdcc_external_startup            _startup
+ASxxxx Linker V03.00 + NoICE + sdld,  page 71.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               000016BA    000001D0 =         464. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000016BA  F5Code$__str_0$0$0                 5Code
+C:   000016D0  F5Code$__str_1$0$0                 5Code
+C:   000016E0  F5Code$__str_2$0$0                 5Code
+C:   000016E3  F5Code$__str_3$0$0                 5Code
+C:   000016F8  F5Code$__str_4$0$0                 5Code
+C:   0000170D  F5Code$__str_5$0$0                 5Code
+C:   00001722  F5Code$__str_6$0$0                 5Code
+C:   00001737  F5Code$__str_7$0$0                 5Code
+C:   0000174C  F5Code$__str_8$0$0                 5Code
+C:   00001761  F5Code$__str_9$0$0                 5Code
+C:   00001776  F5Code$__str_10$0$0                5Code
+C:   0000178B  F5Code$__str_11$0$0                5Code
+C:   00001794  F5Code$__str_12$0$0                5Code
+C:   0000179D  F5Code$__str_13$0$0                5Code
+C:   000017A6  F5Code$__str_14$0$0                5Code
+C:   000017B0  F5Code$__str_15$0$0                5Code
+C:   000017EB  F5Code$__str_16$0$0                5Code
+C:   00001800  F5Code$__str_17$0$0                5Code
+C:   00001810  F5Code$__str_18$0$0                5Code
+C:   00001825  F5Code$__str_19$0$0                5Code
+C:   00001837  F5Code$__str_20$0$0                5Code
+C:   00001852  F5Code$__str_21$0$0                5Code
+C:   00001864  F5Code$__str_22$0$0                5Code
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 72.
+
+Files Linked                              [ module(s) ]
+
+C:\Users\Christopher\Google Drive\School\2015 Spring - Embedded Control\Labs\05 - Accel\Code\5Code.rel
+                                          [  ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\Program Files\SDCC\bin\..\lib\small/libint.lib
+                                          [ _divuint.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtclear.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _atoi.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxinit.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _gptrput.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ abs.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libint.lib
+                                          [ _mulint.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ sprintf.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libint.lib
+                                          [ _moduint.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxclear.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _bp.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ vprintf.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ printf_large.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _strlen.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtstart.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _gptrget.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libint.lib
+                                          [ _divsint.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 73.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0001
+PSEG = 0x0001
+ISEG = 0x0000
+BSEG = 0x0000
+
+

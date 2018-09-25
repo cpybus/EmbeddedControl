@@ -1,0 +1,45 @@
+compiler directives
+declare global variables
+function prototypes
+main function
+	declare local variables
+	initialize system
+	initialize ports 1, 2, 3, 4
+	initialize timer
+	initialize ADC
+	while pushbutton isnt pressed
+		continually read AD value
+		display the result in seconds to user
+	end while pushbutton
+	
+	check if AD result is valid
+
+	player 1's game
+	playoneround()
+	
+	player 2's game
+	playoneround()
+	
+	compare scores
+	print out winner
+end main function
+
+playoneround function
+	declare local variables
+	select random values for leds
+	alert player that game is starting
+	while true
+		while timer is still going and while pb isnt pressed	
+			read SS values and change LEDs accordingly
+		end while
+		
+		check the led values against SS values
+		if there is a match
+			print out final pattern
+			return
+		else
+			print out the pattern
+		end if
+		
+	end while true
+end playoneround function

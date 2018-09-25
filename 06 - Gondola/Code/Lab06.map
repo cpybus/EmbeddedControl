@@ -1,0 +1,3299 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_BIT_BANK                      
+C:   00000000  l_CABS                          
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_PSEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_XABS                          
+C:   00000001  s_PSEG                          
+C:   00000001  s_XSEG                          
+C:   00000003  l_BSEG_BYTES                    
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000006  l_ISEG                          
+C:   00000006  l_OSEG                          
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  s_REG_BANK_1                    
+C:   0000000A  l_GSINIT2                       
+C:   00000010  s_REG_BANK_2                    
+C:   00000011  l_BSEG                          
+C:   00000018  s_BIT_BANK                      
+C:   00000018  s_REG_BANK_3                    
+C:   0000001A  s_OSEG                          
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000021  l_GSINIT                        
+C:   00000022  l_GSINIT3                       
+C:   0000002A  l_GSINIT4                       
+C:   00000050  l_XSEG                          
+C:   00000051  l_HOME                          
+C:   00000051  s_GSINIT0                       
+C:   00000051  s_XISEG                         
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000054  s_GSINIT1                       
+C:   00000054  s_GSINIT2                       
+C:   0000005E  s_GSINIT3                       
+C:   0000007C  l_SSEG                          
+C:   0000007E  s_ISEG                          
+C:   00000080  l_DSEG                          
+C:   00000080  s_GSINIT4                       
+C:   00000084  s_SSEG                          
+C:   000000AA  s_GSINIT                        
+C:   000000AA  s_GSINIT5                       
+C:   000000CB  s_GSFINAL                       
+C:   000000CE  s_CSEG                          
+C:   00000100  l_IRAM                          
+C:   00000349  l_CONST                         
+C:   00001ADF  l_CSEG                          
+C:   00001BAD  s_CONST                         
+C:   00001EF6  s_XINIT                         
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+     00000080  G$P0$0$0                           Lab6
+     00000080  G$P0_0$0$0                         Lab6
+     00000080  _P0                                Lab6
+     00000080  _P0_0                              Lab6
+     00000081  G$P0_1$0$0                         Lab6
+     00000081  G$SP$0$0                           Lab6
+     00000081  _P0_1                              Lab6
+     00000081  _SP                                Lab6
+     00000082  G$DPL$0$0                          Lab6
+     00000082  G$P0_2$0$0                         Lab6
+     00000082  _DPL                               Lab6
+     00000082  _P0_2                              Lab6
+     00000083  G$BUS_SCL$0$0                      Lab6
+     00000083  G$DPH$0$0                          Lab6
+     00000083  G$P0_3$0$0                         Lab6
+     00000083  _BUS_SCL                           Lab6
+     00000083  _DPH                               Lab6
+     00000083  _P0_3                              Lab6
+     00000084  G$P0_4$0$0                         Lab6
+     00000084  G$P4$0$0                           Lab6
+     00000084  _P0_4                              Lab6
+     00000084  _P4                                Lab6
+     00000085  G$P0_5$0$0                         Lab6
+     00000085  G$P5$0$0                           Lab6
+     00000085  _P0_5                              Lab6
+     00000085  _P5                                Lab6
+     00000086  G$P0_6$0$0                         Lab6
+     00000086  G$P6$0$0                           Lab6
+     00000086  _P0_6                              Lab6
+     00000086  _P6                                Lab6
+     00000087  G$P0_7$0$0                         Lab6
+     00000087  G$PCON$0$0                         Lab6
+     00000087  _P0_7                              Lab6
+     00000087  _PCON                              Lab6
+     00000088  G$IT0$0$0                          Lab6
+     00000088  G$TCON$0$0                         Lab6
+     00000088  _IT0                               Lab6
+     00000088  _TCON                              Lab6
+     00000089  G$IE0$0$0                          Lab6
+     00000089  G$TMOD$0$0                         Lab6
+     00000089  _IE0                               Lab6
+     00000089  _TMOD                              Lab6
+     0000008A  G$IT1$0$0                          Lab6
+     0000008A  G$TL0$0$0                          Lab6
+     0000008A  _IT1                               Lab6
+     0000008A  _TL0                               Lab6
+     0000008B  G$IE1$0$0                          Lab6
+     0000008B  G$TL1$0$0                          Lab6
+     0000008B  _IE1                               Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000008B  _TL1                               Lab6
+     0000008C  G$TH0$0$0                          Lab6
+     0000008C  G$TR0$0$0                          Lab6
+     0000008C  _TH0                               Lab6
+     0000008C  _TR0                               Lab6
+     0000008D  G$TF0$0$0                          Lab6
+     0000008D  G$TH1$0$0                          Lab6
+     0000008D  _TF0                               Lab6
+     0000008D  _TH1                               Lab6
+     0000008E  G$CKCON$0$0                        Lab6
+     0000008E  G$TR1$0$0                          Lab6
+     0000008E  _CKCON                             Lab6
+     0000008E  _TR1                               Lab6
+     0000008F  G$PSCTL$0$0                        Lab6
+     0000008F  G$TF1$0$0                          Lab6
+     0000008F  _PSCTL                             Lab6
+     0000008F  _TF1                               Lab6
+     00000090  G$P1$0$0                           Lab6
+     00000090  G$P1_0$0$0                         Lab6
+     00000090  _P1                                Lab6
+     00000090  _P1_0                              Lab6
+     00000091  G$P1_1$0$0                         Lab6
+     00000091  G$TMR3CN$0$0                       Lab6
+     00000091  _P1_1                              Lab6
+     00000091  _TMR3CN                            Lab6
+     00000092  G$P1_2$0$0                         Lab6
+     00000092  G$TMR3RLL$0$0                      Lab6
+     00000092  _P1_2                              Lab6
+     00000092  _TMR3RLL                           Lab6
+     00000093  G$P1_3$0$0                         Lab6
+     00000093  G$TMR3RLH$0$0                      Lab6
+     00000093  _P1_3                              Lab6
+     00000093  _TMR3RLH                           Lab6
+     00000094  G$P1_4$0$0                         Lab6
+     00000094  G$TMR3L$0$0                        Lab6
+     00000094  _P1_4                              Lab6
+     00000094  _TMR3L                             Lab6
+     00000095  G$P1_5$0$0                         Lab6
+     00000095  G$TMR3H$0$0                        Lab6
+     00000095  _P1_5                              Lab6
+     00000095  _TMR3H                             Lab6
+     00000096  G$BatteryVoltage$0$0               Lab6
+     00000096  G$P1_6$0$0                         Lab6
+     00000096  G$P7$0$0                           Lab6
+     00000096  _BatteryVoltage                    Lab6
+     00000096  _P1_6                              Lab6
+     00000096  _P7                                Lab6
+     00000097  G$P1_7$0$0                         Lab6
+     00000097  _P1_7                              Lab6
+     00000098  G$RI$0$0                           Lab6
+     00000098  G$RI0$0$0                          Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000098  G$SCON$0$0                         Lab6
+     00000098  G$SCON0$0$0                        Lab6
+     00000098  _RI                                Lab6
+     00000098  _RI0                               Lab6
+     00000098  _SCON                              Lab6
+     00000098  _SCON0                             Lab6
+     00000099  G$SBUF$0$0                         Lab6
+     00000099  G$SBUF0$0$0                        Lab6
+     00000099  G$TI$0$0                           Lab6
+     00000099  G$TI0$0$0                          Lab6
+     00000099  _SBUF                              Lab6
+     00000099  _SBUF0                             Lab6
+     00000099  _TI                                Lab6
+     00000099  _TI0                               Lab6
+     0000009A  G$RB8$0$0                          Lab6
+     0000009A  G$RB80$0$0                         Lab6
+     0000009A  G$SPI0CFG$0$0                      Lab6
+     0000009A  _RB8                               Lab6
+     0000009A  _RB80                              Lab6
+     0000009A  _SPI0CFG                           Lab6
+     0000009B  G$SPI0DAT$0$0                      Lab6
+     0000009B  G$TB8$0$0                          Lab6
+     0000009B  G$TB80$0$0                         Lab6
+     0000009B  _SPI0DAT                           Lab6
+     0000009B  _TB8                               Lab6
+     0000009B  _TB80                              Lab6
+     0000009C  G$ADC1$0$0                         Lab6
+     0000009C  G$REN$0$0                          Lab6
+     0000009C  G$REN0$0$0                         Lab6
+     0000009C  _ADC1                              Lab6
+     0000009C  _REN                               Lab6
+     0000009C  _REN0                              Lab6
+     0000009D  G$MCE0$0$0                         Lab6
+     0000009D  G$SM2$0$0                          Lab6
+     0000009D  G$SM20$0$0                         Lab6
+     0000009D  G$SPI0CKR$0$0                      Lab6
+     0000009D  _MCE0                              Lab6
+     0000009D  _SM2                               Lab6
+     0000009D  _SM20                              Lab6
+     0000009D  _SPI0CKR                           Lab6
+     0000009E  G$CPT0CN$0$0                       Lab6
+     0000009E  G$SM1$0$0                          Lab6
+     0000009E  G$SM10$0$0                         Lab6
+     0000009E  _CPT0CN                            Lab6
+     0000009E  _SM1                               Lab6
+     0000009E  _SM10                              Lab6
+     0000009F  G$CPT1CN$0$0                       Lab6
+     0000009F  G$S0MODE$0$0                       Lab6
+     0000009F  G$SM0$0$0                          Lab6
+     0000009F  G$SM00$0$0                         Lab6
+     0000009F  _CPT1CN                            Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000009F  _S0MODE                            Lab6
+     0000009F  _SM0                               Lab6
+     0000009F  _SM00                              Lab6
+     000000A0  G$P2$0$0                           Lab6
+     000000A0  G$P2_0$0$0                         Lab6
+     000000A0  _P2                                Lab6
+     000000A0  _P2_0                              Lab6
+     000000A1  G$EMI0TC$0$0                       Lab6
+     000000A1  G$P2_1$0$0                         Lab6
+     000000A1  _EMI0TC                            Lab6
+     000000A1  _P2_1                              Lab6
+     000000A2  G$P2_2$0$0                         Lab6
+     000000A2  _P2_2                              Lab6
+     000000A3  G$EMI0CF$0$0                       Lab6
+     000000A3  G$P2_3$0$0                         Lab6
+     000000A3  _EMI0CF                            Lab6
+     000000A3  _P2_3                              Lab6
+     000000A4  G$P0MDOUT$0$0                      Lab6
+     000000A4  G$P2_4$0$0                         Lab6
+     000000A4  G$PRT0CF$0$0                       Lab6
+     000000A4  _P0MDOUT                           Lab6
+     000000A4  _P2_4                              Lab6
+     000000A4  _PRT0CF                            Lab6
+     000000A5  G$P1MDOUT$0$0                      Lab6
+     000000A5  G$P2_5$0$0                         Lab6
+     000000A5  G$PRT1CF$0$0                       Lab6
+     000000A5  _P1MDOUT                           Lab6
+     000000A5  _P2_5                              Lab6
+     000000A5  _PRT1CF                            Lab6
+     000000A6  G$P2MDOUT$0$0                      Lab6
+     000000A6  G$P2_6$0$0                         Lab6
+     000000A6  G$PRT2CF$0$0                       Lab6
+     000000A6  _P2MDOUT                           Lab6
+     000000A6  _P2_6                              Lab6
+     000000A6  _PRT2CF                            Lab6
+     000000A7  G$P2_7$0$0                         Lab6
+     000000A7  G$P3MDOUT$0$0                      Lab6
+     000000A7  G$PRT3CF$0$0                       Lab6
+     000000A7  _P2_7                              Lab6
+     000000A7  _P3MDOUT                           Lab6
+     000000A7  _PRT3CF                            Lab6
+     000000A8  G$EX0$0$0                          Lab6
+     000000A8  G$IE$0$0                           Lab6
+     000000A8  _EX0                               Lab6
+     000000A8  _IE                                Lab6
+     000000A9  G$ET0$0$0                          Lab6
+     000000A9  G$SADDR0$0$0                       Lab6
+     000000A9  _ET0                               Lab6
+     000000A9  _SADDR0                            Lab6
+     000000AA  G$ADC1CN$0$0                       Lab6
+     000000AA  G$EX1$0$0                          Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000AA  _ADC1CN                            Lab6
+     000000AA  _EX1                               Lab6
+     000000AB  G$ADC1CF$0$0                       Lab6
+     000000AB  G$ET1$0$0                          Lab6
+     000000AB  _ADC1CF                            Lab6
+     000000AB  _ET1                               Lab6
+     000000AC  G$AMX1SL$0$0                       Lab6
+     000000AC  G$ES$0$0                           Lab6
+     000000AC  G$ES0$0$0                          Lab6
+     000000AC  _AMX1SL                            Lab6
+     000000AC  _ES                                Lab6
+     000000AC  _ES0                               Lab6
+     000000AD  G$ET2$0$0                          Lab6
+     000000AD  G$P3IF$0$0                         Lab6
+     000000AD  _ET2                               Lab6
+     000000AD  _P3IF                              Lab6
+     000000AE  G$SADEN1$0$0                       Lab6
+     000000AE  _SADEN1                            Lab6
+     000000AF  G$EA$0$0                           Lab6
+     000000AF  G$EMI0CN$0$0                       Lab6
+     000000AF  G$_XPAGE$0$0                       Lab6
+     000000AF  _EA                                Lab6
+     000000AF  _EMI0CN                            Lab6
+     000000AF  __XPAGE                            Lab6
+     000000B0  G$P3$0$0                           Lab6
+     000000B0  G$P3_0$0$0                         Lab6
+     000000B0  _P3                                Lab6
+     000000B0  _P3_0                              Lab6
+     000000B1  G$OSCXCN$0$0                       Lab6
+     000000B1  G$P3_1$0$0                         Lab6
+     000000B1  _OSCXCN                            Lab6
+     000000B1  _P3_1                              Lab6
+     000000B2  G$OSCICN$0$0                       Lab6
+     000000B2  G$P3_2$0$0                         Lab6
+     000000B2  _OSCICN                            Lab6
+     000000B2  _P3_2                              Lab6
+     000000B3  G$P3_3$0$0                         Lab6
+     000000B3  _P3_3                              Lab6
+     000000B4  G$P3_4$0$0                         Lab6
+     000000B4  _P3_4                              Lab6
+     000000B5  G$P3_5$0$0                         Lab6
+     000000B5  G$P74OUT$0$0                       Lab6
+     000000B5  _P3_5                              Lab6
+     000000B5  _P74OUT                            Lab6
+     000000B6  G$FLSCL$0$0                        Lab6
+     000000B6  G$P3_6$0$0                         Lab6
+     000000B6  G$SSRanger$0$0                     Lab6
+     000000B6  _FLSCL                             Lab6
+     000000B6  _P3_6                              Lab6
+     000000B6  _SSRanger                          Lab6
+     000000B7  G$FLACL$0$0                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B7  G$P3_7$0$0                         Lab6
+     000000B7  G$SSCompass$0$0                    Lab6
+     000000B7  _FLACL                             Lab6
+     000000B7  _P3_7                              Lab6
+     000000B7  _SSCompass                         Lab6
+     000000B8  G$IP$0$0                           Lab6
+     000000B8  G$PX0$0$0                          Lab6
+     000000B8  _IP                                Lab6
+     000000B8  _PX0                               Lab6
+     000000B9  G$PT0$0$0                          Lab6
+     000000B9  G$SADEN0$0$0                       Lab6
+     000000B9  _PT0                               Lab6
+     000000B9  _SADEN0                            Lab6
+     000000BA  G$AMX0CF$0$0                       Lab6
+     000000BA  G$PX1$0$0                          Lab6
+     000000BA  _AMX0CF                            Lab6
+     000000BA  _PX1                               Lab6
+     000000BB  G$AMX0SL$0$0                       Lab6
+     000000BB  G$PT1$0$0                          Lab6
+     000000BB  _AMX0SL                            Lab6
+     000000BB  _PT1                               Lab6
+     000000BC  G$ADC0CF$0$0                       Lab6
+     000000BC  G$PS$0$0                           Lab6
+     000000BC  G$PS0$0$0                          Lab6
+     000000BC  _ADC0CF                            Lab6
+     000000BC  _PS                                Lab6
+     000000BC  _PS0                               Lab6
+     000000BD  G$P1MDIN$0$0                       Lab6
+     000000BD  G$PT2$0$0                          Lab6
+     000000BD  _P1MDIN                            Lab6
+     000000BD  _PT2                               Lab6
+     000000BE  G$ADC0L$0$0                        Lab6
+     000000BE  _ADC0L                             Lab6
+     000000BF  G$ADC0H$0$0                        Lab6
+     000000BF  _ADC0H                             Lab6
+     000000C0  G$BUS_TOE$0$0                      Lab6
+     000000C0  G$SMB0CN$0$0                       Lab6
+     000000C0  G$SMBTOE$0$0                       Lab6
+     000000C0  _BUS_TOE                           Lab6
+     000000C0  _SMB0CN                            Lab6
+     000000C0  _SMBTOE                            Lab6
+     000000C1  G$BUS_FTE$0$0                      Lab6
+     000000C1  G$SMB0STA$0$0                      Lab6
+     000000C1  G$SMBFTE$0$0                       Lab6
+     000000C1  _BUS_FTE                           Lab6
+     000000C1  _SMB0STA                           Lab6
+     000000C1  _SMBFTE                            Lab6
+     000000C2  G$AA$0$0                           Lab6
+     000000C2  G$BUS_AA$0$0                       Lab6
+     000000C2  G$SMB0DAT$0$0                      Lab6
+     000000C2  _AA                                Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000C2  _BUS_AA                            Lab6
+     000000C2  _SMB0DAT                           Lab6
+     000000C3  G$BUS_INT$0$0                      Lab6
+     000000C3  G$SI$0$0                           Lab6
+     000000C3  G$SMB0ADR$0$0                      Lab6
+     000000C3  _BUS_INT                           Lab6
+     000000C3  _SI                                Lab6
+     000000C3  _SMB0ADR                           Lab6
+     000000C4  G$ADC0GTL$0$0                      Lab6
+     000000C4  G$BUS_STOP$0$0                     Lab6
+     000000C4  G$STO$0$0                          Lab6
+     000000C4  _ADC0GTL                           Lab6
+     000000C4  _BUS_STOP                          Lab6
+     000000C4  _STO                               Lab6
+     000000C5  G$ADC0GTH$0$0                      Lab6
+     000000C5  G$BUS_START$0$0                    Lab6
+     000000C5  G$STA$0$0                          Lab6
+     000000C5  _ADC0GTH                           Lab6
+     000000C5  _BUS_START                         Lab6
+     000000C5  _STA                               Lab6
+     000000C6  G$ADC0LTL$0$0                      Lab6
+     000000C6  G$BUS_EN$0$0                       Lab6
+     000000C6  G$ENSMB$0$0                        Lab6
+     000000C6  _ADC0LTL                           Lab6
+     000000C6  _BUS_EN                            Lab6
+     000000C6  _ENSMB                             Lab6
+     000000C7  G$ADC0LTH$0$0                      Lab6
+     000000C7  G$BUSY$0$0                         Lab6
+     000000C7  G$BUS_BUSY$0$0                     Lab6
+     000000C7  _ADC0LTH                           Lab6
+     000000C7  _BUSY                              Lab6
+     000000C7  _BUS_BUSY                          Lab6
+     000000C8  G$CPRL2$0$0                        Lab6
+     000000C8  G$T2CON$0$0                        Lab6
+     000000C8  _CPRL2                             Lab6
+     000000C8  _T2CON                             Lab6
+     000000C9  G$CT2$0$0                          Lab6
+     000000C9  G$T4CON$0$0                        Lab6
+     000000C9  _CT2                               Lab6
+     000000C9  _T4CON                             Lab6
+     000000CA  G$RCAP2L$0$0                       Lab6
+     000000CA  G$TR2$0$0                          Lab6
+     000000CA  _RCAP2L                            Lab6
+     000000CA  _TR2                               Lab6
+     000000CB  G$EXEN2$0$0                        Lab6
+     000000CB  G$RCAP2H$0$0                       Lab6
+     000000CB  _EXEN2                             Lab6
+     000000CB  _RCAP2H                            Lab6
+     000000CC  G$TCLK$0$0                         Lab6
+     000000CC  G$TL2$0$0                          Lab6
+     000000CC  _TCLK                              Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000CC  _TL2                               Lab6
+     000000CD  G$RCLK$0$0                         Lab6
+     000000CD  G$TH2$0$0                          Lab6
+     000000CD  _RCLK                              Lab6
+     000000CD  _TH2                               Lab6
+     000000CE  G$EXF2$0$0                         Lab6
+     000000CE  _EXF2                              Lab6
+     000000CF  G$SMB0CR$0$0                       Lab6
+     000000CF  G$TF2$0$0                          Lab6
+     000000CF  _SMB0CR                            Lab6
+     000000CF  _TF2                               Lab6
+     000000D0  G$P$0$0                            Lab6
+     000000D0  G$PSW$0$0                          Lab6
+     000000D0  _P                                 Lab6
+     000000D0  _PSW                               Lab6
+     000000D1  G$F1$0$0                           Lab6
+     000000D1  G$REF0CN$0$0                       Lab6
+     000000D1  _F1                                Lab6
+     000000D1  _REF0CN                            Lab6
+     000000D2  G$DAC0L$0$0                        Lab6
+     000000D2  G$OV$0$0                           Lab6
+     000000D2  _DAC0L                             Lab6
+     000000D2  _OV                                Lab6
+     000000D3  G$DAC0H$0$0                        Lab6
+     000000D3  G$RS0$0$0                          Lab6
+     000000D3  _DAC0H                             Lab6
+     000000D3  _RS0                               Lab6
+     000000D4  G$DAC0CN$0$0                       Lab6
+     000000D4  G$RS1$0$0                          Lab6
+     000000D4  _DAC0CN                            Lab6
+     000000D4  _RS1                               Lab6
+     000000D5  G$DAC1L$0$0                        Lab6
+     000000D5  G$F0$0$0                           Lab6
+     000000D5  _DAC1L                             Lab6
+     000000D5  _F0                                Lab6
+     000000D6  G$AC$0$0                           Lab6
+     000000D6  G$DAC1H$0$0                        Lab6
+     000000D6  _AC                                Lab6
+     000000D6  _DAC1H                             Lab6
+     000000D7  G$CY$0$0                           Lab6
+     000000D7  G$DAC1CN$0$0                       Lab6
+     000000D7  _CY                                Lab6
+     000000D7  _DAC1CN                            Lab6
+     000000D8  G$CCF0$0$0                         Lab6
+     000000D8  G$PCA0CN$0$0                       Lab6
+     000000D8  _CCF0                              Lab6
+     000000D8  _PCA0CN                            Lab6
+     000000D9  G$CCF1$0$0                         Lab6
+     000000D9  G$PCA0MD$0$0                       Lab6
+     000000D9  _CCF1                              Lab6
+     000000D9  _PCA0MD                            Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000DA  G$CCF2$0$0                         Lab6
+     000000DA  G$PCA0CPM0$0$0                     Lab6
+     000000DA  _CCF2                              Lab6
+     000000DA  _PCA0CPM0                          Lab6
+     000000DB  G$CCF3$0$0                         Lab6
+     000000DB  G$PCA0CPM1$0$0                     Lab6
+     000000DB  _CCF3                              Lab6
+     000000DB  _PCA0CPM1                          Lab6
+     000000DC  G$CCF4$0$0                         Lab6
+     000000DC  G$PCA0CPM2$0$0                     Lab6
+     000000DC  _CCF4                              Lab6
+     000000DC  _PCA0CPM2                          Lab6
+     000000DD  G$PCA0CPM3$0$0                     Lab6
+     000000DD  _PCA0CPM3                          Lab6
+     000000DE  G$CR$0$0                           Lab6
+     000000DE  G$PCA0CPM4$0$0                     Lab6
+     000000DE  _CR                                Lab6
+     000000DE  _PCA0CPM4                          Lab6
+     000000DF  G$CF$0$0                           Lab6
+     000000DF  _CF                                Lab6
+     000000E0  G$ACC$0$0                          Lab6
+     000000E0  _ACC                               Lab6
+     000000E1  G$XBR0$0$0                         Lab6
+     000000E1  _XBR0                              Lab6
+     000000E2  G$XBR1$0$0                         Lab6
+     000000E2  _XBR1                              Lab6
+     000000E3  G$XBR2$0$0                         Lab6
+     000000E3  _XBR2                              Lab6
+     000000E4  G$RCAP4L$0$0                       Lab6
+     000000E4  _RCAP4L                            Lab6
+     000000E5  G$RCAP4H$0$0                       Lab6
+     000000E5  _RCAP4H                            Lab6
+     000000E6  G$EIE1$0$0                         Lab6
+     000000E6  _EIE1                              Lab6
+     000000E7  G$EIE2$0$0                         Lab6
+     000000E7  _EIE2                              Lab6
+     000000E8  G$AD0LJST$0$0                      Lab6
+     000000E8  G$ADC0CN$0$0                       Lab6
+     000000E8  G$ADLJST$0$0                       Lab6
+     000000E8  _AD0LJST                           Lab6
+     000000E8  _ADC0CN                            Lab6
+     000000E8  _ADLJST                            Lab6
+     000000E9  G$AD0WINT$0$0                      Lab6
+     000000E9  G$ADWINT$0$0                       Lab6
+     000000E9  G$PCA0L$0$0                        Lab6
+     000000E9  _AD0WINT                           Lab6
+     000000E9  _ADWINT                            Lab6
+     000000E9  _PCA0L                             Lab6
+     000000EA  G$AD0CM0$0$0                       Lab6
+     000000EA  G$ADSTM0$0$0                       Lab6
+     000000EA  G$PCA0CPL0$0$0                     Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000EA  _AD0CM0                            Lab6
+     000000EA  _ADSTM0                            Lab6
+     000000EA  _PCA0CPL0                          Lab6
+     000000EB  G$AD0CM1$0$0                       Lab6
+     000000EB  G$ADSTM1$0$0                       Lab6
+     000000EB  G$PCA0CPL1$0$0                     Lab6
+     000000EB  _AD0CM1                            Lab6
+     000000EB  _ADSTM1                            Lab6
+     000000EB  _PCA0CPL1                          Lab6
+     000000EC  G$AD0BUSY$0$0                      Lab6
+     000000EC  G$ADBUSY$0$0                       Lab6
+     000000EC  G$PCA0CPL2$0$0                     Lab6
+     000000EC  _AD0BUSY                           Lab6
+     000000EC  _ADBUSY                            Lab6
+     000000EC  _PCA0CPL2                          Lab6
+     000000ED  G$AD0INT$0$0                       Lab6
+     000000ED  G$ADCINT$0$0                       Lab6
+     000000ED  G$PCA0CPL3$0$0                     Lab6
+     000000ED  _AD0INT                            Lab6
+     000000ED  _ADCINT                            Lab6
+     000000ED  _PCA0CPL3                          Lab6
+     000000EE  G$AD0TM$0$0                        Lab6
+     000000EE  G$ADCTM$0$0                        Lab6
+     000000EE  G$PCA0CPL4$0$0                     Lab6
+     000000EE  _AD0TM                             Lab6
+     000000EE  _ADCTM                             Lab6
+     000000EE  _PCA0CPL4                          Lab6
+     000000EF  G$AD0EN$0$0                        Lab6
+     000000EF  G$ADCEN$0$0                        Lab6
+     000000EF  G$RSTSRC$0$0                       Lab6
+     000000EF  _AD0EN                             Lab6
+     000000EF  _ADCEN                             Lab6
+     000000EF  _RSTSRC                            Lab6
+     000000F0  G$B$0$0                            Lab6
+     000000F0  _B                                 Lab6
+     000000F1  G$SCON1$0$0                        Lab6
+     000000F1  _SCON1                             Lab6
+     000000F2  G$SBUF1$0$0                        Lab6
+     000000F2  _SBUF1                             Lab6
+     000000F3  G$SADDR1$0$0                       Lab6
+     000000F3  _SADDR1                            Lab6
+     000000F4  G$TL4$0$0                          Lab6
+     000000F4  _TL4                               Lab6
+     000000F5  G$TH4$0$0                          Lab6
+     000000F5  _B_5                               _gptrget
+     000000F5  _TH4                               Lab6
+     000000F6  G$EIP1$0$0                         Lab6
+     000000F6  _B_6                               _gptrget
+     000000F6  _EIP1                              Lab6
+     000000F7  G$EIP2$0$0                         Lab6
+     000000F7  _B_7                               _gptrget
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000F7  _EIP2                              Lab6
+     000000F8  G$SPI0CN$0$0                       Lab6
+     000000F8  G$SPIEN$0$0                        Lab6
+     000000F8  _SPI0CN                            Lab6
+     000000F8  _SPIEN                             Lab6
+     000000F9  G$MSTEN$0$0                        Lab6
+     000000F9  G$PCA0H$0$0                        Lab6
+     000000F9  _MSTEN                             Lab6
+     000000F9  _PCA0H                             Lab6
+     000000FA  G$PCA0CPH0$0$0                     Lab6
+     000000FA  G$SLVSEL$0$0                       Lab6
+     000000FA  _PCA0CPH0                          Lab6
+     000000FA  _SLVSEL                            Lab6
+     000000FB  G$PCA0CPH1$0$0                     Lab6
+     000000FB  G$TXBSY$0$0                        Lab6
+     000000FB  _PCA0CPH1                          Lab6
+     000000FB  _TXBSY                             Lab6
+     000000FC  G$PCA0CPH2$0$0                     Lab6
+     000000FC  G$RXOVRN$0$0                       Lab6
+     000000FC  _PCA0CPH2                          Lab6
+     000000FC  _RXOVRN                            Lab6
+     000000FD  G$MODF$0$0                         Lab6
+     000000FD  G$PCA0CPH3$0$0                     Lab6
+     000000FD  _MODF                              Lab6
+     000000FD  _PCA0CPH3                          Lab6
+     000000FE  G$PCA0CPH4$0$0                     Lab6
+     000000FE  G$WCOL$0$0                         Lab6
+     000000FE  _PCA0CPH4                          Lab6
+     000000FE  _WCOL                              Lab6
+     000000FF  G$SPIF$0$0                         Lab6
+     000000FF  G$WDTCN$0$0                        Lab6
+     000000FF  _SPIF                              Lab6
+     000000FF  _WDTCN                             Lab6
+     00008C8A  G$TMR0$0$0                         Lab6
+     00008C8A  _TMR0                              Lab6
+     00008D8B  G$TMR1$0$0                         Lab6
+     00008D8B  _TMR1                              Lab6
+     00009392  G$TMR3RL$0$0                       Lab6
+     00009392  _TMR3RL                            Lab6
+     00009594  G$TMR3$0$0                         Lab6
+     00009594  _TMR3                              Lab6
+     0000BFBE  G$ADC0$0$0                         Lab6
+     0000BFBE  _ADC0                              Lab6
+     0000C5C4  G$ADC0GT$0$0                       Lab6
+     0000C5C4  _ADC0GT                            Lab6
+     0000C7C6  G$ADC0LT$0$0                       Lab6
+     0000C7C6  _ADC0LT                            Lab6
+     0000CBCA  G$RCAP2$0$0                        Lab6
+     0000CBCA  _RCAP2                             Lab6
+     0000CDCC  G$TMR2$0$0                         Lab6
+     0000CDCC  _TMR2                              Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000D3D2  G$DAC0$0$0                         Lab6
+     0000D3D2  _DAC0                              Lab6
+     0000D6D5  G$DAC1$0$0                         Lab6
+     0000D6D5  _DAC1                              Lab6
+     0000E5E4  G$RCAP4$0$0                        Lab6
+     0000E5E4  _RCAP4                             Lab6
+     0000F5F4  G$TMR4$0$0                         Lab6
+     0000F5F4  _TMR4                              Lab6
+     0000F9E9  G$PCA0$0$0                         Lab6
+     0000F9E9  _PCA0                              Lab6
+     0000FAEA  G$PCA0CP0$0$0                      Lab6
+     0000FAEA  _PCA0CP0                           Lab6
+     0000FBEB  G$PCA0CP1$0$0                      Lab6
+     0000FBEB  _PCA0CP1                           Lab6
+     0000FCEC  G$PCA0CP2$0$0                      Lab6
+     0000FCEC  _PCA0CP2                           Lab6
+     0000FDED  G$PCA0CP3$0$0                      Lab6
+     0000FDED  _PCA0CP3                           Lab6
+     0000FEEE  G$PCA0CP4$0$0                      Lab6
+     0000FEEE  _PCA0CP4                           Lab6
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BSEG_BYTES                          00000020    00000003 =           3. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    00000080 =         128. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000011  _vsprintf_PARM_2                   sprintf
+     00000014  _vsprintf_PARM_3                   sprintf
+     00000018  _bp                                _bp
+     00000019  _vprintf_PARM_2                    vprintf
+     00000023  LLab6.lcd_clear$NumBytes$1$77      Lab6
+     00000024  LLab6.lcd_clear$Cmd$1$77           Lab6
+     00000026  LLab6.read_keypad$Data$1$78        Lab6
+     00000028  LLab6.i2c_write_data$start_reg$1   Lab6
+     00000028  _i2c_write_data_PARM_2             Lab6
+     00000029  LLab6.i2c_write_data$buffer$1$97   Lab6
+     00000029  _i2c_write_data_PARM_3             Lab6
+     0000002C  LLab6.i2c_write_data$num_bytes$1   Lab6
+     0000002C  _i2c_write_data_PARM_4             Lab6
+     0000002D  LLab6.i2c_read_data$start_reg$1$   Lab6
+     0000002D  _i2c_read_data_PARM_2              Lab6
+     0000002E  LLab6.i2c_read_data$buffer$1$99    Lab6
+     0000002E  _i2c_read_data_PARM_3              Lab6
+     00000031  LLab6.i2c_read_data$num_bytes$1$   Lab6
+     00000031  _i2c_read_data_PARM_4              Lab6
+     00000032  LLab6.Accel_Init$Data2$1$103       Lab6
+     00000033  G$PW_NEUT$0$0                      Lab6
+     00000033  _PW_NEUT                           Lab6
+     00000035  G$PW_MIN$0$0                       Lab6
+     00000035  _PW_MIN                            Lab6
+     00000037  G$PW_MAX$0$0                       Lab6
+     00000037  _PW_MAX                            Lab6
+     00000039  G$counts$0$0                       Lab6
+     00000039  _counts                            Lab6
+     0000003B  G$counts2$0$0                      Lab6
+     0000003B  _counts2                           Lab6
+     0000003D  G$addr_ranger$0$0                  Lab6
+     0000003D  _addr_ranger                       Lab6
+     0000003E  G$addr_compass$0$0                 Lab6
+     0000003E  _addr_compass                      Lab6
+     0000003F  LLab6.main$error$1$114             Lab6
+     00000041  LLab6.main$prev_error$1$114        Lab6
+     00000043  LLab6.main$temp_motorpw_alg6$1$1   Lab6
+     00000047  LLab6.main$original_desired$1$11   Lab6
+     00000049  LLab6.main$desired$1$114           Lab6
+     0000004B  LLab6.main$actual$1$114            Lab6
+     0000004D  LLab6.main$kp$1$114                Lab6
+     00000051  LLab6.main$kd$1$114                Lab6
+     00000053  LLab6.main$range$1$114             Lab6
+     00000055  LLab6.main$batteryV$1$114          Lab6
+     00000057  LLab6.main$kpError$1$114           Lab6
+     0000005B  LLab6.main$sloc0$1$0               Lab6
+     0000005D  LLab6.ReadRanger$Data$1$120        Lab6
+     0000005F  LLab6.ReadCompass$Data$1$122       Lab6
+     00000061  LLab6.getNumberFromKeypad$data2$   Lab6
+     00000070  __print_format_PARM_2              printf_large
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    00000080 =         128. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000073  __print_format_PARM_3              printf_large
+     00000076  __print_format_PARM_4              printf_large
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+OSEG                                0000001A    00000006 =           6. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000001A  __gptrput_PARM_2                   _gptrput
+     0000001A  __modsint_PARM_2                   _moduint
+     0000001A  __moduint_PARM_2                   _moduint
+     0000001A  __mulint_PARM_2                    _mulint
+     0000001A  __mullong_PARM_2                   _mullong
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+ISEG                                0000007E    00000006 =           6. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000084    0000007C =         124. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000084  __start__stack                     Lab6
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XSEG                                00000001    00000050 =          80. bytes (REL,CON,XDATA)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+D:   00000001  LLab6.lcd_print$text$1$73          Lab6
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    00000051 =          81. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  A$Lab6$1104                        Lab6
+C:   00000003  A$Lab6$1105                        Lab6
+C:   0000000B  A$Lab6$1107                        Lab6
+C:   00000013  A$Lab6$1109                        Lab6
+C:   0000001B  A$Lab6$1111                        Lab6
+C:   00000023  A$Lab6$1113                        Lab6
+C:   0000002B  A$Lab6$1115                        Lab6
+C:   00000033  A$Lab6$1117                        Lab6
+C:   0000003B  A$Lab6$1119                        Lab6
+C:   00000043  A$Lab6$1121                        Lab6
+C:   0000004B  A$Lab6$1123                        Lab6
+C:   0000004E  A$Lab6$1172                        Lab6
+C:   0000004E  __sdcc_program_startup             Lab6
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00000051    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000051  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             00000054    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             0000005E    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000005E  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             00000080    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000080  __mcs51_genRAMCLEAR                
+C:   00000086  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              000000AA    00000021 =          33. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000AA  A$Lab6$1139                        Lab6
+C:   000000AA  C$Lab6.c$30$1$156                  Lab6
+C:   000000AD  A$Lab6$1140                        Lab6
+C:   000000B0  A$Lab6$1143                        Lab6
+C:   000000B0  C$Lab6.c$31$1$156                  Lab6
+C:   000000B3  A$Lab6$1144                        Lab6
+C:   000000B6  A$Lab6$1147                        Lab6
+C:   000000B6  C$Lab6.c$32$1$156                  Lab6
+C:   000000B9  A$Lab6$1148                        Lab6
+C:   000000BC  A$Lab6$1151                        Lab6
+C:   000000BC  C$Lab6.c$34$1$156                  Lab6
+C:   000000BD  A$Lab6$1152                        Lab6
+C:   000000BF  A$Lab6$1153                        Lab6
+C:   000000C1  A$Lab6$1156                        Lab6
+C:   000000C1  C$Lab6.c$35$1$156                  Lab6
+C:   000000C3  A$Lab6$1157                        Lab6
+C:   000000C5  A$Lab6$1160                        Lab6
+C:   000000C5  C$Lab6.c$37$1$156                  Lab6
+C:   000000C8  A$Lab6$1163                        Lab6
+C:   000000C8  C$Lab6.c$38$1$156                  Lab6
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             000000CB    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000CB  A$Lab6$1165                        Lab6
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000CE  A$Lab6$1200                        Lab6
+C:   000000CE  C$c8051_SDCC.h$42$0$0              Lab6
+C:   000000CE  C$c8051_SDCC.h$46$1$31             Lab6
+C:   000000CE  G$SYSCLK_Init$0$0                  Lab6
+C:   000000CE  _SYSCLK_Init                       Lab6
+C:   000000D1  A$Lab6$1203                        Lab6
+C:   000000D1  C$c8051_SDCC.h$49$1$31             Lab6
+C:   000000D3  A$Lab6$1204                        Lab6
+C:   000000D5  A$Lab6$1206                        Lab6
+C:   000000D6  A$Lab6$1207                        Lab6
+C:   000000D9  A$Lab6$1208                        Lab6
+C:   000000DA  A$Lab6$1210                        Lab6
+C:   000000DB  A$Lab6$1211                        Lab6
+C:   000000DC  A$Lab6$1212                        Lab6
+C:   000000DE  A$Lab6$1216                        Lab6
+C:   000000DE  C$c8051_SDCC.h$51$1$31             Lab6
+C:   000000E0  A$Lab6$1217                        Lab6
+C:   000000E3  A$Lab6$1220                        Lab6
+C:   000000E3  C$c8051_SDCC.h$53$1$31             Lab6
+C:   000000E6  A$Lab6$1223                        Lab6
+C:   000000E6  C$c8051_SDCC.h$56$1$31             Lab6
+C:   000000E6  XG$SYSCLK_Init$0$0                 Lab6
+C:   000000E7  A$Lab6$1236                        Lab6
+C:   000000E7  C$c8051_SDCC.h$64$1$31             Lab6
+C:   000000E7  C$c8051_SDCC.h$66$1$33             Lab6
+C:   000000E7  G$UART0_Init$0$0                   Lab6
+C:   000000E7  _UART0_Init                        Lab6
+C:   000000EA  A$Lab6$1239                        Lab6
+C:   000000EA  C$c8051_SDCC.h$67$1$33             Lab6
+C:   000000ED  A$Lab6$1242                        Lab6
+C:   000000ED  C$c8051_SDCC.h$68$1$33             Lab6
+C:   000000F0  A$Lab6$1245                        Lab6
+C:   000000F0  C$c8051_SDCC.h$69$1$33             Lab6
+C:   000000F2  A$Lab6$1248                        Lab6
+C:   000000F2  C$c8051_SDCC.h$70$1$33             Lab6
+C:   000000F5  A$Lab6$1251                        Lab6
+C:   000000F5  C$c8051_SDCC.h$71$1$33             Lab6
+C:   000000F8  A$Lab6$1254                        Lab6
+C:   000000F8  C$c8051_SDCC.h$73$1$33             Lab6
+C:   000000FA  A$Lab6$1257                        Lab6
+C:   000000FA  C$c8051_SDCC.h$74$1$33             Lab6
+C:   000000FD  A$Lab6$1260                        Lab6
+C:   000000FD  C$c8051_SDCC.h$75$1$33             Lab6
+C:   000000FD  XG$UART0_Init$0$0                  Lab6
+C:   000000FE  A$Lab6$1273                        Lab6
+C:   000000FE  C$c8051_SDCC.h$83$1$33             Lab6
+C:   000000FE  C$c8051_SDCC.h$85$1$35             Lab6
+C:   000000FE  G$Sys_Init$0$0                     Lab6
+C:   000000FE  _Sys_Init                          Lab6
+C:   00000101  A$Lab6$1276                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000101  C$c8051_SDCC.h$86$1$35             Lab6
+C:   00000104  A$Lab6$1279                        Lab6
+C:   00000104  C$c8051_SDCC.h$88$1$35             Lab6
+C:   00000107  A$Lab6$1282                        Lab6
+C:   00000107  C$c8051_SDCC.h$89$1$35             Lab6
+C:   0000010A  A$Lab6$1285                        Lab6
+C:   0000010A  C$c8051_SDCC.h$91$1$35             Lab6
+C:   0000010D  A$Lab6$1288                        Lab6
+C:   0000010D  C$c8051_SDCC.h$92$1$35             Lab6
+C:   00000110  A$Lab6$1291                        Lab6
+C:   00000110  C$c8051_SDCC.h$93$1$35             Lab6
+C:   00000110  XG$Sys_Init$0$0                    Lab6
+C:   00000111  A$Lab6$1304                        Lab6
+C:   00000111  C$c8051_SDCC.h$98$1$35             Lab6
+C:   00000111  G$putchar$0$0                      Lab6
+C:   00000111  _putchar                           Lab6
+C:   00000113  A$Lab6$1310                        Lab6
+C:   00000113  C$c8051_SDCC.h$100$1$37            Lab6
+C:   00000113  C$c8051_SDCC.h$101$1$37            Lab6
+C:   00000116  A$Lab6$1311                        Lab6
+C:   00000118  A$Lab6$1315                        Lab6
+C:   00000118  C$c8051_SDCC.h$102$1$37            Lab6
+C:   0000011A  A$Lab6$1318                        Lab6
+C:   0000011A  C$c8051_SDCC.h$103$1$37            Lab6
+C:   0000011A  XG$putchar$0$0                     Lab6
+C:   0000011B  A$Lab6$1336                        Lab6
+C:   0000011B  C$c8051_SDCC.h$108$1$37            Lab6
+C:   0000011B  C$c8051_SDCC.h$111$1$39            Lab6
+C:   0000011B  C$c8051_SDCC.h$112$1$39            Lab6
+C:   0000011B  G$getchar$0$0                      Lab6
+C:   0000011B  _getchar                           Lab6
+C:   0000011E  A$Lab6$1337                        Lab6
+C:   00000120  A$Lab6$1341                        Lab6
+C:   00000120  C$c8051_SDCC.h$113$1$39            Lab6
+C:   00000123  A$Lab6$1344                        Lab6
+C:   00000123  C$c8051_SDCC.h$114$1$39            Lab6
+C:   00000126  A$Lab6$1347                        Lab6
+C:   00000126  C$c8051_SDCC.h$115$1$39            Lab6
+C:   00000129  A$Lab6$1350                        Lab6
+C:   00000129  C$c8051_SDCC.h$116$1$39            Lab6
+C:   00000129  XG$getchar$0$0                     Lab6
+C:   0000012A  A$Lab6$1367                        Lab6
+C:   0000012A  C$i2c.h$81$1$39                    Lab6
+C:   0000012A  G$lcd_print$0$0                    Lab6
+C:   0000012A  _lcd_print                         Lab6
+C:   0000012C  A$Lab6$1368                        Lab6
+C:   0000012F  A$Lab6$1371                        Lab6
+C:   0000012F  C$i2c.h$87$1$73                    Lab6
+C:   00000131  A$Lab6$1372                        Lab6
+C:   00000133  A$Lab6$1373                        Lab6
+C:   00000134  A$Lab6$1374                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000136  A$Lab6$1375                        Lab6
+C:   00000137  A$Lab6$1376                        Lab6
+C:   00000139  A$Lab6$1377                        Lab6
+C:   0000013A  A$Lab6$1378                        Lab6
+C:   0000013C  A$Lab6$1379                        Lab6
+C:   0000013F  A$Lab6$1380                        Lab6
+C:   00000141  A$Lab6$1381                        Lab6
+C:   00000144  A$Lab6$1382                        Lab6
+C:   00000146  A$Lab6$1383                        Lab6
+C:   00000148  A$Lab6$1384                        Lab6
+C:   0000014A  A$Lab6$1388                        Lab6
+C:   0000014A  C$i2c.h$89$2$74                    Lab6
+C:   0000014C  A$Lab6$1389                        Lab6
+C:   0000014E  A$Lab6$1390                        Lab6
+C:   0000014F  A$Lab6$1391                        Lab6
+C:   00000151  A$Lab6$1394                        Lab6
+C:   00000151  C$i2c.h$90$1$73                    Lab6
+C:   00000153  A$Lab6$1395                        Lab6
+C:   00000155  A$Lab6$1396                        Lab6
+C:   00000156  A$Lab6$1397                        Lab6
+C:   00000158  A$Lab6$1398                        Lab6
+C:   00000159  A$Lab6$1399                        Lab6
+C:   0000015B  A$Lab6$1400                        Lab6
+C:   0000015C  A$Lab6$1401                        Lab6
+C:   0000015E  A$Lab6$1402                        Lab6
+C:   00000161  A$Lab6$1403                        Lab6
+C:   00000164  A$Lab6$1404                        Lab6
+C:   00000167  A$Lab6$1407                        Lab6
+C:   00000167  C$i2c.h$93$1$73                    Lab6
+C:   0000016A  A$Lab6$1408                        Lab6
+C:   0000016D  A$Lab6$1409                        Lab6
+C:   00000170  A$Lab6$1410                        Lab6
+C:   00000172  A$Lab6$1413                        Lab6
+C:   00000174  A$Lab6$1415                        Lab6
+C:   00000175  A$Lab6$1416                        Lab6
+C:   00000176  A$Lab6$1417                        Lab6
+C:   00000177  A$Lab6$1418                        Lab6
+C:   00000179  A$Lab6$1421                        Lab6
+C:   00000179  C$i2c.h$96$2$76                    Lab6
+C:   0000017A  A$Lab6$1422                        Lab6
+C:   0000017C  A$Lab6$1423                        Lab6
+C:   0000017E  A$Lab6$1424                        Lab6
+C:   0000017F  A$Lab6$1425                        Lab6
+C:   00000181  A$Lab6$1426                        Lab6
+C:   00000183  A$Lab6$1427                        Lab6
+C:   00000184  A$Lab6$1428                        Lab6
+C:   00000185  A$Lab6$1429                        Lab6
+C:   00000188  A$Lab6$1430                        Lab6
+C:   00000189  A$Lab6$1431                        Lab6
+C:   0000018B  A$Lab6$1432                        Lab6
+C:   0000018D  A$Lab6$1433                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000018E  A$Lab6$1434                        Lab6
+C:   00000190  A$Lab6$1435                        Lab6
+C:   00000192  A$Lab6$1436                        Lab6
+C:   00000194  A$Lab6$1437                        Lab6
+C:   00000195  A$Lab6$1441                        Lab6
+C:   00000195  C$i2c.h$94$1$73                    Lab6
+C:   00000196  A$Lab6$1442                        Lab6
+C:   00000198  A$Lab6$1446                        Lab6
+C:   00000198  C$i2c.h$99$1$73                    Lab6
+C:   0000019B  A$Lab6$1447                        Lab6
+C:   0000019E  A$Lab6$1448                        Lab6
+C:   000001A1  A$Lab6$1449                        Lab6
+C:   000001A4  A$Lab6$1450                        Lab6
+C:   000001A6  A$Lab6$1451                        Lab6
+C:   000001A9  A$Lab6$1452                        Lab6
+C:   000001AC  A$Lab6$1454                        Lab6
+C:   000001AE  A$Lab6$1457                        Lab6
+C:   000001AE  C$i2c.h$100$1$73                   Lab6
+C:   000001AE  XG$lcd_print$0$0                   Lab6
+C:   000001AF  A$Lab6$1473                        Lab6
+C:   000001AF  C$i2c.h$103$1$73                   Lab6
+C:   000001AF  C$i2c.h$105$1$73                   Lab6
+C:   000001AF  G$lcd_clear$0$0                    Lab6
+C:   000001AF  _lcd_clear                         Lab6
+C:   000001B2  A$Lab6$1477                        Lab6
+C:   000001B2  C$i2c.h$107$1$77                   Lab6
+C:   000001B4  A$Lab6$1478                        Lab6
+C:   000001B6  A$Lab6$1479                        Lab6
+C:   000001B8  A$Lab6$1480                        Lab6
+C:   000001BB  A$Lab6$1481                        Lab6
+C:   000001BE  A$Lab6$1482                        Lab6
+C:   000001C1  A$Lab6$1483                        Lab6
+C:   000001C4  A$Lab6$1484                        Lab6
+C:   000001C7  A$Lab6$1485                        Lab6
+C:   000001CA  A$Lab6$1486                        Lab6
+C:   000001CD  A$Lab6$1487                        Lab6
+C:   000001CF  A$Lab6$1491                        Lab6
+C:   000001CF  C$i2c.h$109$1$77                   Lab6
+C:   000001D2  A$Lab6$1494                        Lab6
+C:   000001D2  C$i2c.h$110$1$77                   Lab6
+C:   000001D5  A$Lab6$1495                        Lab6
+C:   000001D8  A$Lab6$1496                        Lab6
+C:   000001DB  A$Lab6$1497                        Lab6
+C:   000001DE  A$Lab6$1498                        Lab6
+C:   000001E1  A$Lab6$1499                        Lab6
+C:   000001E4  A$Lab6$1500                        Lab6
+C:   000001E7  A$Lab6$1503                        Lab6
+C:   000001E7  C$i2c.h$111$1$77                   Lab6
+C:   000001E7  XG$lcd_clear$0$0                   Lab6
+C:   000001E8  A$Lab6$1519                        Lab6
+C:   000001E8  C$i2c.h$114$1$77                   Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000001E8  C$i2c.h$118$1$78                   Lab6
+C:   000001E8  G$read_keypad$0$0                  Lab6
+C:   000001E8  _read_keypad                       Lab6
+C:   000001EB  A$Lab6$1520                        Lab6
+C:   000001EE  A$Lab6$1521                        Lab6
+C:   000001F1  A$Lab6$1522                        Lab6
+C:   000001F4  A$Lab6$1523                        Lab6
+C:   000001F7  A$Lab6$1524                        Lab6
+C:   000001FA  A$Lab6$1525                        Lab6
+C:   000001FD  A$Lab6$1528                        Lab6
+C:   000001FD  C$i2c.h$119$1$78                   Lab6
+C:   000001FF  A$Lab6$1529                        Lab6
+C:   00000202  A$Lab6$1530                        Lab6
+C:   00000205  A$Lab6$1531                        Lab6
+C:   00000207  A$Lab6$1535                        Lab6
+C:   00000209  A$Lab6$1536                        Lab6
+C:   0000020B  A$Lab6$1540                        Lab6
+C:   0000020B  C$i2c.h$123$2$79                   Lab6
+C:   0000020D  A$Lab6$1541                        Lab6
+C:   0000020F  A$Lab6$1542                        Lab6
+C:   00000211  A$Lab6$1543                        Lab6
+C:   00000213  A$Lab6$1544                        Lab6
+C:   00000215  A$Lab6$1546                        Lab6
+C:   00000216  A$Lab6$1547                        Lab6
+C:   00000217  A$Lab6$1548                        Lab6
+C:   00000218  A$Lab6$1549                        Lab6
+C:   00000219  A$Lab6$1550                        Lab6
+C:   0000021A  A$Lab6$1551                        Lab6
+C:   0000021B  A$Lab6$1553                        Lab6
+C:   0000021E  A$Lab6$1554                        Lab6
+C:   00000220  A$Lab6$1555                        Lab6
+C:   00000222  A$Lab6$1556                        Lab6
+C:   00000223  A$Lab6$1557                        Lab6
+C:   00000225  A$Lab6$1558                        Lab6
+C:   00000226  A$Lab6$1559                        Lab6
+C:   00000228  A$Lab6$1560                        Lab6
+C:   00000229  A$Lab6$1561                        Lab6
+C:   0000022A  A$Lab6$1562                        Lab6
+C:   0000022C  A$Lab6$1565                        Lab6
+C:   0000022C  C$i2c.h$124$2$79                   Lab6
+C:   0000022E  A$Lab6$1566                        Lab6
+C:   0000022F  A$Lab6$1567                        Lab6
+C:   00000231  A$Lab6$1568                        Lab6
+C:   00000233  A$Lab6$1572                        Lab6
+C:   00000233  C$i2c.h$121$1$78                   Lab6
+C:   00000234  A$Lab6$1573                        Lab6
+C:   00000236  A$Lab6$1574                        Lab6
+C:   00000239  A$Lab6$1576                        Lab6
+C:   0000023B  A$Lab6$1579                        Lab6
+C:   0000023B  C$i2c.h$127$1$78                   Lab6
+C:   0000023D  A$Lab6$1580                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000240  A$Lab6$1581                        Lab6
+C:   00000243  A$Lab6$1582                        Lab6
+C:   00000245  A$Lab6$1586                        Lab6
+C:   00000245  C$i2c.h$129$1$78                   Lab6
+C:   00000247  A$Lab6$1587                        Lab6
+C:   0000024A  A$Lab6$1588                        Lab6
+C:   0000024D  A$Lab6$1589                        Lab6
+C:   0000024F  A$Lab6$1593                        Lab6
+C:   0000024F  C$i2c.h$131$1$78                   Lab6
+C:   00000251  A$Lab6$1594                        Lab6
+C:   00000254  A$Lab6$1595                        Lab6
+C:   00000257  A$Lab6$1596                        Lab6
+C:   00000259  A$Lab6$1600                        Lab6
+C:   00000259  C$i2c.h$133$1$78                   Lab6
+C:   0000025B  A$Lab6$1601                        Lab6
+C:   0000025E  A$Lab6$1602                        Lab6
+C:   00000261  A$Lab6$1603                        Lab6
+C:   00000263  A$Lab6$1607                        Lab6
+C:   00000263  C$i2c.h$135$1$78                   Lab6
+C:   00000266  A$Lab6$1611                        Lab6
+C:   00000266  C$i2c.h$136$1$78                   Lab6
+C:   00000266  XG$read_keypad$0$0                 Lab6
+C:   00000267  A$Lab6$1627                        Lab6
+C:   00000267  C$i2c.h$148$1$78                   Lab6
+C:   00000267  G$kpd_input$0$0                    Lab6
+C:   00000267  _kpd_input                         Lab6
+C:   00000269  A$Lab6$1632                        Lab6
+C:   00000269  C$i2c.h$153$1$81                   Lab6
+C:   00000269  C$i2c.h$156$1$81                   Lab6
+C:   0000026A  A$Lab6$1633                        Lab6
+C:   0000026B  A$Lab6$1634                        Lab6
+C:   0000026C  A$Lab6$1635                        Lab6
+C:   0000026D  A$Lab6$1636                        Lab6
+C:   0000026F  A$Lab6$1637                        Lab6
+C:   00000271  A$Lab6$1638                        Lab6
+C:   00000273  A$Lab6$1639                        Lab6
+C:   00000275  A$Lab6$1640                        Lab6
+C:   00000277  A$Lab6$1641                        Lab6
+C:   00000279  A$Lab6$1642                        Lab6
+C:   0000027B  A$Lab6$1643                        Lab6
+C:   0000027D  A$Lab6$1644                        Lab6
+C:   0000027F  A$Lab6$1645                        Lab6
+C:   00000282  A$Lab6$1646                        Lab6
+C:   00000284  A$Lab6$1647                        Lab6
+C:   00000286  A$Lab6$1648                        Lab6
+C:   00000288  A$Lab6$1649                        Lab6
+C:   0000028A  A$Lab6$1650                        Lab6
+C:   0000028C  A$Lab6$1654                        Lab6
+C:   0000028C  C$i2c.h$158$1$81                   Lab6
+C:   0000028E  A$Lab6$1655                        Lab6
+C:   00000290  A$Lab6$1656                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 36.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000292  A$Lab6$1657                        Lab6
+C:   00000294  A$Lab6$1658                        Lab6
+C:   00000295  A$Lab6$1659                        Lab6
+C:   00000297  A$Lab6$1660                        Lab6
+C:   00000299  A$Lab6$1661                        Lab6
+C:   0000029B  A$Lab6$1662                        Lab6
+C:   0000029C  A$Lab6$1663                        Lab6
+C:   0000029E  A$Lab6$1664                        Lab6
+C:   000002A0  A$Lab6$1665                        Lab6
+C:   000002A2  A$Lab6$1666                        Lab6
+C:   000002A3  A$Lab6$1667                        Lab6
+C:   000002A5  A$Lab6$1668                        Lab6
+C:   000002A7  A$Lab6$1669                        Lab6
+C:   000002A9  A$Lab6$1670                        Lab6
+C:   000002AA  A$Lab6$1671                        Lab6
+C:   000002AC  A$Lab6$1672                        Lab6
+C:   000002AE  A$Lab6$1673                        Lab6
+C:   000002B0  A$Lab6$1674                        Lab6
+C:   000002B1  A$Lab6$1675                        Lab6
+C:   000002B3  A$Lab6$1676                        Lab6
+C:   000002B5  A$Lab6$1677                        Lab6
+C:   000002B7  A$Lab6$1678                        Lab6
+C:   000002B9  A$Lab6$1679                        Lab6
+C:   000002BB  A$Lab6$1680                        Lab6
+C:   000002BD  A$Lab6$1681                        Lab6
+C:   000002BF  A$Lab6$1682                        Lab6
+C:   000002C2  A$Lab6$1683                        Lab6
+C:   000002C4  A$Lab6$1684                        Lab6
+C:   000002C6  A$Lab6$1685                        Lab6
+C:   000002C8  A$Lab6$1688                        Lab6
+C:   000002C8  C$i2c.h$160$1$81                   Lab6
+C:   000002CB  A$Lab6$1689                        Lab6
+C:   000002CE  A$Lab6$1690                        Lab6
+C:   000002CF  A$Lab6$1691                        Lab6
+C:   000002D2  A$Lab6$1692                        Lab6
+C:   000002D4  A$Lab6$1693                        Lab6
+C:   000002D6  A$Lab6$1696                        Lab6
+C:   000002D8  A$Lab6$1700                        Lab6
+C:   000002D8  C$i2c.h$166$3$84                   Lab6
+C:   000002DA  A$Lab6$1701                        Lab6
+C:   000002DC  A$Lab6$1702                        Lab6
+C:   000002DE  A$Lab6$1703                        Lab6
+C:   000002E1  A$Lab6$1704                        Lab6
+C:   000002E3  A$Lab6$1705                        Lab6
+C:   000002E5  A$Lab6$1706                        Lab6
+C:   000002E7  A$Lab6$1707                        Lab6
+C:   000002E9  A$Lab6$1708                        Lab6
+C:   000002EB  A$Lab6$1709                        Lab6
+C:   000002EE  A$Lab6$1710                        Lab6
+C:   000002F0  A$Lab6$1712                        Lab6
+C:   000002F3  A$Lab6$1714                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 37.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000002F6  A$Lab6$1715                        Lab6
+C:   000002F7  A$Lab6$1716                        Lab6
+C:   000002F9  A$Lab6$1717                        Lab6
+C:   000002FB  A$Lab6$1718                        Lab6
+C:   000002FD  A$Lab6$1719                        Lab6
+C:   000002FF  A$Lab6$1720                        Lab6
+C:   00000302  A$Lab6$1721                        Lab6
+C:   00000304  A$Lab6$1722                        Lab6
+C:   00000306  A$Lab6$1723                        Lab6
+C:   00000308  A$Lab6$1724                        Lab6
+C:   0000030A  A$Lab6$1728                        Lab6
+C:   0000030A  C$i2c.h$167$2$82                   Lab6
+C:   0000030D  A$Lab6$1732                        Lab6
+C:   0000030D  C$i2c.h$169$3$83                   Lab6
+C:   0000030F  A$Lab6$1733                        Lab6
+C:   00000311  A$Lab6$1734                        Lab6
+C:   00000314  A$Lab6$1735                        Lab6
+C:   00000316  A$Lab6$1736                        Lab6
+C:   00000318  A$Lab6$1737                        Lab6
+C:   0000031A  A$Lab6$1738                        Lab6
+C:   0000031D  A$Lab6$1739                        Lab6
+C:   00000320  A$Lab6$1740                        Lab6
+C:   00000321  A$Lab6$1741                        Lab6
+C:   00000323  A$Lab6$1742                        Lab6
+C:   00000325  A$Lab6$1743                        Lab6
+C:   00000327  A$Lab6$1744                        Lab6
+C:   0000032A  A$Lab6$1745                        Lab6
+C:   0000032C  A$Lab6$1746                        Lab6
+C:   0000032E  A$Lab6$1747                        Lab6
+C:   00000330  A$Lab6$1751                        Lab6
+C:   00000330  C$i2c.h$170$3$83                   Lab6
+C:   00000332  A$Lab6$1752                        Lab6
+C:   00000334  A$Lab6$1753                        Lab6
+C:   00000337  A$Lab6$1757                        Lab6
+C:   00000337  C$i2c.h$174$3$84                   Lab6
+C:   00000338  A$Lab6$1758                        Lab6
+C:   00000339  A$Lab6$1759                        Lab6
+C:   0000033A  A$Lab6$1760                        Lab6
+C:   0000033C  A$Lab6$1761                        Lab6
+C:   0000033D  A$Lab6$1762                        Lab6
+C:   0000033F  A$Lab6$1763                        Lab6
+C:   00000341  A$Lab6$1764                        Lab6
+C:   00000343  A$Lab6$1765                        Lab6
+C:   00000345  A$Lab6$1766                        Lab6
+C:   00000347  A$Lab6$1767                        Lab6
+C:   00000349  A$Lab6$1768                        Lab6
+C:   0000034B  A$Lab6$1769                        Lab6
+C:   0000034D  A$Lab6$1770                        Lab6
+C:   0000034F  A$Lab6$1771                        Lab6
+C:   00000351  A$Lab6$1772                        Lab6
+C:   00000353  A$Lab6$1773                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 38.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000355  A$Lab6$1774                        Lab6
+C:   00000357  A$Lab6$1775                        Lab6
+C:   00000359  A$Lab6$1776                        Lab6
+C:   0000035C  A$Lab6$1777                        Lab6
+C:   0000035E  A$Lab6$1778                        Lab6
+C:   00000360  A$Lab6$1779                        Lab6
+C:   00000362  A$Lab6$1780                        Lab6
+C:   00000364  A$Lab6$1781                        Lab6
+C:   00000366  A$Lab6$1782                        Lab6
+C:   00000368  A$Lab6$1783                        Lab6
+C:   0000036A  A$Lab6$1784                        Lab6
+C:   0000036C  A$Lab6$1787                        Lab6
+C:   0000036C  C$i2c.h$175$1$81                   Lab6
+C:   0000036E  A$Lab6$1788                        Lab6
+C:   00000370  A$Lab6$1789                        Lab6
+C:   00000373  A$Lab6$1790                        Lab6
+C:   00000375  A$Lab6$1791                        Lab6
+C:   00000377  A$Lab6$1792                        Lab6
+C:   00000379  A$Lab6$1793                        Lab6
+C:   0000037C  A$Lab6$1794                        Lab6
+C:   0000037E  A$Lab6$1795                        Lab6
+C:   00000380  A$Lab6$1796                        Lab6
+C:   00000382  A$Lab6$1797                        Lab6
+C:   00000384  A$Lab6$1798                        Lab6
+C:   00000386  A$Lab6$1799                        Lab6
+C:   00000388  A$Lab6$1800                        Lab6
+C:   00000389  A$Lab6$1801                        Lab6
+C:   0000038A  A$Lab6$1802                        Lab6
+C:   0000038B  A$Lab6$1803                        Lab6
+C:   0000038C  A$Lab6$1804                        Lab6
+C:   0000038D  A$Lab6$1805                        Lab6
+C:   0000038E  A$Lab6$1806                        Lab6
+C:   0000038F  A$Lab6$1807                        Lab6
+C:   00000391  A$Lab6$1808                        Lab6
+C:   00000392  A$Lab6$1809                        Lab6
+C:   00000393  A$Lab6$1810                        Lab6
+C:   00000395  A$Lab6$1811                        Lab6
+C:   00000396  A$Lab6$1815                        Lab6
+C:   00000396  C$i2c.h$176$3$84                   Lab6
+C:   00000398  A$Lab6$1816                        Lab6
+C:   0000039A  A$Lab6$1817                        Lab6
+C:   0000039C  A$Lab6$1818                        Lab6
+C:   0000039E  A$Lab6$1819                        Lab6
+C:   000003A1  A$Lab6$1820                        Lab6
+C:   000003A3  A$Lab6$1821                        Lab6
+C:   000003A5  A$Lab6$1822                        Lab6
+C:   000003A7  A$Lab6$1823                        Lab6
+C:   000003A9  A$Lab6$1824                        Lab6
+C:   000003AB  A$Lab6$1825                        Lab6
+C:   000003AC  A$Lab6$1826                        Lab6
+C:   000003AF  A$Lab6$1827                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 39.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000003B2  A$Lab6$1828                        Lab6
+C:   000003B3  A$Lab6$1829                        Lab6
+C:   000003B5  A$Lab6$1830                        Lab6
+C:   000003B7  A$Lab6$1831                        Lab6
+C:   000003B9  A$Lab6$1832                        Lab6
+C:   000003BB  A$Lab6$1833                        Lab6
+C:   000003BD  A$Lab6$1834                        Lab6
+C:   000003C0  A$Lab6$1835                        Lab6
+C:   000003C2  A$Lab6$1836                        Lab6
+C:   000003C4  A$Lab6$1837                        Lab6
+C:   000003C6  A$Lab6$1838                        Lab6
+C:   000003C8  A$Lab6$1839                        Lab6
+C:   000003CA  A$Lab6$1843                        Lab6
+C:   000003CA  C$i2c.h$164$1$81                   Lab6
+C:   000003CB  A$Lab6$1844                        Lab6
+C:   000003CC  A$Lab6$1845                        Lab6
+C:   000003CD  A$Lab6$1846                        Lab6
+C:   000003CF  A$Lab6$1847                        Lab6
+C:   000003D1  A$Lab6$1848                        Lab6
+C:   000003D3  A$Lab6$1849                        Lab6
+C:   000003D6  A$Lab6$1853                        Lab6
+C:   000003D6  C$i2c.h$179$1$81                   Lab6
+C:   000003D8  A$Lab6$1854                        Lab6
+C:   000003DA  A$Lab6$1858                        Lab6
+C:   000003DA  C$i2c.h$180$1$81                   Lab6
+C:   000003DA  XG$kpd_input$0$0                   Lab6
+C:   000003DB  A$Lab6$1872                        Lab6
+C:   000003DB  C$i2c.h$189$1$81                   Lab6
+C:   000003DB  G$delay_time$0$0                   Lab6
+C:   000003DB  _delay_time                        Lab6
+C:   000003DD  A$Lab6$1873                        Lab6
+C:   000003DF  A$Lab6$1874                        Lab6
+C:   000003E1  A$Lab6$1875                        Lab6
+C:   000003E2  A$Lab6$1878                        Lab6
+C:   000003E2  C$i2c.h$192$1$86                   Lab6
+C:   000003E4  A$Lab6$1879                        Lab6
+C:   000003E6  A$Lab6$1880                        Lab6
+C:   000003E8  A$Lab6$1881                        Lab6
+C:   000003EA  A$Lab6$1883                        Lab6
+C:   000003EB  A$Lab6$1884                        Lab6
+C:   000003EC  A$Lab6$1885                        Lab6
+C:   000003ED  A$Lab6$1886                        Lab6
+C:   000003EE  A$Lab6$1887                        Lab6
+C:   000003EF  A$Lab6$1888                        Lab6
+C:   000003F0  A$Lab6$1889                        Lab6
+C:   000003F1  A$Lab6$1890                        Lab6
+C:   000003F2  A$Lab6$1891                        Lab6
+C:   000003F3  A$Lab6$1892                        Lab6
+C:   000003F5  A$Lab6$1893                        Lab6
+C:   000003F6  A$Lab6$1894                        Lab6
+C:   000003F9  A$Lab6$1895                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 40.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000003FA  A$Lab6$1896                        Lab6
+C:   000003FD  A$Lab6$1897                        Lab6
+C:   000003FE  A$Lab6$1898                        Lab6
+C:   00000401  A$Lab6$1899                        Lab6
+C:   00000402  A$Lab6$1901                        Lab6
+C:   00000404  A$Lab6$1905                        Lab6
+C:   00000404  C$i2c.h$193$1$86                   Lab6
+C:   00000404  XG$delay_time$0$0                  Lab6
+C:   00000405  A$Lab6$1919                        Lab6
+C:   00000405  C$i2c.h$196$1$86                   Lab6
+C:   00000405  C$i2c.h$198$1$88                   Lab6
+C:   00000405  G$i2c_start$0$0                    Lab6
+C:   00000405  _i2c_start                         Lab6
+C:   00000408  A$Lab6$1922                        Lab6
+C:   00000408  C$i2c.h$199$1$88                   Lab6
+C:   0000040A  A$Lab6$1926                        Lab6
+C:   0000040A  C$i2c.h$200$1$88                   Lab6
+C:   0000040D  A$Lab6$1929                        Lab6
+C:   0000040D  C$i2c.h$201$1$88                   Lab6
+C:   0000040F  A$Lab6$1932                        Lab6
+C:   0000040F  C$i2c.h$202$1$88                   Lab6
+C:   00000411  A$Lab6$1935                        Lab6
+C:   00000411  C$i2c.h$203$1$88                   Lab6
+C:   00000411  XG$i2c_start$0$0                   Lab6
+C:   00000412  A$Lab6$1948                        Lab6
+C:   00000412  C$i2c.h$206$1$88                   Lab6
+C:   00000412  G$i2c_write$0$0                    Lab6
+C:   00000412  _i2c_write                         Lab6
+C:   00000415  A$Lab6$1954                        Lab6
+C:   00000415  C$i2c.h$209$1$90                   Lab6
+C:   00000415  C$i2c.h$210$1$90                   Lab6
+C:   00000418  A$Lab6$1955                        Lab6
+C:   0000041A  A$Lab6$1959                        Lab6
+C:   0000041A  C$i2c.h$211$1$90                   Lab6
+C:   0000041A  XG$i2c_write$0$0                   Lab6
+C:   0000041B  A$Lab6$1972                        Lab6
+C:   0000041B  C$i2c.h$214$1$90                   Lab6
+C:   0000041B  G$i2c_write_and_stop$0$0           Lab6
+C:   0000041B  _i2c_write_and_stop                Lab6
+C:   0000041E  A$Lab6$1975                        Lab6
+C:   0000041E  C$i2c.h$217$1$92                   Lab6
+C:   00000420  A$Lab6$1981                        Lab6
+C:   00000420  C$i2c.h$218$1$92                   Lab6
+C:   00000420  C$i2c.h$219$1$92                   Lab6
+C:   00000423  A$Lab6$1982                        Lab6
+C:   00000425  A$Lab6$1986                        Lab6
+C:   00000425  C$i2c.h$220$1$92                   Lab6
+C:   00000425  XG$i2c_write_and_stop$0$0          Lab6
+C:   00000426  A$Lab6$2002                        Lab6
+C:   00000426  C$i2c.h$223$1$92                   Lab6
+C:   00000426  C$i2c.h$226$1$94                   Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 41.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000426  G$i2c_read$0$0                     Lab6
+C:   00000426  _i2c_read                          Lab6
+C:   00000429  A$Lab6$2005                        Lab6
+C:   00000429  C$i2c.h$227$1$94                   Lab6
+C:   0000042C  A$Lab6$2008                        Lab6
+C:   0000042C  C$i2c.h$228$1$94                   Lab6
+C:   0000042E  A$Lab6$2013                        Lab6
+C:   0000042E  C$i2c.h$229$1$94                   Lab6
+C:   0000042E  C$i2c.h$230$1$94                   Lab6
+C:   0000042E  XG$i2c_read$0$0                    Lab6
+C:   0000042F  A$Lab6$2029                        Lab6
+C:   0000042F  C$i2c.h$233$1$94                   Lab6
+C:   0000042F  C$i2c.h$236$1$96                   Lab6
+C:   0000042F  G$i2c_read_and_stop$0$0            Lab6
+C:   0000042F  _i2c_read_and_stop                 Lab6
+C:   00000432  A$Lab6$2032                        Lab6
+C:   00000432  C$i2c.h$237$1$96                   Lab6
+C:   00000434  A$Lab6$2035                        Lab6
+C:   00000434  C$i2c.h$238$1$96                   Lab6
+C:   00000436  A$Lab6$2038                        Lab6
+C:   00000436  C$i2c.h$239$1$96                   Lab6
+C:   00000438  A$Lab6$2044                        Lab6
+C:   00000438  C$i2c.h$240$1$96                   Lab6
+C:   00000438  C$i2c.h$241$1$96                   Lab6
+C:   0000043B  A$Lab6$2045                        Lab6
+C:   0000043D  A$Lab6$2049                        Lab6
+C:   0000043D  C$i2c.h$242$1$96                   Lab6
+C:   0000043F  A$Lab6$2052                        Lab6
+C:   0000043F  C$i2c.h$243$1$96                   Lab6
+C:   0000043F  XG$i2c_read_and_stop$0$0           Lab6
+C:   00000440  A$Lab6$2069                        Lab6
+C:   00000440  C$i2c.h$246$1$96                   Lab6
+C:   00000440  G$i2c_write_data$0$0               Lab6
+C:   00000440  _i2c_write_data                    Lab6
+C:   00000442  A$Lab6$2072                        Lab6
+C:   00000442  C$i2c.h$250$1$98                   Lab6
+C:   00000444  A$Lab6$2073                        Lab6
+C:   00000447  A$Lab6$2074                        Lab6
+C:   00000449  A$Lab6$2077                        Lab6
+C:   00000449  C$i2c.h$251$1$98                   Lab6
+C:   0000044B  A$Lab6$2078                        Lab6
+C:   0000044C  A$Lab6$2079                        Lab6
+C:   0000044E  A$Lab6$2080                        Lab6
+C:   00000451  A$Lab6$2083                        Lab6
+C:   00000451  C$i2c.h$252$1$98                   Lab6
+C:   00000454  A$Lab6$2084                        Lab6
+C:   00000457  A$Lab6$2087                        Lab6
+C:   00000459  A$Lab6$2089                        Lab6
+C:   0000045B  A$Lab6$2090                        Lab6
+C:   0000045D  A$Lab6$2091                        Lab6
+C:   0000045E  A$Lab6$2092                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 42.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000461  A$Lab6$2093                        Lab6
+C:   00000462  A$Lab6$2095                        Lab6
+C:   00000464  A$Lab6$2096                        Lab6
+C:   00000466  A$Lab6$2097                        Lab6
+C:   00000467  A$Lab6$2098                        Lab6
+C:   00000468  A$Lab6$2099                        Lab6
+C:   00000469  A$Lab6$2100                        Lab6
+C:   0000046A  A$Lab6$2101                        Lab6
+C:   0000046C  A$Lab6$2102                        Lab6
+C:   0000046E  A$Lab6$2103                        Lab6
+C:   00000471  A$Lab6$2104                        Lab6
+C:   00000473  A$Lab6$2105                        Lab6
+C:   00000475  A$Lab6$2108                        Lab6
+C:   00000475  C$i2c.h$254$1$98                   Lab6
+C:   00000476  A$Lab6$2109                        Lab6
+C:   00000478  A$Lab6$2110                        Lab6
+C:   00000479  A$Lab6$2111                        Lab6
+C:   0000047A  A$Lab6$2112                        Lab6
+C:   0000047C  A$Lab6$2113                        Lab6
+C:   0000047D  A$Lab6$2114                        Lab6
+C:   0000047F  A$Lab6$2115                        Lab6
+C:   00000481  A$Lab6$2116                        Lab6
+C:   00000483  A$Lab6$2117                        Lab6
+C:   00000485  A$Lab6$2118                        Lab6
+C:   00000488  A$Lab6$2119                        Lab6
+C:   0000048A  A$Lab6$2120                        Lab6
+C:   0000048C  A$Lab6$2121                        Lab6
+C:   0000048F  A$Lab6$2122                        Lab6
+C:   00000491  A$Lab6$2125                        Lab6
+C:   00000491  C$i2c.h$253$1$98                   Lab6
+C:   00000492  A$Lab6$2126                        Lab6
+C:   00000494  A$Lab6$2130                        Lab6
+C:   00000494  C$i2c.h$255$1$98                   Lab6
+C:   00000496  A$Lab6$2131                        Lab6
+C:   00000498  A$Lab6$2132                        Lab6
+C:   00000499  A$Lab6$2133                        Lab6
+C:   0000049C  A$Lab6$2134                        Lab6
+C:   0000049D  A$Lab6$2136                        Lab6
+C:   0000049E  A$Lab6$2137                        Lab6
+C:   000004A0  A$Lab6$2138                        Lab6
+C:   000004A1  A$Lab6$2139                        Lab6
+C:   000004A2  A$Lab6$2140                        Lab6
+C:   000004A4  A$Lab6$2141                        Lab6
+C:   000004A5  A$Lab6$2142                        Lab6
+C:   000004A7  A$Lab6$2143                        Lab6
+C:   000004A9  A$Lab6$2144                        Lab6
+C:   000004AB  A$Lab6$2145                        Lab6
+C:   000004AD  A$Lab6$2146                        Lab6
+C:   000004B0  A$Lab6$2147                        Lab6
+C:   000004B2  A$Lab6$2148                        Lab6
+C:   000004B5  A$Lab6$2151                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 43.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000004B5  C$i2c.h$256$1$98                   Lab6
+C:   000004B5  XG$i2c_write_data$0$0              Lab6
+C:   000004B6  A$Lab6$2168                        Lab6
+C:   000004B6  C$i2c.h$259$1$98                   Lab6
+C:   000004B6  G$i2c_read_data$0$0                Lab6
+C:   000004B6  _i2c_read_data                     Lab6
+C:   000004B8  A$Lab6$2171                        Lab6
+C:   000004B8  C$i2c.h$262$1$100                  Lab6
+C:   000004BA  A$Lab6$2172                        Lab6
+C:   000004BD  A$Lab6$2173                        Lab6
+C:   000004BF  A$Lab6$2176                        Lab6
+C:   000004BF  C$i2c.h$263$1$100                  Lab6
+C:   000004C1  A$Lab6$2177                        Lab6
+C:   000004C3  A$Lab6$2178                        Lab6
+C:   000004C4  A$Lab6$2179                        Lab6
+C:   000004C6  A$Lab6$2180                        Lab6
+C:   000004C8  A$Lab6$2181                        Lab6
+C:   000004CB  A$Lab6$2184                        Lab6
+C:   000004CB  C$i2c.h$264$1$100                  Lab6
+C:   000004CE  A$Lab6$2185                        Lab6
+C:   000004D1  A$Lab6$2188                        Lab6
+C:   000004D1  C$i2c.h$265$1$100                  Lab6
+C:   000004D4  A$Lab6$2189                        Lab6
+C:   000004D6  A$Lab6$2192                        Lab6
+C:   000004D6  C$i2c.h$266$1$100                  Lab6
+C:   000004D8  A$Lab6$2193                        Lab6
+C:   000004D9  A$Lab6$2194                        Lab6
+C:   000004DB  A$Lab6$2195                        Lab6
+C:   000004DE  A$Lab6$2198                        Lab6
+C:   000004E0  A$Lab6$2200                        Lab6
+C:   000004E2  A$Lab6$2201                        Lab6
+C:   000004E4  A$Lab6$2202                        Lab6
+C:   000004E5  A$Lab6$2203                        Lab6
+C:   000004E8  A$Lab6$2204                        Lab6
+C:   000004E9  A$Lab6$2206                        Lab6
+C:   000004EB  A$Lab6$2207                        Lab6
+C:   000004ED  A$Lab6$2208                        Lab6
+C:   000004EE  A$Lab6$2209                        Lab6
+C:   000004EF  A$Lab6$2210                        Lab6
+C:   000004F0  A$Lab6$2211                        Lab6
+C:   000004F1  A$Lab6$2212                        Lab6
+C:   000004F3  A$Lab6$2213                        Lab6
+C:   000004F5  A$Lab6$2214                        Lab6
+C:   000004F8  A$Lab6$2215                        Lab6
+C:   000004FA  A$Lab6$2216                        Lab6
+C:   000004FC  A$Lab6$2219                        Lab6
+C:   000004FC  C$i2c.h$269$2$101                  Lab6
+C:   000004FE  A$Lab6$2222                        Lab6
+C:   000004FE  C$i2c.h$270$2$101                  Lab6
+C:   000004FF  A$Lab6$2223                        Lab6
+C:   00000501  A$Lab6$2224                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 44.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000502  A$Lab6$2225                        Lab6
+C:   00000503  A$Lab6$2226                        Lab6
+C:   00000505  A$Lab6$2227                        Lab6
+C:   00000506  A$Lab6$2228                        Lab6
+C:   00000508  A$Lab6$2229                        Lab6
+C:   0000050A  A$Lab6$2230                        Lab6
+C:   0000050C  A$Lab6$2231                        Lab6
+C:   0000050E  A$Lab6$2232                        Lab6
+C:   00000510  A$Lab6$2233                        Lab6
+C:   00000513  A$Lab6$2234                        Lab6
+C:   00000515  A$Lab6$2235                        Lab6
+C:   00000517  A$Lab6$2236                        Lab6
+C:   00000519  A$Lab6$2237                        Lab6
+C:   0000051B  A$Lab6$2238                        Lab6
+C:   0000051D  A$Lab6$2239                        Lab6
+C:   0000051F  A$Lab6$2240                        Lab6
+C:   00000521  A$Lab6$2241                        Lab6
+C:   00000523  A$Lab6$2242                        Lab6
+C:   00000524  A$Lab6$2243                        Lab6
+C:   00000527  A$Lab6$2246                        Lab6
+C:   00000527  C$i2c.h$267$1$100                  Lab6
+C:   00000528  A$Lab6$2247                        Lab6
+C:   0000052A  A$Lab6$2251                        Lab6
+C:   0000052A  C$i2c.h$272$1$100                  Lab6
+C:   0000052C  A$Lab6$2254                        Lab6
+C:   0000052C  C$i2c.h$273$1$100                  Lab6
+C:   0000052E  A$Lab6$2255                        Lab6
+C:   00000530  A$Lab6$2256                        Lab6
+C:   00000531  A$Lab6$2257                        Lab6
+C:   00000534  A$Lab6$2258                        Lab6
+C:   00000535  A$Lab6$2260                        Lab6
+C:   00000536  A$Lab6$2261                        Lab6
+C:   00000538  A$Lab6$2262                        Lab6
+C:   00000539  A$Lab6$2263                        Lab6
+C:   0000053A  A$Lab6$2264                        Lab6
+C:   0000053C  A$Lab6$2265                        Lab6
+C:   0000053D  A$Lab6$2266                        Lab6
+C:   0000053F  A$Lab6$2267                        Lab6
+C:   00000541  A$Lab6$2268                        Lab6
+C:   00000543  A$Lab6$2269                        Lab6
+C:   00000545  A$Lab6$2270                        Lab6
+C:   00000548  A$Lab6$2271                        Lab6
+C:   0000054A  A$Lab6$2272                        Lab6
+C:   0000054C  A$Lab6$2273                        Lab6
+C:   0000054E  A$Lab6$2274                        Lab6
+C:   00000550  A$Lab6$2275                        Lab6
+C:   00000552  A$Lab6$2276                        Lab6
+C:   00000554  A$Lab6$2277                        Lab6
+C:   00000556  A$Lab6$2278                        Lab6
+C:   00000557  A$Lab6$2279                        Lab6
+C:   0000055A  A$Lab6$2282                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 45.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000055A  C$i2c.h$274$1$100                  Lab6
+C:   0000055A  XG$i2c_read_data$0$0               Lab6
+C:   0000055B  A$Lab6$2297                        Lab6
+C:   0000055B  C$i2c.h$283$1$100                  Lab6
+C:   0000055B  C$i2c.h$287$1$103                  Lab6
+C:   0000055B  G$Accel_Init$0$0                   Lab6
+C:   0000055B  _Accel_Init                        Lab6
+C:   0000055E  A$Lab6$2300                        Lab6
+C:   0000055E  C$i2c.h$289$1$103                  Lab6
+C:   00000561  A$Lab6$2301                        Lab6
+C:   00000564  A$Lab6$2302                        Lab6
+C:   00000567  A$Lab6$2303                        Lab6
+C:   0000056A  A$Lab6$2304                        Lab6
+C:   0000056D  A$Lab6$2305                        Lab6
+C:   00000570  A$Lab6$2306                        Lab6
+C:   00000573  A$Lab6$2309                        Lab6
+C:   00000573  C$i2c.h$290$1$103                  Lab6
+C:   00000576  A$Lab6$2312                        Lab6
+C:   00000576  C$i2c.h$292$1$103                  Lab6
+C:   00000579  A$Lab6$2313                        Lab6
+C:   0000057C  A$Lab6$2314                        Lab6
+C:   0000057F  A$Lab6$2315                        Lab6
+C:   00000582  A$Lab6$2316                        Lab6
+C:   00000585  A$Lab6$2317                        Lab6
+C:   00000588  A$Lab6$2318                        Lab6
+C:   0000058B  A$Lab6$2321                        Lab6
+C:   0000058B  C$i2c.h$293$1$103                  Lab6
+C:   0000058E  A$Lab6$2324                        Lab6
+C:   0000058E  C$i2c.h$294$1$103                  Lab6
+C:   00000591  A$Lab6$2325                        Lab6
+C:   00000594  A$Lab6$2326                        Lab6
+C:   00000597  A$Lab6$2327                        Lab6
+C:   0000059A  A$Lab6$2328                        Lab6
+C:   0000059D  A$Lab6$2329                        Lab6
+C:   000005A0  A$Lab6$2330                        Lab6
+C:   000005A3  A$Lab6$2333                        Lab6
+C:   000005A3  C$i2c.h$298$1$103                  Lab6
+C:   000005A3  XG$Accel_Init$0$0                  Lab6
+C:   000005A4  A$Lab6$2361                        Lab6
+C:   000005A4  C$Lab6.c$47$1$103                  Lab6
+C:   000005A4  C$Lab6.c$50$1$103                  Lab6
+C:   000005A4  G$main$0$0                         Lab6
+C:   000005A4  _main                              Lab6
+C:   000005A5  A$Lab6$2362                        Lab6
+C:   000005A7  A$Lab6$2363                        Lab6
+C:   000005A9  A$Lab6$2366                        Lab6
+C:   000005A9  C$Lab6.c$55$1$103                  Lab6
+C:   000005AB  A$Lab6$2367                        Lab6
+C:   000005AD  A$Lab6$2368                        Lab6
+C:   000005AF  A$Lab6$2369                        Lab6
+C:   000005B2  A$Lab6$2372                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 46.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000005B2  C$Lab6.c$56$1$103                  Lab6
+C:   000005B5  A$Lab6$2374                        Lab6
+C:   000005B7  A$Lab6$2377                        Lab6
+C:   000005B7  C$Lab6.c$64$1$114                  Lab6
+C:   000005BA  A$Lab6$2380                        Lab6
+C:   000005BA  C$Lab6.c$65$1$114                  Lab6
+C:   000005BD  A$Lab6$2381                        Lab6
+C:   000005C0  A$Lab6$2384                        Lab6
+C:   000005C0  C$Lab6.c$66$1$114                  Lab6
+C:   000005C3  A$Lab6$2387                        Lab6
+C:   000005C3  C$Lab6.c$67$1$114                  Lab6
+C:   000005C6  A$Lab6$2390                        Lab6
+C:   000005C6  C$Lab6.c$68$1$114                  Lab6
+C:   000005C9  A$Lab6$2393                        Lab6
+C:   000005C9  C$Lab6.c$69$1$114                  Lab6
+C:   000005CC  A$Lab6$2396                        Lab6
+C:   000005CC  C$Lab6.c$70$1$114                  Lab6
+C:   000005CF  A$Lab6$2399                        Lab6
+C:   000005CF  C$Lab6.c$74$1$114                  Lab6
+C:   000005D1  A$Lab6$2400                        Lab6
+C:   000005D3  A$Lab6$2401                        Lab6
+C:   000005D5  A$Lab6$2402                        Lab6
+C:   000005D7  A$Lab6$2403                        Lab6
+C:   000005DA  A$Lab6$2404                        Lab6
+C:   000005DC  A$Lab6$2405                        Lab6
+C:   000005DE  A$Lab6$2408                        Lab6
+C:   000005DE  C$Lab6.c$75$1$114                  Lab6
+C:   000005E0  A$Lab6$2409                        Lab6
+C:   000005E2  A$Lab6$2410                        Lab6
+C:   000005E4  A$Lab6$2411                        Lab6
+C:   000005E6  A$Lab6$2412                        Lab6
+C:   000005E9  A$Lab6$2413                        Lab6
+C:   000005EB  A$Lab6$2414                        Lab6
+C:   000005ED  A$Lab6$2417                        Lab6
+C:   000005ED  C$Lab6.c$77$1$114                  Lab6
+C:   000005EE  A$Lab6$2418                        Lab6
+C:   000005F0  A$Lab6$2419                        Lab6
+C:   000005F2  A$Lab6$2423                        Lab6
+C:   000005F2  C$Lab6.c$78$1$114                  Lab6
+C:   000005F3  A$Lab6$2424                        Lab6
+C:   000005F5  A$Lab6$2425                        Lab6
+C:   000005F7  A$Lab6$2426                        Lab6
+C:   000005F9  A$Lab6$2427                        Lab6
+C:   000005FB  A$Lab6$2428                        Lab6
+C:   000005FD  A$Lab6$2431                        Lab6
+C:   000005FD  C$Lab6.c$80$1$114                  Lab6
+C:   00000600  A$Lab6$2432                        Lab6
+C:   00000603  A$Lab6$2433                        Lab6
+C:   00000606  A$Lab6$2436                        Lab6
+C:   00000606  C$Lab6.c$82$1$114                  Lab6
+C:   00000609  A$Lab6$2439                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 47.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000609  C$Lab6.c$83$1$114                  Lab6
+C:   0000060B  A$Lab6$2440                        Lab6
+C:   0000060C  A$Lab6$2441                        Lab6
+C:   0000060E  A$Lab6$2442                        Lab6
+C:   0000060F  A$Lab6$2443                        Lab6
+C:   00000611  A$Lab6$2444                        Lab6
+C:   00000613  A$Lab6$2445                        Lab6
+C:   00000614  A$Lab6$2446                        Lab6
+C:   00000616  A$Lab6$2447                        Lab6
+C:   00000617  A$Lab6$2448                        Lab6
+C:   00000619  A$Lab6$2449                        Lab6
+C:   0000061B  A$Lab6$2450                        Lab6
+C:   0000061C  A$Lab6$2451                        Lab6
+C:   0000061E  A$Lab6$2457                        Lab6
+C:   0000061E  C$Lab6.c$85$1$114                  Lab6
+C:   0000061E  C$Lab6.c$88$2$115                  Lab6
+C:   0000061F  A$Lab6$2458                        Lab6
+C:   00000621  A$Lab6$2459                        Lab6
+C:   00000623  A$Lab6$2462                        Lab6
+C:   00000623  C$Lab6.c$92$2$115                  Lab6
+C:   00000626  A$Lab6$2463                        Lab6
+C:   00000628  A$Lab6$2464                        Lab6
+C:   0000062A  A$Lab6$2465                        Lab6
+C:   0000062C  A$Lab6$2466                        Lab6
+C:   0000062D  A$Lab6$2467                        Lab6
+C:   0000062E  A$Lab6$2468                        Lab6
+C:   00000630  A$Lab6$2469                        Lab6
+C:   00000632  A$Lab6$2470                        Lab6
+C:   00000633  A$Lab6$2471                        Lab6
+C:   00000635  A$Lab6$2474                        Lab6
+C:   00000635  C$Lab6.c$93$2$115                  Lab6
+C:   00000638  A$Lab6$2475                        Lab6
+C:   0000063B  A$Lab6$2476                        Lab6
+C:   0000063E  A$Lab6$2479                        Lab6
+C:   0000063E  C$Lab6.c$94$2$115                  Lab6
+C:   00000641  A$Lab6$2480                        Lab6
+C:   00000643  A$Lab6$2481                        Lab6
+C:   00000645  A$Lab6$2482                        Lab6
+C:   00000648  A$Lab6$2485                        Lab6
+C:   00000648  C$Lab6.c$96$2$115                  Lab6
+C:   00000649  A$Lab6$2486                        Lab6
+C:   0000064B  A$Lab6$2487                        Lab6
+C:   0000064D  A$Lab6$2488                        Lab6
+C:   0000064E  A$Lab6$2489                        Lab6
+C:   00000650  A$Lab6$2490                        Lab6
+C:   00000652  A$Lab6$2493                        Lab6
+C:   00000652  C$Lab6.c$98$3$116                  Lab6
+C:   00000655  A$Lab6$2494                        Lab6
+C:   00000658  A$Lab6$2495                        Lab6
+C:   0000065A  A$Lab6$2499                        Lab6
+C:   0000065A  C$Lab6.c$100$2$115                 Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 48.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000065B  A$Lab6$2500                        Lab6
+C:   0000065D  A$Lab6$2501                        Lab6
+C:   0000065F  A$Lab6$2502                        Lab6
+C:   00000660  A$Lab6$2503                        Lab6
+C:   00000662  A$Lab6$2504                        Lab6
+C:   00000664  A$Lab6$2507                        Lab6
+C:   00000664  C$Lab6.c$102$1$114                 Lab6
+C:   00000667  A$Lab6$2508                        Lab6
+C:   0000066A  A$Lab6$2509                        Lab6
+C:   0000066D  A$Lab6$2510                        Lab6
+C:   00000670  A$Lab6$2511                        Lab6
+C:   00000672  A$Lab6$2512                        Lab6
+C:   00000675  A$Lab6$2513                        Lab6
+C:   00000677  A$Lab6$2514                        Lab6
+C:   00000678  A$Lab6$2515                        Lab6
+C:   0000067A  A$Lab6$2516                        Lab6
+C:   0000067C  A$Lab6$2517                        Lab6
+C:   0000067D  A$Lab6$2518                        Lab6
+C:   0000067E  A$Lab6$2519                        Lab6
+C:   00000680  A$Lab6$2520                        Lab6
+C:   00000682  A$Lab6$2521                        Lab6
+C:   00000683  A$Lab6$2522                        Lab6
+C:   00000685  A$Lab6$2523                        Lab6
+C:   00000687  A$Lab6$2524                        Lab6
+C:   00000689  A$Lab6$2528                        Lab6
+C:   00000689  C$Lab6.c$106$1$114                 Lab6
+C:   0000068C  A$Lab6$2529                        Lab6
+C:   0000068F  A$Lab6$2530                        Lab6
+C:   00000692  A$Lab6$2531                        Lab6
+C:   00000695  A$Lab6$2532                        Lab6
+C:   00000697  A$Lab6$2533                        Lab6
+C:   00000699  A$Lab6$2534                        Lab6
+C:   0000069B  A$Lab6$2535                        Lab6
+C:   0000069C  A$Lab6$2536                        Lab6
+C:   0000069D  A$Lab6$2537                        Lab6
+C:   0000069E  A$Lab6$2538                        Lab6
+C:   000006A0  A$Lab6$2539                        Lab6
+C:   000006A1  A$Lab6$2540                        Lab6
+C:   000006A2  A$Lab6$2541                        Lab6
+C:   000006A4  A$Lab6$2542                        Lab6
+C:   000006A5  A$Lab6$2543                        Lab6
+C:   000006A6  A$Lab6$2544                        Lab6
+C:   000006A8  A$Lab6$2545                        Lab6
+C:   000006AA  A$Lab6$2546                        Lab6
+C:   000006AB  A$Lab6$2547                        Lab6
+C:   000006AD  A$Lab6$2551                        Lab6
+C:   000006AD  C$Lab6.c$109$2$115                 Lab6
+C:   000006AF  A$Lab6$2552                        Lab6
+C:   000006B0  A$Lab6$2553                        Lab6
+C:   000006B2  A$Lab6$2554                        Lab6
+C:   000006B4  A$Lab6$2555                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 49.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000006B6  A$Lab6$2556                        Lab6
+C:   000006B8  A$Lab6$2557                        Lab6
+C:   000006BA  A$Lab6$2560                        Lab6
+C:   000006BA  C$Lab6.c$111$2$115                 Lab6
+C:   000006BB  A$Lab6$2561                        Lab6
+C:   000006BD  A$Lab6$2562                        Lab6
+C:   000006BF  A$Lab6$2563                        Lab6
+C:   000006C1  A$Lab6$2564                        Lab6
+C:   000006C4  A$Lab6$2565                        Lab6
+C:   000006C7  A$Lab6$2566                        Lab6
+C:   000006C9  A$Lab6$2567                        Lab6
+C:   000006CB  A$Lab6$2570                        Lab6
+C:   000006CB  C$Lab6.c$112$2$115                 Lab6
+C:   000006CD  A$Lab6$2571                        Lab6
+C:   000006CF  A$Lab6$2572                        Lab6
+C:   000006D1  A$Lab6$2573                        Lab6
+C:   000006D3  A$Lab6$2574                        Lab6
+C:   000006D5  A$Lab6$2575                        Lab6
+C:   000006D7  A$Lab6$2579                        Lab6
+C:   000006D7  C$Lab6.c$114$2$115                 Lab6
+C:   000006D8  A$Lab6$2580                        Lab6
+C:   000006DA  A$Lab6$2581                        Lab6
+C:   000006DC  A$Lab6$2582                        Lab6
+C:   000006DE  A$Lab6$2583                        Lab6
+C:   000006E0  A$Lab6$2584                        Lab6
+C:   000006E2  A$Lab6$2585                        Lab6
+C:   000006E4  A$Lab6$2588                        Lab6
+C:   000006E4  C$Lab6.c$115$2$115                 Lab6
+C:   000006E6  A$Lab6$2589                        Lab6
+C:   000006E8  A$Lab6$2590                        Lab6
+C:   000006EA  A$Lab6$2591                        Lab6
+C:   000006EC  A$Lab6$2592                        Lab6
+C:   000006EE  A$Lab6$2593                        Lab6
+C:   000006F0  A$Lab6$2597                        Lab6
+C:   000006F0  C$Lab6.c$117$2$115                 Lab6
+C:   000006F2  A$Lab6$2598                        Lab6
+C:   000006F4  A$Lab6$2599                        Lab6
+C:   000006F5  A$Lab6$2600                        Lab6
+C:   000006F6  A$Lab6$2601                        Lab6
+C:   000006F8  A$Lab6$2602                        Lab6
+C:   000006F9  A$Lab6$2603                        Lab6
+C:   000006FA  A$Lab6$2604                        Lab6
+C:   000006FC  A$Lab6$2605                        Lab6
+C:   000006FE  A$Lab6$2606                        Lab6
+C:   00000700  A$Lab6$2607                        Lab6
+C:   00000702  A$Lab6$2608                        Lab6
+C:   00000704  A$Lab6$2609                        Lab6
+C:   00000706  A$Lab6$2610                        Lab6
+C:   00000708  A$Lab6$2611                        Lab6
+C:   0000070B  A$Lab6$2612                        Lab6
+C:   0000070D  A$Lab6$2613                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 50.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000070F  A$Lab6$2614                        Lab6
+C:   00000711  A$Lab6$2615                        Lab6
+C:   00000712  A$Lab6$2616                        Lab6
+C:   00000714  A$Lab6$2617                        Lab6
+C:   00000716  A$Lab6$2618                        Lab6
+C:   00000718  A$Lab6$2619                        Lab6
+C:   0000071A  A$Lab6$2620                        Lab6
+C:   0000071D  A$Lab6$2621                        Lab6
+C:   00000720  A$Lab6$2622                        Lab6
+C:   00000723  A$Lab6$2623                        Lab6
+C:   00000725  A$Lab6$2624                        Lab6
+C:   00000728  A$Lab6$2625                        Lab6
+C:   0000072A  A$Lab6$2626                        Lab6
+C:   0000072C  A$Lab6$2627                        Lab6
+C:   0000072E  A$Lab6$2628                        Lab6
+C:   0000072F  A$Lab6$2629                        Lab6
+C:   00000731  A$Lab6$2630                        Lab6
+C:   00000733  A$Lab6$2631                        Lab6
+C:   00000735  A$Lab6$2632                        Lab6
+C:   00000737  A$Lab6$2633                        Lab6
+C:   00000739  A$Lab6$2634                        Lab6
+C:   0000073B  A$Lab6$2635                        Lab6
+C:   0000073C  A$Lab6$2636                        Lab6
+C:   0000073F  A$Lab6$2637                        Lab6
+C:   00000742  A$Lab6$2638                        Lab6
+C:   00000745  A$Lab6$2639                        Lab6
+C:   00000748  A$Lab6$2640                        Lab6
+C:   0000074A  A$Lab6$2641                        Lab6
+C:   0000074C  A$Lab6$2642                        Lab6
+C:   0000074E  A$Lab6$2643                        Lab6
+C:   00000750  A$Lab6$2644                        Lab6
+C:   00000752  A$Lab6$2647                        Lab6
+C:   00000752  C$Lab6.c$118$2$115                 Lab6
+C:   00000754  A$Lab6$2648                        Lab6
+C:   00000756  A$Lab6$2649                        Lab6
+C:   00000757  A$Lab6$2650                        Lab6
+C:   00000758  A$Lab6$2651                        Lab6
+C:   0000075A  A$Lab6$2652                        Lab6
+C:   0000075B  A$Lab6$2653                        Lab6
+C:   0000075C  A$Lab6$2654                        Lab6
+C:   0000075D  A$Lab6$2655                        Lab6
+C:   0000075E  A$Lab6$2656                        Lab6
+C:   0000075F  A$Lab6$2657                        Lab6
+C:   00000761  A$Lab6$2658                        Lab6
+C:   00000762  A$Lab6$2659                        Lab6
+C:   00000763  A$Lab6$2660                        Lab6
+C:   00000765  A$Lab6$2661                        Lab6
+C:   00000766  A$Lab6$2662                        Lab6
+C:   00000767  A$Lab6$2663                        Lab6
+C:   00000769  A$Lab6$2664                        Lab6
+C:   0000076A  A$Lab6$2665                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 51.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000076B  A$Lab6$2666                        Lab6
+C:   0000076D  A$Lab6$2669                        Lab6
+C:   0000076D  C$Lab6.c$119$2$115                 Lab6
+C:   0000076F  A$Lab6$2670                        Lab6
+C:   00000771  A$Lab6$2671                        Lab6
+C:   00000773  A$Lab6$2672                        Lab6
+C:   00000775  A$Lab6$2673                        Lab6
+C:   00000777  A$Lab6$2674                        Lab6
+C:   00000779  A$Lab6$2675                        Lab6
+C:   0000077B  A$Lab6$2676                        Lab6
+C:   0000077C  A$Lab6$2677                        Lab6
+C:   0000077F  A$Lab6$2678                        Lab6
+C:   00000781  A$Lab6$2679                        Lab6
+C:   00000783  A$Lab6$2680                        Lab6
+C:   00000785  A$Lab6$2681                        Lab6
+C:   00000786  A$Lab6$2684                        Lab6
+C:   00000786  C$Lab6.c$121$2$115                 Lab6
+C:   00000788  A$Lab6$2685                        Lab6
+C:   0000078A  A$Lab6$2686                        Lab6
+C:   0000078B  A$Lab6$2687                        Lab6
+C:   0000078C  A$Lab6$2688                        Lab6
+C:   0000078D  A$Lab6$2689                        Lab6
+C:   0000078E  A$Lab6$2690                        Lab6
+C:   0000078F  A$Lab6$2691                        Lab6
+C:   00000791  A$Lab6$2692                        Lab6
+C:   00000792  A$Lab6$2693                        Lab6
+C:   00000793  A$Lab6$2694                        Lab6
+C:   00000795  A$Lab6$2695                        Lab6
+C:   00000796  A$Lab6$2696                        Lab6
+C:   00000797  A$Lab6$2697                        Lab6
+C:   00000799  A$Lab6$2698                        Lab6
+C:   0000079A  A$Lab6$2699                        Lab6
+C:   0000079B  A$Lab6$2700                        Lab6
+C:   0000079D  A$Lab6$2701                        Lab6
+C:   0000079E  A$Lab6$2702                        Lab6
+C:   0000079F  A$Lab6$2703                        Lab6
+C:   000007A0  A$Lab6$2704                        Lab6
+C:   000007A1  A$Lab6$2705                        Lab6
+C:   000007A3  A$Lab6$2706                        Lab6
+C:   000007A4  A$Lab6$2707                        Lab6
+C:   000007A5  A$Lab6$2708                        Lab6
+C:   000007A7  A$Lab6$2709                        Lab6
+C:   000007A8  A$Lab6$2710                        Lab6
+C:   000007A9  A$Lab6$2711                        Lab6
+C:   000007AB  A$Lab6$2712                        Lab6
+C:   000007AC  A$Lab6$2713                        Lab6
+C:   000007AD  A$Lab6$2714                        Lab6
+C:   000007AF  A$Lab6$2717                        Lab6
+C:   000007AF  C$Lab6.c$123$2$115                 Lab6
+C:   000007B2  A$Lab6$2718                        Lab6
+C:   000007B5  A$Lab6$2721                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 52.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000007B5  C$Lab6.c$125$2$115                 Lab6
+C:   000007B7  A$Lab6$2722                        Lab6
+C:   000007B9  A$Lab6$2723                        Lab6
+C:   000007BB  A$Lab6$2724                        Lab6
+C:   000007BD  A$Lab6$2725                        Lab6
+C:   000007BE  A$Lab6$2726                        Lab6
+C:   000007BF  A$Lab6$2727                        Lab6
+C:   000007C1  A$Lab6$2728                        Lab6
+C:   000007C2  A$Lab6$2729                        Lab6
+C:   000007C4  A$Lab6$2730                        Lab6
+C:   000007C5  A$Lab6$2731                        Lab6
+C:   000007C7  A$Lab6$2732                        Lab6
+C:   000007C8  A$Lab6$2733                        Lab6
+C:   000007CA  A$Lab6$2734                        Lab6
+C:   000007CD  A$Lab6$2735                        Lab6
+C:   000007D0  A$Lab6$2736                        Lab6
+C:   000007D2  A$Lab6$2737                        Lab6
+C:   000007D4  A$Lab6$2740                        Lab6
+C:   000007D4  C$Lab6.c$126$2$115                 Lab6
+C:   000007D7  A$Lab6$2741                        Lab6
+C:   000007DA  A$Lab6$2742                        Lab6
+C:   000007DD  A$Lab6$2743                        Lab6
+C:   000007E0  A$Lab6$2747                        Lab6
+C:   000007E0  C$Lab6.c$128$2$115                 Lab6
+C:   000007E2  A$Lab6$2748                        Lab6
+C:   000007E4  A$Lab6$2749                        Lab6
+C:   000007E6  A$Lab6$2750                        Lab6
+C:   000007E8  A$Lab6$2751                        Lab6
+C:   000007E9  A$Lab6$2752                        Lab6
+C:   000007EB  A$Lab6$2753                        Lab6
+C:   000007EC  A$Lab6$2754                        Lab6
+C:   000007EE  A$Lab6$2755                        Lab6
+C:   000007EF  A$Lab6$2756                        Lab6
+C:   000007F1  A$Lab6$2757                        Lab6
+C:   000007F2  A$Lab6$2758                        Lab6
+C:   000007F4  A$Lab6$2759                        Lab6
+C:   000007F6  A$Lab6$2760                        Lab6
+C:   000007F8  A$Lab6$2761                        Lab6
+C:   000007FB  A$Lab6$2762                        Lab6
+C:   000007FD  A$Lab6$2763                        Lab6
+C:   000007FF  A$Lab6$2766                        Lab6
+C:   000007FF  C$Lab6.c$129$2$115                 Lab6
+C:   00000802  A$Lab6$2767                        Lab6
+C:   00000805  A$Lab6$2768                        Lab6
+C:   00000808  A$Lab6$2769                        Lab6
+C:   0000080B  A$Lab6$2773                        Lab6
+C:   0000080B  C$Lab6.c$131$2$115                 Lab6
+C:   0000080D  A$Lab6$2774                        Lab6
+C:   0000080E  A$Lab6$2775                        Lab6
+C:   00000810  A$Lab6$2776                        Lab6
+C:   00000811  A$Lab6$2777                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 53.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000813  A$Lab6$2778                        Lab6
+C:   00000815  A$Lab6$2779                        Lab6
+C:   00000816  A$Lab6$2780                        Lab6
+C:   00000817  A$Lab6$2781                        Lab6
+C:   00000819  A$Lab6$2782                        Lab6
+C:   0000081A  A$Lab6$2783                        Lab6
+C:   0000081C  A$Lab6$2784                        Lab6
+C:   0000081E  A$Lab6$2785                        Lab6
+C:   00000820  A$Lab6$2786                        Lab6
+C:   00000823  A$Lab6$2787                        Lab6
+C:   00000826  A$Lab6$2790                        Lab6
+C:   00000826  C$Lab6.c$132$2$115                 Lab6
+C:   00000828  A$Lab6$2791                        Lab6
+C:   0000082A  A$Lab6$2792                        Lab6
+C:   0000082B  A$Lab6$2793                        Lab6
+C:   0000082C  A$Lab6$2794                        Lab6
+C:   0000082D  A$Lab6$2795                        Lab6
+C:   0000082F  A$Lab6$2796                        Lab6
+C:   00000830  A$Lab6$2797                        Lab6
+C:   00000831  A$Lab6$2798                        Lab6
+C:   00000832  A$Lab6$2799                        Lab6
+C:   00000834  A$Lab6$2800                        Lab6
+C:   00000835  A$Lab6$2801                        Lab6
+C:   00000836  A$Lab6$2802                        Lab6
+C:   00000838  A$Lab6$2803                        Lab6
+C:   00000839  A$Lab6$2804                        Lab6
+C:   0000083A  A$Lab6$2805                        Lab6
+C:   0000083C  A$Lab6$2806                        Lab6
+C:   0000083D  A$Lab6$2807                        Lab6
+C:   0000083E  A$Lab6$2808                        Lab6
+C:   0000083F  A$Lab6$2809                        Lab6
+C:   00000840  A$Lab6$2810                        Lab6
+C:   00000841  A$Lab6$2811                        Lab6
+C:   00000842  A$Lab6$2812                        Lab6
+C:   00000843  A$Lab6$2813                        Lab6
+C:   00000844  A$Lab6$2814                        Lab6
+C:   00000845  A$Lab6$2815                        Lab6
+C:   00000846  A$Lab6$2816                        Lab6
+C:   00000847  A$Lab6$2817                        Lab6
+C:   00000848  A$Lab6$2818                        Lab6
+C:   00000849  A$Lab6$2819                        Lab6
+C:   0000084A  A$Lab6$2820                        Lab6
+C:   0000084B  A$Lab6$2821                        Lab6
+C:   0000084D  A$Lab6$2822                        Lab6
+C:   0000084E  A$Lab6$2823                        Lab6
+C:   0000084F  A$Lab6$2824                        Lab6
+C:   00000850  A$Lab6$2825                        Lab6
+C:   00000852  A$Lab6$2826                        Lab6
+C:   00000853  A$Lab6$2827                        Lab6
+C:   00000854  A$Lab6$2828                        Lab6
+C:   00000855  A$Lab6$2829                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 54.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000856  A$Lab6$2830                        Lab6
+C:   00000857  A$Lab6$2831                        Lab6
+C:   00000858  A$Lab6$2832                        Lab6
+C:   0000085A  A$Lab6$2833                        Lab6
+C:   0000085C  A$Lab6$2836                        Lab6
+C:   0000085C  C$Lab6.c$133$2$115                 Lab6
+C:   0000085F  A$Lab6$2837                        Lab6
+C:   00000862  A$Lab6$2840                        Lab6
+C:   00000862  C$Lab6.c$135$1$114                 Lab6
+C:   00000865  A$Lab6$2841                        Lab6
+C:   00000868  A$Lab6$2842                        Lab6
+C:   0000086B  A$Lab6$2843                        Lab6
+C:   0000086E  A$Lab6$2844                        Lab6
+C:   00000871  A$Lab6$2845                        Lab6
+C:   00000873  A$Lab6$2846                        Lab6
+C:   00000876  A$Lab6$2847                        Lab6
+C:   00000878  A$Lab6$2848                        Lab6
+C:   0000087A  A$Lab6$2849                        Lab6
+C:   0000087D  A$Lab6$2853                        Lab6
+C:   0000087D  C$Lab6.c$136$2$115                 Lab6
+C:   0000087F  A$Lab6$2854                        Lab6
+C:   00000881  A$Lab6$2855                        Lab6
+C:   00000883  A$Lab6$2856                        Lab6
+C:   00000885  A$Lab6$2857                        Lab6
+C:   00000887  A$Lab6$2858                        Lab6
+C:   00000889  A$Lab6$2859                        Lab6
+C:   0000088B  A$Lab6$2860                        Lab6
+C:   0000088D  A$Lab6$2861                        Lab6
+C:   0000088F  A$Lab6$2862                        Lab6
+C:   00000891  A$Lab6$2863                        Lab6
+C:   00000893  A$Lab6$2864                        Lab6
+C:   00000895  A$Lab6$2865                        Lab6
+C:   00000897  A$Lab6$2866                        Lab6
+C:   00000899  A$Lab6$2867                        Lab6
+C:   0000089B  A$Lab6$2868                        Lab6
+C:   0000089D  A$Lab6$2869                        Lab6
+C:   000008A0  A$Lab6$2870                        Lab6
+C:   000008A2  A$Lab6$2871                        Lab6
+C:   000008A4  A$Lab6$2872                        Lab6
+C:   000008A6  A$Lab6$2873                        Lab6
+C:   000008A9  A$Lab6$2876                        Lab6
+C:   000008A9  C$Lab6.c$139$1$114                 Lab6
+C:   000008A9  XG$main$0$0                        Lab6
+C:   000008AA  A$Lab6$2891                        Lab6
+C:   000008AA  C$Lab6.c$145$1$114                 Lab6
+C:   000008AA  C$Lab6.c$149$1$120                 Lab6
+C:   000008AA  G$ReadRanger$0$0                   Lab6
+C:   000008AA  _ReadRanger                        Lab6
+C:   000008AD  A$Lab6$2894                        Lab6
+C:   000008AD  C$Lab6.c$150$1$120                 Lab6
+C:   000008B0  A$Lab6$2895                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 55.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000008B3  A$Lab6$2896                        Lab6
+C:   000008B6  A$Lab6$2897                        Lab6
+C:   000008B9  A$Lab6$2898                        Lab6
+C:   000008BC  A$Lab6$2899                        Lab6
+C:   000008BF  A$Lab6$2900                        Lab6
+C:   000008C2  A$Lab6$2903                        Lab6
+C:   000008C2  C$Lab6.c$152$1$120                 Lab6
+C:   000008C3  A$Lab6$2904                        Lab6
+C:   000008C5  A$Lab6$2905                        Lab6
+C:   000008C7  A$Lab6$2909                        Lab6
+C:   000008C7  C$Lab6.c$153$1$120                 Lab6
+C:   000008C8  A$Lab6$2910                        Lab6
+C:   000008CA  A$Lab6$2911                        Lab6
+C:   000008CC  A$Lab6$2912                        Lab6
+C:   000008CE  A$Lab6$2913                        Lab6
+C:   000008D0  A$Lab6$2914                        Lab6
+C:   000008D2  A$Lab6$2917                        Lab6
+C:   000008D2  C$Lab6.c$155$1$120                 Lab6
+C:   000008D5  A$Lab6$2918                        Lab6
+C:   000008D8  A$Lab6$2919                        Lab6
+C:   000008DB  A$Lab6$2920                        Lab6
+C:   000008DE  A$Lab6$2921                        Lab6
+C:   000008E1  A$Lab6$2922                        Lab6
+C:   000008E4  A$Lab6$2923                        Lab6
+C:   000008E7  A$Lab6$2926                        Lab6
+C:   000008E7  C$Lab6.c$157$1$120                 Lab6
+C:   000008E9  A$Lab6$2927                        Lab6
+C:   000008EB  A$Lab6$2928                        Lab6
+C:   000008ED  A$Lab6$2929                        Lab6
+C:   000008EF  A$Lab6$2930                        Lab6
+C:   000008F0  A$Lab6$2931                        Lab6
+C:   000008F1  A$Lab6$2932                        Lab6
+C:   000008F3  A$Lab6$2933                        Lab6
+C:   000008F4  A$Lab6$2934                        Lab6
+C:   000008F5  A$Lab6$2935                        Lab6
+C:   000008F7  A$Lab6$2938                        Lab6
+C:   000008F7  C$Lab6.c$158$1$120                 Lab6
+C:   000008F7  XG$ReadRanger$0$0                  Lab6
+C:   000008F8  A$Lab6$2953                        Lab6
+C:   000008F8  C$Lab6.c$163$1$120                 Lab6
+C:   000008F8  C$Lab6.c$167$1$122                 Lab6
+C:   000008F8  G$ReadCompass$0$0                  Lab6
+C:   000008F8  _ReadCompass                       Lab6
+C:   000008FB  A$Lab6$2954                        Lab6
+C:   000008FE  A$Lab6$2955                        Lab6
+C:   00000901  A$Lab6$2956                        Lab6
+C:   00000904  A$Lab6$2957                        Lab6
+C:   00000907  A$Lab6$2958                        Lab6
+C:   0000090A  A$Lab6$2959                        Lab6
+C:   0000090D  A$Lab6$2962                        Lab6
+C:   0000090D  C$Lab6.c$169$1$122                 Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 56.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000090F  A$Lab6$2963                        Lab6
+C:   00000911  A$Lab6$2964                        Lab6
+C:   00000913  A$Lab6$2965                        Lab6
+C:   00000915  A$Lab6$2966                        Lab6
+C:   00000916  A$Lab6$2967                        Lab6
+C:   00000917  A$Lab6$2968                        Lab6
+C:   00000919  A$Lab6$2969                        Lab6
+C:   0000091A  A$Lab6$2970                        Lab6
+C:   0000091B  A$Lab6$2971                        Lab6
+C:   0000091D  A$Lab6$2974                        Lab6
+C:   0000091D  C$Lab6.c$170$1$122                 Lab6
+C:   0000091D  XG$ReadCompass$0$0                 Lab6
+C:   0000091E  A$Lab6$2987                        Lab6
+C:   0000091E  C$Lab6.c$172$1$122                 Lab6
+C:   0000091E  C$Lab6.c$174$1$124                 Lab6
+C:   0000091E  G$ReadBattery$0$0                  Lab6
+C:   0000091E  _ReadBattery                       Lab6
+C:   00000920  A$Lab6$2988                        Lab6
+C:   00000922  A$Lab6$2989                        Lab6
+C:   00000923  A$Lab6$2990                        Lab6
+C:   00000925  A$Lab6$2993                        Lab6
+C:   00000925  C$Lab6.c$175$1$124                 Lab6
+C:   00000928  A$Lab6$2997                        Lab6
+C:   00000928  C$Lab6.c$176$1$124                 Lab6
+C:   0000092A  A$Lab6$2998                        Lab6
+C:   0000092D  A$Lab6$3001                        Lab6
+C:   0000092D  C$Lab6.c$177$1$124                 Lab6
+C:   00000930  A$Lab6$3004                        Lab6
+C:   00000930  C$Lab6.c$178$1$124                 Lab6
+C:   00000930  XG$ReadBattery$0$0                 Lab6
+C:   00000931  A$Lab6$3020                        Lab6
+C:   00000931  C$Lab6.c$181$1$124                 Lab6
+C:   00000931  C$Lab6.c$189$2$126                 Lab6
+C:   00000931  G$getDesiredHeading$0$0            Lab6
+C:   00000931  _getDesiredHeading                 Lab6
+C:   00000934  A$Lab6$3023                        Lab6
+C:   00000934  C$Lab6.c$190$2$126                 Lab6
+C:   00000936  A$Lab6$3024                        Lab6
+C:   00000938  A$Lab6$3025                        Lab6
+C:   0000093A  A$Lab6$3026                        Lab6
+C:   0000093C  A$Lab6$3027                        Lab6
+C:   0000093E  A$Lab6$3028                        Lab6
+C:   00000940  A$Lab6$3029                        Lab6
+C:   00000943  A$Lab6$3030                        Lab6
+C:   00000945  A$Lab6$3031                        Lab6
+C:   00000947  A$Lab6$3032                        Lab6
+C:   00000949  A$Lab6$3035                        Lab6
+C:   00000949  C$Lab6.c$191$2$126                 Lab6
+C:   0000094B  A$Lab6$3036                        Lab6
+C:   0000094D  A$Lab6$3037                        Lab6
+C:   0000094F  A$Lab6$3038                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 57.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000951  A$Lab6$3039                        Lab6
+C:   00000953  A$Lab6$3040                        Lab6
+C:   00000955  A$Lab6$3041                        Lab6
+C:   00000958  A$Lab6$3042                        Lab6
+C:   0000095A  A$Lab6$3043                        Lab6
+C:   0000095C  A$Lab6$3044                        Lab6
+C:   0000095E  A$Lab6$3047                        Lab6
+C:   0000095E  C$Lab6.c$192$2$126                 Lab6
+C:   00000960  A$Lab6$3048                        Lab6
+C:   00000962  A$Lab6$3049                        Lab6
+C:   00000964  A$Lab6$3050                        Lab6
+C:   00000966  A$Lab6$3051                        Lab6
+C:   00000968  A$Lab6$3052                        Lab6
+C:   0000096A  A$Lab6$3053                        Lab6
+C:   0000096D  A$Lab6$3054                        Lab6
+C:   0000096F  A$Lab6$3055                        Lab6
+C:   00000971  A$Lab6$3056                        Lab6
+C:   00000973  A$Lab6$3059                        Lab6
+C:   00000973  C$Lab6.c$193$2$126                 Lab6
+C:   00000975  A$Lab6$3060                        Lab6
+C:   00000977  A$Lab6$3061                        Lab6
+C:   00000979  A$Lab6$3062                        Lab6
+C:   0000097B  A$Lab6$3063                        Lab6
+C:   0000097D  A$Lab6$3064                        Lab6
+C:   0000097F  A$Lab6$3065                        Lab6
+C:   00000982  A$Lab6$3066                        Lab6
+C:   00000984  A$Lab6$3067                        Lab6
+C:   00000986  A$Lab6$3068                        Lab6
+C:   00000988  A$Lab6$3074                        Lab6
+C:   00000988  C$Lab6.c$195$2$126                 Lab6
+C:   00000988  C$Lab6.c$197$3$127                 Lab6
+C:   0000098B  A$Lab6$3075                        Lab6
+C:   0000098D  A$Lab6$3078                        Lab6
+C:   0000098D  C$Lab6.c$199$3$127                 Lab6
+C:   00000990  A$Lab6$3079                        Lab6
+C:   00000992  A$Lab6$3081                        Lab6
+C:   00000995  A$Lab6$3087                        Lab6
+C:   00000995  C$Lab6.c$200$2$126                 Lab6
+C:   00000995  C$Lab6.c$203$2$126                 Lab6
+C:   00000998  A$Lab6$3088                        Lab6
+C:   0000099A  A$Lab6$3090                        Lab6
+C:   0000099D  A$Lab6$3094                        Lab6
+C:   0000099D  C$Lab6.c$205$3$128                 Lab6
+C:   000009A0  A$Lab6$3097                        Lab6
+C:   000009A0  C$Lab6.c$206$3$128                 Lab6
+C:   000009A2  A$Lab6$3098                        Lab6
+C:   000009A4  A$Lab6$3099                        Lab6
+C:   000009A6  A$Lab6$3100                        Lab6
+C:   000009A8  A$Lab6$3101                        Lab6
+C:   000009AA  A$Lab6$3102                        Lab6
+C:   000009AC  A$Lab6$3103                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 58.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000009AF  A$Lab6$3104                        Lab6
+C:   000009B1  A$Lab6$3105                        Lab6
+C:   000009B3  A$Lab6$3106                        Lab6
+C:   000009B5  A$Lab6$3109                        Lab6
+C:   000009B5  C$Lab6.c$207$3$128                 Lab6
+C:   000009B7  A$Lab6$3110                        Lab6
+C:   000009B9  A$Lab6$3111                        Lab6
+C:   000009BB  A$Lab6$3112                        Lab6
+C:   000009BD  A$Lab6$3113                        Lab6
+C:   000009BF  A$Lab6$3114                        Lab6
+C:   000009C1  A$Lab6$3115                        Lab6
+C:   000009C4  A$Lab6$3116                        Lab6
+C:   000009C6  A$Lab6$3117                        Lab6
+C:   000009C8  A$Lab6$3118                        Lab6
+C:   000009CA  A$Lab6$3121                        Lab6
+C:   000009CA  C$Lab6.c$208$3$128                 Lab6
+C:   000009CC  A$Lab6$3122                        Lab6
+C:   000009CE  A$Lab6$3123                        Lab6
+C:   000009D0  A$Lab6$3124                        Lab6
+C:   000009D2  A$Lab6$3125                        Lab6
+C:   000009D4  A$Lab6$3126                        Lab6
+C:   000009D6  A$Lab6$3127                        Lab6
+C:   000009D9  A$Lab6$3128                        Lab6
+C:   000009DB  A$Lab6$3129                        Lab6
+C:   000009DD  A$Lab6$3130                        Lab6
+C:   000009DF  A$Lab6$3136                        Lab6
+C:   000009DF  C$Lab6.c$210$3$128                 Lab6
+C:   000009DF  C$Lab6.c$212$4$129                 Lab6
+C:   000009E2  A$Lab6$3137                        Lab6
+C:   000009E4  A$Lab6$3140                        Lab6
+C:   000009E4  C$Lab6.c$214$4$129                 Lab6
+C:   000009E7  A$Lab6$3141                        Lab6
+C:   000009E9  A$Lab6$3143                        Lab6
+C:   000009EC  A$Lab6$3144                        Lab6
+C:   000009EE  A$Lab6$3146                        Lab6
+C:   000009F1  A$Lab6$3147                        Lab6
+C:   000009F3  A$Lab6$3149                        Lab6
+C:   000009F6  A$Lab6$3155                        Lab6
+C:   000009F6  C$Lab6.c$215$3$128                 Lab6
+C:   000009F6  C$Lab6.c$218$3$128                 Lab6
+C:   000009F9  A$Lab6$3158                        Lab6
+C:   000009F9  C$Lab6.c$220$4$130                 Lab6
+C:   000009FB  A$Lab6$3159                        Lab6
+C:   000009FD  A$Lab6$3160                        Lab6
+C:   00000A00  A$Lab6$3164                        Lab6
+C:   00000A00  C$Lab6.c$222$3$128                 Lab6
+C:   00000A03  A$Lab6$3167                        Lab6
+C:   00000A03  C$Lab6.c$224$4$131                 Lab6
+C:   00000A05  A$Lab6$3168                        Lab6
+C:   00000A07  A$Lab6$3169                        Lab6
+C:   00000A0A  A$Lab6$3173                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 59.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000A0A  C$Lab6.c$226$3$128                 Lab6
+C:   00000A0D  A$Lab6$3176                        Lab6
+C:   00000A0D  C$Lab6.c$228$4$132                 Lab6
+C:   00000A0F  A$Lab6$3177                        Lab6
+C:   00000A11  A$Lab6$3178                        Lab6
+C:   00000A14  A$Lab6$3182                        Lab6
+C:   00000A14  C$Lab6.c$232$4$133                 Lab6
+C:   00000A16  A$Lab6$3183                        Lab6
+C:   00000A18  A$Lab6$3184                        Lab6
+C:   00000A1B  A$Lab6$3191                        Lab6
+C:   00000A1B  C$Lab6.c$238$1$125                 Lab6
+C:   00000A1B  C$Lab6.c$240$4$135                 Lab6
+C:   00000A1E  A$Lab6$3194                        Lab6
+C:   00000A1E  C$Lab6.c$241$4$135                 Lab6
+C:   00000A20  A$Lab6$3195                        Lab6
+C:   00000A22  A$Lab6$3196                        Lab6
+C:   00000A24  A$Lab6$3197                        Lab6
+C:   00000A26  A$Lab6$3198                        Lab6
+C:   00000A28  A$Lab6$3199                        Lab6
+C:   00000A2A  A$Lab6$3200                        Lab6
+C:   00000A2D  A$Lab6$3201                        Lab6
+C:   00000A2F  A$Lab6$3202                        Lab6
+C:   00000A31  A$Lab6$3203                        Lab6
+C:   00000A33  A$Lab6$3206                        Lab6
+C:   00000A33  C$Lab6.c$243$4$135                 Lab6
+C:   00000A36  A$Lab6$3207                        Lab6
+C:   00000A38  A$Lab6$3208                        Lab6
+C:   00000A3A  A$Lab6$3211                        Lab6
+C:   00000A3A  C$Lab6.c$244$1$125                 Lab6
+C:   00000A3C  A$Lab6$3212                        Lab6
+C:   00000A3E  A$Lab6$3213                        Lab6
+C:   00000A41  A$Lab6$3214                        Lab6
+C:   00000A44  A$Lab6$3215                        Lab6
+C:   00000A46  A$Lab6$3216                        Lab6
+C:   00000A48  A$Lab6$3219                        Lab6
+C:   00000A48  C$Lab6.c$246$4$135                 Lab6
+C:   00000A49  A$Lab6$3220                        Lab6
+C:   00000A4B  A$Lab6$3221                        Lab6
+C:   00000A4C  A$Lab6$3222                        Lab6
+C:   00000A4E  A$Lab6$3223                        Lab6
+C:   00000A4F  A$Lab6$3224                        Lab6
+C:   00000A51  A$Lab6$3227                        Lab6
+C:   00000A51  C$Lab6.c$248$5$136                 Lab6
+C:   00000A54  A$Lab6$3230                        Lab6
+C:   00000A54  C$Lab6.c$249$5$136                 Lab6
+C:   00000A56  A$Lab6$3231                        Lab6
+C:   00000A58  A$Lab6$3232                        Lab6
+C:   00000A5A  A$Lab6$3233                        Lab6
+C:   00000A5C  A$Lab6$3234                        Lab6
+C:   00000A5E  A$Lab6$3235                        Lab6
+C:   00000A60  A$Lab6$3236                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 60.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000A63  A$Lab6$3237                        Lab6
+C:   00000A65  A$Lab6$3238                        Lab6
+C:   00000A67  A$Lab6$3239                        Lab6
+C:   00000A69  A$Lab6$3242                        Lab6
+C:   00000A69  C$Lab6.c$250$5$136                 Lab6
+C:   00000A6B  A$Lab6$3243                        Lab6
+C:   00000A6D  A$Lab6$3244                        Lab6
+C:   00000A6F  A$Lab6$3245                        Lab6
+C:   00000A71  A$Lab6$3246                        Lab6
+C:   00000A73  A$Lab6$3247                        Lab6
+C:   00000A75  A$Lab6$3248                        Lab6
+C:   00000A78  A$Lab6$3249                        Lab6
+C:   00000A7A  A$Lab6$3250                        Lab6
+C:   00000A7C  A$Lab6$3251                        Lab6
+C:   00000A7E  A$Lab6$3254                        Lab6
+C:   00000A7E  C$Lab6.c$251$5$136                 Lab6
+C:   00000A7F  A$Lab6$3255                        Lab6
+C:   00000A81  A$Lab6$3256                        Lab6
+C:   00000A83  A$Lab6$3260                        Lab6
+C:   00000A83  C$Lab6.c$252$5$136                 Lab6
+C:   00000A84  A$Lab6$3261                        Lab6
+C:   00000A86  A$Lab6$3262                        Lab6
+C:   00000A88  A$Lab6$3263                        Lab6
+C:   00000A8A  A$Lab6$3264                        Lab6
+C:   00000A8C  A$Lab6$3265                        Lab6
+C:   00000A8E  A$Lab6$3268                        Lab6
+C:   00000A8E  C$Lab6.c$255$3$134                 Lab6
+C:   00000A90  A$Lab6$3272                        Lab6
+C:   00000A90  C$Lab6.c$259$2$126                 Lab6
+C:   00000A92  A$Lab6$3273                        Lab6
+C:   00000A94  A$Lab6$3274                        Lab6
+C:   00000A96  A$Lab6$3275                        Lab6
+C:   00000A98  A$Lab6$3276                        Lab6
+C:   00000A9A  A$Lab6$3277                        Lab6
+C:   00000A9C  A$Lab6$3278                        Lab6
+C:   00000A9E  A$Lab6$3279                        Lab6
+C:   00000AA0  A$Lab6$3280                        Lab6
+C:   00000AA2  A$Lab6$3281                        Lab6
+C:   00000AA4  A$Lab6$3282                        Lab6
+C:   00000AA7  A$Lab6$3283                        Lab6
+C:   00000AA9  A$Lab6$3284                        Lab6
+C:   00000AAB  A$Lab6$3285                        Lab6
+C:   00000AAD  A$Lab6$3286                        Lab6
+C:   00000AAF  A$Lab6$3287                        Lab6
+C:   00000AB1  A$Lab6$3290                        Lab6
+C:   00000AB1  C$Lab6.c$260$2$126                 Lab6
+C:   00000AB3  A$Lab6$3291                        Lab6
+C:   00000AB5  A$Lab6$3294                        Lab6
+C:   00000AB5  C$Lab6.c$262$1$125                 Lab6
+C:   00000AB5  XG$getDesiredHeading$0$0           Lab6
+C:   00000AB6  A$Lab6$3310                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 61.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000AB6  C$Lab6.c$265$1$125                 Lab6
+C:   00000AB6  C$Lab6.c$268$1$138                 Lab6
+C:   00000AB6  G$getIndividualPress$0$0           Lab6
+C:   00000AB6  _getIndividualPress                Lab6
+C:   00000AB9  A$Lab6$3311                        Lab6
+C:   00000ABB  A$Lab6$3314                        Lab6
+C:   00000ABB  C$Lab6.c$270$1$138                 Lab6
+C:   00000ABC  A$Lab6$3315                        Lab6
+C:   00000ABE  A$Lab6$3316                        Lab6
+C:   00000AC0  A$Lab6$3320                        Lab6
+C:   00000AC0  C$Lab6.c$271$1$138                 Lab6
+C:   00000AC1  A$Lab6$3321                        Lab6
+C:   00000AC3  A$Lab6$3322                        Lab6
+C:   00000AC5  A$Lab6$3323                        Lab6
+C:   00000AC7  A$Lab6$3324                        Lab6
+C:   00000AC9  A$Lab6$3325                        Lab6
+C:   00000ACB  A$Lab6$3329                        Lab6
+C:   00000ACB  C$Lab6.c$273$1$138                 Lab6
+C:   00000ACE  A$Lab6$3332                        Lab6
+C:   00000ACE  C$Lab6.c$275$2$139                 Lab6
+C:   00000AD1  A$Lab6$3333                        Lab6
+C:   00000AD3  A$Lab6$3336                        Lab6
+C:   00000AD3  C$Lab6.c$276$2$139                 Lab6
+C:   00000AD4  A$Lab6$3337                        Lab6
+C:   00000AD6  A$Lab6$3338                        Lab6
+C:   00000AD8  A$Lab6$3342                        Lab6
+C:   00000AD8  C$Lab6.c$277$2$139                 Lab6
+C:   00000AD9  A$Lab6$3343                        Lab6
+C:   00000ADB  A$Lab6$3344                        Lab6
+C:   00000ADD  A$Lab6$3345                        Lab6
+C:   00000ADF  A$Lab6$3346                        Lab6
+C:   00000AE1  A$Lab6$3347                        Lab6
+C:   00000AE3  A$Lab6$3348                        Lab6
+C:   00000AE5  A$Lab6$3352                        Lab6
+C:   00000AE5  C$Lab6.c$280$1$138                 Lab6
+C:   00000AE7  A$Lab6$3356                        Lab6
+C:   00000AE7  C$Lab6.c$282$1$138                 Lab6
+C:   00000AEA  A$Lab6$3357                        Lab6
+C:   00000AEC  A$Lab6$3361                        Lab6
+C:   00000AEC  C$Lab6.c$284$2$140                 Lab6
+C:   00000AEE  A$Lab6$3362                        Lab6
+C:   00000AF1  A$Lab6$3363                        Lab6
+C:   00000AF3  A$Lab6$3364                        Lab6
+C:   00000AF5  A$Lab6$3367                        Lab6
+C:   00000AF5  C$Lab6.c$285$2$140                 Lab6
+C:   00000AF6  A$Lab6$3368                        Lab6
+C:   00000AF8  A$Lab6$3369                        Lab6
+C:   00000AFA  A$Lab6$3373                        Lab6
+C:   00000AFA  C$Lab6.c$286$2$140                 Lab6
+C:   00000AFB  A$Lab6$3374                        Lab6
+C:   00000AFD  A$Lab6$3375                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 62.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000AFF  A$Lab6$3376                        Lab6
+C:   00000B01  A$Lab6$3377                        Lab6
+C:   00000B03  A$Lab6$3378                        Lab6
+C:   00000B05  A$Lab6$3379                        Lab6
+C:   00000B07  A$Lab6$3383                        Lab6
+C:   00000B07  C$Lab6.c$289$1$138                 Lab6
+C:   00000B09  A$Lab6$3386                        Lab6
+C:   00000B09  C$Lab6.c$291$1$138                 Lab6
+C:   00000B09  XG$getIndividualPress$0$0          Lab6
+C:   00000B0A  A$Lab6$3404                        Lab6
+C:   00000B0A  C$Lab6.c$294$1$138                 Lab6
+C:   00000B0A  C$Lab6.c$301$1$142                 Lab6
+C:   00000B0A  G$getNumberFromKeypad$0$0          Lab6
+C:   00000B0A  _getNumberFromKeypad               Lab6
+C:   00000B0D  A$Lab6$3407                        Lab6
+C:   00000B0D  C$Lab6.c$302$1$142                 Lab6
+C:   00000B10  A$Lab6$3410                        Lab6
+C:   00000B10  C$Lab6.c$303$1$142                 Lab6
+C:   00000B13  A$Lab6$3413                        Lab6
+C:   00000B15  A$Lab6$3417                        Lab6
+C:   00000B15  C$Lab6.c$307$2$143                 Lab6
+C:   00000B17  A$Lab6$3418                        Lab6
+C:   00000B1A  A$Lab6$3419                        Lab6
+C:   00000B1C  A$Lab6$3420                        Lab6
+C:   00000B1E  A$Lab6$3423                        Lab6
+C:   00000B1E  C$Lab6.c$309$2$143                 Lab6
+C:   00000B21  A$Lab6$3424                        Lab6
+C:   00000B23  A$Lab6$3426                        Lab6
+C:   00000B26  A$Lab6$3427                        Lab6
+C:   00000B28  A$Lab6$3431                        Lab6
+C:   00000B28  C$Lab6.c$311$3$144                 Lab6
+C:   00000B29  A$Lab6$3432                        Lab6
+C:   00000B2B  A$Lab6$3433                        Lab6
+C:   00000B2C  A$Lab6$3434                        Lab6
+C:   00000B2E  A$Lab6$3435                        Lab6
+C:   00000B30  A$Lab6$3439                        Lab6
+C:   00000B30  C$Lab6.c$313$2$143                 Lab6
+C:   00000B33  A$Lab6$3440                        Lab6
+C:   00000B35  A$Lab6$3444                        Lab6
+C:   00000B35  C$Lab6.c$317$2$143                 Lab6
+C:   00000B38  A$Lab6$3447                        Lab6
+C:   00000B38  C$Lab6.c$319$3$146                 Lab6
+C:   00000B39  A$Lab6$3448                        Lab6
+C:   00000B3B  A$Lab6$3449                        Lab6
+C:   00000B3C  A$Lab6$3450                        Lab6
+C:   00000B3E  A$Lab6$3454                        Lab6
+C:   00000B3E  C$Lab6.c$321$2$143                 Lab6
+C:   00000B3F  A$Lab6$3455                        Lab6
+C:   00000B41  A$Lab6$3456                        Lab6
+C:   00000B42  A$Lab6$3457                        Lab6
+C:   00000B44  A$Lab6$3458                        Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 63.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000B46  A$Lab6$3459                        Lab6
+C:   00000B48  A$Lab6$3460                        Lab6
+C:   00000B4A  A$Lab6$3461                        Lab6
+C:   00000B4C  A$Lab6$3462                        Lab6
+C:   00000B4E  A$Lab6$3463                        Lab6
+C:   00000B50  A$Lab6$3464                        Lab6
+C:   00000B52  A$Lab6$3465                        Lab6
+C:   00000B54  A$Lab6$3466                        Lab6
+C:   00000B56  A$Lab6$3467                        Lab6
+C:   00000B58  A$Lab6$3468                        Lab6
+C:   00000B5B  A$Lab6$3469                        Lab6
+C:   00000B5D  A$Lab6$3470                        Lab6
+C:   00000B5F  A$Lab6$3471                        Lab6
+C:   00000B61  A$Lab6$3472                        Lab6
+C:   00000B63  A$Lab6$3475                        Lab6
+C:   00000B63  C$Lab6.c$305$1$142                 Lab6
+C:   00000B64  A$Lab6$3476                        Lab6
+C:   00000B67  A$Lab6$3478                        Lab6
+C:   00000B69  A$Lab6$3482                        Lab6
+C:   00000B69  C$Lab6.c$324$1$142                 Lab6
+C:   00000B6C  A$Lab6$3483                        Lab6
+C:   00000B6F  A$Lab6$3484                        Lab6
+C:   00000B72  A$Lab6$3489                        Lab6
+C:   00000B72  C$Lab6.c$326$1$142                 Lab6
+C:   00000B72  C$Lab6.c$327$1$142                 Lab6
+C:   00000B72  XG$getNumberFromKeypad$0$0         Lab6
+C:   00000B73  A$Lab6$3502                        Lab6
+C:   00000B73  C$Lab6.c$332$1$142                 Lab6
+C:   00000B73  C$Lab6.c$335$1$147                 Lab6
+C:   00000B73  G$Port_Init$0$0                    Lab6
+C:   00000B73  _Port_Init                         Lab6
+C:   00000B76  A$Lab6$3505                        Lab6
+C:   00000B76  C$Lab6.c$336$1$147                 Lab6
+C:   00000B79  A$Lab6$3508                        Lab6
+C:   00000B79  C$Lab6.c$337$1$147                 Lab6
+C:   00000B7C  A$Lab6$3511                        Lab6
+C:   00000B7C  C$Lab6.c$338$1$147                 Lab6
+C:   00000B7E  A$Lab6$3512                        Lab6
+C:   00000B80  A$Lab6$3513                        Lab6
+C:   00000B81  A$Lab6$3514                        Lab6
+C:   00000B83  A$Lab6$3517                        Lab6
+C:   00000B83  C$Lab6.c$340$1$147                 Lab6
+C:   00000B86  A$Lab6$3520                        Lab6
+C:   00000B86  C$Lab6.c$341$1$147                 Lab6
+C:   00000B88  A$Lab6$3521                        Lab6
+C:   00000B8A  A$Lab6$3522                        Lab6
+C:   00000B8B  A$Lab6$3523                        Lab6
+C:   00000B8D  A$Lab6$3526                        Lab6
+C:   00000B8D  C$Lab6.c$342$1$147                 Lab6
+C:   00000B90  A$Lab6$3529                        Lab6
+C:   00000B90  C$Lab6.c$343$1$147                 Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 64.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000B90  XG$Port_Init$0$0                   Lab6
+C:   00000B91  A$Lab6$3542                        Lab6
+C:   00000B91  C$Lab6.c$348$1$147                 Lab6
+C:   00000B91  C$Lab6.c$350$1$149                 Lab6
+C:   00000B91  G$ADC_Init$0$0                     Lab6
+C:   00000B91  _ADC_Init                          Lab6
+C:   00000B94  A$Lab6$3545                        Lab6
+C:   00000B94  C$Lab6.c$351$1$149                 Lab6
+C:   00000B97  A$Lab6$3548                        Lab6
+C:   00000B97  C$Lab6.c$352$1$149                 Lab6
+C:   00000B9A  A$Lab6$3551                        Lab6
+C:   00000B9A  C$Lab6.c$354$1$149                 Lab6
+C:   00000B9D  A$Lab6$3554                        Lab6
+C:   00000B9D  C$Lab6.c$356$1$149                 Lab6
+C:   00000B9D  XG$ADC_Init$0$0                    Lab6
+C:   00000B9E  A$Lab6$3567                        Lab6
+C:   00000B9E  C$Lab6.c$361$1$149                 Lab6
+C:   00000B9E  C$Lab6.c$363$1$150                 Lab6
+C:   00000B9E  G$XBR0_Init$0$0                    Lab6
+C:   00000B9E  _XBR0_Init                         Lab6
+C:   00000BA1  A$Lab6$3570                        Lab6
+C:   00000BA1  C$Lab6.c$365$1$150                 Lab6
+C:   00000BA1  XG$XBR0_Init$0$0                   Lab6
+C:   00000BA2  A$Lab6$3583                        Lab6
+C:   00000BA2  C$Lab6.c$370$1$150                 Lab6
+C:   00000BA2  C$Lab6.c$372$1$152                 Lab6
+C:   00000BA2  G$PCA_Init$0$0                     Lab6
+C:   00000BA2  _PCA_Init                          Lab6
+C:   00000BA5  A$Lab6$3586                        Lab6
+C:   00000BA5  C$Lab6.c$373$1$152                 Lab6
+C:   00000BA8  A$Lab6$3589                        Lab6
+C:   00000BA8  C$Lab6.c$375$1$152                 Lab6
+C:   00000BAB  A$Lab6$3592                        Lab6
+C:   00000BAB  C$Lab6.c$377$1$152                 Lab6
+C:   00000BAE  A$Lab6$3595                        Lab6
+C:   00000BAE  C$Lab6.c$378$1$152                 Lab6
+C:   00000BB1  A$Lab6$3598                        Lab6
+C:   00000BB1  C$Lab6.c$379$1$152                 Lab6
+C:   00000BB4  A$Lab6$3601                        Lab6
+C:   00000BB4  C$Lab6.c$380$1$152                 Lab6
+C:   00000BB7  A$Lab6$3604                        Lab6
+C:   00000BB7  C$Lab6.c$382$1$152                 Lab6
+C:   00000BBA  A$Lab6$3607                        Lab6
+C:   00000BBA  C$Lab6.c$383$1$152                 Lab6
+C:   00000BBC  A$Lab6$3610                        Lab6
+C:   00000BBC  C$Lab6.c$384$1$152                 Lab6
+C:   00000BBC  XG$PCA_Init$0$0                    Lab6
+C:   00000BBD  A$Lab6$3621                        Lab6
+C:   00000BBD  C$Lab6.c$389$1$152                 Lab6
+C:   00000BBD  G$PCA_ISR$0$0                      Lab6
+C:   00000BBD  _PCA_ISR                           Lab6
+ASxxxx Linker V03.00 + NoICE + sdld,  page 65.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000BBF  A$Lab6$3622                        Lab6
+C:   00000BC1  A$Lab6$3625                        Lab6
+C:   00000BC1  C$Lab6.c$391$1$154                 Lab6
+C:   00000BC4  A$Lab6$3628                        Lab6
+C:   00000BC4  C$Lab6.c$393$2$155                 Lab6
+C:   00000BC6  A$Lab6$3629                        Lab6
+C:   00000BC7  A$Lab6$3630                        Lab6
+C:   00000BCA  A$Lab6$3631                        Lab6
+C:   00000BCC  A$Lab6$3635                        Lab6
+C:   00000BCC  C$Lab6.c$394$2$155                 Lab6
+C:   00000BCE  A$Lab6$3636                        Lab6
+C:   00000BCF  A$Lab6$3637                        Lab6
+C:   00000BD2  A$Lab6$3638                        Lab6
+C:   00000BD4  A$Lab6$3642                        Lab6
+C:   00000BD4  C$Lab6.c$395$2$155                 Lab6
+C:   00000BD6  A$Lab6$3645                        Lab6
+C:   00000BD6  C$Lab6.c$396$2$155                 Lab6
+C:   00000BD9  A$Lab6$3646                        Lab6
+C:   00000BDC  A$Lab6$3650                        Lab6
+C:   00000BDC  C$Lab6.c$399$1$154                 Lab6
+C:   00000BDF  A$Lab6$3651                        Lab6
+C:   00000BE1  A$Lab6$3652                        Lab6
+C:   00000BE3  A$Lab6$3655                        Lab6
+C:   00000BE3  C$Lab6.c$400$1$154                 Lab6
+C:   00000BE3  XG$PCA_ISR$0$0                     Lab6
+C:   00000BE4  A$Lab6$3672                        Lab6
+C:   00000BE4  C$Lab6.c$405$1$154                 Lab6
+C:   00000BE4  C$Lab6.c$407$1$156                 Lab6
+C:   00000BE4  G$SMB0_Init$0$0                    Lab6
+C:   00000BE4  _SMB0_Init                         Lab6
+C:   00000BE7  A$Lab6$3675                        Lab6
+C:   00000BE7  C$Lab6.c$408$1$156                 Lab6
+C:   00000BE9  A$Lab6$3678                        Lab6
+C:   00000BE9  C$Lab6.c$409$1$156                 Lab6
+C:   00000BE9  XG$SMB0_Init$0$0                   Lab6
+C:   00000BEA  _printf_fast_f                     printf_fast_f
+C:   0000106B  ___fsmul                           _fsmul
+C:   0000110E  fsgetargs                          _fsget2args
+C:   0000113C  fs_rshift_a                        _fsrshift
+C:   0000117F  fs_normalize_a                     _fsnormalize
+C:   000011B2  ___slong2fs                        _slong2fs
+C:   000011BB  slong2fs_doit                      _slong2fs
+C:   000011DF  ___fs2slong                        _fs2slong
+C:   0000123A  _atoi                              _atoi
+C:   00001326  fsgetarg                           _fsget1arg
+C:   00001338  __gptrput                          _gptrput
+C:   00001353  __mulint                           _mulint
+C:   00001353  __mulint_dummy                     _mulint
+C:   000013E0  _vsprintf                          sprintf
+C:   0000141D  _sprintf                           sprintf
+C:   0000146B  __mullong                          _mullong
+ASxxxx Linker V03.00 + NoICE + sdld,  page 66.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000CE    00001ADF =        6879. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000146B  __mullong_dummy                    _mullong
+C:   000014D9  __moduint                          _moduint
+C:   00001526  fs_round_and_return                _fsreturnval
+C:   0000153E  fs_zerocheck_return                _fsreturnval
+C:   00001547  fs_return_zero                     _fsreturnval
+C:   0000154F  fs_direct_return                   _fsreturnval
+C:   0000155D  fs_return_inf                      _fsreturnval
+C:   0000156A  fs_return_nan                      _fsreturnval
+C:   00001580  _vprintf                           vprintf
+C:   00001599  _printf                            vprintf
+C:   0000166B  __print_format                     printf_large
+C:   00001B75  _strlen                            _strlen
+C:   00001B8D  __gptrget                          _gptrget
+C:   00001BA9  __sdcc_external_startup            _startup
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 67.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               00001BAD    00000349 =         841. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00001BAD  FLab6$__str_0$0$0                  Lab6
+C:   00001BC3  FLab6$__str_1$0$0                  Lab6
+C:   00001BD3  FLab6$__str_2$0$0                  Lab6
+C:   00001BD6  FLab6$__str_3$0$0                  Lab6
+C:   00001BEF  FLab6$__str_4$0$0                  Lab6
+C:   00001C12  FLab6$__str_5$0$0                  Lab6
+C:   00001C31  FLab6$__str_6$0$0                  Lab6
+C:   00001C46  FLab6$__str_7$0$0                  Lab6
+C:   00001C5B  FLab6$__str_8$0$0                  Lab6
+C:   00001C70  FLab6$__str_9$0$0                  Lab6
+C:   00001C7A  FLab6$__str_10$0$0                 Lab6
+C:   00001C8F  FLab6$__str_11$0$0                 Lab6
+C:   00001CA4  FLab6$__str_12$0$0                 Lab6
+C:   00001CB9  FLab6$__str_13$0$0                 Lab6
+C:   00001CD1  FLab6$__str_14$0$0                 Lab6
+C:   00001CE6  FLab6$__str_15$0$0                 Lab6
+C:   00001CFB  FLab6$__str_16$0$0                 Lab6
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 68.
+
+Files Linked                              [ module(s) ]
+
+C:\Users\Christopher\Google Drive\School\2015 Spring - Embedded Control\Labs\06 - Something with the Gondola\Code\Lab6.rel
+                                          [  ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ printf_fast_f.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _fsmul.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _fsget2args.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtclear.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _fsrshift.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _fsnormalize.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _slong2fs.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _fs2slong.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _atoi.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxinit.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _fsget1arg.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _gptrput.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libint.lib
+                                          [ _mulint.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ sprintf.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/liblong.lib
+                                          [ _mullong.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libint.lib
+                                          [ _moduint.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxclear.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libfloat.lib
+                                          [ _fsreturnval.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _bp.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ vprintf.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ printf_large.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _strlen.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtstart.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _gptrget.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 69.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0001
+PSEG = 0x0001
+ISEG = 0x0000
+BSEG = 0x0000
+
+

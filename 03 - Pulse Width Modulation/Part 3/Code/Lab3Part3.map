@@ -1,0 +1,2257 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_BIT_BANK                      
+C:   00000000  l_CABS                          
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_PSEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_XABS                          
+C:   00000001  s_PSEG                          
+C:   00000001  s_XSEG                          
+C:   00000002  l_BSEG_BYTES                    
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000006  l_ISEG                          
+C:   00000006  l_OSEG                          
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  s_REG_BANK_1                    
+C:   0000000A  l_BSEG                          
+C:   0000000A  l_GSINIT2                       
+C:   0000000C  l_GSINIT                        
+C:   00000010  s_REG_BANK_2                    
+C:   00000011  s_OSEG                          
+C:   00000017  s_ISEG                          
+C:   00000018  s_BIT_BANK                      
+C:   00000018  s_REG_BANK_3                    
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000022  l_GSINIT3                       
+C:   0000002A  l_GSINIT4                       
+C:   00000050  l_XSEG                          
+C:   00000051  l_HOME                          
+C:   00000051  s_GSINIT0                       
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000051  s_XISEG                         
+C:   00000054  s_GSINIT1                       
+C:   00000054  s_GSINIT2                       
+C:   00000056  s_SSEG                          
+C:   0000005E  s_GSINIT3                       
+C:   00000070  l_CONST                         
+C:   0000007D  l_DSEG                          
+C:   00000080  s_GSINIT4                       
+C:   000000AA  l_SSEG                          
+C:   000000AA  s_GSINIT                        
+C:   000000AA  s_GSINIT5                       
+C:   000000B6  s_GSFINAL                       
+C:   000000B9  s_CSEG                          
+C:   00000100  l_IRAM                          
+C:   00000D84  l_CSEG                          
+C:   00000E3D  s_CONST                         
+C:   00000EAD  s_XINIT                         
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+     00000080  G$P0$0$0                           Lab3Part3
+     00000080  G$P0_0$0$0                         Lab3Part3
+     00000080  _P0                                Lab3Part3
+     00000080  _P0_0                              Lab3Part3
+     00000081  G$P0_1$0$0                         Lab3Part3
+     00000081  G$SP$0$0                           Lab3Part3
+     00000081  _P0_1                              Lab3Part3
+     00000081  _SP                                Lab3Part3
+     00000082  G$DPL$0$0                          Lab3Part3
+     00000082  G$P0_2$0$0                         Lab3Part3
+     00000082  _DPL                               Lab3Part3
+     00000082  _P0_2                              Lab3Part3
+     00000083  G$BUS_SCL$0$0                      Lab3Part3
+     00000083  G$DPH$0$0                          Lab3Part3
+     00000083  G$P0_3$0$0                         Lab3Part3
+     00000083  _BUS_SCL                           Lab3Part3
+     00000083  _DPH                               Lab3Part3
+     00000083  _P0_3                              Lab3Part3
+     00000084  G$P0_4$0$0                         Lab3Part3
+     00000084  G$P4$0$0                           Lab3Part3
+     00000084  _P0_4                              Lab3Part3
+     00000084  _P4                                Lab3Part3
+     00000085  G$P0_5$0$0                         Lab3Part3
+     00000085  G$P5$0$0                           Lab3Part3
+     00000085  _P0_5                              Lab3Part3
+     00000085  _P5                                Lab3Part3
+     00000086  G$P0_6$0$0                         Lab3Part3
+     00000086  G$P6$0$0                           Lab3Part3
+     00000086  _P0_6                              Lab3Part3
+     00000086  _P6                                Lab3Part3
+     00000087  G$P0_7$0$0                         Lab3Part3
+     00000087  G$PCON$0$0                         Lab3Part3
+     00000087  _P0_7                              Lab3Part3
+     00000087  _PCON                              Lab3Part3
+     00000088  G$IT0$0$0                          Lab3Part3
+     00000088  G$TCON$0$0                         Lab3Part3
+     00000088  _IT0                               Lab3Part3
+     00000088  _TCON                              Lab3Part3
+     00000089  G$IE0$0$0                          Lab3Part3
+     00000089  G$TMOD$0$0                         Lab3Part3
+     00000089  _IE0                               Lab3Part3
+     00000089  _TMOD                              Lab3Part3
+     0000008A  G$IT1$0$0                          Lab3Part3
+     0000008A  G$TL0$0$0                          Lab3Part3
+     0000008A  _IT1                               Lab3Part3
+     0000008A  _TL0                               Lab3Part3
+     0000008B  G$IE1$0$0                          Lab3Part3
+     0000008B  G$TL1$0$0                          Lab3Part3
+     0000008B  _IE1                               Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000008B  _TL1                               Lab3Part3
+     0000008C  G$TH0$0$0                          Lab3Part3
+     0000008C  G$TR0$0$0                          Lab3Part3
+     0000008C  _TH0                               Lab3Part3
+     0000008C  _TR0                               Lab3Part3
+     0000008D  G$TF0$0$0                          Lab3Part3
+     0000008D  G$TH1$0$0                          Lab3Part3
+     0000008D  _TF0                               Lab3Part3
+     0000008D  _TH1                               Lab3Part3
+     0000008E  G$CKCON$0$0                        Lab3Part3
+     0000008E  G$TR1$0$0                          Lab3Part3
+     0000008E  _CKCON                             Lab3Part3
+     0000008E  _TR1                               Lab3Part3
+     0000008F  G$PSCTL$0$0                        Lab3Part3
+     0000008F  G$TF1$0$0                          Lab3Part3
+     0000008F  _PSCTL                             Lab3Part3
+     0000008F  _TF1                               Lab3Part3
+     00000090  G$P1$0$0                           Lab3Part3
+     00000090  G$P1_0$0$0                         Lab3Part3
+     00000090  _P1                                Lab3Part3
+     00000090  _P1_0                              Lab3Part3
+     00000091  G$P1_1$0$0                         Lab3Part3
+     00000091  G$TMR3CN$0$0                       Lab3Part3
+     00000091  _P1_1                              Lab3Part3
+     00000091  _TMR3CN                            Lab3Part3
+     00000092  G$P1_2$0$0                         Lab3Part3
+     00000092  G$TMR3RLL$0$0                      Lab3Part3
+     00000092  _P1_2                              Lab3Part3
+     00000092  _TMR3RLL                           Lab3Part3
+     00000093  G$P1_3$0$0                         Lab3Part3
+     00000093  G$TMR3RLH$0$0                      Lab3Part3
+     00000093  _P1_3                              Lab3Part3
+     00000093  _TMR3RLH                           Lab3Part3
+     00000094  G$P1_4$0$0                         Lab3Part3
+     00000094  G$TMR3L$0$0                        Lab3Part3
+     00000094  _P1_4                              Lab3Part3
+     00000094  _TMR3L                             Lab3Part3
+     00000095  G$P1_5$0$0                         Lab3Part3
+     00000095  G$TMR3H$0$0                        Lab3Part3
+     00000095  _P1_5                              Lab3Part3
+     00000095  _TMR3H                             Lab3Part3
+     00000096  G$P1_6$0$0                         Lab3Part3
+     00000096  G$P7$0$0                           Lab3Part3
+     00000096  _P1_6                              Lab3Part3
+     00000096  _P7                                Lab3Part3
+     00000097  G$P1_7$0$0                         Lab3Part3
+     00000097  _P1_7                              Lab3Part3
+     00000098  G$RI$0$0                           Lab3Part3
+     00000098  G$RI0$0$0                          Lab3Part3
+     00000098  G$SCON$0$0                         Lab3Part3
+     00000098  G$SCON0$0$0                        Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000098  _RI                                Lab3Part3
+     00000098  _RI0                               Lab3Part3
+     00000098  _SCON                              Lab3Part3
+     00000098  _SCON0                             Lab3Part3
+     00000099  G$SBUF$0$0                         Lab3Part3
+     00000099  G$SBUF0$0$0                        Lab3Part3
+     00000099  G$TI$0$0                           Lab3Part3
+     00000099  G$TI0$0$0                          Lab3Part3
+     00000099  _SBUF                              Lab3Part3
+     00000099  _SBUF0                             Lab3Part3
+     00000099  _TI                                Lab3Part3
+     00000099  _TI0                               Lab3Part3
+     0000009A  G$RB8$0$0                          Lab3Part3
+     0000009A  G$RB80$0$0                         Lab3Part3
+     0000009A  G$SPI0CFG$0$0                      Lab3Part3
+     0000009A  _RB8                               Lab3Part3
+     0000009A  _RB80                              Lab3Part3
+     0000009A  _SPI0CFG                           Lab3Part3
+     0000009B  G$SPI0DAT$0$0                      Lab3Part3
+     0000009B  G$TB8$0$0                          Lab3Part3
+     0000009B  G$TB80$0$0                         Lab3Part3
+     0000009B  _SPI0DAT                           Lab3Part3
+     0000009B  _TB8                               Lab3Part3
+     0000009B  _TB80                              Lab3Part3
+     0000009C  G$ADC1$0$0                         Lab3Part3
+     0000009C  G$REN$0$0                          Lab3Part3
+     0000009C  G$REN0$0$0                         Lab3Part3
+     0000009C  _ADC1                              Lab3Part3
+     0000009C  _REN                               Lab3Part3
+     0000009C  _REN0                              Lab3Part3
+     0000009D  G$MCE0$0$0                         Lab3Part3
+     0000009D  G$SM2$0$0                          Lab3Part3
+     0000009D  G$SM20$0$0                         Lab3Part3
+     0000009D  G$SPI0CKR$0$0                      Lab3Part3
+     0000009D  _MCE0                              Lab3Part3
+     0000009D  _SM2                               Lab3Part3
+     0000009D  _SM20                              Lab3Part3
+     0000009D  _SPI0CKR                           Lab3Part3
+     0000009E  G$CPT0CN$0$0                       Lab3Part3
+     0000009E  G$SM1$0$0                          Lab3Part3
+     0000009E  G$SM10$0$0                         Lab3Part3
+     0000009E  _CPT0CN                            Lab3Part3
+     0000009E  _SM1                               Lab3Part3
+     0000009E  _SM10                              Lab3Part3
+     0000009F  G$CPT1CN$0$0                       Lab3Part3
+     0000009F  G$S0MODE$0$0                       Lab3Part3
+     0000009F  G$SM0$0$0                          Lab3Part3
+     0000009F  G$SM00$0$0                         Lab3Part3
+     0000009F  _CPT1CN                            Lab3Part3
+     0000009F  _S0MODE                            Lab3Part3
+     0000009F  _SM0                               Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000009F  _SM00                              Lab3Part3
+     000000A0  G$P2$0$0                           Lab3Part3
+     000000A0  G$P2_0$0$0                         Lab3Part3
+     000000A0  _P2                                Lab3Part3
+     000000A0  _P2_0                              Lab3Part3
+     000000A1  G$EMI0TC$0$0                       Lab3Part3
+     000000A1  G$P2_1$0$0                         Lab3Part3
+     000000A1  _EMI0TC                            Lab3Part3
+     000000A1  _P2_1                              Lab3Part3
+     000000A2  G$P2_2$0$0                         Lab3Part3
+     000000A2  _P2_2                              Lab3Part3
+     000000A3  G$EMI0CF$0$0                       Lab3Part3
+     000000A3  G$P2_3$0$0                         Lab3Part3
+     000000A3  _EMI0CF                            Lab3Part3
+     000000A3  _P2_3                              Lab3Part3
+     000000A4  G$P0MDOUT$0$0                      Lab3Part3
+     000000A4  G$P2_4$0$0                         Lab3Part3
+     000000A4  G$PRT0CF$0$0                       Lab3Part3
+     000000A4  _P0MDOUT                           Lab3Part3
+     000000A4  _P2_4                              Lab3Part3
+     000000A4  _PRT0CF                            Lab3Part3
+     000000A5  G$P1MDOUT$0$0                      Lab3Part3
+     000000A5  G$P2_5$0$0                         Lab3Part3
+     000000A5  G$PRT1CF$0$0                       Lab3Part3
+     000000A5  _P1MDOUT                           Lab3Part3
+     000000A5  _P2_5                              Lab3Part3
+     000000A5  _PRT1CF                            Lab3Part3
+     000000A6  G$P2MDOUT$0$0                      Lab3Part3
+     000000A6  G$P2_6$0$0                         Lab3Part3
+     000000A6  G$PRT2CF$0$0                       Lab3Part3
+     000000A6  _P2MDOUT                           Lab3Part3
+     000000A6  _P2_6                              Lab3Part3
+     000000A6  _PRT2CF                            Lab3Part3
+     000000A7  G$P2_7$0$0                         Lab3Part3
+     000000A7  G$P3MDOUT$0$0                      Lab3Part3
+     000000A7  G$PRT3CF$0$0                       Lab3Part3
+     000000A7  _P2_7                              Lab3Part3
+     000000A7  _P3MDOUT                           Lab3Part3
+     000000A7  _PRT3CF                            Lab3Part3
+     000000A8  G$EX0$0$0                          Lab3Part3
+     000000A8  G$IE$0$0                           Lab3Part3
+     000000A8  _EX0                               Lab3Part3
+     000000A8  _IE                                Lab3Part3
+     000000A9  G$ET0$0$0                          Lab3Part3
+     000000A9  G$SADDR0$0$0                       Lab3Part3
+     000000A9  _ET0                               Lab3Part3
+     000000A9  _SADDR0                            Lab3Part3
+     000000AA  G$ADC1CN$0$0                       Lab3Part3
+     000000AA  G$EX1$0$0                          Lab3Part3
+     000000AA  _ADC1CN                            Lab3Part3
+     000000AA  _EX1                               Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000AB  G$ADC1CF$0$0                       Lab3Part3
+     000000AB  G$ET1$0$0                          Lab3Part3
+     000000AB  _ADC1CF                            Lab3Part3
+     000000AB  _ET1                               Lab3Part3
+     000000AC  G$AMX1SL$0$0                       Lab3Part3
+     000000AC  G$ES$0$0                           Lab3Part3
+     000000AC  G$ES0$0$0                          Lab3Part3
+     000000AC  _AMX1SL                            Lab3Part3
+     000000AC  _ES                                Lab3Part3
+     000000AC  _ES0                               Lab3Part3
+     000000AD  G$ET2$0$0                          Lab3Part3
+     000000AD  G$P3IF$0$0                         Lab3Part3
+     000000AD  _ET2                               Lab3Part3
+     000000AD  _P3IF                              Lab3Part3
+     000000AE  G$SADEN1$0$0                       Lab3Part3
+     000000AE  _SADEN1                            Lab3Part3
+     000000AF  G$EA$0$0                           Lab3Part3
+     000000AF  G$EMI0CN$0$0                       Lab3Part3
+     000000AF  G$_XPAGE$0$0                       Lab3Part3
+     000000AF  _EA                                Lab3Part3
+     000000AF  _EMI0CN                            Lab3Part3
+     000000AF  __XPAGE                            Lab3Part3
+     000000B0  G$P3$0$0                           Lab3Part3
+     000000B0  G$P3_0$0$0                         Lab3Part3
+     000000B0  _P3                                Lab3Part3
+     000000B0  _P3_0                              Lab3Part3
+     000000B1  G$OSCXCN$0$0                       Lab3Part3
+     000000B1  G$P3_1$0$0                         Lab3Part3
+     000000B1  _OSCXCN                            Lab3Part3
+     000000B1  _P3_1                              Lab3Part3
+     000000B2  G$OSCICN$0$0                       Lab3Part3
+     000000B2  G$P3_2$0$0                         Lab3Part3
+     000000B2  _OSCICN                            Lab3Part3
+     000000B2  _P3_2                              Lab3Part3
+     000000B3  G$P3_3$0$0                         Lab3Part3
+     000000B3  _P3_3                              Lab3Part3
+     000000B4  G$P3_4$0$0                         Lab3Part3
+     000000B4  _P3_4                              Lab3Part3
+     000000B5  G$P3_5$0$0                         Lab3Part3
+     000000B5  G$P74OUT$0$0                       Lab3Part3
+     000000B5  _P3_5                              Lab3Part3
+     000000B5  _P74OUT                            Lab3Part3
+     000000B6  G$FLSCL$0$0                        Lab3Part3
+     000000B6  G$P3_6$0$0                         Lab3Part3
+     000000B6  G$slideSwitch$0$0                  Lab3Part3
+     000000B6  _FLSCL                             Lab3Part3
+     000000B6  _P3_6                              Lab3Part3
+     000000B6  _slideSwitch                       Lab3Part3
+     000000B7  G$FLACL$0$0                        Lab3Part3
+     000000B7  G$P3_7$0$0                         Lab3Part3
+     000000B7  _FLACL                             Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B7  _P3_7                              Lab3Part3
+     000000B8  G$IP$0$0                           Lab3Part3
+     000000B8  G$PX0$0$0                          Lab3Part3
+     000000B8  _IP                                Lab3Part3
+     000000B8  _PX0                               Lab3Part3
+     000000B9  G$PT0$0$0                          Lab3Part3
+     000000B9  G$SADEN0$0$0                       Lab3Part3
+     000000B9  _PT0                               Lab3Part3
+     000000B9  _SADEN0                            Lab3Part3
+     000000BA  G$AMX0CF$0$0                       Lab3Part3
+     000000BA  G$PX1$0$0                          Lab3Part3
+     000000BA  _AMX0CF                            Lab3Part3
+     000000BA  _PX1                               Lab3Part3
+     000000BB  G$AMX0SL$0$0                       Lab3Part3
+     000000BB  G$PT1$0$0                          Lab3Part3
+     000000BB  _AMX0SL                            Lab3Part3
+     000000BB  _PT1                               Lab3Part3
+     000000BC  G$ADC0CF$0$0                       Lab3Part3
+     000000BC  G$PS$0$0                           Lab3Part3
+     000000BC  G$PS0$0$0                          Lab3Part3
+     000000BC  _ADC0CF                            Lab3Part3
+     000000BC  _PS                                Lab3Part3
+     000000BC  _PS0                               Lab3Part3
+     000000BD  G$P1MDIN$0$0                       Lab3Part3
+     000000BD  G$PT2$0$0                          Lab3Part3
+     000000BD  _P1MDIN                            Lab3Part3
+     000000BD  _PT2                               Lab3Part3
+     000000BE  G$ADC0L$0$0                        Lab3Part3
+     000000BE  _ADC0L                             Lab3Part3
+     000000BF  G$ADC0H$0$0                        Lab3Part3
+     000000BF  _ADC0H                             Lab3Part3
+     000000C0  G$BUS_TOE$0$0                      Lab3Part3
+     000000C0  G$SMB0CN$0$0                       Lab3Part3
+     000000C0  G$SMBTOE$0$0                       Lab3Part3
+     000000C0  _BUS_TOE                           Lab3Part3
+     000000C0  _SMB0CN                            Lab3Part3
+     000000C0  _SMBTOE                            Lab3Part3
+     000000C1  G$BUS_FTE$0$0                      Lab3Part3
+     000000C1  G$SMB0STA$0$0                      Lab3Part3
+     000000C1  G$SMBFTE$0$0                       Lab3Part3
+     000000C1  _BUS_FTE                           Lab3Part3
+     000000C1  _SMB0STA                           Lab3Part3
+     000000C1  _SMBFTE                            Lab3Part3
+     000000C2  G$AA$0$0                           Lab3Part3
+     000000C2  G$BUS_AA$0$0                       Lab3Part3
+     000000C2  G$SMB0DAT$0$0                      Lab3Part3
+     000000C2  _AA                                Lab3Part3
+     000000C2  _BUS_AA                            Lab3Part3
+     000000C2  _SMB0DAT                           Lab3Part3
+     000000C3  G$BUS_INT$0$0                      Lab3Part3
+     000000C3  G$SI$0$0                           Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000C3  G$SMB0ADR$0$0                      Lab3Part3
+     000000C3  _BUS_INT                           Lab3Part3
+     000000C3  _SI                                Lab3Part3
+     000000C3  _SMB0ADR                           Lab3Part3
+     000000C4  G$ADC0GTL$0$0                      Lab3Part3
+     000000C4  G$BUS_STOP$0$0                     Lab3Part3
+     000000C4  G$STO$0$0                          Lab3Part3
+     000000C4  _ADC0GTL                           Lab3Part3
+     000000C4  _BUS_STOP                          Lab3Part3
+     000000C4  _STO                               Lab3Part3
+     000000C5  G$ADC0GTH$0$0                      Lab3Part3
+     000000C5  G$BUS_START$0$0                    Lab3Part3
+     000000C5  G$STA$0$0                          Lab3Part3
+     000000C5  _ADC0GTH                           Lab3Part3
+     000000C5  _BUS_START                         Lab3Part3
+     000000C5  _STA                               Lab3Part3
+     000000C6  G$ADC0LTL$0$0                      Lab3Part3
+     000000C6  G$BUS_EN$0$0                       Lab3Part3
+     000000C6  G$ENSMB$0$0                        Lab3Part3
+     000000C6  _ADC0LTL                           Lab3Part3
+     000000C6  _BUS_EN                            Lab3Part3
+     000000C6  _ENSMB                             Lab3Part3
+     000000C7  G$ADC0LTH$0$0                      Lab3Part3
+     000000C7  G$BUSY$0$0                         Lab3Part3
+     000000C7  G$BUS_BUSY$0$0                     Lab3Part3
+     000000C7  _ADC0LTH                           Lab3Part3
+     000000C7  _BUSY                              Lab3Part3
+     000000C7  _BUS_BUSY                          Lab3Part3
+     000000C8  G$CPRL2$0$0                        Lab3Part3
+     000000C8  G$T2CON$0$0                        Lab3Part3
+     000000C8  _CPRL2                             Lab3Part3
+     000000C8  _T2CON                             Lab3Part3
+     000000C9  G$CT2$0$0                          Lab3Part3
+     000000C9  G$T4CON$0$0                        Lab3Part3
+     000000C9  _CT2                               Lab3Part3
+     000000C9  _T4CON                             Lab3Part3
+     000000CA  G$RCAP2L$0$0                       Lab3Part3
+     000000CA  G$TR2$0$0                          Lab3Part3
+     000000CA  _RCAP2L                            Lab3Part3
+     000000CA  _TR2                               Lab3Part3
+     000000CB  G$EXEN2$0$0                        Lab3Part3
+     000000CB  G$RCAP2H$0$0                       Lab3Part3
+     000000CB  _EXEN2                             Lab3Part3
+     000000CB  _RCAP2H                            Lab3Part3
+     000000CC  G$TCLK$0$0                         Lab3Part3
+     000000CC  G$TL2$0$0                          Lab3Part3
+     000000CC  _TCLK                              Lab3Part3
+     000000CC  _TL2                               Lab3Part3
+     000000CD  G$RCLK$0$0                         Lab3Part3
+     000000CD  G$TH2$0$0                          Lab3Part3
+     000000CD  _RCLK                              Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000CD  _TH2                               Lab3Part3
+     000000CE  G$EXF2$0$0                         Lab3Part3
+     000000CE  _EXF2                              Lab3Part3
+     000000CF  G$SMB0CR$0$0                       Lab3Part3
+     000000CF  G$TF2$0$0                          Lab3Part3
+     000000CF  _SMB0CR                            Lab3Part3
+     000000CF  _TF2                               Lab3Part3
+     000000D0  G$P$0$0                            Lab3Part3
+     000000D0  G$PSW$0$0                          Lab3Part3
+     000000D0  _P                                 Lab3Part3
+     000000D0  _PSW                               Lab3Part3
+     000000D1  G$F1$0$0                           Lab3Part3
+     000000D1  G$REF0CN$0$0                       Lab3Part3
+     000000D1  _F1                                Lab3Part3
+     000000D1  _REF0CN                            Lab3Part3
+     000000D2  G$DAC0L$0$0                        Lab3Part3
+     000000D2  G$OV$0$0                           Lab3Part3
+     000000D2  _DAC0L                             Lab3Part3
+     000000D2  _OV                                Lab3Part3
+     000000D3  G$DAC0H$0$0                        Lab3Part3
+     000000D3  G$RS0$0$0                          Lab3Part3
+     000000D3  _DAC0H                             Lab3Part3
+     000000D3  _RS0                               Lab3Part3
+     000000D4  G$DAC0CN$0$0                       Lab3Part3
+     000000D4  G$RS1$0$0                          Lab3Part3
+     000000D4  _DAC0CN                            Lab3Part3
+     000000D4  _RS1                               Lab3Part3
+     000000D5  G$DAC1L$0$0                        Lab3Part3
+     000000D5  G$F0$0$0                           Lab3Part3
+     000000D5  _DAC1L                             Lab3Part3
+     000000D5  _F0                                Lab3Part3
+     000000D6  G$AC$0$0                           Lab3Part3
+     000000D6  G$DAC1H$0$0                        Lab3Part3
+     000000D6  _AC                                Lab3Part3
+     000000D6  _DAC1H                             Lab3Part3
+     000000D7  G$CY$0$0                           Lab3Part3
+     000000D7  G$DAC1CN$0$0                       Lab3Part3
+     000000D7  _CY                                Lab3Part3
+     000000D7  _DAC1CN                            Lab3Part3
+     000000D8  G$CCF0$0$0                         Lab3Part3
+     000000D8  G$PCA0CN$0$0                       Lab3Part3
+     000000D8  _CCF0                              Lab3Part3
+     000000D8  _PCA0CN                            Lab3Part3
+     000000D9  G$CCF1$0$0                         Lab3Part3
+     000000D9  G$PCA0MD$0$0                       Lab3Part3
+     000000D9  _CCF1                              Lab3Part3
+     000000D9  _PCA0MD                            Lab3Part3
+     000000DA  G$CCF2$0$0                         Lab3Part3
+     000000DA  G$PCA0CPM0$0$0                     Lab3Part3
+     000000DA  _CCF2                              Lab3Part3
+     000000DA  _PCA0CPM0                          Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000DB  G$CCF3$0$0                         Lab3Part3
+     000000DB  G$PCA0CPM1$0$0                     Lab3Part3
+     000000DB  _CCF3                              Lab3Part3
+     000000DB  _PCA0CPM1                          Lab3Part3
+     000000DC  G$CCF4$0$0                         Lab3Part3
+     000000DC  G$PCA0CPM2$0$0                     Lab3Part3
+     000000DC  _CCF4                              Lab3Part3
+     000000DC  _PCA0CPM2                          Lab3Part3
+     000000DD  G$PCA0CPM3$0$0                     Lab3Part3
+     000000DD  _PCA0CPM3                          Lab3Part3
+     000000DE  G$CR$0$0                           Lab3Part3
+     000000DE  G$PCA0CPM4$0$0                     Lab3Part3
+     000000DE  _CR                                Lab3Part3
+     000000DE  _PCA0CPM4                          Lab3Part3
+     000000DF  G$CF$0$0                           Lab3Part3
+     000000DF  _CF                                Lab3Part3
+     000000E0  G$ACC$0$0                          Lab3Part3
+     000000E0  _ACC                               Lab3Part3
+     000000E1  G$XBR0$0$0                         Lab3Part3
+     000000E1  _XBR0                              Lab3Part3
+     000000E2  G$XBR1$0$0                         Lab3Part3
+     000000E2  _XBR1                              Lab3Part3
+     000000E3  G$XBR2$0$0                         Lab3Part3
+     000000E3  _XBR2                              Lab3Part3
+     000000E4  G$RCAP4L$0$0                       Lab3Part3
+     000000E4  _RCAP4L                            Lab3Part3
+     000000E5  G$RCAP4H$0$0                       Lab3Part3
+     000000E5  _RCAP4H                            Lab3Part3
+     000000E6  G$EIE1$0$0                         Lab3Part3
+     000000E6  _EIE1                              Lab3Part3
+     000000E7  G$EIE2$0$0                         Lab3Part3
+     000000E7  _EIE2                              Lab3Part3
+     000000E8  G$AD0LJST$0$0                      Lab3Part3
+     000000E8  G$ADC0CN$0$0                       Lab3Part3
+     000000E8  G$ADLJST$0$0                       Lab3Part3
+     000000E8  _AD0LJST                           Lab3Part3
+     000000E8  _ADC0CN                            Lab3Part3
+     000000E8  _ADLJST                            Lab3Part3
+     000000E9  G$AD0WINT$0$0                      Lab3Part3
+     000000E9  G$ADWINT$0$0                       Lab3Part3
+     000000E9  G$PCA0L$0$0                        Lab3Part3
+     000000E9  _AD0WINT                           Lab3Part3
+     000000E9  _ADWINT                            Lab3Part3
+     000000E9  _PCA0L                             Lab3Part3
+     000000EA  G$AD0CM0$0$0                       Lab3Part3
+     000000EA  G$ADSTM0$0$0                       Lab3Part3
+     000000EA  G$PCA0CPL0$0$0                     Lab3Part3
+     000000EA  _AD0CM0                            Lab3Part3
+     000000EA  _ADSTM0                            Lab3Part3
+     000000EA  _PCA0CPL0                          Lab3Part3
+     000000EB  G$AD0CM1$0$0                       Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000EB  G$ADSTM1$0$0                       Lab3Part3
+     000000EB  G$PCA0CPL1$0$0                     Lab3Part3
+     000000EB  _AD0CM1                            Lab3Part3
+     000000EB  _ADSTM1                            Lab3Part3
+     000000EB  _PCA0CPL1                          Lab3Part3
+     000000EC  G$AD0BUSY$0$0                      Lab3Part3
+     000000EC  G$ADBUSY$0$0                       Lab3Part3
+     000000EC  G$PCA0CPL2$0$0                     Lab3Part3
+     000000EC  _AD0BUSY                           Lab3Part3
+     000000EC  _ADBUSY                            Lab3Part3
+     000000EC  _PCA0CPL2                          Lab3Part3
+     000000ED  G$AD0INT$0$0                       Lab3Part3
+     000000ED  G$ADCINT$0$0                       Lab3Part3
+     000000ED  G$PCA0CPL3$0$0                     Lab3Part3
+     000000ED  _AD0INT                            Lab3Part3
+     000000ED  _ADCINT                            Lab3Part3
+     000000ED  _PCA0CPL3                          Lab3Part3
+     000000EE  G$AD0TM$0$0                        Lab3Part3
+     000000EE  G$ADCTM$0$0                        Lab3Part3
+     000000EE  G$PCA0CPL4$0$0                     Lab3Part3
+     000000EE  _AD0TM                             Lab3Part3
+     000000EE  _ADCTM                             Lab3Part3
+     000000EE  _PCA0CPL4                          Lab3Part3
+     000000EF  G$AD0EN$0$0                        Lab3Part3
+     000000EF  G$ADCEN$0$0                        Lab3Part3
+     000000EF  G$RSTSRC$0$0                       Lab3Part3
+     000000EF  _AD0EN                             Lab3Part3
+     000000EF  _ADCEN                             Lab3Part3
+     000000EF  _RSTSRC                            Lab3Part3
+     000000F0  G$B$0$0                            Lab3Part3
+     000000F0  _B                                 Lab3Part3
+     000000F1  G$SCON1$0$0                        Lab3Part3
+     000000F1  _SCON1                             Lab3Part3
+     000000F2  G$SBUF1$0$0                        Lab3Part3
+     000000F2  _SBUF1                             Lab3Part3
+     000000F3  G$SADDR1$0$0                       Lab3Part3
+     000000F3  _SADDR1                            Lab3Part3
+     000000F4  G$TL4$0$0                          Lab3Part3
+     000000F4  _TL4                               Lab3Part3
+     000000F5  G$TH4$0$0                          Lab3Part3
+     000000F5  _B_5                               _gptrget
+     000000F5  _TH4                               Lab3Part3
+     000000F6  G$EIP1$0$0                         Lab3Part3
+     000000F6  _B_6                               _gptrget
+     000000F6  _EIP1                              Lab3Part3
+     000000F7  G$EIP2$0$0                         Lab3Part3
+     000000F7  _B_7                               _gptrget
+     000000F7  _EIP2                              Lab3Part3
+     000000F8  G$SPI0CN$0$0                       Lab3Part3
+     000000F8  G$SPIEN$0$0                        Lab3Part3
+     000000F8  _SPI0CN                            Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000F8  _SPIEN                             Lab3Part3
+     000000F9  G$MSTEN$0$0                        Lab3Part3
+     000000F9  G$PCA0H$0$0                        Lab3Part3
+     000000F9  _MSTEN                             Lab3Part3
+     000000F9  _PCA0H                             Lab3Part3
+     000000FA  G$PCA0CPH0$0$0                     Lab3Part3
+     000000FA  G$SLVSEL$0$0                       Lab3Part3
+     000000FA  _PCA0CPH0                          Lab3Part3
+     000000FA  _SLVSEL                            Lab3Part3
+     000000FB  G$PCA0CPH1$0$0                     Lab3Part3
+     000000FB  G$TXBSY$0$0                        Lab3Part3
+     000000FB  _PCA0CPH1                          Lab3Part3
+     000000FB  _TXBSY                             Lab3Part3
+     000000FC  G$PCA0CPH2$0$0                     Lab3Part3
+     000000FC  G$RXOVRN$0$0                       Lab3Part3
+     000000FC  _PCA0CPH2                          Lab3Part3
+     000000FC  _RXOVRN                            Lab3Part3
+     000000FD  G$MODF$0$0                         Lab3Part3
+     000000FD  G$PCA0CPH3$0$0                     Lab3Part3
+     000000FD  _MODF                              Lab3Part3
+     000000FD  _PCA0CPH3                          Lab3Part3
+     000000FE  G$PCA0CPH4$0$0                     Lab3Part3
+     000000FE  G$WCOL$0$0                         Lab3Part3
+     000000FE  _PCA0CPH4                          Lab3Part3
+     000000FE  _WCOL                              Lab3Part3
+     000000FF  G$SPIF$0$0                         Lab3Part3
+     000000FF  G$WDTCN$0$0                        Lab3Part3
+     000000FF  _SPIF                              Lab3Part3
+     000000FF  _WDTCN                             Lab3Part3
+     00008C8A  G$TMR0$0$0                         Lab3Part3
+     00008C8A  _TMR0                              Lab3Part3
+     00008D8B  G$TMR1$0$0                         Lab3Part3
+     00008D8B  _TMR1                              Lab3Part3
+     00009392  G$TMR3RL$0$0                       Lab3Part3
+     00009392  _TMR3RL                            Lab3Part3
+     00009594  G$TMR3$0$0                         Lab3Part3
+     00009594  _TMR3                              Lab3Part3
+     0000BFBE  G$ADC0$0$0                         Lab3Part3
+     0000BFBE  _ADC0                              Lab3Part3
+     0000C5C4  G$ADC0GT$0$0                       Lab3Part3
+     0000C5C4  _ADC0GT                            Lab3Part3
+     0000C7C6  G$ADC0LT$0$0                       Lab3Part3
+     0000C7C6  _ADC0LT                            Lab3Part3
+     0000CBCA  G$RCAP2$0$0                        Lab3Part3
+     0000CBCA  _RCAP2                             Lab3Part3
+     0000CDCC  G$TMR2$0$0                         Lab3Part3
+     0000CDCC  _TMR2                              Lab3Part3
+     0000D3D2  G$DAC0$0$0                         Lab3Part3
+     0000D3D2  _DAC0                              Lab3Part3
+     0000D6D5  G$DAC1$0$0                         Lab3Part3
+     0000D6D5  _DAC1                              Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000E5E4  G$RCAP4$0$0                        Lab3Part3
+     0000E5E4  _RCAP4                             Lab3Part3
+     0000F5F4  G$TMR4$0$0                         Lab3Part3
+     0000F5F4  _TMR4                              Lab3Part3
+     0000F9E9  G$PCA0$0$0                         Lab3Part3
+     0000F9E9  _PCA0                              Lab3Part3
+     0000FAEA  G$PCA0CP0$0$0                      Lab3Part3
+     0000FAEA  _PCA0CP0                           Lab3Part3
+     0000FBEB  G$PCA0CP1$0$0                      Lab3Part3
+     0000FBEB  _PCA0CP1                           Lab3Part3
+     0000FCEC  G$PCA0CP2$0$0                      Lab3Part3
+     0000FCEC  _PCA0CP2                           Lab3Part3
+     0000FDED  G$PCA0CP3$0$0                      Lab3Part3
+     0000FDED  _PCA0CP3                           Lab3Part3
+     0000FEEE  G$PCA0CP4$0$0                      Lab3Part3
+     0000FEEE  _PCA0CP4                           Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BSEG_BYTES                          00000020    00000002 =           2. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    0000007D =         125. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000008  _vsprintf_PARM_2                   sprintf
+     0000000B  _vsprintf_PARM_3                   sprintf
+     0000000F  _bp                                _bp
+     00000010  _vprintf_PARM_2                    vprintf
+     00000022  LLab3Part3.lcd_clear$NumBytes$1$   Lab3Part3
+     00000023  LLab3Part3.lcd_clear$Cmd$1$77      Lab3Part3
+     00000025  LLab3Part3.read_keypad$Data$1$78   Lab3Part3
+     00000027  LLab3Part3.i2c_write_data$start_   Lab3Part3
+     00000027  _i2c_write_data_PARM_2             Lab3Part3
+     00000028  LLab3Part3.i2c_write_data$buffer   Lab3Part3
+     00000028  _i2c_write_data_PARM_3             Lab3Part3
+     0000002B  LLab3Part3.i2c_write_data$num_by   Lab3Part3
+     0000002B  _i2c_write_data_PARM_4             Lab3Part3
+     0000002C  LLab3Part3.i2c_read_data$start_r   Lab3Part3
+     0000002C  _i2c_read_data_PARM_2              Lab3Part3
+     0000002D  LLab3Part3.i2c_read_data$buffer$   Lab3Part3
+     0000002D  _i2c_read_data_PARM_3              Lab3Part3
+     00000030  LLab3Part3.i2c_read_data$num_byt   Lab3Part3
+     00000030  _i2c_read_data_PARM_4              Lab3Part3
+     00000031  LLab3Part3.Accel_Init$Data2$1$10   Lab3Part3
+     00000032  G$MOTOR_PW$0$0                     Lab3Part3
+     00000032  _MOTOR_PW                          Lab3Part3
+     00000034  G$counts$0$0                       Lab3Part3
+     00000034  _counts                            Lab3Part3
+     00000036  G$range$0$0                        Lab3Part3
+     00000036  _range                             Lab3Part3
+     00000038  G$Data$0$0                         Lab3Part3
+     00000038  _Data                              Lab3Part3
+     00000039  G$addr$0$0                         Lab3Part3
+     00000039  _addr                              Lab3Part3
+     0000003A  LLab3Part3.ReadRanger$Data$1$113   Lab3Part3
+     00000048  __print_format_PARM_2              printf_large
+     0000004B  __print_format_PARM_3              printf_large
+     0000004E  __print_format_PARM_4              printf_large
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+OSEG                                00000011    00000006 =           6. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000011  __gptrput_PARM_2                   _gptrput
+     00000011  __mulint_PARM_2                    _mulint
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+ISEG                                00000017    00000006 =           6. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000056    000000AA =         170. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000056  __start__stack                     Lab3Part3
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XSEG                                00000001    00000050 =          80. bytes (REL,CON,XDATA)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+D:   00000001  LLab3Part3.lcd_print$text$1$73     Lab3Part3
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    00000051 =          81. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  A$Lab3Part3$1040                   Lab3Part3
+C:   00000003  A$Lab3Part3$1041                   Lab3Part3
+C:   0000000B  A$Lab3Part3$1043                   Lab3Part3
+C:   00000013  A$Lab3Part3$1045                   Lab3Part3
+C:   0000001B  A$Lab3Part3$1047                   Lab3Part3
+C:   00000023  A$Lab3Part3$1049                   Lab3Part3
+C:   0000002B  A$Lab3Part3$1051                   Lab3Part3
+C:   00000033  A$Lab3Part3$1053                   Lab3Part3
+C:   0000003B  A$Lab3Part3$1055                   Lab3Part3
+C:   00000043  A$Lab3Part3$1057                   Lab3Part3
+C:   0000004B  A$Lab3Part3$1059                   Lab3Part3
+C:   0000004E  A$Lab3Part3$1093                   Lab3Part3
+C:   0000004E  __sdcc_program_startup             Lab3Part3
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00000051    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000051  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             00000054    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             0000005E    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000005E  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             00000080    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000080  __mcs51_genRAMCLEAR                
+C:   00000086  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              000000AA    0000000C =          12. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000AA  A$Lab3Part3$1075                   Lab3Part3
+C:   000000AA  C$Lab3Part3.c$19$1$121             Lab3Part3
+C:   000000AB  A$Lab3Part3$1076                   Lab3Part3
+C:   000000AD  A$Lab3Part3$1077                   Lab3Part3
+C:   000000AF  A$Lab3Part3$1080                   Lab3Part3
+C:   000000AF  C$Lab3Part3.c$20$1$121             Lab3Part3
+C:   000000B1  A$Lab3Part3$1081                   Lab3Part3
+C:   000000B3  A$Lab3Part3$1084                   Lab3Part3
+C:   000000B3  C$Lab3Part3.c$23$1$121             Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             000000B6    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000B6  A$Lab3Part3$1086                   Lab3Part3
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000B9  A$Lab3Part3$1121                   Lab3Part3
+C:   000000B9  C$c8051_SDCC.h$42$0$0              Lab3Part3
+C:   000000B9  C$c8051_SDCC.h$46$1$16             Lab3Part3
+C:   000000B9  G$SYSCLK_Init$0$0                  Lab3Part3
+C:   000000B9  _SYSCLK_Init                       Lab3Part3
+C:   000000BC  A$Lab3Part3$1124                   Lab3Part3
+C:   000000BC  C$c8051_SDCC.h$49$1$16             Lab3Part3
+C:   000000BE  A$Lab3Part3$1125                   Lab3Part3
+C:   000000C0  A$Lab3Part3$1127                   Lab3Part3
+C:   000000C1  A$Lab3Part3$1128                   Lab3Part3
+C:   000000C4  A$Lab3Part3$1129                   Lab3Part3
+C:   000000C5  A$Lab3Part3$1131                   Lab3Part3
+C:   000000C6  A$Lab3Part3$1132                   Lab3Part3
+C:   000000C7  A$Lab3Part3$1133                   Lab3Part3
+C:   000000C9  A$Lab3Part3$1137                   Lab3Part3
+C:   000000C9  C$c8051_SDCC.h$51$1$16             Lab3Part3
+C:   000000CB  A$Lab3Part3$1138                   Lab3Part3
+C:   000000CE  A$Lab3Part3$1141                   Lab3Part3
+C:   000000CE  C$c8051_SDCC.h$53$1$16             Lab3Part3
+C:   000000D1  A$Lab3Part3$1144                   Lab3Part3
+C:   000000D1  C$c8051_SDCC.h$56$1$16             Lab3Part3
+C:   000000D1  XG$SYSCLK_Init$0$0                 Lab3Part3
+C:   000000D2  A$Lab3Part3$1157                   Lab3Part3
+C:   000000D2  C$c8051_SDCC.h$64$1$16             Lab3Part3
+C:   000000D2  C$c8051_SDCC.h$66$1$18             Lab3Part3
+C:   000000D2  G$UART0_Init$0$0                   Lab3Part3
+C:   000000D2  _UART0_Init                        Lab3Part3
+C:   000000D5  A$Lab3Part3$1160                   Lab3Part3
+C:   000000D5  C$c8051_SDCC.h$67$1$18             Lab3Part3
+C:   000000D8  A$Lab3Part3$1163                   Lab3Part3
+C:   000000D8  C$c8051_SDCC.h$68$1$18             Lab3Part3
+C:   000000DB  A$Lab3Part3$1166                   Lab3Part3
+C:   000000DB  C$c8051_SDCC.h$69$1$18             Lab3Part3
+C:   000000DD  A$Lab3Part3$1169                   Lab3Part3
+C:   000000DD  C$c8051_SDCC.h$70$1$18             Lab3Part3
+C:   000000E0  A$Lab3Part3$1172                   Lab3Part3
+C:   000000E0  C$c8051_SDCC.h$71$1$18             Lab3Part3
+C:   000000E3  A$Lab3Part3$1175                   Lab3Part3
+C:   000000E3  C$c8051_SDCC.h$73$1$18             Lab3Part3
+C:   000000E5  A$Lab3Part3$1178                   Lab3Part3
+C:   000000E5  C$c8051_SDCC.h$74$1$18             Lab3Part3
+C:   000000E8  A$Lab3Part3$1181                   Lab3Part3
+C:   000000E8  C$c8051_SDCC.h$75$1$18             Lab3Part3
+C:   000000E8  XG$UART0_Init$0$0                  Lab3Part3
+C:   000000E9  A$Lab3Part3$1194                   Lab3Part3
+C:   000000E9  C$c8051_SDCC.h$83$1$18             Lab3Part3
+C:   000000E9  C$c8051_SDCC.h$85$1$20             Lab3Part3
+C:   000000E9  G$Sys_Init$0$0                     Lab3Part3
+C:   000000E9  _Sys_Init                          Lab3Part3
+C:   000000EC  A$Lab3Part3$1197                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000EC  C$c8051_SDCC.h$86$1$20             Lab3Part3
+C:   000000EF  A$Lab3Part3$1200                   Lab3Part3
+C:   000000EF  C$c8051_SDCC.h$88$1$20             Lab3Part3
+C:   000000F2  A$Lab3Part3$1203                   Lab3Part3
+C:   000000F2  C$c8051_SDCC.h$89$1$20             Lab3Part3
+C:   000000F5  A$Lab3Part3$1206                   Lab3Part3
+C:   000000F5  C$c8051_SDCC.h$91$1$20             Lab3Part3
+C:   000000F8  A$Lab3Part3$1209                   Lab3Part3
+C:   000000F8  C$c8051_SDCC.h$92$1$20             Lab3Part3
+C:   000000FB  A$Lab3Part3$1212                   Lab3Part3
+C:   000000FB  C$c8051_SDCC.h$93$1$20             Lab3Part3
+C:   000000FB  XG$Sys_Init$0$0                    Lab3Part3
+C:   000000FC  A$Lab3Part3$1225                   Lab3Part3
+C:   000000FC  C$c8051_SDCC.h$98$1$20             Lab3Part3
+C:   000000FC  G$putchar$0$0                      Lab3Part3
+C:   000000FC  _putchar                           Lab3Part3
+C:   000000FE  A$Lab3Part3$1231                   Lab3Part3
+C:   000000FE  C$c8051_SDCC.h$100$1$22            Lab3Part3
+C:   000000FE  C$c8051_SDCC.h$101$1$22            Lab3Part3
+C:   00000101  A$Lab3Part3$1232                   Lab3Part3
+C:   00000103  A$Lab3Part3$1236                   Lab3Part3
+C:   00000103  C$c8051_SDCC.h$102$1$22            Lab3Part3
+C:   00000105  A$Lab3Part3$1239                   Lab3Part3
+C:   00000105  C$c8051_SDCC.h$103$1$22            Lab3Part3
+C:   00000105  XG$putchar$0$0                     Lab3Part3
+C:   00000106  A$Lab3Part3$1257                   Lab3Part3
+C:   00000106  C$c8051_SDCC.h$108$1$22            Lab3Part3
+C:   00000106  C$c8051_SDCC.h$111$1$24            Lab3Part3
+C:   00000106  C$c8051_SDCC.h$112$1$24            Lab3Part3
+C:   00000106  G$getchar$0$0                      Lab3Part3
+C:   00000106  _getchar                           Lab3Part3
+C:   00000109  A$Lab3Part3$1258                   Lab3Part3
+C:   0000010B  A$Lab3Part3$1262                   Lab3Part3
+C:   0000010B  C$c8051_SDCC.h$113$1$24            Lab3Part3
+C:   0000010E  A$Lab3Part3$1265                   Lab3Part3
+C:   0000010E  C$c8051_SDCC.h$114$1$24            Lab3Part3
+C:   00000111  A$Lab3Part3$1268                   Lab3Part3
+C:   00000111  C$c8051_SDCC.h$115$1$24            Lab3Part3
+C:   00000114  A$Lab3Part3$1271                   Lab3Part3
+C:   00000114  C$c8051_SDCC.h$116$1$24            Lab3Part3
+C:   00000114  XG$getchar$0$0                     Lab3Part3
+C:   00000115  A$Lab3Part3$1288                   Lab3Part3
+C:   00000115  C$i2c.h$81$1$24                    Lab3Part3
+C:   00000115  G$lcd_print$0$0                    Lab3Part3
+C:   00000115  _lcd_print                         Lab3Part3
+C:   00000117  A$Lab3Part3$1289                   Lab3Part3
+C:   0000011A  A$Lab3Part3$1292                   Lab3Part3
+C:   0000011A  C$i2c.h$87$1$73                    Lab3Part3
+C:   0000011C  A$Lab3Part3$1293                   Lab3Part3
+C:   0000011E  A$Lab3Part3$1294                   Lab3Part3
+C:   0000011F  A$Lab3Part3$1295                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000121  A$Lab3Part3$1296                   Lab3Part3
+C:   00000122  A$Lab3Part3$1297                   Lab3Part3
+C:   00000124  A$Lab3Part3$1298                   Lab3Part3
+C:   00000125  A$Lab3Part3$1299                   Lab3Part3
+C:   00000127  A$Lab3Part3$1300                   Lab3Part3
+C:   0000012A  A$Lab3Part3$1301                   Lab3Part3
+C:   0000012C  A$Lab3Part3$1302                   Lab3Part3
+C:   0000012F  A$Lab3Part3$1303                   Lab3Part3
+C:   00000131  A$Lab3Part3$1304                   Lab3Part3
+C:   00000133  A$Lab3Part3$1305                   Lab3Part3
+C:   00000135  A$Lab3Part3$1309                   Lab3Part3
+C:   00000135  C$i2c.h$89$2$74                    Lab3Part3
+C:   00000137  A$Lab3Part3$1310                   Lab3Part3
+C:   00000139  A$Lab3Part3$1311                   Lab3Part3
+C:   0000013A  A$Lab3Part3$1312                   Lab3Part3
+C:   0000013C  A$Lab3Part3$1315                   Lab3Part3
+C:   0000013C  C$i2c.h$90$1$73                    Lab3Part3
+C:   0000013E  A$Lab3Part3$1316                   Lab3Part3
+C:   00000140  A$Lab3Part3$1317                   Lab3Part3
+C:   00000141  A$Lab3Part3$1318                   Lab3Part3
+C:   00000143  A$Lab3Part3$1319                   Lab3Part3
+C:   00000144  A$Lab3Part3$1320                   Lab3Part3
+C:   00000146  A$Lab3Part3$1321                   Lab3Part3
+C:   00000147  A$Lab3Part3$1322                   Lab3Part3
+C:   00000149  A$Lab3Part3$1323                   Lab3Part3
+C:   0000014C  A$Lab3Part3$1324                   Lab3Part3
+C:   0000014F  A$Lab3Part3$1325                   Lab3Part3
+C:   00000152  A$Lab3Part3$1328                   Lab3Part3
+C:   00000152  C$i2c.h$93$1$73                    Lab3Part3
+C:   00000155  A$Lab3Part3$1329                   Lab3Part3
+C:   00000158  A$Lab3Part3$1330                   Lab3Part3
+C:   0000015B  A$Lab3Part3$1331                   Lab3Part3
+C:   0000015D  A$Lab3Part3$1334                   Lab3Part3
+C:   0000015F  A$Lab3Part3$1336                   Lab3Part3
+C:   00000160  A$Lab3Part3$1337                   Lab3Part3
+C:   00000161  A$Lab3Part3$1338                   Lab3Part3
+C:   00000162  A$Lab3Part3$1339                   Lab3Part3
+C:   00000164  A$Lab3Part3$1342                   Lab3Part3
+C:   00000164  C$i2c.h$96$2$76                    Lab3Part3
+C:   00000165  A$Lab3Part3$1343                   Lab3Part3
+C:   00000167  A$Lab3Part3$1344                   Lab3Part3
+C:   00000169  A$Lab3Part3$1345                   Lab3Part3
+C:   0000016A  A$Lab3Part3$1346                   Lab3Part3
+C:   0000016C  A$Lab3Part3$1347                   Lab3Part3
+C:   0000016E  A$Lab3Part3$1348                   Lab3Part3
+C:   0000016F  A$Lab3Part3$1349                   Lab3Part3
+C:   00000170  A$Lab3Part3$1350                   Lab3Part3
+C:   00000173  A$Lab3Part3$1351                   Lab3Part3
+C:   00000174  A$Lab3Part3$1352                   Lab3Part3
+C:   00000176  A$Lab3Part3$1353                   Lab3Part3
+C:   00000178  A$Lab3Part3$1354                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000179  A$Lab3Part3$1355                   Lab3Part3
+C:   0000017B  A$Lab3Part3$1356                   Lab3Part3
+C:   0000017D  A$Lab3Part3$1357                   Lab3Part3
+C:   0000017F  A$Lab3Part3$1358                   Lab3Part3
+C:   00000180  A$Lab3Part3$1362                   Lab3Part3
+C:   00000180  C$i2c.h$94$1$73                    Lab3Part3
+C:   00000181  A$Lab3Part3$1363                   Lab3Part3
+C:   00000183  A$Lab3Part3$1367                   Lab3Part3
+C:   00000183  C$i2c.h$99$1$73                    Lab3Part3
+C:   00000186  A$Lab3Part3$1368                   Lab3Part3
+C:   00000189  A$Lab3Part3$1369                   Lab3Part3
+C:   0000018C  A$Lab3Part3$1370                   Lab3Part3
+C:   0000018F  A$Lab3Part3$1371                   Lab3Part3
+C:   00000191  A$Lab3Part3$1372                   Lab3Part3
+C:   00000194  A$Lab3Part3$1373                   Lab3Part3
+C:   00000197  A$Lab3Part3$1375                   Lab3Part3
+C:   00000199  A$Lab3Part3$1378                   Lab3Part3
+C:   00000199  C$i2c.h$100$1$73                   Lab3Part3
+C:   00000199  XG$lcd_print$0$0                   Lab3Part3
+C:   0000019A  A$Lab3Part3$1394                   Lab3Part3
+C:   0000019A  C$i2c.h$103$1$73                   Lab3Part3
+C:   0000019A  C$i2c.h$105$1$73                   Lab3Part3
+C:   0000019A  G$lcd_clear$0$0                    Lab3Part3
+C:   0000019A  _lcd_clear                         Lab3Part3
+C:   0000019D  A$Lab3Part3$1398                   Lab3Part3
+C:   0000019D  C$i2c.h$107$1$77                   Lab3Part3
+C:   0000019F  A$Lab3Part3$1399                   Lab3Part3
+C:   000001A1  A$Lab3Part3$1400                   Lab3Part3
+C:   000001A3  A$Lab3Part3$1401                   Lab3Part3
+C:   000001A6  A$Lab3Part3$1402                   Lab3Part3
+C:   000001A9  A$Lab3Part3$1403                   Lab3Part3
+C:   000001AC  A$Lab3Part3$1404                   Lab3Part3
+C:   000001AF  A$Lab3Part3$1405                   Lab3Part3
+C:   000001B2  A$Lab3Part3$1406                   Lab3Part3
+C:   000001B5  A$Lab3Part3$1407                   Lab3Part3
+C:   000001B8  A$Lab3Part3$1408                   Lab3Part3
+C:   000001BA  A$Lab3Part3$1412                   Lab3Part3
+C:   000001BA  C$i2c.h$109$1$77                   Lab3Part3
+C:   000001BD  A$Lab3Part3$1415                   Lab3Part3
+C:   000001BD  C$i2c.h$110$1$77                   Lab3Part3
+C:   000001C0  A$Lab3Part3$1416                   Lab3Part3
+C:   000001C3  A$Lab3Part3$1417                   Lab3Part3
+C:   000001C6  A$Lab3Part3$1418                   Lab3Part3
+C:   000001C9  A$Lab3Part3$1419                   Lab3Part3
+C:   000001CC  A$Lab3Part3$1420                   Lab3Part3
+C:   000001CF  A$Lab3Part3$1421                   Lab3Part3
+C:   000001D2  A$Lab3Part3$1424                   Lab3Part3
+C:   000001D2  C$i2c.h$111$1$77                   Lab3Part3
+C:   000001D2  XG$lcd_clear$0$0                   Lab3Part3
+C:   000001D3  A$Lab3Part3$1440                   Lab3Part3
+C:   000001D3  C$i2c.h$114$1$77                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000001D3  C$i2c.h$118$1$78                   Lab3Part3
+C:   000001D3  G$read_keypad$0$0                  Lab3Part3
+C:   000001D3  _read_keypad                       Lab3Part3
+C:   000001D6  A$Lab3Part3$1441                   Lab3Part3
+C:   000001D9  A$Lab3Part3$1442                   Lab3Part3
+C:   000001DC  A$Lab3Part3$1443                   Lab3Part3
+C:   000001DF  A$Lab3Part3$1444                   Lab3Part3
+C:   000001E2  A$Lab3Part3$1445                   Lab3Part3
+C:   000001E5  A$Lab3Part3$1446                   Lab3Part3
+C:   000001E8  A$Lab3Part3$1449                   Lab3Part3
+C:   000001E8  C$i2c.h$119$1$78                   Lab3Part3
+C:   000001EA  A$Lab3Part3$1450                   Lab3Part3
+C:   000001ED  A$Lab3Part3$1451                   Lab3Part3
+C:   000001F0  A$Lab3Part3$1452                   Lab3Part3
+C:   000001F2  A$Lab3Part3$1456                   Lab3Part3
+C:   000001F4  A$Lab3Part3$1457                   Lab3Part3
+C:   000001F6  A$Lab3Part3$1461                   Lab3Part3
+C:   000001F6  C$i2c.h$123$2$79                   Lab3Part3
+C:   000001F8  A$Lab3Part3$1462                   Lab3Part3
+C:   000001FA  A$Lab3Part3$1463                   Lab3Part3
+C:   000001FC  A$Lab3Part3$1464                   Lab3Part3
+C:   000001FE  A$Lab3Part3$1465                   Lab3Part3
+C:   00000200  A$Lab3Part3$1467                   Lab3Part3
+C:   00000201  A$Lab3Part3$1468                   Lab3Part3
+C:   00000202  A$Lab3Part3$1469                   Lab3Part3
+C:   00000203  A$Lab3Part3$1470                   Lab3Part3
+C:   00000204  A$Lab3Part3$1471                   Lab3Part3
+C:   00000205  A$Lab3Part3$1472                   Lab3Part3
+C:   00000206  A$Lab3Part3$1474                   Lab3Part3
+C:   00000209  A$Lab3Part3$1475                   Lab3Part3
+C:   0000020B  A$Lab3Part3$1476                   Lab3Part3
+C:   0000020D  A$Lab3Part3$1477                   Lab3Part3
+C:   0000020E  A$Lab3Part3$1478                   Lab3Part3
+C:   00000210  A$Lab3Part3$1479                   Lab3Part3
+C:   00000211  A$Lab3Part3$1480                   Lab3Part3
+C:   00000213  A$Lab3Part3$1481                   Lab3Part3
+C:   00000214  A$Lab3Part3$1482                   Lab3Part3
+C:   00000215  A$Lab3Part3$1483                   Lab3Part3
+C:   00000217  A$Lab3Part3$1486                   Lab3Part3
+C:   00000217  C$i2c.h$124$2$79                   Lab3Part3
+C:   00000219  A$Lab3Part3$1487                   Lab3Part3
+C:   0000021A  A$Lab3Part3$1488                   Lab3Part3
+C:   0000021C  A$Lab3Part3$1489                   Lab3Part3
+C:   0000021E  A$Lab3Part3$1493                   Lab3Part3
+C:   0000021E  C$i2c.h$121$1$78                   Lab3Part3
+C:   0000021F  A$Lab3Part3$1494                   Lab3Part3
+C:   00000221  A$Lab3Part3$1495                   Lab3Part3
+C:   00000224  A$Lab3Part3$1497                   Lab3Part3
+C:   00000226  A$Lab3Part3$1500                   Lab3Part3
+C:   00000226  C$i2c.h$127$1$78                   Lab3Part3
+C:   00000228  A$Lab3Part3$1501                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000022B  A$Lab3Part3$1502                   Lab3Part3
+C:   0000022E  A$Lab3Part3$1503                   Lab3Part3
+C:   00000230  A$Lab3Part3$1507                   Lab3Part3
+C:   00000230  C$i2c.h$129$1$78                   Lab3Part3
+C:   00000232  A$Lab3Part3$1508                   Lab3Part3
+C:   00000235  A$Lab3Part3$1509                   Lab3Part3
+C:   00000238  A$Lab3Part3$1510                   Lab3Part3
+C:   0000023A  A$Lab3Part3$1514                   Lab3Part3
+C:   0000023A  C$i2c.h$131$1$78                   Lab3Part3
+C:   0000023C  A$Lab3Part3$1515                   Lab3Part3
+C:   0000023F  A$Lab3Part3$1516                   Lab3Part3
+C:   00000242  A$Lab3Part3$1517                   Lab3Part3
+C:   00000244  A$Lab3Part3$1521                   Lab3Part3
+C:   00000244  C$i2c.h$133$1$78                   Lab3Part3
+C:   00000246  A$Lab3Part3$1522                   Lab3Part3
+C:   00000249  A$Lab3Part3$1523                   Lab3Part3
+C:   0000024C  A$Lab3Part3$1524                   Lab3Part3
+C:   0000024E  A$Lab3Part3$1528                   Lab3Part3
+C:   0000024E  C$i2c.h$135$1$78                   Lab3Part3
+C:   00000251  A$Lab3Part3$1532                   Lab3Part3
+C:   00000251  C$i2c.h$136$1$78                   Lab3Part3
+C:   00000251  XG$read_keypad$0$0                 Lab3Part3
+C:   00000252  A$Lab3Part3$1548                   Lab3Part3
+C:   00000252  C$i2c.h$148$1$78                   Lab3Part3
+C:   00000252  G$kpd_input$0$0                    Lab3Part3
+C:   00000252  _kpd_input                         Lab3Part3
+C:   00000254  A$Lab3Part3$1553                   Lab3Part3
+C:   00000254  C$i2c.h$153$1$81                   Lab3Part3
+C:   00000254  C$i2c.h$156$1$81                   Lab3Part3
+C:   00000255  A$Lab3Part3$1554                   Lab3Part3
+C:   00000256  A$Lab3Part3$1555                   Lab3Part3
+C:   00000257  A$Lab3Part3$1556                   Lab3Part3
+C:   00000258  A$Lab3Part3$1557                   Lab3Part3
+C:   0000025A  A$Lab3Part3$1558                   Lab3Part3
+C:   0000025C  A$Lab3Part3$1559                   Lab3Part3
+C:   0000025E  A$Lab3Part3$1560                   Lab3Part3
+C:   00000260  A$Lab3Part3$1561                   Lab3Part3
+C:   00000262  A$Lab3Part3$1562                   Lab3Part3
+C:   00000264  A$Lab3Part3$1563                   Lab3Part3
+C:   00000266  A$Lab3Part3$1564                   Lab3Part3
+C:   00000268  A$Lab3Part3$1565                   Lab3Part3
+C:   0000026A  A$Lab3Part3$1566                   Lab3Part3
+C:   0000026D  A$Lab3Part3$1567                   Lab3Part3
+C:   0000026F  A$Lab3Part3$1568                   Lab3Part3
+C:   00000271  A$Lab3Part3$1569                   Lab3Part3
+C:   00000273  A$Lab3Part3$1570                   Lab3Part3
+C:   00000275  A$Lab3Part3$1571                   Lab3Part3
+C:   00000277  A$Lab3Part3$1575                   Lab3Part3
+C:   00000277  C$i2c.h$158$1$81                   Lab3Part3
+C:   00000279  A$Lab3Part3$1576                   Lab3Part3
+C:   0000027B  A$Lab3Part3$1577                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000027D  A$Lab3Part3$1578                   Lab3Part3
+C:   0000027F  A$Lab3Part3$1579                   Lab3Part3
+C:   00000280  A$Lab3Part3$1580                   Lab3Part3
+C:   00000282  A$Lab3Part3$1581                   Lab3Part3
+C:   00000284  A$Lab3Part3$1582                   Lab3Part3
+C:   00000286  A$Lab3Part3$1583                   Lab3Part3
+C:   00000287  A$Lab3Part3$1584                   Lab3Part3
+C:   00000289  A$Lab3Part3$1585                   Lab3Part3
+C:   0000028B  A$Lab3Part3$1586                   Lab3Part3
+C:   0000028D  A$Lab3Part3$1587                   Lab3Part3
+C:   0000028E  A$Lab3Part3$1588                   Lab3Part3
+C:   00000290  A$Lab3Part3$1589                   Lab3Part3
+C:   00000292  A$Lab3Part3$1590                   Lab3Part3
+C:   00000294  A$Lab3Part3$1591                   Lab3Part3
+C:   00000295  A$Lab3Part3$1592                   Lab3Part3
+C:   00000297  A$Lab3Part3$1593                   Lab3Part3
+C:   00000299  A$Lab3Part3$1594                   Lab3Part3
+C:   0000029B  A$Lab3Part3$1595                   Lab3Part3
+C:   0000029C  A$Lab3Part3$1596                   Lab3Part3
+C:   0000029E  A$Lab3Part3$1597                   Lab3Part3
+C:   000002A0  A$Lab3Part3$1598                   Lab3Part3
+C:   000002A2  A$Lab3Part3$1599                   Lab3Part3
+C:   000002A4  A$Lab3Part3$1600                   Lab3Part3
+C:   000002A6  A$Lab3Part3$1601                   Lab3Part3
+C:   000002A8  A$Lab3Part3$1602                   Lab3Part3
+C:   000002AA  A$Lab3Part3$1603                   Lab3Part3
+C:   000002AD  A$Lab3Part3$1604                   Lab3Part3
+C:   000002AF  A$Lab3Part3$1605                   Lab3Part3
+C:   000002B1  A$Lab3Part3$1606                   Lab3Part3
+C:   000002B3  A$Lab3Part3$1609                   Lab3Part3
+C:   000002B3  C$i2c.h$160$1$81                   Lab3Part3
+C:   000002B6  A$Lab3Part3$1610                   Lab3Part3
+C:   000002B9  A$Lab3Part3$1611                   Lab3Part3
+C:   000002BA  A$Lab3Part3$1612                   Lab3Part3
+C:   000002BD  A$Lab3Part3$1613                   Lab3Part3
+C:   000002BF  A$Lab3Part3$1614                   Lab3Part3
+C:   000002C1  A$Lab3Part3$1617                   Lab3Part3
+C:   000002C3  A$Lab3Part3$1621                   Lab3Part3
+C:   000002C3  C$i2c.h$166$3$84                   Lab3Part3
+C:   000002C5  A$Lab3Part3$1622                   Lab3Part3
+C:   000002C7  A$Lab3Part3$1623                   Lab3Part3
+C:   000002C9  A$Lab3Part3$1624                   Lab3Part3
+C:   000002CC  A$Lab3Part3$1625                   Lab3Part3
+C:   000002CE  A$Lab3Part3$1626                   Lab3Part3
+C:   000002D0  A$Lab3Part3$1627                   Lab3Part3
+C:   000002D2  A$Lab3Part3$1628                   Lab3Part3
+C:   000002D4  A$Lab3Part3$1629                   Lab3Part3
+C:   000002D6  A$Lab3Part3$1630                   Lab3Part3
+C:   000002D9  A$Lab3Part3$1631                   Lab3Part3
+C:   000002DB  A$Lab3Part3$1633                   Lab3Part3
+C:   000002DE  A$Lab3Part3$1635                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 36.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000002E1  A$Lab3Part3$1636                   Lab3Part3
+C:   000002E2  A$Lab3Part3$1637                   Lab3Part3
+C:   000002E4  A$Lab3Part3$1638                   Lab3Part3
+C:   000002E6  A$Lab3Part3$1639                   Lab3Part3
+C:   000002E8  A$Lab3Part3$1640                   Lab3Part3
+C:   000002EA  A$Lab3Part3$1641                   Lab3Part3
+C:   000002ED  A$Lab3Part3$1642                   Lab3Part3
+C:   000002EF  A$Lab3Part3$1643                   Lab3Part3
+C:   000002F1  A$Lab3Part3$1644                   Lab3Part3
+C:   000002F3  A$Lab3Part3$1645                   Lab3Part3
+C:   000002F5  A$Lab3Part3$1649                   Lab3Part3
+C:   000002F5  C$i2c.h$167$2$82                   Lab3Part3
+C:   000002F8  A$Lab3Part3$1653                   Lab3Part3
+C:   000002F8  C$i2c.h$169$3$83                   Lab3Part3
+C:   000002FA  A$Lab3Part3$1654                   Lab3Part3
+C:   000002FC  A$Lab3Part3$1655                   Lab3Part3
+C:   000002FF  A$Lab3Part3$1656                   Lab3Part3
+C:   00000301  A$Lab3Part3$1657                   Lab3Part3
+C:   00000303  A$Lab3Part3$1658                   Lab3Part3
+C:   00000305  A$Lab3Part3$1659                   Lab3Part3
+C:   00000308  A$Lab3Part3$1660                   Lab3Part3
+C:   0000030B  A$Lab3Part3$1661                   Lab3Part3
+C:   0000030C  A$Lab3Part3$1662                   Lab3Part3
+C:   0000030E  A$Lab3Part3$1663                   Lab3Part3
+C:   00000310  A$Lab3Part3$1664                   Lab3Part3
+C:   00000312  A$Lab3Part3$1665                   Lab3Part3
+C:   00000315  A$Lab3Part3$1666                   Lab3Part3
+C:   00000317  A$Lab3Part3$1667                   Lab3Part3
+C:   00000319  A$Lab3Part3$1668                   Lab3Part3
+C:   0000031B  A$Lab3Part3$1672                   Lab3Part3
+C:   0000031B  C$i2c.h$170$3$83                   Lab3Part3
+C:   0000031D  A$Lab3Part3$1673                   Lab3Part3
+C:   0000031F  A$Lab3Part3$1674                   Lab3Part3
+C:   00000322  A$Lab3Part3$1678                   Lab3Part3
+C:   00000322  C$i2c.h$174$3$84                   Lab3Part3
+C:   00000323  A$Lab3Part3$1679                   Lab3Part3
+C:   00000324  A$Lab3Part3$1680                   Lab3Part3
+C:   00000325  A$Lab3Part3$1681                   Lab3Part3
+C:   00000327  A$Lab3Part3$1682                   Lab3Part3
+C:   00000328  A$Lab3Part3$1683                   Lab3Part3
+C:   0000032A  A$Lab3Part3$1684                   Lab3Part3
+C:   0000032C  A$Lab3Part3$1685                   Lab3Part3
+C:   0000032E  A$Lab3Part3$1686                   Lab3Part3
+C:   00000330  A$Lab3Part3$1687                   Lab3Part3
+C:   00000332  A$Lab3Part3$1688                   Lab3Part3
+C:   00000334  A$Lab3Part3$1689                   Lab3Part3
+C:   00000336  A$Lab3Part3$1690                   Lab3Part3
+C:   00000338  A$Lab3Part3$1691                   Lab3Part3
+C:   0000033A  A$Lab3Part3$1692                   Lab3Part3
+C:   0000033C  A$Lab3Part3$1693                   Lab3Part3
+C:   0000033E  A$Lab3Part3$1694                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 37.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000340  A$Lab3Part3$1695                   Lab3Part3
+C:   00000342  A$Lab3Part3$1696                   Lab3Part3
+C:   00000344  A$Lab3Part3$1697                   Lab3Part3
+C:   00000347  A$Lab3Part3$1698                   Lab3Part3
+C:   00000349  A$Lab3Part3$1699                   Lab3Part3
+C:   0000034B  A$Lab3Part3$1700                   Lab3Part3
+C:   0000034D  A$Lab3Part3$1701                   Lab3Part3
+C:   0000034F  A$Lab3Part3$1702                   Lab3Part3
+C:   00000351  A$Lab3Part3$1703                   Lab3Part3
+C:   00000353  A$Lab3Part3$1704                   Lab3Part3
+C:   00000355  A$Lab3Part3$1705                   Lab3Part3
+C:   00000357  A$Lab3Part3$1708                   Lab3Part3
+C:   00000357  C$i2c.h$175$1$81                   Lab3Part3
+C:   00000359  A$Lab3Part3$1709                   Lab3Part3
+C:   0000035B  A$Lab3Part3$1710                   Lab3Part3
+C:   0000035E  A$Lab3Part3$1711                   Lab3Part3
+C:   00000360  A$Lab3Part3$1712                   Lab3Part3
+C:   00000362  A$Lab3Part3$1713                   Lab3Part3
+C:   00000364  A$Lab3Part3$1714                   Lab3Part3
+C:   00000367  A$Lab3Part3$1715                   Lab3Part3
+C:   00000369  A$Lab3Part3$1716                   Lab3Part3
+C:   0000036B  A$Lab3Part3$1717                   Lab3Part3
+C:   0000036D  A$Lab3Part3$1718                   Lab3Part3
+C:   0000036F  A$Lab3Part3$1719                   Lab3Part3
+C:   00000371  A$Lab3Part3$1720                   Lab3Part3
+C:   00000373  A$Lab3Part3$1721                   Lab3Part3
+C:   00000374  A$Lab3Part3$1722                   Lab3Part3
+C:   00000375  A$Lab3Part3$1723                   Lab3Part3
+C:   00000376  A$Lab3Part3$1724                   Lab3Part3
+C:   00000377  A$Lab3Part3$1725                   Lab3Part3
+C:   00000378  A$Lab3Part3$1726                   Lab3Part3
+C:   00000379  A$Lab3Part3$1727                   Lab3Part3
+C:   0000037A  A$Lab3Part3$1728                   Lab3Part3
+C:   0000037C  A$Lab3Part3$1729                   Lab3Part3
+C:   0000037D  A$Lab3Part3$1730                   Lab3Part3
+C:   0000037E  A$Lab3Part3$1731                   Lab3Part3
+C:   00000380  A$Lab3Part3$1732                   Lab3Part3
+C:   00000381  A$Lab3Part3$1736                   Lab3Part3
+C:   00000381  C$i2c.h$176$3$84                   Lab3Part3
+C:   00000383  A$Lab3Part3$1737                   Lab3Part3
+C:   00000385  A$Lab3Part3$1738                   Lab3Part3
+C:   00000387  A$Lab3Part3$1739                   Lab3Part3
+C:   00000389  A$Lab3Part3$1740                   Lab3Part3
+C:   0000038C  A$Lab3Part3$1741                   Lab3Part3
+C:   0000038E  A$Lab3Part3$1742                   Lab3Part3
+C:   00000390  A$Lab3Part3$1743                   Lab3Part3
+C:   00000392  A$Lab3Part3$1744                   Lab3Part3
+C:   00000394  A$Lab3Part3$1745                   Lab3Part3
+C:   00000396  A$Lab3Part3$1746                   Lab3Part3
+C:   00000397  A$Lab3Part3$1747                   Lab3Part3
+C:   0000039A  A$Lab3Part3$1748                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 38.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000039D  A$Lab3Part3$1749                   Lab3Part3
+C:   0000039E  A$Lab3Part3$1750                   Lab3Part3
+C:   000003A0  A$Lab3Part3$1751                   Lab3Part3
+C:   000003A2  A$Lab3Part3$1752                   Lab3Part3
+C:   000003A4  A$Lab3Part3$1753                   Lab3Part3
+C:   000003A6  A$Lab3Part3$1754                   Lab3Part3
+C:   000003A8  A$Lab3Part3$1755                   Lab3Part3
+C:   000003AB  A$Lab3Part3$1756                   Lab3Part3
+C:   000003AD  A$Lab3Part3$1757                   Lab3Part3
+C:   000003AF  A$Lab3Part3$1758                   Lab3Part3
+C:   000003B1  A$Lab3Part3$1759                   Lab3Part3
+C:   000003B3  A$Lab3Part3$1760                   Lab3Part3
+C:   000003B5  A$Lab3Part3$1764                   Lab3Part3
+C:   000003B5  C$i2c.h$164$1$81                   Lab3Part3
+C:   000003B6  A$Lab3Part3$1765                   Lab3Part3
+C:   000003B7  A$Lab3Part3$1766                   Lab3Part3
+C:   000003B8  A$Lab3Part3$1767                   Lab3Part3
+C:   000003BA  A$Lab3Part3$1768                   Lab3Part3
+C:   000003BC  A$Lab3Part3$1769                   Lab3Part3
+C:   000003BE  A$Lab3Part3$1770                   Lab3Part3
+C:   000003C1  A$Lab3Part3$1774                   Lab3Part3
+C:   000003C1  C$i2c.h$179$1$81                   Lab3Part3
+C:   000003C3  A$Lab3Part3$1775                   Lab3Part3
+C:   000003C5  A$Lab3Part3$1779                   Lab3Part3
+C:   000003C5  C$i2c.h$180$1$81                   Lab3Part3
+C:   000003C5  XG$kpd_input$0$0                   Lab3Part3
+C:   000003C6  A$Lab3Part3$1793                   Lab3Part3
+C:   000003C6  C$i2c.h$189$1$81                   Lab3Part3
+C:   000003C6  G$delay_time$0$0                   Lab3Part3
+C:   000003C6  _delay_time                        Lab3Part3
+C:   000003C8  A$Lab3Part3$1794                   Lab3Part3
+C:   000003CA  A$Lab3Part3$1795                   Lab3Part3
+C:   000003CC  A$Lab3Part3$1796                   Lab3Part3
+C:   000003CD  A$Lab3Part3$1799                   Lab3Part3
+C:   000003CD  C$i2c.h$192$1$86                   Lab3Part3
+C:   000003CF  A$Lab3Part3$1800                   Lab3Part3
+C:   000003D1  A$Lab3Part3$1801                   Lab3Part3
+C:   000003D3  A$Lab3Part3$1802                   Lab3Part3
+C:   000003D5  A$Lab3Part3$1804                   Lab3Part3
+C:   000003D6  A$Lab3Part3$1805                   Lab3Part3
+C:   000003D7  A$Lab3Part3$1806                   Lab3Part3
+C:   000003D8  A$Lab3Part3$1807                   Lab3Part3
+C:   000003D9  A$Lab3Part3$1808                   Lab3Part3
+C:   000003DA  A$Lab3Part3$1809                   Lab3Part3
+C:   000003DB  A$Lab3Part3$1810                   Lab3Part3
+C:   000003DC  A$Lab3Part3$1811                   Lab3Part3
+C:   000003DD  A$Lab3Part3$1812                   Lab3Part3
+C:   000003DE  A$Lab3Part3$1813                   Lab3Part3
+C:   000003E0  A$Lab3Part3$1814                   Lab3Part3
+C:   000003E1  A$Lab3Part3$1815                   Lab3Part3
+C:   000003E4  A$Lab3Part3$1816                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 39.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000003E5  A$Lab3Part3$1817                   Lab3Part3
+C:   000003E8  A$Lab3Part3$1818                   Lab3Part3
+C:   000003E9  A$Lab3Part3$1819                   Lab3Part3
+C:   000003EC  A$Lab3Part3$1820                   Lab3Part3
+C:   000003ED  A$Lab3Part3$1822                   Lab3Part3
+C:   000003EF  A$Lab3Part3$1826                   Lab3Part3
+C:   000003EF  C$i2c.h$193$1$86                   Lab3Part3
+C:   000003EF  XG$delay_time$0$0                  Lab3Part3
+C:   000003F0  A$Lab3Part3$1840                   Lab3Part3
+C:   000003F0  C$i2c.h$196$1$86                   Lab3Part3
+C:   000003F0  C$i2c.h$198$1$88                   Lab3Part3
+C:   000003F0  G$i2c_start$0$0                    Lab3Part3
+C:   000003F0  _i2c_start                         Lab3Part3
+C:   000003F3  A$Lab3Part3$1843                   Lab3Part3
+C:   000003F3  C$i2c.h$199$1$88                   Lab3Part3
+C:   000003F5  A$Lab3Part3$1847                   Lab3Part3
+C:   000003F5  C$i2c.h$200$1$88                   Lab3Part3
+C:   000003F8  A$Lab3Part3$1850                   Lab3Part3
+C:   000003F8  C$i2c.h$201$1$88                   Lab3Part3
+C:   000003FA  A$Lab3Part3$1853                   Lab3Part3
+C:   000003FA  C$i2c.h$202$1$88                   Lab3Part3
+C:   000003FC  A$Lab3Part3$1856                   Lab3Part3
+C:   000003FC  C$i2c.h$203$1$88                   Lab3Part3
+C:   000003FC  XG$i2c_start$0$0                   Lab3Part3
+C:   000003FD  A$Lab3Part3$1869                   Lab3Part3
+C:   000003FD  C$i2c.h$206$1$88                   Lab3Part3
+C:   000003FD  G$i2c_write$0$0                    Lab3Part3
+C:   000003FD  _i2c_write                         Lab3Part3
+C:   00000400  A$Lab3Part3$1875                   Lab3Part3
+C:   00000400  C$i2c.h$209$1$90                   Lab3Part3
+C:   00000400  C$i2c.h$210$1$90                   Lab3Part3
+C:   00000403  A$Lab3Part3$1876                   Lab3Part3
+C:   00000405  A$Lab3Part3$1880                   Lab3Part3
+C:   00000405  C$i2c.h$211$1$90                   Lab3Part3
+C:   00000405  XG$i2c_write$0$0                   Lab3Part3
+C:   00000406  A$Lab3Part3$1893                   Lab3Part3
+C:   00000406  C$i2c.h$214$1$90                   Lab3Part3
+C:   00000406  G$i2c_write_and_stop$0$0           Lab3Part3
+C:   00000406  _i2c_write_and_stop                Lab3Part3
+C:   00000409  A$Lab3Part3$1896                   Lab3Part3
+C:   00000409  C$i2c.h$217$1$92                   Lab3Part3
+C:   0000040B  A$Lab3Part3$1902                   Lab3Part3
+C:   0000040B  C$i2c.h$218$1$92                   Lab3Part3
+C:   0000040B  C$i2c.h$219$1$92                   Lab3Part3
+C:   0000040E  A$Lab3Part3$1903                   Lab3Part3
+C:   00000410  A$Lab3Part3$1907                   Lab3Part3
+C:   00000410  C$i2c.h$220$1$92                   Lab3Part3
+C:   00000410  XG$i2c_write_and_stop$0$0          Lab3Part3
+C:   00000411  A$Lab3Part3$1923                   Lab3Part3
+C:   00000411  C$i2c.h$223$1$92                   Lab3Part3
+C:   00000411  C$i2c.h$226$1$94                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 40.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000411  G$i2c_read$0$0                     Lab3Part3
+C:   00000411  _i2c_read                          Lab3Part3
+C:   00000414  A$Lab3Part3$1926                   Lab3Part3
+C:   00000414  C$i2c.h$227$1$94                   Lab3Part3
+C:   00000417  A$Lab3Part3$1929                   Lab3Part3
+C:   00000417  C$i2c.h$228$1$94                   Lab3Part3
+C:   00000419  A$Lab3Part3$1934                   Lab3Part3
+C:   00000419  C$i2c.h$229$1$94                   Lab3Part3
+C:   00000419  C$i2c.h$230$1$94                   Lab3Part3
+C:   00000419  XG$i2c_read$0$0                    Lab3Part3
+C:   0000041A  A$Lab3Part3$1950                   Lab3Part3
+C:   0000041A  C$i2c.h$233$1$94                   Lab3Part3
+C:   0000041A  C$i2c.h$236$1$96                   Lab3Part3
+C:   0000041A  G$i2c_read_and_stop$0$0            Lab3Part3
+C:   0000041A  _i2c_read_and_stop                 Lab3Part3
+C:   0000041D  A$Lab3Part3$1953                   Lab3Part3
+C:   0000041D  C$i2c.h$237$1$96                   Lab3Part3
+C:   0000041F  A$Lab3Part3$1956                   Lab3Part3
+C:   0000041F  C$i2c.h$238$1$96                   Lab3Part3
+C:   00000421  A$Lab3Part3$1959                   Lab3Part3
+C:   00000421  C$i2c.h$239$1$96                   Lab3Part3
+C:   00000423  A$Lab3Part3$1965                   Lab3Part3
+C:   00000423  C$i2c.h$240$1$96                   Lab3Part3
+C:   00000423  C$i2c.h$241$1$96                   Lab3Part3
+C:   00000426  A$Lab3Part3$1966                   Lab3Part3
+C:   00000428  A$Lab3Part3$1970                   Lab3Part3
+C:   00000428  C$i2c.h$242$1$96                   Lab3Part3
+C:   0000042A  A$Lab3Part3$1973                   Lab3Part3
+C:   0000042A  C$i2c.h$243$1$96                   Lab3Part3
+C:   0000042A  XG$i2c_read_and_stop$0$0           Lab3Part3
+C:   0000042B  A$Lab3Part3$1990                   Lab3Part3
+C:   0000042B  C$i2c.h$246$1$96                   Lab3Part3
+C:   0000042B  G$i2c_write_data$0$0               Lab3Part3
+C:   0000042B  _i2c_write_data                    Lab3Part3
+C:   0000042D  A$Lab3Part3$1993                   Lab3Part3
+C:   0000042D  C$i2c.h$250$1$98                   Lab3Part3
+C:   0000042F  A$Lab3Part3$1994                   Lab3Part3
+C:   00000432  A$Lab3Part3$1995                   Lab3Part3
+C:   00000434  A$Lab3Part3$1998                   Lab3Part3
+C:   00000434  C$i2c.h$251$1$98                   Lab3Part3
+C:   00000436  A$Lab3Part3$1999                   Lab3Part3
+C:   00000437  A$Lab3Part3$2000                   Lab3Part3
+C:   00000439  A$Lab3Part3$2001                   Lab3Part3
+C:   0000043C  A$Lab3Part3$2004                   Lab3Part3
+C:   0000043C  C$i2c.h$252$1$98                   Lab3Part3
+C:   0000043F  A$Lab3Part3$2005                   Lab3Part3
+C:   00000442  A$Lab3Part3$2008                   Lab3Part3
+C:   00000444  A$Lab3Part3$2010                   Lab3Part3
+C:   00000446  A$Lab3Part3$2011                   Lab3Part3
+C:   00000448  A$Lab3Part3$2012                   Lab3Part3
+C:   00000449  A$Lab3Part3$2013                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 41.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000044C  A$Lab3Part3$2014                   Lab3Part3
+C:   0000044D  A$Lab3Part3$2016                   Lab3Part3
+C:   0000044F  A$Lab3Part3$2017                   Lab3Part3
+C:   00000451  A$Lab3Part3$2018                   Lab3Part3
+C:   00000452  A$Lab3Part3$2019                   Lab3Part3
+C:   00000453  A$Lab3Part3$2020                   Lab3Part3
+C:   00000454  A$Lab3Part3$2021                   Lab3Part3
+C:   00000455  A$Lab3Part3$2022                   Lab3Part3
+C:   00000457  A$Lab3Part3$2023                   Lab3Part3
+C:   00000459  A$Lab3Part3$2024                   Lab3Part3
+C:   0000045C  A$Lab3Part3$2025                   Lab3Part3
+C:   0000045E  A$Lab3Part3$2026                   Lab3Part3
+C:   00000460  A$Lab3Part3$2029                   Lab3Part3
+C:   00000460  C$i2c.h$254$1$98                   Lab3Part3
+C:   00000461  A$Lab3Part3$2030                   Lab3Part3
+C:   00000463  A$Lab3Part3$2031                   Lab3Part3
+C:   00000464  A$Lab3Part3$2032                   Lab3Part3
+C:   00000465  A$Lab3Part3$2033                   Lab3Part3
+C:   00000467  A$Lab3Part3$2034                   Lab3Part3
+C:   00000468  A$Lab3Part3$2035                   Lab3Part3
+C:   0000046A  A$Lab3Part3$2036                   Lab3Part3
+C:   0000046C  A$Lab3Part3$2037                   Lab3Part3
+C:   0000046E  A$Lab3Part3$2038                   Lab3Part3
+C:   00000470  A$Lab3Part3$2039                   Lab3Part3
+C:   00000473  A$Lab3Part3$2040                   Lab3Part3
+C:   00000475  A$Lab3Part3$2041                   Lab3Part3
+C:   00000477  A$Lab3Part3$2042                   Lab3Part3
+C:   0000047A  A$Lab3Part3$2043                   Lab3Part3
+C:   0000047C  A$Lab3Part3$2046                   Lab3Part3
+C:   0000047C  C$i2c.h$253$1$98                   Lab3Part3
+C:   0000047D  A$Lab3Part3$2047                   Lab3Part3
+C:   0000047F  A$Lab3Part3$2051                   Lab3Part3
+C:   0000047F  C$i2c.h$255$1$98                   Lab3Part3
+C:   00000481  A$Lab3Part3$2052                   Lab3Part3
+C:   00000483  A$Lab3Part3$2053                   Lab3Part3
+C:   00000484  A$Lab3Part3$2054                   Lab3Part3
+C:   00000487  A$Lab3Part3$2055                   Lab3Part3
+C:   00000488  A$Lab3Part3$2057                   Lab3Part3
+C:   00000489  A$Lab3Part3$2058                   Lab3Part3
+C:   0000048B  A$Lab3Part3$2059                   Lab3Part3
+C:   0000048C  A$Lab3Part3$2060                   Lab3Part3
+C:   0000048D  A$Lab3Part3$2061                   Lab3Part3
+C:   0000048F  A$Lab3Part3$2062                   Lab3Part3
+C:   00000490  A$Lab3Part3$2063                   Lab3Part3
+C:   00000492  A$Lab3Part3$2064                   Lab3Part3
+C:   00000494  A$Lab3Part3$2065                   Lab3Part3
+C:   00000496  A$Lab3Part3$2066                   Lab3Part3
+C:   00000498  A$Lab3Part3$2067                   Lab3Part3
+C:   0000049B  A$Lab3Part3$2068                   Lab3Part3
+C:   0000049D  A$Lab3Part3$2069                   Lab3Part3
+C:   000004A0  A$Lab3Part3$2072                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 42.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000004A0  C$i2c.h$256$1$98                   Lab3Part3
+C:   000004A0  XG$i2c_write_data$0$0              Lab3Part3
+C:   000004A1  A$Lab3Part3$2089                   Lab3Part3
+C:   000004A1  C$i2c.h$259$1$98                   Lab3Part3
+C:   000004A1  G$i2c_read_data$0$0                Lab3Part3
+C:   000004A1  _i2c_read_data                     Lab3Part3
+C:   000004A3  A$Lab3Part3$2092                   Lab3Part3
+C:   000004A3  C$i2c.h$262$1$100                  Lab3Part3
+C:   000004A5  A$Lab3Part3$2093                   Lab3Part3
+C:   000004A8  A$Lab3Part3$2094                   Lab3Part3
+C:   000004AA  A$Lab3Part3$2097                   Lab3Part3
+C:   000004AA  C$i2c.h$263$1$100                  Lab3Part3
+C:   000004AC  A$Lab3Part3$2098                   Lab3Part3
+C:   000004AE  A$Lab3Part3$2099                   Lab3Part3
+C:   000004AF  A$Lab3Part3$2100                   Lab3Part3
+C:   000004B1  A$Lab3Part3$2101                   Lab3Part3
+C:   000004B3  A$Lab3Part3$2102                   Lab3Part3
+C:   000004B6  A$Lab3Part3$2105                   Lab3Part3
+C:   000004B6  C$i2c.h$264$1$100                  Lab3Part3
+C:   000004B9  A$Lab3Part3$2106                   Lab3Part3
+C:   000004BC  A$Lab3Part3$2109                   Lab3Part3
+C:   000004BC  C$i2c.h$265$1$100                  Lab3Part3
+C:   000004BF  A$Lab3Part3$2110                   Lab3Part3
+C:   000004C1  A$Lab3Part3$2113                   Lab3Part3
+C:   000004C1  C$i2c.h$266$1$100                  Lab3Part3
+C:   000004C3  A$Lab3Part3$2114                   Lab3Part3
+C:   000004C4  A$Lab3Part3$2115                   Lab3Part3
+C:   000004C6  A$Lab3Part3$2116                   Lab3Part3
+C:   000004C9  A$Lab3Part3$2119                   Lab3Part3
+C:   000004CB  A$Lab3Part3$2121                   Lab3Part3
+C:   000004CD  A$Lab3Part3$2122                   Lab3Part3
+C:   000004CF  A$Lab3Part3$2123                   Lab3Part3
+C:   000004D0  A$Lab3Part3$2124                   Lab3Part3
+C:   000004D3  A$Lab3Part3$2125                   Lab3Part3
+C:   000004D4  A$Lab3Part3$2127                   Lab3Part3
+C:   000004D6  A$Lab3Part3$2128                   Lab3Part3
+C:   000004D8  A$Lab3Part3$2129                   Lab3Part3
+C:   000004D9  A$Lab3Part3$2130                   Lab3Part3
+C:   000004DA  A$Lab3Part3$2131                   Lab3Part3
+C:   000004DB  A$Lab3Part3$2132                   Lab3Part3
+C:   000004DC  A$Lab3Part3$2133                   Lab3Part3
+C:   000004DE  A$Lab3Part3$2134                   Lab3Part3
+C:   000004E0  A$Lab3Part3$2135                   Lab3Part3
+C:   000004E3  A$Lab3Part3$2136                   Lab3Part3
+C:   000004E5  A$Lab3Part3$2137                   Lab3Part3
+C:   000004E7  A$Lab3Part3$2140                   Lab3Part3
+C:   000004E7  C$i2c.h$269$2$101                  Lab3Part3
+C:   000004E9  A$Lab3Part3$2143                   Lab3Part3
+C:   000004E9  C$i2c.h$270$2$101                  Lab3Part3
+C:   000004EA  A$Lab3Part3$2144                   Lab3Part3
+C:   000004EC  A$Lab3Part3$2145                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 43.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000004ED  A$Lab3Part3$2146                   Lab3Part3
+C:   000004EE  A$Lab3Part3$2147                   Lab3Part3
+C:   000004F0  A$Lab3Part3$2148                   Lab3Part3
+C:   000004F1  A$Lab3Part3$2149                   Lab3Part3
+C:   000004F3  A$Lab3Part3$2150                   Lab3Part3
+C:   000004F5  A$Lab3Part3$2151                   Lab3Part3
+C:   000004F7  A$Lab3Part3$2152                   Lab3Part3
+C:   000004F9  A$Lab3Part3$2153                   Lab3Part3
+C:   000004FB  A$Lab3Part3$2154                   Lab3Part3
+C:   000004FE  A$Lab3Part3$2155                   Lab3Part3
+C:   00000500  A$Lab3Part3$2156                   Lab3Part3
+C:   00000502  A$Lab3Part3$2157                   Lab3Part3
+C:   00000504  A$Lab3Part3$2158                   Lab3Part3
+C:   00000506  A$Lab3Part3$2159                   Lab3Part3
+C:   00000508  A$Lab3Part3$2160                   Lab3Part3
+C:   0000050A  A$Lab3Part3$2161                   Lab3Part3
+C:   0000050C  A$Lab3Part3$2162                   Lab3Part3
+C:   0000050E  A$Lab3Part3$2163                   Lab3Part3
+C:   0000050F  A$Lab3Part3$2164                   Lab3Part3
+C:   00000512  A$Lab3Part3$2167                   Lab3Part3
+C:   00000512  C$i2c.h$267$1$100                  Lab3Part3
+C:   00000513  A$Lab3Part3$2168                   Lab3Part3
+C:   00000515  A$Lab3Part3$2172                   Lab3Part3
+C:   00000515  C$i2c.h$272$1$100                  Lab3Part3
+C:   00000517  A$Lab3Part3$2175                   Lab3Part3
+C:   00000517  C$i2c.h$273$1$100                  Lab3Part3
+C:   00000519  A$Lab3Part3$2176                   Lab3Part3
+C:   0000051B  A$Lab3Part3$2177                   Lab3Part3
+C:   0000051C  A$Lab3Part3$2178                   Lab3Part3
+C:   0000051F  A$Lab3Part3$2179                   Lab3Part3
+C:   00000520  A$Lab3Part3$2181                   Lab3Part3
+C:   00000521  A$Lab3Part3$2182                   Lab3Part3
+C:   00000523  A$Lab3Part3$2183                   Lab3Part3
+C:   00000524  A$Lab3Part3$2184                   Lab3Part3
+C:   00000525  A$Lab3Part3$2185                   Lab3Part3
+C:   00000527  A$Lab3Part3$2186                   Lab3Part3
+C:   00000528  A$Lab3Part3$2187                   Lab3Part3
+C:   0000052A  A$Lab3Part3$2188                   Lab3Part3
+C:   0000052C  A$Lab3Part3$2189                   Lab3Part3
+C:   0000052E  A$Lab3Part3$2190                   Lab3Part3
+C:   00000530  A$Lab3Part3$2191                   Lab3Part3
+C:   00000533  A$Lab3Part3$2192                   Lab3Part3
+C:   00000535  A$Lab3Part3$2193                   Lab3Part3
+C:   00000537  A$Lab3Part3$2194                   Lab3Part3
+C:   00000539  A$Lab3Part3$2195                   Lab3Part3
+C:   0000053B  A$Lab3Part3$2196                   Lab3Part3
+C:   0000053D  A$Lab3Part3$2197                   Lab3Part3
+C:   0000053F  A$Lab3Part3$2198                   Lab3Part3
+C:   00000541  A$Lab3Part3$2199                   Lab3Part3
+C:   00000542  A$Lab3Part3$2200                   Lab3Part3
+C:   00000545  A$Lab3Part3$2203                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 44.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000545  C$i2c.h$274$1$100                  Lab3Part3
+C:   00000545  XG$i2c_read_data$0$0               Lab3Part3
+C:   00000546  A$Lab3Part3$2218                   Lab3Part3
+C:   00000546  C$i2c.h$283$1$100                  Lab3Part3
+C:   00000546  C$i2c.h$287$1$103                  Lab3Part3
+C:   00000546  G$Accel_Init$0$0                   Lab3Part3
+C:   00000546  _Accel_Init                        Lab3Part3
+C:   00000549  A$Lab3Part3$2221                   Lab3Part3
+C:   00000549  C$i2c.h$289$1$103                  Lab3Part3
+C:   0000054C  A$Lab3Part3$2222                   Lab3Part3
+C:   0000054F  A$Lab3Part3$2223                   Lab3Part3
+C:   00000552  A$Lab3Part3$2224                   Lab3Part3
+C:   00000555  A$Lab3Part3$2225                   Lab3Part3
+C:   00000558  A$Lab3Part3$2226                   Lab3Part3
+C:   0000055B  A$Lab3Part3$2227                   Lab3Part3
+C:   0000055E  A$Lab3Part3$2230                   Lab3Part3
+C:   0000055E  C$i2c.h$290$1$103                  Lab3Part3
+C:   00000561  A$Lab3Part3$2233                   Lab3Part3
+C:   00000561  C$i2c.h$292$1$103                  Lab3Part3
+C:   00000564  A$Lab3Part3$2234                   Lab3Part3
+C:   00000567  A$Lab3Part3$2235                   Lab3Part3
+C:   0000056A  A$Lab3Part3$2236                   Lab3Part3
+C:   0000056D  A$Lab3Part3$2237                   Lab3Part3
+C:   00000570  A$Lab3Part3$2238                   Lab3Part3
+C:   00000573  A$Lab3Part3$2239                   Lab3Part3
+C:   00000576  A$Lab3Part3$2242                   Lab3Part3
+C:   00000576  C$i2c.h$293$1$103                  Lab3Part3
+C:   00000579  A$Lab3Part3$2245                   Lab3Part3
+C:   00000579  C$i2c.h$294$1$103                  Lab3Part3
+C:   0000057C  A$Lab3Part3$2246                   Lab3Part3
+C:   0000057F  A$Lab3Part3$2247                   Lab3Part3
+C:   00000582  A$Lab3Part3$2248                   Lab3Part3
+C:   00000585  A$Lab3Part3$2249                   Lab3Part3
+C:   00000588  A$Lab3Part3$2250                   Lab3Part3
+C:   0000058B  A$Lab3Part3$2251                   Lab3Part3
+C:   0000058E  A$Lab3Part3$2254                   Lab3Part3
+C:   0000058E  C$i2c.h$298$1$103                  Lab3Part3
+C:   0000058E  XG$Accel_Init$0$0                  Lab3Part3
+C:   0000058F  A$Lab3Part3$2267                   Lab3Part3
+C:   0000058F  C$Lab3Part3.c$30$1$103             Lab3Part3
+C:   0000058F  C$Lab3Part3.c$32$1$109             Lab3Part3
+C:   0000058F  G$main$0$0                         Lab3Part3
+C:   0000058F  _main                              Lab3Part3
+C:   00000592  A$Lab3Part3$2270                   Lab3Part3
+C:   00000592  C$Lab3Part3.c$33$1$109             Lab3Part3
+C:   00000595  A$Lab3Part3$2271                   Lab3Part3
+C:   00000598  A$Lab3Part3$2274                   Lab3Part3
+C:   00000598  C$Lab3Part3.c$34$1$109             Lab3Part3
+C:   0000059B  A$Lab3Part3$2277                   Lab3Part3
+C:   0000059B  C$Lab3Part3.c$35$1$109             Lab3Part3
+C:   0000059E  A$Lab3Part3$2280                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 45.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000059E  C$Lab3Part3.c$36$1$109             Lab3Part3
+C:   000005A1  A$Lab3Part3$2283                   Lab3Part3
+C:   000005A1  C$Lab3Part3.c$37$1$109             Lab3Part3
+C:   000005A4  A$Lab3Part3$2286                   Lab3Part3
+C:   000005A4  C$Lab3Part3.c$40$1$109             Lab3Part3
+C:   000005A6  A$Lab3Part3$2287                   Lab3Part3
+C:   000005A8  A$Lab3Part3$2288                   Lab3Part3
+C:   000005AA  A$Lab3Part3$2289                   Lab3Part3
+C:   000005AC  A$Lab3Part3$2290                   Lab3Part3
+C:   000005AE  A$Lab3Part3$2291                   Lab3Part3
+C:   000005B0  A$Lab3Part3$2292                   Lab3Part3
+C:   000005B3  A$Lab3Part3$2293                   Lab3Part3
+C:   000005B5  A$Lab3Part3$2294                   Lab3Part3
+C:   000005B7  A$Lab3Part3$2295                   Lab3Part3
+C:   000005B9  A$Lab3Part3$2298                   Lab3Part3
+C:   000005B9  C$Lab3Part3.c$43$1$109             Lab3Part3
+C:   000005BC  A$Lab3Part3$2299                   Lab3Part3
+C:   000005BF  A$Lab3Part3$2302                   Lab3Part3
+C:   000005BF  C$Lab3Part3.c$44$1$109             Lab3Part3
+C:   000005C2  A$Lab3Part3$2303                   Lab3Part3
+C:   000005C5  A$Lab3Part3$2309                   Lab3Part3
+C:   000005C5  C$Lab3Part3.c$46$1$109             Lab3Part3
+C:   000005C5  C$Lab3Part3.c$50$2$110             Lab3Part3
+C:   000005C8  A$Lab3Part3$2312                   Lab3Part3
+C:   000005C8  C$Lab3Part3.c$51$2$110             Lab3Part3
+C:   000005CB  A$Lab3Part3$2313                   Lab3Part3
+C:   000005CE  A$Lab3Part3$2314                   Lab3Part3
+C:   000005D1  A$Lab3Part3$2315                   Lab3Part3
+C:   000005D4  A$Lab3Part3$2316                   Lab3Part3
+C:   000005D7  A$Lab3Part3$2317                   Lab3Part3
+C:   000005DA  A$Lab3Part3$2318                   Lab3Part3
+C:   000005DD  A$Lab3Part3$2321                   Lab3Part3
+C:   000005DD  C$Lab3Part3.c$53$2$110             Lab3Part3
+C:   000005DE  A$Lab3Part3$2322                   Lab3Part3
+C:   000005E0  A$Lab3Part3$2323                   Lab3Part3
+C:   000005E2  A$Lab3Part3$2327                   Lab3Part3
+C:   000005E2  C$Lab3Part3.c$54$2$110             Lab3Part3
+C:   000005E3  A$Lab3Part3$2328                   Lab3Part3
+C:   000005E5  A$Lab3Part3$2329                   Lab3Part3
+C:   000005E7  A$Lab3Part3$2330                   Lab3Part3
+C:   000005E8  A$Lab3Part3$2331                   Lab3Part3
+C:   000005EA  A$Lab3Part3$2332                   Lab3Part3
+C:   000005EC  A$Lab3Part3$2335                   Lab3Part3
+C:   000005EC  C$Lab3Part3.c$56$2$110             Lab3Part3
+C:   000005EF  A$Lab3Part3$2336                   Lab3Part3
+C:   000005F2  A$Lab3Part3$2337                   Lab3Part3
+C:   000005F5  A$Lab3Part3$2338                   Lab3Part3
+C:   000005F7  A$Lab3Part3$2342                   Lab3Part3
+C:   000005F7  C$Lab3Part3.c$58$2$110             Lab3Part3
+C:   000005FA  A$Lab3Part3$2345                   Lab3Part3
+C:   000005FA  C$Lab3Part3.c$60$3$111             Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 46.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000005FD  A$Lab3Part3$2346                   Lab3Part3
+C:   00000600  A$Lab3Part3$2347                   Lab3Part3
+C:   00000602  A$Lab3Part3$2351                   Lab3Part3
+C:   00000602  C$Lab3Part3.c$64$1$109             Lab3Part3
+C:   00000605  A$Lab3Part3$2352                   Lab3Part3
+C:   00000608  A$Lab3Part3$2353                   Lab3Part3
+C:   0000060B  A$Lab3Part3$2354                   Lab3Part3
+C:   0000060E  A$Lab3Part3$2355                   Lab3Part3
+C:   00000610  A$Lab3Part3$2356                   Lab3Part3
+C:   00000612  A$Lab3Part3$2357                   Lab3Part3
+C:   00000614  A$Lab3Part3$2358                   Lab3Part3
+C:   00000615  A$Lab3Part3$2359                   Lab3Part3
+C:   00000616  A$Lab3Part3$2360                   Lab3Part3
+C:   00000618  A$Lab3Part3$2361                   Lab3Part3
+C:   0000061A  A$Lab3Part3$2362                   Lab3Part3
+C:   0000061B  A$Lab3Part3$2363                   Lab3Part3
+C:   0000061D  A$Lab3Part3$2366                   Lab3Part3
+C:   0000061D  C$Lab3Part3.c$66$3$112             Lab3Part3
+C:   0000061E  A$Lab3Part3$2367                   Lab3Part3
+C:   00000620  A$Lab3Part3$2368                   Lab3Part3
+C:   00000622  A$Lab3Part3$2369                   Lab3Part3
+C:   00000624  A$Lab3Part3$2370                   Lab3Part3
+C:   00000626  A$Lab3Part3$2371                   Lab3Part3
+C:   00000628  A$Lab3Part3$2374                   Lab3Part3
+C:   00000628  C$Lab3Part3.c$67$3$112             Lab3Part3
+C:   0000062B  A$Lab3Part3$2375                   Lab3Part3
+C:   0000062E  A$Lab3Part3$2379                   Lab3Part3
+C:   0000062E  C$Lab3Part3.c$69$3$112             Lab3Part3
+C:   0000062F  A$Lab3Part3$2380                   Lab3Part3
+C:   00000631  A$Lab3Part3$2381                   Lab3Part3
+C:   00000633  A$Lab3Part3$2382                   Lab3Part3
+C:   00000635  A$Lab3Part3$2383                   Lab3Part3
+C:   00000637  A$Lab3Part3$2384                   Lab3Part3
+C:   00000639  A$Lab3Part3$2387                   Lab3Part3
+C:   00000639  C$Lab3Part3.c$70$3$112             Lab3Part3
+C:   0000063C  A$Lab3Part3$2388                   Lab3Part3
+C:   0000063F  A$Lab3Part3$2392                   Lab3Part3
+C:   0000063F  C$Lab3Part3.c$73$2$110             Lab3Part3
+C:   00000641  A$Lab3Part3$2393                   Lab3Part3
+C:   00000643  A$Lab3Part3$2394                   Lab3Part3
+C:   00000645  A$Lab3Part3$2395                   Lab3Part3
+C:   00000647  A$Lab3Part3$2396                   Lab3Part3
+C:   00000649  A$Lab3Part3$2397                   Lab3Part3
+C:   0000064B  A$Lab3Part3$2398                   Lab3Part3
+C:   0000064D  A$Lab3Part3$2399                   Lab3Part3
+C:   0000064F  A$Lab3Part3$2400                   Lab3Part3
+C:   00000651  A$Lab3Part3$2401                   Lab3Part3
+C:   00000653  A$Lab3Part3$2402                   Lab3Part3
+C:   00000656  A$Lab3Part3$2403                   Lab3Part3
+C:   00000658  A$Lab3Part3$2404                   Lab3Part3
+C:   0000065A  A$Lab3Part3$2405                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 47.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000065C  A$Lab3Part3$2408                   Lab3Part3
+C:   0000065C  C$Lab3Part3.c$75$2$110             Lab3Part3
+C:   0000065E  A$Lab3Part3$2409                   Lab3Part3
+C:   0000065F  A$Lab3Part3$2410                   Lab3Part3
+C:   00000661  A$Lab3Part3$2411                   Lab3Part3
+C:   00000663  A$Lab3Part3$2412                   Lab3Part3
+C:   00000665  A$Lab3Part3$2413                   Lab3Part3
+C:   00000667  A$Lab3Part3$2414                   Lab3Part3
+C:   00000669  A$Lab3Part3$2415                   Lab3Part3
+C:   0000066C  A$Lab3Part3$2418                   Lab3Part3
+C:   0000066C  C$Lab3Part3.c$78$1$109             Lab3Part3
+C:   0000066C  XG$main$0$0                        Lab3Part3
+C:   0000066D  A$Lab3Part3$2435                   Lab3Part3
+C:   0000066D  C$Lab3Part3.c$80$1$109             Lab3Part3
+C:   0000066D  C$Lab3Part3.c$86$1$113             Lab3Part3
+C:   0000066D  G$ReadRanger$0$0                   Lab3Part3
+C:   0000066D  _ReadRanger                        Lab3Part3
+C:   00000670  A$Lab3Part3$2436                   Lab3Part3
+C:   00000673  A$Lab3Part3$2437                   Lab3Part3
+C:   00000676  A$Lab3Part3$2438                   Lab3Part3
+C:   00000679  A$Lab3Part3$2439                   Lab3Part3
+C:   0000067C  A$Lab3Part3$2440                   Lab3Part3
+C:   0000067F  A$Lab3Part3$2441                   Lab3Part3
+C:   00000682  A$Lab3Part3$2444                   Lab3Part3
+C:   00000682  C$Lab3Part3.c$88$1$113             Lab3Part3
+C:   00000684  A$Lab3Part3$2445                   Lab3Part3
+C:   00000686  A$Lab3Part3$2446                   Lab3Part3
+C:   00000688  A$Lab3Part3$2447                   Lab3Part3
+C:   0000068A  A$Lab3Part3$2448                   Lab3Part3
+C:   0000068B  A$Lab3Part3$2449                   Lab3Part3
+C:   0000068C  A$Lab3Part3$2450                   Lab3Part3
+C:   0000068E  A$Lab3Part3$2451                   Lab3Part3
+C:   0000068F  A$Lab3Part3$2452                   Lab3Part3
+C:   00000690  A$Lab3Part3$2453                   Lab3Part3
+C:   00000692  A$Lab3Part3$2458                   Lab3Part3
+C:   00000692  C$Lab3Part3.c$90$1$113             Lab3Part3
+C:   00000692  C$Lab3Part3.c$91$1$113             Lab3Part3
+C:   00000692  XG$ReadRanger$0$0                  Lab3Part3
+C:   00000693  A$Lab3Part3$2471                   Lab3Part3
+C:   00000693  C$Lab3Part3.c$97$1$113             Lab3Part3
+C:   00000693  C$Lab3Part3.c$99$1$114             Lab3Part3
+C:   00000693  G$Port_Init$0$0                    Lab3Part3
+C:   00000693  _Port_Init                         Lab3Part3
+C:   00000696  A$Lab3Part3$2474                   Lab3Part3
+C:   00000696  C$Lab3Part3.c$100$1$114            Lab3Part3
+C:   00000699  A$Lab3Part3$2477                   Lab3Part3
+C:   00000699  C$Lab3Part3.c$102$1$114            Lab3Part3
+C:   00000699  XG$Port_Init$0$0                   Lab3Part3
+C:   0000069A  A$Lab3Part3$2490                   Lab3Part3
+C:   0000069A  C$Lab3Part3.c$107$1$114            Lab3Part3
+C:   0000069A  C$Lab3Part3.c$109$1$115            Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 48.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000069A  G$XBR0_Init$0$0                    Lab3Part3
+C:   0000069A  _XBR0_Init                         Lab3Part3
+C:   0000069D  A$Lab3Part3$2493                   Lab3Part3
+C:   0000069D  C$Lab3Part3.c$111$1$115            Lab3Part3
+C:   0000069D  XG$XBR0_Init$0$0                   Lab3Part3
+C:   0000069E  A$Lab3Part3$2506                   Lab3Part3
+C:   0000069E  C$Lab3Part3.c$116$1$115            Lab3Part3
+C:   0000069E  C$Lab3Part3.c$118$1$117            Lab3Part3
+C:   0000069E  G$PCA_Init$0$0                     Lab3Part3
+C:   0000069E  _PCA_Init                          Lab3Part3
+C:   000006A1  A$Lab3Part3$2509                   Lab3Part3
+C:   000006A1  C$Lab3Part3.c$119$1$117            Lab3Part3
+C:   000006A4  A$Lab3Part3$2512                   Lab3Part3
+C:   000006A4  C$Lab3Part3.c$120$1$117            Lab3Part3
+C:   000006A7  A$Lab3Part3$2515                   Lab3Part3
+C:   000006A7  C$Lab3Part3.c$121$1$117            Lab3Part3
+C:   000006AA  A$Lab3Part3$2518                   Lab3Part3
+C:   000006AA  C$Lab3Part3.c$122$1$117            Lab3Part3
+C:   000006AC  A$Lab3Part3$2521                   Lab3Part3
+C:   000006AC  C$Lab3Part3.c$123$1$117            Lab3Part3
+C:   000006AC  XG$PCA_Init$0$0                    Lab3Part3
+C:   000006AD  A$Lab3Part3$2532                   Lab3Part3
+C:   000006AD  C$Lab3Part3.c$128$1$117            Lab3Part3
+C:   000006AD  G$PCA_ISR$0$0                      Lab3Part3
+C:   000006AD  _PCA_ISR                           Lab3Part3
+C:   000006AF  A$Lab3Part3$2533                   Lab3Part3
+C:   000006B1  A$Lab3Part3$2536                   Lab3Part3
+C:   000006B1  C$Lab3Part3.c$130$1$119            Lab3Part3
+C:   000006B4  A$Lab3Part3$2539                   Lab3Part3
+C:   000006B4  C$Lab3Part3.c$132$2$120            Lab3Part3
+C:   000006B6  A$Lab3Part3$2540                   Lab3Part3
+C:   000006B7  A$Lab3Part3$2541                   Lab3Part3
+C:   000006BA  A$Lab3Part3$2542                   Lab3Part3
+C:   000006BC  A$Lab3Part3$2546                   Lab3Part3
+C:   000006BC  C$Lab3Part3.c$133$2$120            Lab3Part3
+C:   000006BE  A$Lab3Part3$2549                   Lab3Part3
+C:   000006BE  C$Lab3Part3.c$134$2$120            Lab3Part3
+C:   000006C1  A$Lab3Part3$2550                   Lab3Part3
+C:   000006C4  A$Lab3Part3$2554                   Lab3Part3
+C:   000006C4  C$Lab3Part3.c$137$1$119            Lab3Part3
+C:   000006C7  A$Lab3Part3$2555                   Lab3Part3
+C:   000006C9  A$Lab3Part3$2556                   Lab3Part3
+C:   000006CB  A$Lab3Part3$2559                   Lab3Part3
+C:   000006CB  C$Lab3Part3.c$138$1$119            Lab3Part3
+C:   000006CB  XG$PCA_ISR$0$0                     Lab3Part3
+C:   000006CC  A$Lab3Part3$2576                   Lab3Part3
+C:   000006CC  C$Lab3Part3.c$143$1$119            Lab3Part3
+C:   000006CC  C$Lab3Part3.c$145$1$121            Lab3Part3
+C:   000006CC  G$SMB0_Init$0$0                    Lab3Part3
+C:   000006CC  _SMB0_Init                         Lab3Part3
+C:   000006CF  A$Lab3Part3$2579                   Lab3Part3
+ASxxxx Linker V03.00 + NoICE + sdld,  page 49.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000B9    00000D84 =        3460. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000006CF  C$Lab3Part3.c$146$1$121            Lab3Part3
+C:   000006D1  A$Lab3Part3$2582                   Lab3Part3
+C:   000006D1  C$Lab3Part3.c$147$1$121            Lab3Part3
+C:   000006D1  XG$SMB0_Init$0$0                   Lab3Part3
+C:   000006D2  __gptrput                          _gptrput
+C:   000006ED  __mulint                           _mulint
+C:   000006ED  __mulint_dummy                     _mulint
+C:   0000077A  _vsprintf                          sprintf
+C:   000007B7  _sprintf                           sprintf
+C:   00000810  _vprintf                           vprintf
+C:   00000829  _printf                            vprintf
+C:   000008FB  __print_format                     printf_large
+C:   00000E05  _strlen                            _strlen
+C:   00000E1D  __gptrget                          _gptrget
+C:   00000E39  __sdcc_external_startup            _startup
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 50.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               00000E3D    00000070 =         112. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000E3D  FLab3Part3$__str_0$0$0             Lab3Part3
+C:   00000E53  FLab3Part3$__str_1$0$0             Lab3Part3
+C:   00000E63  FLab3Part3$__str_2$0$0             Lab3Part3
+C:   00000E66  FLab3Part3$__str_3$0$0             Lab3Part3
+C:   00000E8D  FLab3Part3$__str_4$0$0             Lab3Part3
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 51.
+
+Files Linked                              [ module(s) ]
+
+C:\Users\Christopher\Google Drive\School\2015 Spring - Embedded Control\Labs\03 - Pulse Width Modulation\Part 3\Code\Lab3Part3.rel
+                                          [  ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtclear.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxinit.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _gptrput.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libint.lib
+                                          [ _mulint.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ sprintf.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxclear.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _bp.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ vprintf.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ printf_large.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _strlen.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtstart.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _gptrget.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 52.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0001
+PSEG = 0x0001
+ISEG = 0x0000
+BSEG = 0x0000
+
+

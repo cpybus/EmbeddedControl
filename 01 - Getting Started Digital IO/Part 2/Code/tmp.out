@@ -1,0 +1,3 @@
+?ASlink-Error-<cannot open> : "C:\Users\cwpyb\OneDrive\School\Freshman - Embedded Control\Labs\01 - Getting Started Digital IO\Part 2\Code\lab1-2.rel"
++ C:\PROGRA~2\SDCC\bin\sdld.exe -nf "C:\Users\cwpyb\OneDrive\School\Freshman - Embedded Control\Labs\01 - Getting Started Digital IO\Part 2\Code\Lab 1 Part 2.lk"
++ C:\PROGRA~2\SDCC\bin\sdld.exe -nf "C:\Users\cwpyb\OneDrive\School\Freshman - Embedded Control\Labs\01 - Getting Started Digital IO\Part 2\Code\Lab 1 Part 2.lk" returned errorcode 3

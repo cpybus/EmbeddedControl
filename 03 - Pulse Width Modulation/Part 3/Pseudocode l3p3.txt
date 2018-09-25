@@ -1,0 +1,30 @@
+Pseudocode for Lab 3 Part 3
+
+complier directives
+declare global variables
+function prototypes
+main function
+	declare local variables
+	initialize system, ports, and PCA
+	begin infinite loop
+		call ranger function
+		wait 80 ms
+		change range into PW value
+		change CEX capture/compare value using new PW value
+	end infinite loop
+end main function
+
+update speed command function
+	update low byte of CCModule 1
+	update high byte of CCModule 1
+end
+
+ISR function
+	if PCA interrupt flag is set
+		write low byte of start count in PCA0
+		write high byte of start count in PCA0
+		clear interrupt flag
+	else
+		handle other PCA interrupts
+end
+	
